@@ -1,0 +1,89 @@
+# Aula 03 - Análise de Valor: Inovação e Sustentabilidade 📡
+
+!!! tip "Objetivo"
+    **Objetivo**: Compreender como agregar valor real a um produto ou serviço por meio da inovação, criatividade e práticas sustentáveis, garantindo que o negócio seja relevante e ético.
+
+---
+
+## 1. O que é Valor? 💎
+
+Para o empreendedor, **valor** não é o preço que se cobra, mas o benefício que o cliente percebe. 
+
+!!! info "Conceito"
+    **Proposta de Valor** é o conjunto de vantagens que uma empresa oferece aos seus clientes para satisfazer suas necessidades ou resolver seus problemas.
+
+### Dimensões do Valor:
+1.  **Funcional**: Resolve um problema prático (ex: um aplicativo de transporte).
+2.  **Emocional**: Proporciona uma sensação positiva (ex: uma marca de roupas de luxo).
+3.  **Social**: Ajuda o cliente a se conectar com outros (ex: redes sociais).
+4.  **Sustentável**: Gera impacto positivo no mundo (ex: produtos eco-friendly).
+
+---
+
+## 2. Inovação vs. Criatividade 🎨
+
+Muitas pessoas confundem os dois termos, mas eles são os dois lados da mesma moeda:
+
+*   **Criatividade**: É o ato de pensar coisas novas. É a matéria-prima (ideias).
+*   **Inovação**: É o ato de **fazer** coisas novas que gerem valor. É a criatividade aplicada com resultado.
+
+!!! warning "Atenção"
+    Não existe inovação sem execução. Uma ideia criativa que fica no papel nunca se torna uma inovação.
+
+---
+
+## 3. Sustentabilidade e Diversidade 🌍
+
+Os negócios modernos não podem ignorar o impacto que causam. O valor de uma empresa hoje também é medido por:
+
+*   **Sustentabilidade**: Uso consciente de recursos para não comprometer as gerações futuras.
+*   **Diversidade Cultural**: Incluir diferentes visões de mundo na criação do produto, tornando-o mais universal e inclusivo.
+*   **Inclusão Social**: Como o seu negócio ajuda a diminuir as desigualdades?
+
+---
+
+## 4. O Ciclo da Inovação (Mermaid) 🔄
+
+```mermaid
+graph LR
+    A(["Criatividade (Ideias)"]) --> B(["Prototipagem"])
+    B --> C(["Teste de Mercado"])
+    C --> D(["Inovação (Resultado)"])
+    D --> E(["Impacto Sustentável"])
+    E --> A
+```
+
+---
+
+## 5. Simulando Valor (Termynal) 📊
+
+Como saber se sua proposta tem valor? Vamos rodar um "diagnóstico de valor":
+
+```termynal
+$ check-value --target "Meu Negócio"
+> Analisando diferenciação... [ALTA]
+> Verificando sustentabilidade... [75%]
+> Checando inclusão... [EM PROGRESSO]
+> Diagnóstico: Seu modelo possui ALTO POTENCIAL de mercado!
+```
+
+---
+
+## 6. Mini-Projeto: Valor e Impacto 🚀
+
+1.  Pense em um produto comum (ex: uma garrafa de água).
+2.  Como você poderia inovar nesse produto usando a **sustentabilidade**?
+3.  Como você adicionaria **diversidade cultural** no marketing desse produto?
+4.  Escreva uma frase de "Proposta de Valor" para o seu novo produto inovador.
+
+---
+
+## 7. Exercício de Fixação 🧠
+
+1.  Diferencie Valor Funcional de Valor Emocional com exemplos.
+2.  Por que a Diversidade é considerada um ativo estratégico para a inovação?
+3.  Explique o conceito de "Triple Bottom Line" (Pessoas, Planeta, Lucro) no contexto da sustentabilidade.
+
+---
+
+**Próxima Aula**: Vamos entender as [Etapas do Processo de Valor](./aula-04.md)! 📄

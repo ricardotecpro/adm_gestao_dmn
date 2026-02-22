@@ -1,0 +1,86 @@
+# Aula 15 - Estrutura de Custos do Negócio 💰
+
+!!! tip "Objetivo"
+    **Objetivo**: Compreender todos os custos envolvidos na operação de um modelo de negócio, aprendendo a diferenciar tipos de custos e a encontrar o ponto de equilíbrio financeiro do empreendimento.
+
+---
+
+## 1. O que é Estrutura de Custos? 🏗️
+
+A estrutura de custos descreve todos os custos incorridos para operar um modelo de negócio. Criar e entregar valor, manter relacionamentos e gerar receita, tudo gera custo.
+
+---
+
+## 2. Tipos de Estruturas de Custo 📂
+
+Existem dois extremos na forma como os negócios lidam com custos:
+
+1.  **Direcionado pelo Custo (Cost-driven)**: Focado em minimizar custos onde quer que seja possível (ex: companhias aéreas low-cost como a RyanAir).
+2.  **Direcionado pelo Valor (Value-driven)**: Focado na criação de valor e personalização, com menos preocupação com o custo (ex: hotéis de luxo, marcas de grife).
+
+---
+
+## 3. Características dos Custos 📊
+
+Para gerir seu financeiro, você deve entender estes quatro conceitos:
+
+*   **Custos Fixos**: Permanecem os mesmos, independentemente do volume de produção (ex: aluguel, salários administrativos).
+*   **Custos Variáveis**: Mudam proporcionalmente ao volume de bens ou serviços produzidos (ex: matéria-prima, comissões de venda).
+*   **Economias de Escala**: Benefícios de custo que o negócio desfruta à medida que sua produção se expande (custo por unidade cai).
+*   **Economias de Escopo**: Benefícios de custo que o negócio desfruta devido a uma maior variedade de operações (ex: usar a mesma logística para vários tipos de produtos).
+
+---
+
+## 4. O Mapa de Custos (Mermaid) 📉
+
+```mermaid
+graph TD
+    A(["Custos Totais"]) --> B(["Custos Fixos"])
+    A --> C(["Custos Variáveis"])
+    B --> B1(["Aluguel"])
+    B --> B2(["Salários"])
+    C --> C1(["Matéria-prima"])
+    C --> C2(["Impostos/Taxas"])
+```
+
+---
+
+## 5. Simulador de Gastos (Termynal) 💻
+
+Como está a saúde financeira da sua operação?
+
+```termynal
+$ finance --audit-costs
+> Analisando custos fixos... [ALTO]
+> Verificando custos variáveis... [CONTROLADOS]
+> Calculando Ponto de Equilíbrio... [1.500 unidades/mês]
+> Resultado: Suas despesas fixas estão consumindo sua margem.
+> Dica: Tente renegociar o aluguel ou otimizar a equipe administrativa!
+```
+
+---
+
+## 6. Mini-Projeto: Calculando o Básico 🚀
+
+Imagine que você vende **Camisetas Estampadas**.
+1.  O aluguel da sua sala é de R$ 1.000,00 (**Custo Fixo**).
+2.  Cada camiseta custa R$ 20,00 para ser produzida (**Custo Variável**).
+3.  Se você vender a camiseta por R$ 50,00, quantas você precisa vender por mês apenas para pagar o aluguel?
+4.  Identifique uma forma de gerar **Economia de Escala** nesse negócio.
+
+---
+
+## 7. Exercício de Fixação 🧠
+
+1.  Qual a diferença entre um negócio *Cost-driven* e um *Value-driven*?
+2.  Explique o conceito de "Custos Variáveis" com um exemplo de uma empresa de serviços.
+3.  O que são "Economias de Escopo" e como elas ajudam a reduzir custos?
+
+---
+
+!!! info "Dica"
+    O segredo de um negócio lucrativo é manter os custos fixos baixos e os variáveis sob controle, enquanto se escala a Proposta de Valor.
+
+---
+
+**Próxima Aula**: Como o dinheiro entra? [Fontes de Receita e Modelos de Ganho](./aula-16.md) 🏆
