@@ -61,7 +61,13 @@ $ precificacao --check-strategy
 
 ---
 
-## 6. Mini-Projeto: Projetando Ganhos 🚀
+## 6. Aprofundamento: O Efeito de Rede e MRR/ARR 🕸️
+
+A maestria em fontes de receita muitas vezes se apoia no **Efeito de Rede**: o produto se torna mais valioso à medida que mais pessoas o usam (ex: WhatsApp, MercadoLivre). Na medição financeira moderna, especialmente em negócios digitais ou serviços SaaS, foca-se brutalmente no MRR (Monthly Recurring Revenue - Receita Recorrente Mensal) e o ARR (Anual), métricas fiéis para atrair investidores em rodadas de Series A/B.
+
+---
+
+## 7. Mini-Projeto: Projetando Ganhos 🚀
 
 Imagine que você criou um **App de Meditação**.
 1.  Defina uma **Fonte de Receita Recorrente** (ex: R$ 29,90/mês).
@@ -70,13 +76,21 @@ Imagine que você criou um **App de Meditação**.
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Qual a diferença entre receita transacional e recorrente?
 2.  Dê um exemplo de um negócio que vive de "Taxa de Corretagem".
 3.  O que é "Licenciamento" e como ele gera receita sem precisar fabricar produtos?
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 16](../exercicios/exercicio-16.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 16](../projetos/projeto-16.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 !!! success "Conclusão do Módulo"
     Parabéns! Você completou as 16 aulas do curso de **Desenvolvimento de Modelos de Negócios**. Agora você tem todas as ferramentas para tirar sua ideia do papel e construir um negócio sólido, lucrativo e inovador.

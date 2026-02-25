@@ -73,7 +73,13 @@ $ canvas --check-balance
 
 ---
 
-## 6. Mini-Projeto: Modelando uma Startup 🏗️
+## 6. Aprofundamento: Padrões de Modelos de Negócios (Business Model Patterns) 🧩
+
+O Canvas não é apenas para preenchimento; ele serve para detectar padrões. Modelos **Long Tail** (venda de muitos itens de nicho em pequena quantidade), **Plataformas Multilaterais** (unir dois grupos de clientes distintos, como o Uber faz com motoristas e passageiros) e **Freemium** (base gratuita para converter uma minoria em premium) são estratégias intermediárias que mudam radicalmente o preenchimento de cada bloco do Canvas.
+
+---
+
+## 7. Mini-Projeto: Modelando uma Startup 🏗️
 
 Imagine que você está criando o **Uber das Bicicletas**.
 1.  Qual a sua principal **Proposta de Valor**?
@@ -83,12 +89,20 @@ Imagine que você está criando o **Uber das Bicicletas**.
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Quais são los 9 blocos do Business Model Canvas?
 2.  O que o "lado direito" do Canvas representa?
 3.  Por que o Canvas é considerado uma ferramenta de "metodologia ágil"?
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 07](../exercicios/exercicio-07.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 07](../projetos/projeto-07.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como definir exatamente quem é seu cliente? [Segmentação de Clientes e Público-Alvo](./aula-08.md) 🚢

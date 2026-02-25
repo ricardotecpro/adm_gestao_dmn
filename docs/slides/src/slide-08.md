@@ -1,154 +1,177 @@
-# Segmentação e Público-Alvo 🚢
-## Aula 08 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 08 - Segmentação de Clientes e Público-Alvo 🚢
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Por que Segmentar? 🤔
+## Avisos da Aula
 
-"Quem quer vender para todo mundo, acaba não vendendo para ninguém."
-
-<!-- .element: class="fragment" -->
-Segmentar é dividir o mercado em grupos menores com necessidades e comportamentos similares.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Níveis de Segmentação 📏
+## 1. Por que Segmentar? 🎯
+
+Tentar vender para "todo mundo" é o erro número 1 de novos empreendedores. Se você não sabe para quem vende, não sabe como falar, onde anunciar ou que preço cobrar.
+
+!!! info "Conceito"
+    **Segmentação de Mercado** é o processo de dividir um mercado de clientes potenciais em grupos (segmentos) baseados em características compartilhadas.
+
+---
+
+## 1. Por que Segmentar? 🎯
+
+---
+
+---
+
+## 2. Formas de Segmentação 🧼
+
+Podemos dividir os clientes por diferentes critérios:
+
+- { .fragment } **Geográfica**: Onde eles moram ou trabalham (ex: bairro, cidade, clima).
+- { .fragment } **Demográfica**: Idade, gênero, renda, profissão, nível escolar.
+- { .fragment } **Psicográfica**: Estilo de vida, valores, personalidade, interesses.
+- { .fragment } **Comportamental**: Como eles usam o produto, frequência de compra, lealdade à marca.
+
+---
+
+## 2. Formas de Segmentação 🧼
+
+---
+
+---
+
+## 3. Público-Alvo vs. Persona 👤
+
+- { .fragment } **Público-Alvo**: Uma definição ampla (ex: Mulheres, 25-40 anos, moradoras de SP, classe B).
+- { .fragment } **Persona**: Um personagem fictício que representa seu cliente ideal (ex: "Clara, 32 anos, arquiteta, gosta de café gourmet e busca praticidade no dia a dia").
+
+---
+
+---
+
+## 4. O Checklist da Segmentação (Termynal) ✅
+
+Vamos validar se seu público está bem definido:
+
+---
+
+## 4. O Checklist da Segmentação (Termynal) ✅
+
+```termynal
+$ publico --analisar
+> Verificando tamanho do grupo... [OK]
+> Analisando poder de compra... [MÉDIO]
+> Checando facilidade de acesso... [ALTA]
+> Resultado: Seu público é ACESSÍVEL e LUCRATIVO.
+> Dica: Foque na persona para humanizar sua comunicação!
+```
+
+---
+
+## 4. O Checklist da Segmentação (Termynal) ✅
+
+---
+
+---
+
+## 5. Mapa de Empatia (Mermaid) 🧠
+
+Uma ferramenta para mergulhar no mundo do cliente:
+
+---
+
+## 5. Mapa de Empatia (Mermaid) 🧠
 
 ```mermaid
 graph TD
-    A["Mercado Total"] --> B["Segmento (Ex: Alunos de TI)"]
-    B --> C["Nicho (Ex: Alunos de TI que querem ser Fullstack)"]
-    C --> D["Indivíduo (Personalização)"]
+    A(["O que o cliente VÊ?"]) --- B(["Persona"])
+    C(["O que o cliente OUVE?"]) --- B
+    D(["O que o cliente PENSA/SENTE?"]) --- B
+    E(["O que o cliente FALA/FAZ?"]) --- B
+    F(["Dores (Medos)"]) --- B
+    G(["Ganhos (Desejos)"]) --- B
 ```
 
 ---
 
-## Critérios de Segmentação 📝
-
-1. **Geográfica:** País, cidade, clima, densidade.
-2. **Demográfica:** Idade, gênero, renda, profissão.
-3. **Psicográfica:** Estilo de vida, valores, personalidade.
-4. **Comportamental:** Benefícios buscados, fidelidade, taxa de uso.
+## 5. Mapa de Empatia (Mermaid) 🧠
 
 ---
 
-## Segmentação Geográfica 🌍
+---
 
-Onde seus clientes estão?
-Ex: Uma loja de casacos de neve não faz sentido no Nordeste brasileiro.
+## 6. Aprofundamento: Personas e Job To Be Done (JTBD) 🎯
+
+Segmentação demográfica (idade, renda) é insuficiente. O conceito intermediário exige focar em **Personas** (arquétipos semi-fictícios, com dores e desejos comportamentais e psicográficos) e no modelo **Job To Be Done** (o trabalho a ser feito). Segundo o JTBD, o cliente "contrata" um produto para resolver um problema em uma circunstância específica. Entender a jornada do usuário é mais importante que o Censo.
 
 ---
 
-## Segmentação Demográfica 👤
+---
 
-Fatos concretos sobre a pessoa.
-Ex: Brinquedos focados em crianças de 3 a 5 anos.
+## 7. Mini-Projeto: Criando sua Persona 🚀
+
+Escolha um negócio (ex: Loja de Jogos Digitais).
+1.  Defina o **Público-Alvo** em 3 linhas.
+2.  Crie uma **Persona** detalhada (Nome, idade, um problema que ela tem).
+3.  Qual a principal "dor" dessa persona que seu negócio resolve?
 
 ---
 
-## Segmentação Psicográfica 🧠
+---
 
-Desejos e medos profundos.
-Ex: Consumidores que valorizam sustentabilidade e produtos orgânicos.
+## 8. Exercício de Fixação 🧠
+
+1.  Qual a diferença entre segmentação demográfica e psicográfica?
+2.  Por que criar uma Persona ajuda mais no marketing do que apenas ter um Público-Alvo?
+3.  O que acontece se uma empresa tentar ignorar a segmentação e vender para todos?
 
 ---
 
-## Segmentação Comportamental 🛒
+---
 
-Como eles compram?
-Ex: Clientes que compram apenas em promoções vs. clientes que compram lançamentos.
+## 8. Exercício de Fixação 🧠
+
+!!! info "Dica"
+    Um segmento ideal deve ser: Mensurável, Acessível, Substancial (grande o suficiente) e Acionável.
 
 ---
 
-## O Público-Alvo (Target) 🎯
+---
 
-O grupo específico de pessoas para quem sua proposta de valor foi desenhada.
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## Persona: O Cliente Ideal 👩‍🦰
+---
 
-Não é apenas "mulher, 30 anos".
-É a "Ana, designer, 28 anos, odeia burocracia, adora gatos e quer abrir seu próprio estúdio."
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 08](../../exercicios/exercicio-08.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 08](../../projetos/projeto-08.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Entrando no Bloco 3! [Definição da Proposta de Valor ao Cliente](../../aulas/aula-09.md) ✅
 
 ---
 
-## Criando uma Persona Útil 🎨
+## Discussão Aberta 1
 
-- Nome e foto (fictícios).
-- Dados demográficos.
-- Objetivos e Frustrações.
-- Comportamento de compra.
-
----
-
-## Mapa de Empatia revisited 🧠
-
-```mermaid
-mindmap
-  root((Ana))
-    O que ela vê?
-      Mercado competitivo
-    O que ela ouve?
-      "Siga seus sonhos"
-    O que ela diz/faz?
-      Trabalha 10h/dia
-    Dores
-      Falta de dinheiro
-    Ganhos
-      Ser sua própria chefe
-```
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Mercado de Massa vs. Nicho 🥊
+<!-- .slide: class="center" -->
 
-- **Massa:** Escala gigante, margem baixa. (Coca-cola)
-- **Nicho:** Foco total, margem alta. (Ferrari)
+# FIM DA AULA 08
 
----
-
-## Plataformas Multilaterais (Multi-sided Platforms) 🤝
-
-Negócios com dois ou mais segmentos que dependem um do outro.
-Ex: Uber (Motoristas + Passageiros).
-
----
-
-## Mercado Segmentado vs. Diversificado 🏷️
-
-- **Segmentado:** Leve variação (Banco atendendo Varejo vs Private).
-- **Diversificado:** Segmentos totalmente diferentes (Amazon vendendo livros vs AWS Cloud).
-
----
-
-## O Vale da Morte da Segmentação 💀
-
-Tentar atender dois segmentos com propostas de valor conflitantes ao mesmo tempo.
-
----
-
-## Validando seu Segmento ✅
-
-Use anúncios segmentados (Facebook/Google) para testar se aquele público realmente clica e compra sua ideia.
-
----
-
-## Resumo da Aula 📝
-
-- Importância da segmentação.
-- Critérios Geográficos, Demográficos, Psicográficos e Comportamentais.
-- Criação de Personas e nichos.
-
----
-
-## Próximo Passo 👣
-
-Na próxima aula, vamos falar sobre o **Value Proposition Canvas (VPC)** para conectar o produto ao cliente.
-
----
-
-## Desafio: Crie sua Persona ✍️
-
-Pense na sua ideia de negócio e descreva o "João" ou a "Maria" que seria seu primeiro cliente apaixonado.
-O que ele faz? O que ele teme?
+### Obrigado!

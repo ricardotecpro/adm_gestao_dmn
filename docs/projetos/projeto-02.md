@@ -1,12 +1,38 @@
-# Projeto 02 - Caçador de Problemas 🕵️‍♂️
+# Projeto 02 - Caçador de Dores 🚀
 
-## Objetivo
-Desenvolver o "olhar clínico" para identificar oportunidades reais a partir de dores do cotidiano.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Mapeamento em campo de frustrações e transformação em Oportunidades Viáveis.
 
-## Atividades
-1. **Observação de Campo**: Visite um centro comercial ou navegue em fóruns de reclamação (como Reclame Aqui).
-2. **Listagem de Dores**: Liste 5 problemas recorrentes que as pessoas enfrentam nesses ambientes.
-3. **Filtro de Viabilidade**: Escolha um desses problemas e descreva por que ele poderia se tornar um negócio lucrativo (Desejável, Viável, Praticável).
+---
 
-## Entrega
-Um relatório com a lista de dores e a análise de viabilidade do problema escolhido.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 02](../aulas/aula-02.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 02
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 02](../exercicios/solucao-02.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

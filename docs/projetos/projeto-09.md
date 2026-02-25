@@ -1,12 +1,38 @@
-# Projeto 09 - Encaixe do VPC 🧩
+# Projeto 09 - O 'Match' de Mercado 🚀
 
-## Objetivo
-Aplicar o Value Proposition Canvas para alinhar a solução com as necessidades reais do cliente.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Implementação e alinhamento do Canvas da Proposta de Valor.
 
-## Atividades
-1. **Perfil do Cliente**: Preencha as Dores, Ganhos e Tarefas da sua Persona.
-2. **Mapa de Valor**: Liste seus Produtos, Aliviadores e Criadores.
-3. **Teste de Encaixe**: Desenhe setas conectando uma Dor a um Aliviador e um Ganho a um Criador. Se sobrar algo sem conexão, repense a proposta.
+---
 
-## Entrega
-O Canvas da Proposta de Valor preenchido e anotado.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 09](../aulas/aula-09.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 09
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 09](../exercicios/solucao-09.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

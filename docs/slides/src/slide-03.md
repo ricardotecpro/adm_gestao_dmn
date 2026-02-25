@@ -1,153 +1,182 @@
-# Análise de Valor e Sustentabilidade 💎
-## Aula 03 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 03 - Análise de Valor: Inovação e Sustentabilidade 📡
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## O que é Valor? 🤔
+## Avisos da Aula
 
-Valor não é preço. Valor é a percepção de benefício dividida pelo custo.
-
-<!-- .element: class="fragment" -->
-"O cliente não compra uma furadeira, ele compra o furo na parede."
-
----
-
-## A Proposta de Valor 🎁
-
-É a promessa de valor a ser entregue ao cliente. É o motivo principal pelo qual um cliente compra de você e não do concorrente.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Elementos de Valor ✨
+## 1. O que é Valor? 💎
 
-- Novidade
-- Desempenho
-- Personalização
-- "Fazer o que deve ser feito" (Design)
-- Marca/Status
-- Preço
-- Redução de Custo
-- Redução de Risco
-- Acessibilidade
-- Conveniência/Usabilidade
+Para o empreendedor, **valor** não é o preço que se cobra, mas o benefício que o cliente percebe. 
+
+!!! info "Conceito"
+    **Proposta de Valor** é o conjunto de vantagens que uma empresa oferece aos seus clientes para satisfazer suas necessidades ou resolver seus problemas.
 
 ---
 
-## Sustentabilidade no Negócio 🌱
+## 1. O que é Valor? 💎
 
-Ser sustentável significa atender às necessidades do presente sem comprometer as gerações futuras.
-
-<!-- .element: class="fragment" -->
-**Os 3 Pilares (Tripé da Sustentabilidade):**
-1. Social (Pessoas)
-2. Ambiental (Planeta)
-3. Econômico (Lucro)
+### Dimensões do Valor:
+1.  **Funcional**: Resolve um problema prático (ex: um aplicativo de transporte).
+2.  **Emocional**: Proporciona uma sensação positiva (ex: uma marca de roupas de luxo).
+3.  **Social**: Ajuda o cliente a se conectar com outros (ex: redes sociais).
+4.  **Sustentável**: Gera impacto positivo no mundo (ex: produtos eco-friendly).
 
 ---
 
-## ESG: O Novo Padrão 🏛️
+---
 
-- **E (Environmental):** Meio ambiente.
-- **S (Social):** Responsabilidade social.
-- **G (Governance):** Governança ética.
+## 2. Inovação vs. Criatividade 🎨
 
-Investidores buscam empresas que respeitam esses critérios.
+Muitas pessoas confundem os dois termos, mas eles são os dois lados da mesma moeda:
+
+- { .fragment } **Criatividade**: É o ato de pensar coisas novas. É a matéria-prima (ideias).
+- { .fragment } **Inovação**: É o ato de **fazer** coisas novas que gerem valor. É a criatividade aplicada com resultado.
 
 ---
 
-## Negócios de Impacto Social 🤝
+## 2. Inovação vs. Criatividade 🎨
 
-Empresas que têm como missão principal resolver um problema social, mas com um modelo de negócio lucrativo e autossuficiente.
-
----
-
-## Economia Circular 🔄
-
-Diferente do modelo "Extrair -> Produzir -> Descartar".
-Foca em reutilizar, reciclar e regenerar recursos.
+!!! warning "Atenção"
+    Não existe inovação sem execução. Uma ideia criativa que fica no papel nunca se torna uma inovação.
 
 ---
 
-## A Pirâmide de Valor (B2C) 📊
+---
+
+## 3. Sustentabilidade e Diversidade 🌍
+
+Os negócios modernos não podem ignorar o impacto que causam. O valor de uma empresa hoje também é medido por:
+
+- { .fragment } **Sustentabilidade**: Uso consciente de recursos para não comprometer as gerações futuras.
+- { .fragment } **Diversidade Cultural**: Incluir diferentes visões de mundo na criação do produto, tornando-o mais universal e inclusivo.
+- { .fragment } **Inclusão Social**: Como o seu negócio ajuda a diminuir as desigualdades?
+
+---
+
+## 3. Sustentabilidade e Diversidade 🌍
+
+---
+
+---
+
+## 4. O Ciclo da Inovação (Mermaid) 🔄
 
 ```mermaid
-graph TD
-    A["Auto-Transcendência"] --> B["Auto-realização"]
-    B --> C["Emocional (Ex: Diversão)"]
-    C --> D["Funcional (Ex: Economiza tempo)"]
+graph LR
+    A(["Criatividade (Ideias)"]) --> B(["Prototipagem"])
+    B --> C(["Teste de Mercado"])
+    C --> D(["Inovação (Resultado)"])
+    D --> E(["Impacto Sustentável"])
+    E --> A
 ```
 
 ---
 
-## Gerando Valor para o Cliente B2B 🏢
-
-No mercado corporativo, o valor costuma ser:
-- Ganho de produtividade.
-- Redução de custos operacionais.
-- Conformidade (Compliance).
-- Inovação no setor.
+## 4. O Ciclo da Inovação (Mermaid) 🔄
 
 ---
 
-## Ética e Transparência ⚖️
+---
 
-A confiança é um ativo. Negócios sem ética podem lucrar rápido, mas não sobrevivem ao tempo.
+## 5. Simulando Valor (Termynal) 📊
+
+Como saber se sua proposta tem valor? Vamos rodar um "diagnóstico de valor":
 
 ---
 
-## Consumo Consciente 🛒
+## 5. Simulando Valor (Termynal) 📊
 
-O novo consumidor pesquisa a origem do produto e o comportamento da marca antes de comprar.
-
----
-
-## Inovação Sustentável 🚀
-
-Como criar produtos que usam menos plástico? Que gastam menos energia? Que duram mais?
-
----
-
-## Certificações e Selos ✅
-
-- Sistema B (Empresas B)
-- ISO 14001
-- Selo de Comércio Justo (Fair Trade)
+```termynal
+$ check-value --target "Meu Negócio"
+> Analisando diferenciação... [ALTA]
+> Verificando sustentabilidade... [75%]
+> Checando inclusão... [EM PROGRESSO]
+> Diagnóstico: Seu modelo possui ALTO POTENCIAL de mercado!
+```
 
 ---
 
-## O Custo da Inação 📉
-
-Empresas que ignoram a sustentabilidade enfrentam riscos regulatórios e boicotes de consumidores.
+## 5. Simulando Valor (Termynal) 📊
 
 ---
 
-## Mindset de Abundância vs. Escassez 🧠
+---
 
-Empreendedores sustentáveis buscam soluções onde todos ganham (Win-Win).
+## 6. Aprofundamento: A Equação de Valor e o CAC/LTV 📐
+
+A percepção de valor não é estática. Empreendedores avançados calculam o Custo de Aquisição de Clientes (CAC) e o Lifetime Value (LTV). A regra de ouro intermediária é garantir que LTV > 3 * CAC. O valor verdadeiro é entregue quando a solução não apenas resolve a dor, mas também gera uma economia (de tempo ou dinheiro) quantificável que supera o esforço de adoção.
 
 ---
 
-## Design For Environment (DfE) 🎨
+---
 
-Projetar produtos pensando em todo o seu ciclo de vida, desde a extração até o descarte final.
+## 7. Mini-Projeto: Valor e Impacto 🚀
+
+1.  Pense em um produto comum (ex: uma garrafa de água).
+2.  Como você poderia inovar nesse produto usando a **sustentabilidade**?
+3.  Como você adicionaria **diversidade cultural** no marketing desse produto?
+4.  Escreva uma frase de "Proposta de Valor" para o seu novo produto inovador.
 
 ---
 
-## Resumo da Aula 📝
+---
 
-- Definição de Valor vs Preço.
-- Elementos da Proposta de Valor.
-- Pilares da Sustentabilidade e ESG.
-- Negócios de impacto.
+## 8. Exercício de Fixação 🧠
+
+1.  Diferencie Valor Funcional de Valor Emocional com exemplos.
+2.  Por que a Diversidade é considerada um ativo estratégico para a inovação?
+3.  Explique o conceito de "Triple Bottom Line" (Pessoas, Planeta, Lucro) no contexto da sustentabilidade.
 
 ---
 
-## Próximo Passo 👣
+---
 
-Na próxima aula, vamos falar sobre os **Processos de Valor e Inovação**.
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## Desafio: Análise de Marca 🌱
+---
 
-Escolha uma marca que você admira e identifique quais elementos de valor ela entrega e se ela possui iniciativas de sustentabilidade claras.
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 03](../../exercicios/exercicio-03.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 03](../../projetos/projeto-03.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Vamos entender as [Etapas do Processo de Valor](../../aulas/aula-04.md)! 📄
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 03
+
+### Obrigado!

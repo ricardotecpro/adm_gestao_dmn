@@ -1,160 +1,189 @@
-# O Canvas da Proposta de Valor (VPC) 💎
-## Aula 09 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 09 - Definição de Proposta de Valor ao Cliente 💎
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## O Encaixe Perfeito (Problem-Solution Fit) 🧩
+## Avisos da Aula
 
-Não adianta ter uma solução incrível se ela não resolve a dor de alguém.
-O VPC é um "zoom" nos blocos de **Segmento** e **Proposta de Valor** do Canvas.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## A Estrutura do VPC 📐
+## 1. O que é Proposta de Valor? 🎯
+
+Muitos confundem produto com proposta de valor. O produto é o objeto; a proposta de valor é a **solução** que ele entrega.
+
+- { .fragment } **Produto**: Uma furadeira.
+- { .fragment } **Proposta de Valor**: Um furo na parede para pendurar um quadro de memórias.
+
+---
+
+## 1. O que é Proposta de Valor? 🎯
+
+!!! info "Conceito"
+    A **Proposta de Valor** é o motivo pelo qual os clientes escolhem uma empresa em vez de outra. Ela resolve um problema do cliente ou satisfaz uma necessidade específica.
+
+---
+
+---
+
+## 2. Tipos de Proposta de Valor 📊
+
+Existem diversas formas de agregar valor a um segmento de cliente:
+
+1.  **Novidade**: Atender necessidades que os clientes nem sabiam que tinham (ex: o primeiro iPhone).
+2.  **Performance**: Melhorar o desempenho de algo (ex: um computador mais rápido).
+3.  **Personalização**: Adaptar produtos às necessidades específicas (ex: tênis customizados).
+4.  **Design**: Valor pela estética e usabilidade (ex: móveis de design assinado).
+5.  **Preço**: Oferecer valor similar por um preço menor (ex: companhias aéreas low-cost).
+6.  **Redução de Risco**: Garantias estendidas ou seguros.
+
+---
+
+## 2. Tipos de Proposta de Valor 📊
+
+---
+
+---
+
+## 3. O Encaixe: Problema-Solução (Mermaid) 🔗
+
+O valor só existe se houver um encaixe perfeito entre o que você oferece e o que o cliente precisa.
+
+---
+
+## 3. O Encaixe: Problema-Solução (Mermaid) 🔗
 
 ```mermaid
 graph LR
-    A["Perfil do Cliente (Círculo)"] --- B["Mapa de Valor (Quadrado)"]
+    A(["Dores do Cliente (Problemas)"]) --- B(["Aliviadores de Dor (Solução)"])
+    C(["Ganhos do Cliente (Desejos)"]) --- D(["Criadores de Ganho (Solução)"])
+    E(["Tarefas do Cliente (O que ele faz)"]) --- F(["Produto/Serviço"])
+    subgraph "Proposta de Valor"
+        B
+        D
+        F
+    end
+    subgraph "Perfil do Cliente"
+        A
+        C
+        E
+    end
 ```
 
 ---
 
-## 1. O Perfil do Cliente (Círculo) 👤
-
-Onde olhamos o mundo pelos olhos do cliente.
-
-- **Tarefas do Cliente:** O que eles tentam realizar?
-- **Dores:** O que os impede ou os irrita?
-- **Ganhos:** O que eles esperam ou desejam?
+## 3. O Encaixe: Problema-Solução (Mermaid) 🔗
 
 ---
 
-## Tarefas do Cliente (Customer Jobs) 🛠️
+---
 
-- **Funcionais:** Comer, limpar a casa, ir ao trabalho.
-- **Sociais:** Parecer bem, ganhar status.
-- **Emocionais:** Sentir-se seguro, em paz.
+## 4. Validando sua Proposta (Termynal) 💻
+
+Como saber se sua proposta de valor é realmente forte?
 
 ---
 
-## Dores do Cliente (Pains) 😫
+## 4. Validando sua Proposta (Termynal) 💻
 
-- Resultados indesejados (custo alto, demora).
-- Obstáculos (falta de tempo).
-- Riscos (perder dinheiro).
-
----
-
-## Ganhos do Cliente (Gains) ✨
-
-- Utilidade necessária.
-- Ganhos esperados (qualidade).
-- Ganhos desejados (recursos extras).
-
----
-
-## 2. O Mapa de Valor (Quadrado) 📦
-
-Onde desenhamos como nossa solução atende ao cliente.
-
-- **Produtos e Serviços:** O que oferecemos.
-- **Aliviadores de Dores:** Como matamos os problemas.
-- **Criadores de Ganhos:** Como geramos felicidade.
-
----
-
-## Aliviadores de Dores (Pain Relievers) 🩹
-
-Como sua solução elimina frustrações específicas do cliente?
-Reduz custos? Economiza tempo? Tira a dor de cabeça?
-
----
-
-## Criadores de Ganhos (Gain Creators) 🚀
-
-Como sua solução supera as expectativas e gera valor positivo real?
-Torna a vida mais fácil? Dá status?
-
----
-
-## O Encaixe (Fit) 🤝
-
-O encaixe acontece quando o seu Mapa de Valor atende perfeitamente ao Perfil do Cliente.
-
-```mermaid
-graph TD
-    A["Dores"] <--> B["Aliviadores"]
-    C["Ganhos"] <--> D["Criadores de Ganhos"]
-    E["Tarefas"] <--> F["Produtos"]
+```termynal
+$ valor --analisar-proposta
+> Verificando clareza da mensagem... [OK]
+> Analisando diferencial competitivo... [MÉDIO]
+> Checando alinhamento com a dor do cliente... [ALTO]
+> Resultado: Sua proposta é BOA, mas precisa ser mais única.
+> Dica: Tente focar em uma dor que ninguém mais resolve hoje!
 ```
 
 ---
 
-## Validando as Hipóteses ✅
-
-Tudo no VPC é uma suposição até você falar com o cliente.
-"Eu acho que a dor dele é X, mas na verdade é Y."
+## 4. Validando sua Proposta (Termynal) 💻
 
 ---
 
-## Exemplo: Uber 🚗
+---
 
-- **Tarefa:** Ir do ponto A ao B.
-- **Dor:** Falta de táxis, preços imprevisíveis, mau atendimento.
-- **Aliviador:** App fácil, preço fixo, avaliação do motorista.
+## 5. Proposta de Valor vs. Slogan 📢
+
+- { .fragment } **Slogan**: Uma frase curta de marketing (ex: "Just Do It").
+- { .fragment } **Proposta de Valor**: Uma declaração clara de benefícios (ex: "Oferecemos equipamentos de alta performance para atletas que buscam superar seus limites").
 
 ---
 
-## Exemplo: Nubank 💜
+---
 
-- **Tarefa:** Pagar contas e gerir dinheiro.
-- **Dor:** Burocracia, filas em bancos, taxas abusivas.
-- **Aliviador:** Tudo pelo app, sem taxas, atendimento humano.
+## 6. Aprofundamento: Canvas da Proposta de Valor (VPC) 🎁
+
+Para alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** cruza o Perfil do Cliente (Tarefas, Dores e Ganhos) com o Mapa de Valor do Produto (Criadores de Ganhos, Aliviadores de Dores e Produtos/Serviços). O "Fit" ocorre apenas quando os aliviadores de fato resolvem as dores mais extremas mapeadas no perfil, garantindo que o produto tenha tração inicial (Product-Market Fit).
 
 ---
 
-## Inovando com o VPC 🚀
+---
 
-Ao olhar para dores ignoradas pela concorrência, você cria oportunidades de inovação radical.
+## 7. Mini-Projeto: O Canvas da Proposta de Valor 🚀
+
+1.  Escolha um negócio (ex: Um app de delivery de comida saudável).
+2.  Liste 2 **Dores** do cliente (ex: falta de tempo, comida ruim no trabalho).
+3.  Liste 2 **Aliviadores** da sua proposta (ex: entrega em 15 min, cardápio assinado por nutricionista).
+4.  Escreva sua Proposta de Valor em um parágrafo.
 
 ---
 
-## Design Thinking e VPC 🧠
+---
 
-Use a empatia para preencher o círculo antes de pensar em qualquer recurso do quadrado.
+## 8. Exercício de Fixação 🧠
+
+1.  Dê um exemplo de proposta de valor baseada em "Redução de Custo".
+2.  Qual a diferença entre um benefício funcional e um benefício emocional?
+3.  Por que é perigoso focar apenas no preço como sua única proposta de valor?
 
 ---
 
-## MVP e VCP 🛠️
+---
 
-O seu MVP deve focar em resolver a dor MAIS profunda identificada no VPC.
+## 8. Exercício de Fixação 🧠
+
+!!! warning "Atenção"
+    Sua proposta de valor deve ser **clara**, **objetiva** e **fácil de entender**. Se o cliente demorar mais de 5 segundos para entender o que você faz, ele irá embora.
 
 ---
 
-## O Ciclo da Proposta de Valor 🔄
+---
 
-1. Crie o VCP.
-2. Teste com o cliente.
-3. Aprenda.
-4. Ajuste.
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## Resumo da Aula 📝
+---
 
-- Definição do VPC (Círculo e Quadrado).
-- Tarefas, Dores e Ganhos.
-- Aliviadores, Criadores e Produtos.
-- O conceito de Encaixe (Fit).
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 09](../../exercicios/exercicio-09.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 09](../../projetos/projeto-09.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Como essa proposta chega até o cliente? [Canais de Comunicação e Distribuição](../../aulas/aula-10.md) 🚢
 
 ---
 
-## Próximo Passo 👣
+## Discussão Aberta 1
 
-Na próxima aula, vamos falar sobre como essas propostas chegam ao cliente: **Canais de Comunicação e Distribuição**.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Desafio: O VPC da sua Ideia 🕵️‍♂️
+<!-- .slide: class="center" -->
 
-Tente listar pelo menos 3 Dores e 3 Ganhos do seu cliente ideal e como seu produto os atende.
+# FIM DA AULA 09
+
+### Obrigado!

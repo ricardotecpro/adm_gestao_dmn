@@ -1,30 +1,42 @@
-# Setup 03: Ferramentas de Apoio 🛠️
+# Setup de Produtividade: Ambiente macOS 🍏
 
-Além da IDE, você precisará de ferramentas para gerenciar código e testar dados.
+!!! tip "Objetivo"
+    **Objetivo**: Harmonizar seu Mac para garantir excelência de design e processos criativos integrados ao ecossistema Apple com foco de gestão de negócios, ideal para processos de ideação profunda.
 
-## 1. Git e GitHub
-Essencial para versionamento.
-*   **Download**: [git-scm.com](https://git-scm.com/).
-*   **Configuração Inicial**:
-    ```bash
-    git config --global user.name "Seu Nome"
-    git config --global user.email "seu@email.com"
-    ```
+---
 
-## 2. Postman ou Insomnia
-Para testar as APIs REST antes de escrever código Kotlin/Swift.
-*   **Postman**: [postman.com](https://www.postman.com/).
-*   **Insomnia**: [insomnia.rest](https://insomnia.rest/).
+## 1. O Padrão Ouro de Engajamento 🖌️
 
-## 3. Vysor (Opcional)
-Para espelhar a tela do seu celular real no computador (via cabo USB).
-*   **Acesso**: [vysor.io](https://www.vysor.io/).
+O iOS foca no aspecto nativo. O profissional de ideação se beneficia de interfaces livres de fricção com a unificação Handoff entre o MacBook, o iPad e o iPhone em campo:
 
-## 4. ADB (Android Debug Bridge)
-Já vem com o Android Studio, mas é útil no PATH do sistema.
-*   Permite instalar APKs via terminal: `adb install app.apk`.
-*   Permite ver logs detalhados: `adb logcat`.
+```mermaid
+graph LR
+    A([macOS Monterey+]) --> B([Apple Notes / Freeform])
+    A --> C([Keynote - Apresentações de Pitch])
+    B --> D([Sincronia iCloud Automática])
+```
 
-## 5. Flipper (Meta)
-Uma ferramenta avançada para debugar bancos de dados SQLite e chamadas de rede direto na interface visual.
-*   **Acesso**: [fbflipper.com](https://fbflipper.com/).
+---
+
+## 2. Instalação do Brew (Homebrew) 💻
+
+Um Mac gerido profissionalmente foca as aquisições base pelo Terminal do MacOS usando o HomeBrew, instalando pacotes rapidamente:
+
+```termynal
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew install --cask slack notion microsoft-excel
+> Buscando dependências Apple e instalando Casks...
+> Notion: Instalado!
+> Slack HQ: Instalado!
+> MS Excel (Mac Version): Instalado em Applications!
+```
+
+---
+
+!!! success "O Fator Minimalista"
+    A grande sacada no macOS para o Gestor de Negócios é focar na ausência de distrações. Use o Focus Mode atrelado ao seu calendário (ex. "Bloqueio de Foco" ativa automaticamente restrição de notificações indesejadas).
+
+---
+
+## 3. Navegação
+Para equipes multiplataformas, revise também os padrões exigidos no ecossistema [Windows](./setup-01.md) e no ecossistema de open source [Linux](./setup-02.md).

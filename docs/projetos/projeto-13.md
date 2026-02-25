@@ -1,12 +1,38 @@
-# Projeto 13 - Levantamento de Ativos 🔋
+# Projeto 13 - Leasing vs Posse 🚀
 
-## Objetivo
-Identificar e classificar os recursos necessários para iniciar e manter a operação do negócio.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Cálculo e montagem de uma estrutura 'Asset-Light' contra um gigante OPEX.
 
-## Atividades
-1. **Inventário de Início**: Liste todos os equipamentos, móveis e softwares (Recursos Físicos) necessários para o dia 1.
-2. **Talentos Necessários**: Descreva o perfil dos 2 primeiros colaboradores (Recursos Humanos) que você precisaria contratar.
-3. **Proteção da Ideia**: Sua marca precisa de registro no INPI? Existe algum processo ou fórmula que precise de patente?
+---
 
-## Entrega
-Uma planilha simples ou lista classificada de Recursos Físicos, Humanos e Intelectuais.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 13](../aulas/aula-13.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 13
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 13](../exercicios/solucao-13.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

@@ -59,7 +59,13 @@ $ recursos --inventario
 
 ---
 
-## 6. Mini-Projeto: Mapeando Ativos 🚀
+## 6. Aprofundamento: Gestão Ágil de Ativos e Capital Humano 🧠
+
+Recursos não são apenas físicos. A alocação ótima do Capital Humano, protegendo as informações fundamentais e direitos de Propriedade Intelectual (PI), é vital a médio prazo. A abordagem *asset-light* (como ter servidores em nuvem, não comprar frotas – sublocar) reflete uma maturidade estratégica onde se prefere o OPE6 (Despesas Operacionais flexíveis) ao CAPE6 (Despesas de Capital pesadas) para facilitar o pivot das operações.
+
+---
+
+## 7. Mini-Projeto: Mapeando Ativos 🚀
 
 Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
 1.  Liste 2 **Recursos Físicos** essenciais.
@@ -68,7 +74,7 @@ Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Explique a diferença entre recursos físicos e recursos intelectuais.
 2.  Por que em uma empresa de software o recurso humano é frequentemente o mais valioso?
@@ -80,5 +86,13 @@ Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
     Identifique o seu "Ponto Crítico": Qual recurso, se faltar hoje, faz seu negócio parar imediatamente? Esse é o seu recurso mais essencial.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 13](../exercicios/exercicio-13.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 13](../projetos/projeto-13.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Quem pode te ajudar? [Parceiros-chave e Alianças Estratégicas](./aula-14.md) 🤝

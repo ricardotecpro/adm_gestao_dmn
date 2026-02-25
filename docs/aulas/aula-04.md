@@ -65,7 +65,13 @@ $ inovacao --check-stage
 
 ---
 
-## 6. Mini-Projeto: Planejando a Inovação 🚀
+## 6. Aprofundamento: Curva de Adoção de Inovação e TRL 📉
+
+A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difusão da Inovação** (Innovators, Early Adopters, Early Majority...) é crucial para saber como comunicar o lançamento. Além disso, a escala TRL (Technology Readiness Level) auxilia a mensurar a maturidade de uma tecnologia, indo de uma pesquisa básica (TRL 1) até um sistema provado em ambiente real (TRL 9).
+
+---
+
+## 7. Mini-Projeto: Planejando a Inovação 🚀
 
 1.  Identifique uma empresa que você conhece que tenha passado por uma **Inovação Incremental** recentemente.
 2.  Agora, descreva um exemplo de **Inovação de Modelo de Negócio**.
@@ -73,7 +79,7 @@ $ inovacao --check-stage
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Explique a diferença entre Inovação Radical e Incremental.
 2.  Quais são as 4 etapas básicas do processo de valor?
@@ -85,5 +91,13 @@ $ inovacao --check-stage
     O planejamento não deve ser rígido. No processo de inovação, o planejamento serve para dar direção, mas a execução exige adaptabilidade.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 04](../exercicios/exercicio-04.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 04](../projetos/projeto-04.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Fim do Bloco 1! No Bloco 2, iniciaremos a [Gestão de Negócios e Ideação](./aula-05.md)! 💻

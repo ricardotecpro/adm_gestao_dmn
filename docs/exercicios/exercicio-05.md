@@ -1,19 +1,23 @@
-# Exercícios 05 - Gestão de Negócios e Estratégias ⚙️
+# Exercícios 05 - Estratégias e Ideação 🧩
 
 ## 🟢 Fáceis
 
-1. **Gestão**: O que significa o acrônimo PDCA e qual a sua importância para a melhoria contínua?
-2. **Liderança**: Explique, com suas palavras, a diferença entre um "Chefe" e um "Líder".
+1. Qual a finalidade de realizar uma sessão de Brainstorming focada?
+2. O Design Thinking coloca o humano no centro. O que isso significa na prática da ideação?
 
 ## 🟡 Médios
 
-3. **SWOT**: Imagine uma empresa de café gourmet. Cite uma Força (interna) e uma Ameaça (externa) para esse negócio.
-4. **Crescimento**: Como a Matriz de Ansoff ajuda um gestor a decidir se deve lançar um novo produto ou focar no mercado atual?
+3. Como o processo de divergência (criar escolhas) e convergência (fazer escolhas) estrutura as dinâmicas?
+4. Cite dois mitigadores importantes na estratégia visual ou mind-mapping para resolução.
 
 ## 🔴 Desafio
 
-5. **Análise de Porter**:
-    Escolha uma grande empresa de tecnologia (ex: Apple, Samsung, Microsoft).
-    * Analise o "Poder de Negociação dos Clientes" para essa empresa.
-    * Quem são os "Substitutos" mais perigosos para o produto principal dela?
-    * Como essa empresa usa a "Diferenciação" para manter sua posição no mercado?
+5. Descreva o modelo do 'Duplo Diamante' no contexto avançado e discuta como focar no Espaço do Problema é diferencial antes de pular para o Espaço da Solução.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-05.md)**

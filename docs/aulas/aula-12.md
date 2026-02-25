@@ -60,7 +60,13 @@ $ core-business --audit
 
 ---
 
-## 6. Mini-Projeto: Priorizando o Core 🚀
+## 6. Aprofundamento: Gargalos e Teoria das Restrições (TOC) 🏭
+
+Gerir atividades-chave exige dominar a operacionalidade. A **Teoria das Restrições (TOC)** dita que todo sistema produtivo é limitado por pelo menos um gargalo (restrição). Empreendedores precisam mapear o macroprocesso, identificar esse gargalo e subordinar todo o resto a ele. Otimizar qualquer parte que não seja a restrição é considerado um desperdício de tempo que mascara ineficiências latentes.
+
+---
+
+## 7. Mini-Projeto: Priorizando o Core 🚀
 
 Imagine que você é dono de um **Restaurante Gourmet**.
 1.  Liste 3 Atividades que você faz no dia a dia.
@@ -69,7 +75,7 @@ Imagine que você é dono de um **Restaurante Gourmet**.
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Quais são as três categorias principais de Atividades-chave?
 2.  Dê um exemplo de uma Atividade-chave para uma empresa que é uma **Plataforma**.
@@ -81,5 +87,13 @@ Imagine que você é dono de um **Restaurante Gourmet**.
     Não tente ser bom em tudo. Escolha as atividades que realmente geram diferencial competitivo e torne-se o melhor nelas.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 12](../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 12](../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Entrando no Bloco 4! [Recursos Essenciais e Parcerias](./aula-13.md) 🧩

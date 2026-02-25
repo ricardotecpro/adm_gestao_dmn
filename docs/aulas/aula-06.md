@@ -63,7 +63,13 @@ $ plano-negocio --validar
 
 ---
 
-## 6. Mini-Projeto: Esboço do Sumário Executivo 🛠️
+## 6. Aprofundamento: Modelagem Financeira e Break-even 📈
+
+Um Plano de Negócios maduro exige projeções tangíveis. O conceito de **Break-even Point (Ponto de Equilíbrio)** é vital: o exato momento em que as receitas se igualam aos custos (fixos e variáveis). Além disso, a elaboração de cenários (Otimista, Realista e Pessimista) capacita o negócio a se proteger de variações drásticas do fluxo de caixa nos primeiros anos de operação.
+
+---
+
+## 7. Mini-Projeto: Esboço do Sumário Executivo 🛠️
 
 Imagine que você quer abrir uma **Cafeteria Sustentável**.
 1.  Escreva 3 lines descrevendo o que torna seu café único.
@@ -73,7 +79,7 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Qual a principal diferença entre um Plano de Negócios e uma ideia solta?
 2.  Por que o Sumário Executivo deve ser a última parte a ser escrita?
@@ -85,5 +91,13 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
     O Plano de Negócios não é algo "escrito em pedra". Ele deve ser revisado constantemente à medida que o mercado muda e novos dados aparecem.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 06](../exercicios/exercicio-06.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 06](../projetos/projeto-06.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos simplificar tudo com o [Modelagem de Negócios: O Canvas](./aula-07.md) 🗄️

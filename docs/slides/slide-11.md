@@ -1,92 +1,182 @@
-# Aula 11 - Refresh Token e Segurança Avançada 🏗️
-## Blindando sua API contra o mundo
+<!-- .slide: class="center" -->
+
+# Aula 11 - Relacionamento com o Cliente 🤝
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. O Problema do Token Curto ⏰ <!-- .element: class="fragment" -->
-2. Refresh Tokens (O que são?) <!-- .element: class="fragment" -->
-3. CORS: Origens e Destinos <!-- .element: class="fragment" -->
-4. Helmet: Headers de Aço <!-- .element: class="fragment" -->
-5. Rate Limit: Contra Brute Force <!-- .element: class="fragment" -->
-6. Ataques Comuns (XSS, Injection) <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. Por que Tokens Expiram? ⏰
+## 1. O que é Relacionamento? 💞
 
-- Segurança! Se roubarem o token, ele dura pouco. <!-- .element: class="fragment" -->
-- **Problema**: O usuário odeia fazer login toda hora. <!-- .element: class="fragment" -->
+No Business Model Canvas, o relacionamento descreve o "tom" e a intensidade da interação entre a empresa e cada segmento de cliente. 
 
----
-
-## 2. Refresh Token 🔁
-
-- Um token de longa duração (7 dias+). <!-- .element: class="fragment" -->
-- Serve apenas para trocar por um novo Access Token. <!-- .element: class="fragment" -->
-- Deve ser invalidado se o usuário deslogar. <!-- .element: class="fragment" -->
+### Objetivos do Relacionamento:
+1.  **Conquista**: Trazer novos clientes para o negócio.
+2.  **Retenção**: Evitar que o cliente vá para a concorrência.
+3.  **Vendas Adicionais**: Vender mais para quem já é cliente (Upsells).
 
 ---
 
-## 3. CORS: Cross-Origin Resource Sharing 🌍
-
-- "Quem pode me chamar?". <!-- .element: class="fragment" -->
-- Resolvido via Headers no Servidor. <!-- .element: class="fragment" -->
-- **Nunca** use `origin: '*'` em ambientes reais! <!-- .element: class="fragment" -->
+## 1. O que é Relacionamento? 💞
 
 ---
 
-## 4. Helmet: Proteção de Headers 🪖
+---
 
-- Remove o `X-Powered-By` (não diz que é Express). <!-- .element: class="fragment" -->
-- Adiciona proteção contra Clickjacking e XSS. <!-- .element: class="fragment" -->
+## 2. Categorias de Relacionamento 📑
+
+As empresas podem escolher diferentes níveis de proximidade:
+
+- <!-- .element: class="fragment" --> **Assistência Pessoal**: Interação humana real (ex: call center, vendedor na loja).
+- <!-- .element: class="fragment" --> **Assistência Personalizada**: Um gerente exclusivo para o cliente (ex: Private Banking).
+- <!-- .element: class="fragment" --> **Self-Service**: A empresa fornece os meios, o cliente faz tudo sozinho (ex: Caixas eletrônicos).
+- <!-- .element: class="fragment" --> **Serviços Automatizados**: Self-service com inteligência (ex: recomendação da Netflix).
+- <!-- .element: class="fragment" --> **Comunidades**: Clientes interagem entre si para resolver problemas (ex: Fóruns de jogos).
+- <!-- .element: class="fragment" --> **Co-criação**: O cliente ajuda a criar o valor (ex: Reviews da Amazon, vídeos do YouTube).
 
 ---
 
-## 5. Rate Limiting 🔨
-
-- 5 tentativas de login por minuto? Sim. <!-- .element: class="fragment" -->
-- Evita que robôs tentem descobrir senhas via "força bruta". <!-- .element: class="fragment" -->
+## 2. Categorias de Relacionamento 📑
 
 ---
 
-## 6. Onde salvar os Tokens? 🛡️
+---
 
-- **Frontend**: LocalStorage? Seguro? <!-- .element: class="fragment" -->
-- **Melhor Prática**: Cookies `HttpOnly` + `Secure`. <!-- .element: class="fragment" -->
+## 3. O Ciclo do Cliente (Mermaid) 🔄
+
+Manter um cliente é muito mais barato do que conquistar um novo.
 
 ---
 
-## 7. Melhores Práticas de Segurança 🏆
+## 3. O Ciclo do Cliente (Mermaid) 🔄
 
-1. Use HTTPS sempre. <!-- .element: class="fragment" -->
-2. Valide TODAS as entradas do usuário. <!-- .element: class="fragment" -->
-3. Mantenha as bibliotecas atualizadas. <!-- .element: class="fragment" -->
-
----
-
-## Desafio de Segurança ⚡
-
-Qual a diferença entre 401 e 403 no contexto de Refresh Tokens? Se eu recebo 401, eu tento o refresh ou deslogo o usuário?
-
----
-
-## Resumo ✅
-
-- Refresh Token equilibra UX e Segurança. <!-- .element: class="fragment" -->
-- CORS e Helmet são as portas do seu castelo. <!-- .element: class="fragment" -->
-- Proteja-se contra robôs com Rate Limit. <!-- .element: class="fragment" -->
+```mermaid
+graph LR
+    A(["Aquisição (Venda)"]) --> B(["Onboarding (Boas-vindas)"])
+    B --> C(["Engajamento (Uso Real)"])
+    C --> D(["Fidelização (Sucesso)"])
+    D --> E(["Indicação (Advogado da Marca)"])
+    E --> A
+```
 
 ---
 
-## Próximo Módulo: Front-End Moderno 🎨
-
-### Saindo das APIs e indo para a Web!
-
-- Introdução ao React/Vite. <!-- .element: class="fragment" -->
-- Consumindo nossas APIs no navegador. <!-- .element: class="fragment" -->
+## 3. O Ciclo do Cliente (Mermaid) 🔄
 
 ---
 
-## Dúvidas? 🏗️
+---
+
+## 4. CRM: A Ferramenta do Gestor 🛠️
+
+O **CRM (Customer Relationship Management)** é o software que guarda todo o histórico do cliente para que o relacionamento seja sempre contextualizado.
+
+---
+
+## 4. CRM: A Ferramenta do Gestor 🛠️
+
+```termynal
+$ crm --check-health
+> Analisando base de clientes...
+  - [x] Taxa de Resposta: 95%
+  - [x] Churn (Cancelamento): 2%
+  - [/] Satisfação (NPS): 8.5
+> Status: RELACIONAMENTO SAUDÁVEL.
+> Dica: Seus clientes estão felizes, mas peça mais indicações!
+```
+
+---
+
+## 4. CRM: A Ferramenta do Gestor 🛠️
+
+---
+
+---
+
+## 5. Churn Rate: O Perigo do Cancelamento 📉
+
+O **Churn** é a taxa de clientes que param de comprar de você.
+- <!-- .element: class="fragment" --> **Low Churn**: Indica que o relacionamento está forte.
+- <!-- .element: class="fragment" --> **High Churn**: Indica que algo na proposta de valor ou no atendimento está falhando.
+
+---
+
+---
+
+## 6. Aprofundamento: Cohort Analysis e Churn Rate 💔
+
+Relacionar-se inclui metrificar retenção. O **Churn Rate** mede a taxa de cancelamento ou evasão de clientes. O aprofundamento analítico utiliza a análise de **Cohorts** (grupos de usuários que iniciaram juntos) para detectar em qual semana exata os usuários desistem da plataforma, permitindo intervir com automação de marketing pontual (ex: réguas de relacionamento, onboarding contínuo e Customer Success proativo).
+
+---
+
+---
+
+## 7. Mini-Projeto: Estratégia de Retenção 🚀
+
+Imagine um **App de Academia**.
+1.  Qual seria o tipo de relacionamento principal (ex: Manual ou Automatizado)?
+2.  Como você usaria uma **Comunidade** para evitar que os alunos desistam?
+3.  Crie uma mensagem de "Boas-vindas" automatizada para um novo aluno.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+1.  Explique a diferença entre assistência pessoal e personalizada.
+2.  O que é Co-criação e como ela gera valor para a empresa?
+3.  Por que medir o **NPS (Net Promoter Score)** é vital para o relacionamento?
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+!!! info "Dica"
+    Um bom relacionamento transforma clientes em **fãs**. Fãs perdoam erros pequenos e defendem sua marca de graça.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 11](../exercicios/exercicio-11.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 11](../projetos/projeto-11.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: O que você faz todo dia? [Atividades-chave do Negócio](../aulas/aula-12.md) ⚙️
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 11
+
+### Obrigado!

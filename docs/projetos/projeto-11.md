@@ -1,12 +1,38 @@
-# Projeto 11 - Plano de Retenção 🤝
+# Projeto 11 - Retenção Absoluta 🚀
 
-## Objetivo
-Criar mecanismos para evitar o cancelamento (Churn) e aumentar a fidelidade do cliente.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Modelagem de réguas ativas (Onboarding e CS) vitais para mitigar Cohort Churn.
 
-## Atividades
-1. **Régua de Relacionamento**: O que acontece com o cliente no dia 1, dia 7 e dia 30 após a compra?
-2. **Mecanismo de Feedback**: Como você vai perguntar se ele está satisfeito? (NPS, Formulário, Conversa).
-3. **Venda Adicional**: Pense em um produto complementar (Cross-sell) que você poderia oferecer para quem já é cliente.
+---
 
-## Entrega
-O desenho da régua de relacionamento e o modelo da pergunta de satisfação.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 11](../aulas/aula-11.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 11
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 11](../exercicios/solucao-11.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

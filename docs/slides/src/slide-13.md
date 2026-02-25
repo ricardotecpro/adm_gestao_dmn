@@ -1,148 +1,177 @@
-# Recursos Essenciais e Ativos 🧩
-## Aula 13 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 13 - Recursos Essenciais e Infraestrutura 🧩
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## O que são Recursos Essenciais? 🤔
+## Avisos da Aula
 
-São os ativos mais importantes requeridos para fazer um modelo de negócio funcionar.
-Eles permitem criar e oferecer a Proposta de Valor e alcançar mercados.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Categorias de Recursos 📂
+## 1. O que são Recursos Essenciais? 🏗️
+
+Os recursos essenciais são os ativos mais importantes requeridos para fazer um modelo de negócio funcionar. Eles permitem que a empresa crie e ofereça uma Proposta de Valor, alcance mercados e mantenha relacionamentos.
+
+---
+
+---
+
+## 2. As Quatro Categorias de Recursos 📂
+
+Todo negócio precisa de uma combinação desses quatro tipos de recursos:
+
+1.  **Físicos**: Ativos tangíveis, como instalações de fabricação, edifícios, veículos, sistemas de ponto de venda e redes de distribuição.
+2.  **Intelectuais**: Ativos intangíveis, como marcas, conhecimento proprietário, patentes, direitos autorais e bancos de dados de clientes.
+3.  **Humanos**: As pessoas são cruciais em todos os modelos de negócio, mas são particularmente importantes em indústrias criativas e de conhecimento intenso (ex: consultorias).
+4.  **Financeiros**: Recursos financeiros e/ou garantias financeiras, como dinheiro, linhas de crédito ou opções de ações.
+
+---
+
+## 2. As Quatro Categorias de Recursos 📂
+
+---
+
+---
+
+## 3. Posse vs. Acesso ⚖️
+
+Um recurso essencial não precisa necessariamente ser de propriedade da empresa; ele pode ser alugado ou obtido por meio de parceiros.
+
+- { .fragment } **Próprio**: Maior controle, custo fixo inicial alto.
+- { .fragment } **Alugado/Terceirizado**: Menor controle, maior flexibilidade e custos variáveis.
+
+---
+
+## 3. Posse vs. Acesso ⚖️
+
+---
+
+---
+
+## 4. O Fluxo de Recursos (Mermaid) 🌊
 
 ```mermaid
-graph TD
-    A["Recursos Essenciais"] --> B["Físicos"]
-    A --> C["Intelectuais"]
-    A --> D["Humanos"]
-    A --> E["Financeiros"]
+graph LR
+    A(["Aquisição de Insumos"]) --> B(["Recursos Físicos"])
+    A --> C(["Recursos Humanos"])
+    B --> D(["Transformação em Valor"])
+    C --> D
+    D --> E(["Proposta de Valor Final"])
 ```
 
 ---
 
-## 1. Recursos Físicos 🏗️
-
-Ativos tangíveis necessários para a operação.
-- Instalações fabris.
-- Veículos.
-- Pontos de venda.
-- Máquinas e sistemas de TI.
-Ex: Amazon tem armazéns gigantescos.
+## 4. O Fluxo de Recursos (Mermaid) 🌊
 
 ---
 
-## 2. Recursos Intelectuais 🧠
+---
 
-Ativos intangíveis que podem ser protegidos.
-- Marcas.
-- Patentes e direitos autorais.
-- Conhecimentos proprietários.
-- Bancos de dados de clientes.
-Ex: A fórmula da Coca-cola, a marca Nike.
+## 5. Inventário de Ativos (Termynal) 💻
+
+Seu negócio tem o que precisa para rodar hoje?
 
 ---
 
-## 3. Recursos Humanos 👥
+## 5. Inventário de Ativos (Termynal) 💻
 
-Especialmente importantes em indústrias criativas, intensivas em conhecimento e de serviços.
-- Especialistas técnicos.
-- Designers.
-- Cientistas.
-Ex: Equipe de engenharia do Google.
-
----
-
-## 4. Recursos Financeiros 💰
-
-Garantias financeiras ou linhas de crédito necessárias.
-- Dinheiro em caixa.
-- Opções de ações (Stock options).
-- Empréstimos bancários.
-Ex: Startups de tecnologia precisam de capital intensivo inicial.
+```termynal
+$ recursos --inventario
+> Analisando infraestrutura... [OK]
+> Verificando equipe técnica... [EM FALTA]
+> Checando reserva financeira... [12 MESES]
+> Diagnóstico: Seu maior risco hoje é a falta de RECURSO HUMANO especializado.
+> Dica: Foque em contratação ou parcerias técnicas!
+```
 
 ---
 
-## Próprios vs Alugados 🏠
-
-Uma empresa não precisa ser dona de todos os recursos.
-- **Alugados:** Reduz investimetno inicial (CAPEX), aumenta flexibilidade.
-- **Próprios:** Maior controle a longo prazo, ativo da empresa.
+## 5. Inventário de Ativos (Termynal) 💻
 
 ---
 
-## Recursos como Vantagem Competitiva 🛡️
+---
 
-O recurso deve ser difícil de copiar pelos concorrentes para gerar uma vantagem real. (VRIO framework).
+## 6. Aprofundamento: Gestão Ágil de Ativos e Capital Humano 🧠
+
+Recursos não são apenas físicos. A alocação ótima do Capital Humano, protegendo as informações fundamentais e direitos de Propriedade Intelectual (PI), é vital a médio prazo. A abordagem *asset-light* (como ter servidores em nuvem, não comprar frotas – sublocar) reflete uma maturidade estratégica onde se prefere o OPE6 (Despesas Operacionais flexíveis) ao CAPE6 (Despesas de Capital pesadas) para facilitar o pivot das operações.
 
 ---
 
-## A Importância do Branding 🏷️
+---
 
-A marca é um dos recursos intelectuais mais valiosos. Ela reduz o esforço de venda e aumenta a confiança do cliente.
+## 7. Mini-Projeto: Mapeando Ativos 🚀
+
+Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
+1.  Liste 2 **Recursos Físicos** essenciais.
+2.  Qual seria o **Recurso Intelectual** mais importante (ex: uma receita secreta)?
+3.  Quantas pessoas seriam o "mínimo viável" para começar (**Recursos Humanos**)?
 
 ---
 
-## Dados como Recurso Moderno 📊
+---
 
-No mundo digital, o histórico de comportamento do cliente é o "novo petróleo". Permite prever vendas e personalizar ofertas.
+## 8. Exercício de Fixação 🧠
+
+1.  Explique a diferença entre recursos físicos e recursos intelectuais.
+2.  Por que em uma empresa de software o recurso humano é frequentemente o mais valioso?
+3.  Dê um exemplo de um negócio onde o recurso financeiro é o diferencial competitivo principal.
 
 ---
 
-## Gestão de Ativos Físicos 🛠️
+---
 
-Manutenção, depreciação e renovação de máquinas. Recursos físicos quebram e tornam-se obsoletos.
+## 8. Exercício de Fixação 🧠
+
+!!! info "Dica"
+    Identifique o seu "Ponto Crítico": Qual recurso, se faltar hoje, faz seu negócio parar imediatamente? Esse é o seu recurso mais essencial.
 
 ---
 
-## Retenção de Talentos (Recurso Humano) 🤝
+---
 
-Como manter as mentes brilhantes na sua empresa? O recurso humano "vai para casa todo dia" e pode não voltar.
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## Propriedade Intelectual (PI) 📜
+---
 
-A proteção legal de recursos intelectuais via patentes impede que a concorrência use sua inovação.
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 13](../../exercicios/exercicio-13.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 13](../../projetos/projeto-13.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Quem pode te ajudar? [Parceiros-chave e Alianças Estratégicas](../../aulas/aula-14.md) 🤝
 
 ---
 
-## O Papel do Capital de Giro 💸
+## Discussão Aberta 1
 
-Recurso financeiro vital para pagar as contas enquanto o dinheiro das vendas não entra.
-
----
-
-## Recursos em Negócios Digitais 💻
-
-Menos gasto com recursos físicos, mais investimento em recursos intelectuais (Código) e humanos (Devs).
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Escalabilidade e Recursos 📈
+## Discussão Aberta 2
 
-Um bom recurso permite que o negócio cresça sem que os custos subam de forma explosiva.
-
----
-
-## Resumo da Aula 📝
-
-- Definição de Recursos Essenciais.
-- As 4 categorias: Físicos, Intelectuais, Humanos e Financeiros.
-- Recursos próprios vs tercerizados.
-- Vantagem estratégica.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Próximo Passo 👣
+<!-- .slide: class="center" -->
 
-Na próxima aula, vamos falar sobre quem nos ajuda a obter esses recursos: **Parceiros-chave e Alianças**.
+# FIM DA AULA 13
 
----
-
-## Desafio: O Recurso da Disney 🏰
-
-Qual o recurso inteletual MAIS valioso da Disney?
-É o parque físico? São os personagens e marcas (Mickey, Marvel)? Ou são os funcionários?
-(Dica: O que acontece se destruírem o parque, mas eles mantiverem os direitos das marcas?)
+### Obrigado!

@@ -68,7 +68,13 @@ O **Churn** é a taxa de clientes que param de comprar de você.
 
 ---
 
-## 6. Mini-Projeto: Estratégia de Retenção 🚀
+## 6. Aprofundamento: Cohort Analysis e Churn Rate 💔
+
+Relacionar-se inclui metrificar retenção. O **Churn Rate** mede a taxa de cancelamento ou evasão de clientes. O aprofundamento analítico utiliza a análise de **Cohorts** (grupos de usuários que iniciaram juntos) para detectar em qual semana exata os usuários desistem da plataforma, permitindo intervir com automação de marketing pontual (ex: réguas de relacionamento, onboarding contínuo e Customer Success proativo).
+
+---
+
+## 7. Mini-Projeto: Estratégia de Retenção 🚀
 
 Imagine um **App de Academia**.
 1.  Qual seria o tipo de relacionamento principal (ex: Manual ou Automatizado)?
@@ -77,7 +83,7 @@ Imagine um **App de Academia**.
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Explique a diferença entre assistência pessoal e personalizada.
 2.  O que é Co-criação e como ela gera valor para a empresa?
@@ -89,5 +95,13 @@ Imagine um **App de Academia**.
     Um bom relacionamento transforma clientes em **fãs**. Fãs perdoam erros pequenos e defendem sua marca de graça.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 11](../exercicios/exercicio-11.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 11](../projetos/projeto-11.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: O que você faz todo dia? [Atividades-chave do Negócio](./aula-12.md) ⚙️

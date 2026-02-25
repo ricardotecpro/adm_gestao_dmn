@@ -1,72 +1,82 @@
-# Quiz 12 - Introdução ao React ⚛️
-# Quiz 12 - Atividades-chave do Negócio 🛠️
+# Quiz 12 - Atividades-chave
 
-1. O que são as "Atividades-chave" no Business Model Canvas?
-    - [ ] As atividades de lazer que os funcionários fazem no fim de semana
-    - [x] As ações mais importantes que uma empresa deve realizar para que seu modelo de negócio funcione
-    - [ ] As reuniões diárias entre os sócios da empresa
-    - [ ] A lista de feriados que a empresa deve respeitar
-    *Explicação: Se essas atividades pararem, a Proposta de Valor não é entregue e o negócio quebra.*
+1. O que melhor define a matriz principal do tema 'Atividades-chave'?
 
-2. Quais são as três categorias principais de Atividades-chave?
-    - [ ] Vender, Cobrar e Entregar
-    - [x] Produção, Resolução de Problemas e Plataforma/Rede
-    - [ ] Cadastro, Pagamento e Logout
-    - [ ] Contratação, Treinamento e Demissão
-    *Explicação: Elas variam dependendo se o negócio fabrica algo, presta serviço ou mantém um software.*
+    - [ ] Apenas o acúmulo financeiro no curto prazo.
+    - [x] O foco centrado em resolver fricções reais de forma sustentável e escalável.
+    - [ ] A cópia integral de modelos de negócios gringos e gigantes.
+    - [ ] Trabalhar isoladamente sem precisar interagir com clientes ou inovações.
+    > Explicação: A essência de gestão nos negócios foca sempre em solucionar dores (fricções reais) de maneira que possa crescer sustentavelmente sem ruptura.
 
-3. Uma fábrica de sapatos foca principalmente em qual categoria de atividade?
-    - [ ] Resolução de Problemas
-    - [x] Produção (Design, fabricação, qualidade)
-    - [ ] Manutenção de Plataforma
-    - [ ] Publicidade enganosa
-    *Explicação: O foco é a transformação de matéria-prima em produtos de alta escala.*
+2. Na fase avançada deste tema, o principal erro estratégico a evitar é:
 
-4. Uma consultoria jurídica foca principalmente em qual categoria de atividade?
-    - [ ] Produção em massa de sapatos
-    - [x] Resolução de Problemas (Soluções customizadas para cada cliente)
-    - [ ] Manutenção de servidores de internet
-    - [ ] Entrega de pizzas a domicílio
-    *Explicação: O valor está no conhecimento intelectual aplicado a problemas específicos.*
+    - [x] Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.
+    - [ ] Dialogar ativamente e pesquisar profundamente seu usuário foco.
+    - [ ] Usar métricas tangíveis em planilhas para guiar o negócio.
+    - [ ] Iterar de forma ágil adaptando seu modelo.
+    > Explicação: A mortalidade das empresas está atrelada em 'tentar vender sem validar', saltando as validações intrínsecas necessárias para preencher os gargalos.
 
-5. Para o Facebook ou Uber, a Atividade-chave principal é:
-    - [ ] Fabricar carros ou computadores
-    - [x] Gestão e Manutenção da Plataforma/Rede
-    - [ ] Fazer consultoria individual para cada usuário
-    - [ ] Vender produtos físicos em lojas de shopping
-    *Explicação: O negócio só existe se a plataforma tecnológica estiver estável, segura e conectando pessoas.*
+3. Marque a alternativa que descreve a melhor adaptação tecnológica em Atividades-chave:
 
-6. Qual a relação entre Atividades-chave e Proposta de Valor?
-    - [ ] Não existe relação, são blocos independentes
-    - [x] As atividades-chave são as engrenagens que criam e sustentam a Proposta de Valor
-    - [ ] As atividades-chave devem ser feitas apenas após vender o produto
-    - [ ] A proposta de valor é o que o dono faz, atividades-chave é o que o estagiário faz
-    *Explicação: Se você promete "entrega em 30 min", sua logística é uma atividade-chave crítica.*
+    - [ ] Acreditar que a tecnologia de ponta substitui todo modelo de negócios.
+    - [ ] Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.
+    - [x] Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.
+    - [ ] Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.
+    > Explicação: O modelo de negócios atua viabilizado pelas novas frentes em nuvem integrando APIs fluídas ao invés de codificar tudo em silos mortos com alto custo (Asset-Light).
 
-7. Por que identificar as Atividades-chave ajuda na redução de custos?
-    - [ ] Porque você pode parar de trabalhar e economizar energia
-    - [x] Permite focar recursos no que é essencial e avaliar se o que não é essencial pode ser terceirizado
-    - [ ] Ajuda a saber quais funcionários devem ganhar menos
-    - [ ] Permite cobrar mais caro do cliente final
-    *Explicação: Ao saber o que é o "corpo" do negócio, você para de gastar energia com o que é supérfluo.*
+4. Relacionado às métricas de acompanhamento em 'Atividades-chave', o que devemos olhar agressivamente?
 
-8. O Marketing e as Vendas podem ser considerados atividades-chave?
-    - [ ] Nunca, são apenas despesas extras
-    - [x] Sim, em muitos modelos de negócio a aquisição de clientes é a atividade mais crítica para sobreviver
-    - [ ] Somente se o dono da empresa for vendedor
-    - [ ] Apenas se a empresa não tiver um bom produto
-    *Explicação: Para uma seguradora ou empresa de cursos online, o marketing é o "motor" do negócio.*
+    - [ ] O número absoluto de curtidas estáticas nas mídias base.
+    - [ ] As horas inativas passivas não registradas na folha-ponto da equipe logada.
+    - [x] Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.
+    - [ ] A velocidade da fofoca corporativa em relação as corporações focadas gigantes.
+    > Explicação: A métrica principal nas amarras contábeis de tech startups exige dominar os indicadores chaves tangíveis perenes fidedignos da retenção, ignorando amarras de puras 'Métricas de Vaidades'.
 
-9. Qual o perigo de uma empresa ter Atividades-chave demais?
-    - [ ] Ela ficará rica muito rápido
-    - [x] Falta de foco, excesso de complexidade e perda de eficiência operacional
-    - [ ] Os clientes acharão a empresa esforçada demais
-    - [ ] O governo cobrará mais impostos por cada atividade nova
-    *Explicação: Quem tenta ser excelente em TUDO geralmente não é mestre em NADA.*
+5. Em 'Atividades-chave', o termo 'Escalabilidade' se refere a:
 
-10. Em um modelo de "Franquia", a Atividade-chave do franqueador é:
-    - [ ] Fritar o hambúrguer em cada loja todo dia
-    - [x] Gestão da marca e desenvolvimento do modelo de operação (know-how)
-    - [ ] Limpar o chão das lojas nos fins de semana
-    - [ ] Atender o telefone de todos os clientes finais
-    *Explicação: O franqueador vende o "sistema de sucesso", não o produto final diretamente.*
+    - [ ] Subir as escadas corporativas fidedignas engessadas corporativas inativas.
+    - [x] Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.
+    - [ ] Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.
+    - [ ] Diminuir atratividade no fluxo perene na busca inativa atipica global.
+    > Explicação: Escalar não é inchar inchar fisicamente! Escalar num plano robusto trata de separar a alta na Margem com uma curva minúscula de Custo operacional viabilizando massificações.
+
+6. Sobre a perenidade contínua do negócio em 'Atividades-chave', o ideal atestado no mercado atual aponta para:
+
+    - [ ] Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.
+    - [ ] Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.
+    - [x] Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.
+    - [ ] Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.
+    > Explicação: Os dinâmicos ecossistemas requerem sempre fluidez (SaaS Cloud, parcerias atestáveis na cadeia da web) visando isolar o engessamento passado obsoleto e pautando viés rentável.
+
+7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Atividades-chave' num planejamento rígido tradicional?
+
+    - [x] Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.
+    - [ ] Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.
+    - [ ] Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.
+    - [ ] Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.
+    > Explicação: Hipóteses matam os planos cegos! A não validação empírica queima todo o RunWay em frentes obscenas baseadas no delírio do fundador antes de testar a tese pura (Premissa Lean).
+
+8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Atividades-chave'?
+
+    - [ ] Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.
+    - [x] Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.
+    - [ ] Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.
+    - [ ] Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.
+    > Explicação: Focar e atacar onde a energia cessa (Gargalo - Teoria das Restrições) determina o fluxo. Nenhuma organização melhora até o nó ser aliviado pela logística integrada.
+
+9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?
+
+    - [ ] Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.
+    - [ ] O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.
+    - [x] Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.
+    - [ ] Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.
+    > Explicação: Empreender cria os Fossos ('Moats'), isolando os gigantes copiadores em barreiras formadas por marcas fortes, propriedade intelectual fechada e patentes inatas ou eficiências exclusivas puristas.
+
+10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Atividades-chave' atrelado na era ágil?
+
+    - [x] Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.
+    - [ ] Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.
+    - [ ] Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.
+    - [ ] Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.
+    > Explicação: Amar o Problema (A dor real, as fricções tangíveis da sociedade do público alvo) perpetua e sustenta sua evolução. Amar a solução fixa engessa sua ótica e culmina no colapso do encerramento corporativo da inovação vital!
+

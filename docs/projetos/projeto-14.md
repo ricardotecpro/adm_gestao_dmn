@@ -1,12 +1,38 @@
-# Projeto 14 - Mapa de Parceiros 🤝
+# Projeto 14 - Ecossistema Infinito 🚀
 
-## Objetivo
-Visualizar a rede de colaboração externa necessária para otimizar o modelo de negócio e reduzir riscos.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Projeção de simbiose com APIs de terceiros e prospecção de Joint Ventures.
 
-## Atividades
-1. **Lista de Fornecedores**: Identifique quem seriam seus fornecedores de insumos críticos.
-2. **Aliança Estratégica**: Proponha uma parceria com uma empresa que atenda ao mesmo público que você, mas não seja sua concorrente direta.
-3. **Acordo de Nível de Serviço (SLA)**: Liste 3 regras básicas que o seu principal parceiro deve seguir para garantir a qualidade do seu negócio.
+---
 
-## Entrega
-O mapa de parceiros e a descrição da aliança estratégica proposta.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 14](../aulas/aula-14.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 14
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 14](../exercicios/solucao-14.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

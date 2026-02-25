@@ -1,101 +1,177 @@
-# Aula 10 - Controle de Acesso (RBAC) 🛡️
-## Hierarquia e Segurança em Camadas
+<!-- .slide: class="center" -->
+
+# Aula 10 - Canais de Comunicação e Distribuição 🚢
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. O que é RBAC? (Roles) <!-- .element: class="fragment" -->
-2. Autenticação vs Autorização <!-- .element: class="fragment" -->
-3. O Fluxo do Middleware <!-- .element: class="fragment" -->
-4. Erros 401 vs 403 <!-- .element: class="fragment" -->
-5. Protegendo rotas na prática <!-- .element: class="fragment" -->
-6. Hierarquia de Perfis <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. Role-Based Access Control 👑
+## 1. O que são Canais? 🗺️
 
-- Permissões ligadas a **Perfis** (Roles). <!-- .element: class="fragment" -->
-- Ex: ADMIN, EDITOR, VIEWER. <!-- .element: class="fragment" -->
-- Facilita a gestão de milhares de usuários. <!-- .element: class="fragment" -->
+Os canais são os pontos de contato entre a empresa e o cliente. Eles servem como os "braços" do negócio para entregar valor e capturar feedback.
 
----
-
-## 2. A Cancela (Middleware) 🚧
-
-- O middleware checa se o usuário tem a "chave" certa. <!-- .element: class="fragment" -->
-- Se não tiver -> 403 Forbidden. <!-- .element: class="fragment" -->
-- Se tiver -> `next()`. <!-- .element: class="fragment" -->
+### Funções dos Canais:
+1.  **Descoberta**: Como o cliente fica sabendo que existimos?
+2.  **Avaliação**: Como ajudamos o cliente a escolher nossa proposta?
+3.  **Compra**: Por onde ele paga e fecha o pedido?
+4.  **Entrega**: Como o produto/serviço chega até ele?
+5.  **Pós-venda**: Como oferecemos suporte após a compra?
 
 ---
 
-## 3. O Fluxo de Segurança 🌊
+## 1. O que são Canais? 🗺️
+
+---
+
+---
+
+## 2. Tipos de Canais 📦
+
+Os canais podem ser divididos entre diretos e indiretos:
+
+| Tipo | Exemplos | Prós | Contras |
+| :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> |
+| **Direto** | Site oficial, Loja Própria, Venda Direta. | Margem maior, controle total. | Custo de aquisição alto. |
+| **Indireto** | Marketplace (Amazon, App Store), Atacado. | Grande alcance, confiança. | Margem menor, zero controle. |
+
+---
+
+## 2. Tipos de Canais 📦
+
+---
+
+---
+
+## 3. O Funil de Multicanais (Mermaid) 🌪️
+
+A jornada do cliente muitas vezes passa por vários canais antes da compra final.
+
+---
+
+## 3. O Funil de Multicanais (Mermaid) 🌪️
 
 ```mermaid
-graph LR
-    Req[Request] --> Auth[Autenticação]
-    Auth --> |OK| Role[Autorização]
-    Role --> |OK| Controller[Recurso Final]
+graph TD
+    A(["Instagram (Descoberta)"]) --> B(["Site/Blog (Avaliação)"])
+    B --> C(["WhatsApp (Venda/Suporte)"])
+    C --> D(["E-mail (Entrega do Produto)"])
+    D --> E(["Newsletter (Pós-Venda)"])
 ```
 
 ---
 
-## 4. 401 vs 403: Não confunda! ❌
-
-- **401 (Unauthorized)**: "Quem é você?". Token inválido ou ausente. <!-- .element: class="fragment" -->
-- **403 (Forbidden)**: "Eu sei quem você é, mas não deixo entrar". Falta de permissão. <!-- .element: class="fragment" -->
+## 3. O Funil de Multicanais (Mermaid) 🌪️
 
 ---
 
-## 5. Implementação Dinâmica 🔒
+---
 
-```javascript
-// Middleware genérico
-router.delete('/usuario/:id', 
-    autenticar, 
-    autorizar(['ADMIN']), 
-    userController.remover
-);
+## 4. Estratégia Omnichannel 🔄
+
+Ser **Omnichannel** significa oferecer uma experiência integrada em todos os canais. O cliente pode começar a compra no site e retirar na loja física sem frustração.
+
+---
+
+---
+
+## 5. Validando seus Canais (Termynal) 💻
+
+Como saber se você está usando os canais certos?
+
+---
+
+## 5. Validando seus Canais (Termynal) 💻
+
+```termynal
+$ canais --scan-efficiency
+> Verificando Canal: Instagram... [ALTO ALCANCE]
+> Verificando Canal: E-mail... [ALTA CONVERSÃO]
+> Verificando Logística... [LENTA]
+> Alerta: Seu gargalo está na ENTREGA! Melhore seus parceiros de logística.
 ```
 
 ---
 
-## 6. Hierarquia de Acesso 🏛️
-
-- Um Admin deve poder acessar rotas de User? <!-- .element: class="fragment" -->
-- Design de sistema: Roles "Pai" e "Filho". <!-- .element: class="fragment" -->
+## 5. Validando seus Canais (Termynal) 💻
 
 ---
 
-## 7. Melhores Práticas 🏆
+---
 
-- Centralize a lógica em Middlewares. <!-- .element: class="fragment" -->
-- Nunca exponha permissões sensíveis no frontend (segurança do lado do servidor). <!-- .element: class="fragment" -->
+## 6. Aprofundamento: Estratégias Omnichannel e CAC vs. Canal 📱
+
+A maturidade em canais requer transitar do modelo Multicanal para o **Omnichannel**, onde a experiência do usuário é contínua e integrada em todos os pontos de contato físicos e digitais. Além disso, a gestão intermediária acompanha minuciosamente a eficiência de cada funil, descartando canais cujo CAC seja insustentável e escalando os canais que trazem os Early Adopters com maior retenção.
 
 ---
 
-## Desafio: Segurança ⚡
+---
 
-Em um sistema escolar, o Diretor e o Professor podem ver notas. O Aluno só vê as dele. Como você configuraria a Role da rota `GET /notas`?
+## 7. Mini-Projeto: Desenhando a Jornada 🚀
+
+1.  Pense em um serviço (ex: Curso de Inglês Online).
+2.  Defina 1 canal para **Descoberta**.
+3.  Defina 1 canal para **Venda**.
+4.  Como você faria o **Pós-venda** para garantir que o aluno continue satisfeito?
 
 ---
 
-## Resumo ✅
+---
 
-- RBAC organiza permissões por grupos. <!-- .element: class="fragment" -->
-- Middlewares são os guardiões das rotas. <!-- .element: class="fragment" -->
-- Diferenciar 401 de 403 é vital para Debug. <!-- .element: class="fragment" -->
+## 8. Exercício de Fixação 🧠
+
+1.  Diferencie canal direto de canal indireto.
+2.  Quais são as 5 fases de um canal segundo o Business Model Canvas?
+3.  O que significa uma estratégia **Omnichannel** na prática?
 
 ---
 
-## Próxima Aula: Segurança Avançada 🏗️
+---
 
-### Session vs Token e Refresh Tokens
+## 8. Exercício de Fixação 🧠
 
-- O que fazer quando o token expira? <!-- .element: class="fragment" -->
-- Protegendo contra ataques comuns (XSS, CSRF). <!-- .element: class="fragment" -->
+!!! info "Dica"
+    O melhor canal é aquele onde o seu cliente já está. Não tente forçar o cliente a usar um canal que ele não gosta.
 
 ---
 
-## Dúvidas? 🛡️
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 10](../exercicios/exercicio-10.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 10](../projetos/projeto-10.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Como manter esse cliente perto de você? [Relacionamento com o Cliente](../aulas/aula-11.md) 🤝
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 10
+
+### Obrigado!

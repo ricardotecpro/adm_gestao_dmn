@@ -1,19 +1,23 @@
-# Exercícios 08 - Segmentação e Público-Alvo 🎯
+# Exercícios 08 - Segmentação de Clientes 🧩
 
 ## 🟢 Fáceis
 
-1. **Segmentação**: Por que não é recomendado tentar vender para "todo mundo" ao iniciar um negócio?
-2. **Critérios**: Cite os 4 principais critérios de segmentação de mercado (Geográfico, etc).
+1. O que significa nichar um mercado e as vantagens desta restrição?
+2. Tratar características demográficas sozinhas atesta resultados plenos para startups? Por quê? 
 
 ## 🟡 Médios
 
-3. **Persona**: Qual a diferença entre "Público-alvo" e "Persona"? Por que a Persona é mais detalhada?
-4. **Nicho**: Como um pequeno empreendedor pode usar a segmentação por nicho para vencer uma grande empresa?
+3. Construa e diferencie a essência de Público-alvo versus da Persona Analítica Ideal.
+4. Exemplifique B2B e B2C determinando quem efetua a ação vital de compra corporativa.
 
 ## 🔴 Desafio
 
-5. **Mapa de Empatia**:
-    Crie uma Persona para um serviço de "Marmitas Fitness para pessoas que trabalham 10h por dia".
-    * Nome, idade e profissão.
-    * O que ela pensa e sente em relação à alimentação atual?
-    * Qual a principal "Dor" dela que seu serviço vai resolver?
+5. O framework Intermediário 'Job To Be Done (JTBD)' inverte as lógicas do marketing e as personas engessadas e cegas faturadas globalmente pelo sistema demográfico. Desenvolva através da explicação com uma furadeira qual seria na realidade a tarefa subjacente.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-08.md)**

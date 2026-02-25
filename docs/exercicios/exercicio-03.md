@@ -1,19 +1,23 @@
-# Exercícios 03 - Análise de Valor e Sustentabilidade 💎
+# Exercícios 03 - Análise de Valor 🧩
 
 ## 🟢 Fáceis
 
-1. **Conceito**: Qual a diferença entre "Preço" e "Valor" na perspectiva do cliente?
-2. **ESG**: O que significa a sigla ESG e por que ela é importante para as empresas modernas?
+1. O que significa 'Percepção de Valor' pelo cliente?
+2. Qual é a relação entre preço, custo e valor na confecção de um produto?
 
 ## 🟡 Médios
 
-3. **Sustentabilidade**: Como uma empresa pode ser lucrativa e sustentável ao mesmo tempo? Dê um exemplo prático.
-4. **Elementos de Valor**: Liste 4 elementos que podem agregar valor a um produto físico (ex: design, marca, etc).
+3. Se uma empresa inova mas o cliente não percebe melhoria na usabilidade, houve entrega de valor? Por quê?
+4. Apresente os três pilares que sustentam uma Proposta de Valor imbatível.
 
 ## 🔴 Desafio
 
-5. **Análise de Impacto**:
-    Escolha uma empresa que utiliza a estratégia de "Oceano Azul".
-    * Qual era o "Oceano Vermelho" (competição) que a empresa evitava?
-    * Qual foi a inovação de valor que criou o "Oceano Azul"?
-    * Como essa mudança impactou a sustentabilidade do negócio a longo prazo?
+5. Explique a dinâmica do CAC e do LTV. Demonstre matematicamente por que um negócio cujo LTV seja 3x maior que o CAC tem uma análise de valor robusta.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-03.md)**

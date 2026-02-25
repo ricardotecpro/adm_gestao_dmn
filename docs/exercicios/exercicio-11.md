@@ -1,18 +1,23 @@
-# Exercícios 11 - Relacionamento com o Cliente 🤝
+# Exercícios 11 - Relacionamento com Cliente 🧩
 
 ## 🟢 Fáceis
 
-1. **Retenção**: Por que manter um cliente antigo é mais barato do que conquistar um novo?
-2. **NPS**: O que é a métrica NPS e como ela ajuda a medir o relacionamento?
+1. Como é percebida uma relação Autoatendimento e que benefício tem para startups iniciais do cenário SAAS?
+2. No extremo adverso, para mercados Ultra High Tickets ou B2B Complexos que relacionamento se opera?
 
 ## 🟡 Médios
 
-3. **Categorias**: Diferencie o relacionamento de "Self-service" do de "Assistência Pessoal". Dê um exemplo de cada.
-4. **Co-criação**: Como uma empresa como a LEGO usa a co-criação para fortalecer o vínculo com os fãs?
+3. A cocriação vem a fortalecer bases. Exemplifique cocriações.
+4. Fidelidade e Retenção custam muito mais do que Captação agressiva? Expresse o racional comum vital do Marketing.
 
 ## 🔴 Desafio
 
-5. **Plano de Relacionamento**:
-    Uma academia percebeu que muitos alunos desistem após o 3º mês (Churn alto).
-    * Crie 2 estratégias de relacionamento para **Retenção** desses alunos.
-    * Como a tecnologia (App/WhatsApp) poderia ajudar a automatizar esse relacionamento sem perder a pessoalidade?
+5. No nível profundo analítico como Cohort Analysis e a mensuração ativa de Churn Rate (Evasões) protegem os ativos contábeis antes das falências irrevesíveis dos Modelos de Negócios e qual atuação é empregada por analistas CS (Customer Success) e Onboardings baseados nas matrizes do software de relacionamento reativo intermediário SaaS.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-11.md)**

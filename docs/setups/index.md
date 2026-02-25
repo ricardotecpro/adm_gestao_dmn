@@ -1,6 +1,6 @@
 # Ambientes de Desenvolvimento 🛠️
 
-Guias para configurar seu computador para o desenvolvimento mobile.
+Guias para configurar seu computador para o desenvolvimento de produtos e gestão.
 
 <div class="grid cards" markdown>
 

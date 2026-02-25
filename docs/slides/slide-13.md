@@ -1,89 +1,177 @@
-# Aula 13 - Estado e Hooks 🎣
-## Tornando seu App Interativo
+<!-- .slide: class="center" -->
+
+# Aula 13 - Recursos Essenciais e Infraestrutura 🧩
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. O que é o Estado (State)? <!-- .element: class="fragment" -->
-2. Hook `useState` <!-- .element: class="fragment" -->
-3. Lidando com Cliques e Eventos <!-- .element: class="fragment" -->
-4. Inputs Controlados <!-- .element: class="fragment" -->
-5. Imutabilidade e Arrays <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. O Problema da Estática 🧱
+## 1. O que são Recursos Essenciais? 🏗️
 
-- Variáveis comuns mudam nos bastidores... <!-- .element: class="fragment" -->
-- ...mas a tela continua a mesma! <!-- .element: class="fragment" -->
-- O React precisa de um sinal para re-desenhar. <!-- .element: class="fragment" -->
+Os recursos essenciais são os ativos mais importantes requeridos para fazer um modelo de negócio funcionar. Eles permitem que a empresa crie e ofereça uma Proposta de Valor, alcance mercados e mantenha relacionamentos.
 
 ---
 
-## 2. useState: O Motor de Mudança 🚀
+---
 
-```jsx
-const [cont, setCont] = useState(0);
+## 2. As Quatro Categorias de Recursos 📂
+
+Todo negócio precisa de uma combinação desses quatro tipos de recursos:
+
+1.  **Físicos**: Ativos tangíveis, como instalações de fabricação, edifícios, veículos, sistemas de ponto de venda e redes de distribuição.
+2.  **Intelectuais**: Ativos intangíveis, como marcas, conhecimento proprietário, patentes, direitos autorais e bancos de dados de clientes.
+3.  **Humanos**: As pessoas são cruciais em todos os modelos de negócio, mas são particularmente importantes em indústrias criativas e de conhecimento intenso (ex: consultorias).
+4.  **Financeiros**: Recursos financeiros e/ou garantias financeiras, como dinheiro, linhas de crédito ou opções de ações.
+
+---
+
+## 2. As Quatro Categorias de Recursos 📂
+
+---
+
+---
+
+## 3. Posse vs. Acesso ⚖️
+
+Um recurso essencial não precisa necessariamente ser de propriedade da empresa; ele pode ser alugado ou obtido por meio de parceiros.
+
+- <!-- .element: class="fragment" --> **Próprio**: Maior controle, custo fixo inicial alto.
+- <!-- .element: class="fragment" --> **Alugado/Terceirizado**: Menor controle, maior flexibilidade e custos variáveis.
+
+---
+
+## 3. Posse vs. Acesso ⚖️
+
+---
+
+---
+
+## 4. O Fluxo de Recursos (Mermaid) 🌊
+
+```mermaid
+graph LR
+    A(["Aquisição de Insumos"]) --> B(["Recursos Físicos"])
+    A --> C(["Recursos Humanos"])
+    B --> D(["Transformação em Valor"])
+    C --> D
+    D --> E(["Proposta de Valor Final"])
 ```
 
-1. **cont**: O valor atual. <!-- .element: class="fragment" -->
-2. **setCont**: A função que atualiza. <!-- .element: class="fragment" -->
-3. **0**: O ponto de partida. <!-- .element: class="fragment" -->
+---
+
+## 4. O Fluxo de Recursos (Mermaid) 🌊
 
 ---
 
-## 3. Eventos no React ⚡
+---
 
-- `onClick={funcao}` <!-- .element: class="fragment" -->
-- `onChange={(e) => ...}` <!-- .element: class="fragment" -->
-- Sempre em **CamelCase**! <!-- .element: class="fragment" -->
+## 5. Inventário de Ativos (Termynal) 💻
+
+Seu negócio tem o que precisa para rodar hoje?
 
 ---
 
-## 4. Inputs Controlados ⌨️
+## 5. Inventário de Ativos (Termynal) 💻
 
-- O React é quem manda no valor do input. <!-- .element: class="fragment" -->
-- `value={estado}` + `onChange`. <!-- .element: class="fragment" -->
-- Facilita validação e limpeza de campos. <!-- .element: class="fragment" -->
-
----
-
-## 5. Imutabilidade (Muito Importante!) 💎
-
-- Nunca altere o estado original: `lista.push(x)` ❌ <!-- .element: class="fragment" -->
-- Sempre crie uma cópia nova: `setLista([...lista, x])` ✅ <!-- .element: class="fragment" -->
+```termynal
+$ recursos --inventario
+> Analisando infraestrutura... [OK]
+> Verificando equipe técnica... [EM FALTA]
+> Checando reserva financeira... [12 MESES]
+> Diagnóstico: Seu maior risco hoje é a falta de RECURSO HUMANO especializado.
+> Dica: Foque em contratação ou parcerias técnicas!
+```
 
 ---
 
-## 6. Fluxo de Dados 🌊
-
-- O estado flui do Pai para o Filho via Props. <!-- .element: class="fragment" -->
-- Se o estado do Pai muda, todo mundo abaixo dele atualiza. <!-- .element: class="fragment" -->
+## 5. Inventário de Ativos (Termynal) 💻
 
 ---
 
-## Desafio de Estado ⚡
+---
 
-Se eu tenho um botão que soma +1 ao contador, o que acontece com a interface se eu esquecer de importar o `useState` e usar uma variável global `let contador = 0`?
+## 6. Aprofundamento: Gestão Ágil de Ativos e Capital Humano 🧠
+
+Recursos não são apenas físicos. A alocação ótima do Capital Humano, protegendo as informações fundamentais e direitos de Propriedade Intelectual (PI), é vital a médio prazo. A abordagem *asset-light* (como ter servidores em nuvem, não comprar frotas – sublocar) reflete uma maturidade estratégica onde se prefere o OPE6 (Despesas Operacionais flexíveis) ao CAPE6 (Despesas de Capital pesadas) para facilitar o pivot das operações.
 
 ---
 
-## Resumo ✅
+---
 
-- `useState` traz vida aos componentes. <!-- .element: class="fragment" -->
-- Mudança de estado = Re-renderização. <!-- .element: class="fragment" -->
-- Use sempre funções disparadoras (`set...`). <!-- .element: class="fragment" -->
+## 7. Mini-Projeto: Mapeando Ativos 🚀
+
+Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
+1.  Liste 2 **Recursos Físicos** essenciais.
+2.  Qual seria o **Recurso Intelectual** mais importante (ex: uma receita secreta)?
+3.  Quantas pessoas seriam o "mínimo viável" para começar (**Recursos Humanos**)?
 
 ---
 
-## Próxima Aula: Efeitos e APIs 🌐
+---
 
-### Buscando dados no mundo real!
+## 8. Exercício de Fixação 🧠
 
-- Hook: `useEffect`. <!-- .element: class="fragment" -->
-- Consumindo nossa API Backend. <!-- .element: class="fragment" -->
+1.  Explique a diferença entre recursos físicos e recursos intelectuais.
+2.  Por que em uma empresa de software o recurso humano é frequentemente o mais valioso?
+3.  Dê um exemplo de um negócio onde o recurso financeiro é o diferencial competitivo principal.
 
 ---
 
-## Dúvidas? 🎣
+---
+
+## 8. Exercício de Fixação 🧠
+
+!!! info "Dica"
+    Identifique o seu "Ponto Crítico": Qual recurso, se faltar hoje, faz seu negócio parar imediatamente? Esse é o seu recurso mais essencial.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 13](../exercicios/exercicio-13.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 13](../projetos/projeto-13.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Quem pode te ajudar? [Parceiros-chave e Alianças Estratégicas](../aulas/aula-14.md) 🤝
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 13
+
+### Obrigado!

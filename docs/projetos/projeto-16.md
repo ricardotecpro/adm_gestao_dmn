@@ -1,12 +1,38 @@
-# Projeto 16 - Modelo de Negócio Final 🎓
+# Projeto 16 - As Fontes de Ouro 🚀
 
-## Objetivo
-Consolidar todos os aprendizados do curso em um Canvas final validado e pronto para ser apresentado.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Reforma do produto para atrelar Múltiplas Recorrências transacionais ativas no faturamento.
 
-## Atividades
-1. **Revisão Geral**: Revise os 9 blocos do seu Canvas baseando-se nos feedbacks recebidos ao longo das aulas.
-2. **Storytelling**: Escreva um pequeno texto (Pitch) de 2 minutos explicando como seu negócio cria, entrega e captura valor.
-3. **Próximos Passos**: Liste as 3 primeiras ações que você faria amanhã para abrir esse negócio na vida real.
+---
 
-## Entrega
-O Business Model Canvas final (PDF ou Imagem) e o texto do Pitch de vendas.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 16](../aulas/aula-16.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 16
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 16](../exercicios/solucao-16.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

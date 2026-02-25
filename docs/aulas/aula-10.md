@@ -63,7 +63,13 @@ $ canais --scan-efficiency
 
 ---
 
-## 6. Mini-Projeto: Desenhando a Jornada 🚀
+## 6. Aprofundamento: Estratégias Omnichannel e CAC vs. Canal 📱
+
+A maturidade em canais requer transitar do modelo Multicanal para o **Omnichannel**, onde a experiência do usuário é contínua e integrada em todos os pontos de contato físicos e digitais. Além disso, a gestão intermediária acompanha minuciosamente a eficiência de cada funil, descartando canais cujo CAC seja insustentável e escalando os canais que trazem os Early Adopters com maior retenção.
+
+---
+
+## 7. Mini-Projeto: Desenhando a Jornada 🚀
 
 1.  Pense em um serviço (ex: Curso de Inglês Online).
 2.  Defina 1 canal para **Descoberta**.
@@ -72,7 +78,7 @@ $ canais --scan-efficiency
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Diferencie canal direto de canal indireto.
 2.  Quais são as 5 fases de um canal segundo o Business Model Canvas?
@@ -84,5 +90,13 @@ $ canais --scan-efficiency
     O melhor canal é aquele onde o seu cliente já está. Não tente forçar o cliente a usar um canal que ele não gosta.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 10](../exercicios/exercicio-10.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 10](../projetos/projeto-10.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como manter esse cliente perto de você? [Relacionamento com o Cliente](./aula-11.md) 🤝

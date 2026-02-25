@@ -60,7 +60,13 @@ $ parceiro --analisar "Logística Express"
 
 ---
 
-## 6. Mini-Projeto: Mapa de Parceiros 🚀
+## 6. Aprofundamento: Joint Ventures e Alianças API/Economy 🤝
+
+Parcerias vão além da simples relação cliente-fornecedor. Alianças estratégicas (coopetição = colaborar com competidores) e a submissão a ecossistemas interconectados são sinais de maturidade. No mundo digital, as APIs (interfaces de comunicação de software) são as novas 'parcerias': construir sobre a base de terceiros (ex: usar Google Maps API, Stripe para pagamentos), poupando meses de desenvolvimento proprietário e acelerando a entrada no mercado.
+
+---
+
+## 7. Mini-Projeto: Mapa de Parceiros 🚀
 
 Imagine que você está criando um **SaaS (Software como Serviço) para Advogados**.
 1.  Quem seria seu **Parceiro de Infraestrutura** (ex: AWS, Azure)?
@@ -69,7 +75,7 @@ Imagine que você está criando um **SaaS (Software como Serviço) para Advogado
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Explique o conceito de "Coopetição" com um exemplo real.
 2.  Quais são as três motivações principais para se estabelecer uma parceria?
@@ -81,5 +87,13 @@ Imagine que você está criando um **SaaS (Software como Serviço) para Advogado
     Escolher o parceiro errado pode ser tão fatal quanto não ter parceiro algum. Avalie sempre a reputação e o alinhamento de valores antes de assinar um contrato.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 14](../exercicios/exercicio-14.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 14](../projetos/projeto-14.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Quanto custa tudo isso? [Estrutura de Custos do Negócio](./aula-15.md) 💰

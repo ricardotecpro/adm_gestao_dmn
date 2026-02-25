@@ -1,18 +1,23 @@
-# Exercícios 06 - O Plano de Negócios (PN) 📑
+# Exercícios 06 - Plano de Negócios 🧩
 
 ## 🟢 Fáceis
 
-1. **Plano**: Qual a principal finalidade de um Plano de Negócios? Para quem ele costuma ser escrito?
-2. **Seções**: Quais são as 5 seções principais que compõem um PN estruturado?
+1. Por que estruturamos um Plano de Negócios clássico perante investidores bancários?
+2. Destaque os principais componentes do Sumário Executivo.
 
 ## 🟡 Médios
 
-3. **Financeiro**: No plano financeiro, o que representa o "Ponto de Equilíbrio" (Break-even)?
-4. **Marketing**: Diferencie o Plano de Marketing do Plano Operacional. Por que eles não podem ser a mesma coisa?
+3. Como validar uma Projeção de Caixa sem conhecer o futuro? Que medidas usar?
+4. O Plano Operacional ajuda a prever a logística, os insumos essenciais e a real viabilidade do esforço. Qual a essência fundamental nele?
 
 ## 🔴 Desafio
 
-5. **Sumário Executivo**:
-    Pense na sua ideia de negócio.
-    * Escreva um Sumário Executivo de no máximo 10 linhas que seja capaz de convencer um investidor a marcar uma reunião.
-    * O que não pode faltar nesse texto para mostrar que o negócio é viável?
+5. Para modelos ágeis em incerteza, como conciliar o Plano de Negócios Tradicional com a análise de Break-Even dinâmico em cenários desfavoráveis e incertos? Justifique em relação ao cálculo de OPEX e fixos contínuos.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-06.md)**

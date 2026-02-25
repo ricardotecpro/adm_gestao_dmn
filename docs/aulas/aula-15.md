@@ -60,7 +60,13 @@ $ finance --audit-costs
 
 ---
 
-## 6. Mini-Projeto: Calculando o Básico 🚀
+## 6. Aprofundamento: Economia de Escala vs. Escopo e Burn Rate 🔥
+
+Dominar custos implica entender que o crescimento pode trazer a **Economia de Escala** (redução do custo unitário pelo volume) ou **Economia de Escopo** (usar a mesma infraestrutura para vender múltiplos produtos). Para startups, o **Burn Rate** (taxa mensal que a empresa gasta do seu capital investido até virar lucrativa) e a projeção de "Runway" (quantos meses a empresa dura até quebrar) são os indicadores cruciais de sobrevivência e necessidade de novas captações.
+
+---
+
+## 7. Mini-Projeto: Calculando o Básico 🚀
 
 Imagine que você vende **Camisetas Estampadas**.
 1.  O aluguel da sua sala é de R$ 1.000,00 (**Custo Fixo**).
@@ -70,7 +76,7 @@ Imagine que você vende **Camisetas Estampadas**.
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Qual a diferença entre um negócio *Cost-driven* e um *Value-driven*?
 2.  Explique o conceito de "Custos Variáveis" com um exemplo de uma empresa de serviços.
@@ -82,5 +88,13 @@ Imagine que você vende **Camisetas Estampadas**.
     O segredo de um negócio lucrativo é manter os custos fixos baixos e os variáveis sob controle, enquanto se escala a Proposta de Valor.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 15](../exercicios/exercicio-15.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 15](../projetos/projeto-15.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como o dinheiro entra? [Fontes de Receita e Modelos de Ganho](./aula-16.md) 🏆

@@ -1,152 +1,186 @@
-# O Plano de Negócios (PN) 📑
-## Aula 06 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 06 - O Plano de Negócios 💾
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## O que é um Plano de Negócios? 🤔
+## Avisos da Aula
 
-É o documento que descreve os objetivos de um negócio e quais passos devem ser dados para alcançá-los.
-
-<!-- .element: class="fragment" -->
-"Se você não sabe para onde vai, qualquer caminho serve."
-
----
-
-## Por que fazer um PN? 🏗️
-
-1. **Redução de Riscos:** Identificar falhas antes de gastar dinheiro.
-2. **Captação de Recursos:** Bancos e investidores exigem o PN.
-3. **Guia de Gestão:** Serve como bússola para o time.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Estratégia de um PN Profissional 📂
+## 1. O que é um Plano de Negócios (PN)? 🏗️
+
+O **Plano de Negócios** é o "mapa" do seu empreendimento. É um documento que descreve os objetivos de um negócio e quais passos devem ser dados para alcançá-los, diminuindo os riscos e as incertezas.
+
+### Finalidade do PN:
+1.  **Orientação Interna**: Ajuda o empreendedor a manter o foco e planejar o crescimento.
+2.  **Captação de Recursos**: Essencial para apresentar a investidores ou bancos.
+3.  **Teste de Viabilidade**: Ajuda a descobrir se o negócio é sustentável antes de investir tempo e dinheiro real.
+
+---
+
+## 1. O que é um Plano de Negócios (PN)? 🏗️
+
+---
+
+---
+
+## 2. Estrutura Básica de um Plano Profissional 📋
+
+Um PN completo geralmente contém:
+- { .fragment } **Sumário Executivo**: Resumo dos pontos principais (feito por último!).
+- { .fragment } **Análise de Mercado**: Estudo dos clientes, concorrentes e fornecedores.
+- { .fragment } **Plano de Marketing**: Como o produto será vendido e divulgado.
+- { .fragment } **Plano Operacional**: Como o negócio vai funcionar no dia a dia.
+- { .fragment } **Plano Financeiro**: Projeção de custos, receitas e ponto de equilíbrio.
+
+---
+
+---
+
+## 3. O Fluxo de Elaboração (Mermaid) 🌊
 
 ```mermaid
 graph TD
-    A["Sumário Executivo"] --> B["Análise de Mercado"]
-    B --> C["Plano de Marketing"]
-    C --> D["Plano Operacional"]
-    D --> E["Plano Financeiro"]
-    E --> F["Avaliação Estratégica"]
+    A(["Definição da Ideia"]) --> B(["Pesquisa de Mercado"])
+    B --> C(["Definição de Estratégias (Marketing/Ops)"])
+    C --> D(["Projeção Financeira"])
+    D --> E(["Sumário Executivo"])
+    E --> F(["Apresentação (Pitch)"])
 ```
 
 ---
 
-## 1. Sumário Executivo ✨
-
-A parte mais importante. Deve ser a última a ser escrita.
-É o resumo atraente que convence alguém a ler o resto do documento.
+## 3. O Fluxo de Elaboração (Mermaid) 🌊
 
 ---
 
-## 2. Análise de Mercado 📊
+---
 
-- **Público-alvo:** Quem são eles?
-- **Concorrentes:** O que eles fazem?
-- **Fornecedores:** De quem vamos comprar?
+## 4. O PN no Mundo Moderno 🚀
+
+Antigamente, planos de negócios eram livros de 100 páginas. Hoje, eles são mais ágeis e focados.
+- { .fragment } **PN Tradicional**: Detalhado, focado em estabilidade e financiamento bancário.
+- { .fragment } **PN Ágil (Lean)**: Focado em testes rápidos e aprendizado constante.
 
 ---
 
-## 3. Plano de Marketing 📣
+---
 
-- **Produto:** O que vendemos?
-- **Preço:** Quanto vale?
-- **Praça:** Onde vendemos?
-- **Promoção:** Como nos encontram?
+## 5. Simulando a Viabilidade (Termynal) 📦
+
+Vamos verificar se seu Plano de Negócios está pronto para ser apresentado:
 
 ---
 
-## 4. Plano Operacional ⚙️
+## 5. Simulando a Viabilidade (Termynal) 📦
 
-Como o negócio funciona no dia a dia?
-- Layout da loja/escritório.
-- Capacidade produtiva.
-- Processos de entrega.
-
----
-
-## 5. Plano Financeiro 💰
-
-Onde o empreendedor mais se perde.
-- Investimento inicial.
-- Fluxo de caixa projetado.
-- Ponto de equilíbrio (Break-even).
+```termynal
+$ plano-negocio --validar
+> Analisando mercado... [CHECK]
+> Verificando plano financeiro... [OK]
+> Checando análise de riscos... [PENDENTE]
+> Status: QUASE PRONTO.
+> Dica: Inclua um cenário de "pior caso" financeiro para dar mais credibilidade.
+```
 
 ---
 
-## Plano de Negócios vs. Modelo de Negócio (Canvas) 🥊
-
-- **Canvas:** Rápido, visual, focado em inovação e pivotagem. (O "Como")
-- **Plano:** Detalhado, extenso, focado em execução e viabilidade financeira. (O "Quanto e Quando")
+## 5. Simulando a Viabilidade (Termynal) 📦
 
 ---
 
-## O Público do seu PN 👥
+---
 
-- **Você mesmo:** Para se organizar.
-- **Sócios:** Para alinhar a visão.
-- **Investidores:** Para mostrar o lucro.
-- **Bancos:** Para provar que pode pagar o empréstimo.
+## 6. Aprofundamento: Modelagem Financeira e Break-even 📈
+
+Um Plano de Negócios maduro exige projeções tangíveis. O conceito de **Break-even Point (Ponto de Equilíbrio)** é vital: o exato momento em que as receitas se igualam aos custos (fixos e variáveis). Além disso, a elaboração de cenários (Otimista, Realista e Pessimista) capacita o negócio a se proteger de variações drásticas do fluxo de caixa nos primeiros anos de operação.
 
 ---
 
-## Erros Comuns no PN ❌
+---
 
-- Estimativas de vendas otimistas demais.
-- Ignorar a concorrência.
-- Não detalhar o plano financeiro.
-- Escrever demais e não dizer nada.
+## 7. Mini-Projeto: Esboço do Sumário Executivo 🛠️
+
+Imagine que você quer abrir uma **Cafeteria Sustentável**.
+1.  Escreva 3 lines descrevendo o que torna seu café único.
+2.  Quem é seu público principal?
+3.  Qual o investimento inicial estimado (chute um valor)?
+4.  Em quanto tempo você espera ter o dinheiro de volta?
 
 ---
 
-## Ferramenta: Sebrae 🛠️
+---
 
-O Sebrae oferece guias e softwares excelentes para montar seu PN de forma estruturada.
+## 8. Exercício de Fixação 🧠
+
+1.  Qual a principal diferença entre um Plano de Negócios e uma ideia solta?
+2.  Por que o Sumário Executivo deve ser a última parte a ser escrita?
+3.  Em que situação um empreendedor deve preferir um Plano de Negócios detalhado a um simples Canvas?
 
 ---
 
-## Revisão Constante 🔄
+---
 
-O PN não é um monumento de pedra. Ele deve mudar conforme o mercado responde ao seu negócio.
+## 8. Exercício de Fixação 🧠
+
+!!! warning "Atenção"
+    O Plano de Negócios não é algo "escrito em pedra". Ele deve ser revisado constantemente à medida que o mercado muda e novos dados aparecem.
 
 ---
 
-## Planejamento Contingencial (Plano B) 🆘
+---
 
-E se as vendas forem 50% menores do que o esperado?
-E se um fornecedor chave fechar?
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## O Storytelling no PN 📖
+---
 
-Conte uma história convincente sobre o problema que você resolve e por que sua solução é a melhor do mundo.
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 06](../../exercicios/exercicio-06.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 06](../../projetos/projeto-06.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Vamos simplificar tudo com o [Modelagem de Negócios: O Canvas](../../aulas/aula-07.md) 🗄️
 
 ---
 
-## Conclusão: Tirando do Papel 🚀
+## Discussão Aberta 1
 
-Um bom plano sem execução é apenas uma alucinação.
-O PN deve impulsionar a ação, não paralisar.
-
----
-
-## Resumo da Aula 📝
-
-- Definição e objetivos do Plano de Negócios.
-- Diferença entre Modelo de Negócio e Plano.
-- As 5 principais seções de um PN.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Próximo Passo 👣
+## Discussão Aberta 2
 
-Na próxima aula, vamos ver a ferramenta mais amada pelos empreendedores: o **Business Model Canvas**.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Desafio: O Sumário de 1 Minuto ⏱️
+## Discussão Aberta 3
 
-Tente escrever o Sumário Executivo da sua ideia de negócio em apenas **3 parágrafos**.
-O primeiro sobre o problema, o segundo sobre a solução e o terceiro sobre o lucro.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 06
+
+### Obrigado!

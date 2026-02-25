@@ -1,140 +1,185 @@
-# Aula 01 - Introdução a Microsserviços 🌐
-## De Monólitos a Sistemas Distribuídos
+<!-- .slide: class="center" -->
+
+# Aula 01 - Conceitos de Empreendedorismo e Visão Empreendedora 🚀
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda de Hoje 📅
+## Avisos da Aula
 
-1. Panorama do Software Moderno <!-- .element: class="fragment" -->
-2. Monólitos vs Microsserviços <!-- .element: class="fragment" -->
-3. A Economia das APIs <!-- .element: class="fragment" -->
-4. Escalabilidade Vertical vs Horizontal <!-- .element: class="fragment" -->
-5. Cinto de Utilidades (Ferramentas) <!-- .element: class="fragment" -->
-6. Setup do Ambiente <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. O Mundo Cloud-Native ☁️
+## 1. O que é Empreendedorismo? 🧠
 
-- Sistemas globais exigem disponibilidade **24/7**. <!-- .element: class="fragment" -->
-- Milhões de requisições por segundo. <!-- .element: class="fragment" -->
-- Deploy contínuo (várias vezes ao dia). <!-- .element: class="fragment" -->
+Empreendedorismo não é apenas o ato de abrir uma empresa. É um **comportamento**, uma postura diante da vida e do mercado que envolve a identificação de problemas e a criação de soluções que gerem valor.
 
----
-
-## 2. A Evolução da Arquitetura 🏛️➡️🏗️
+!!! info "Conceito"
+    **Empreender** é a capacidade de realizar, coordenar e executar projetos que introduzem inovações, assumindo riscos calculados para alcançar resultados transformadores.
 
 ---
 
-## 2.1 O Monólito 🏛️
+## 1. O que é Empreendedorismo? 🧠
 
-- Um único projeto, um único deploy. <!-- .element: class="fragment" -->
-- Tudo ou nada: erro em um lugar afeta tudo. <!-- .element: class="fragment" -->
-- Difícil de escalar partes específicas. <!-- .element: class="fragment" -->
-- **Ideal para**: Projetos pequenos, MVPs rápidos. <!-- .element: class="fragment" -->
+### 🌟 A Visão Empreendedora
+Ter visão empreendedora é conseguir enxergar "além do óbvio". É a habilidade de perceber tendências antes que elas se tornem senso comum e transformar uma ideia abstrata em um negócio concreto.
 
 ---
 
-## 2.2 Microsserviços 🏗️
+---
 
-- Conjunto de serviços independentes. <!-- .element: class="fragment" -->
-- Comunicação via rede (APIs). <!-- .element: class="fragment" -->
-- Cada um com seu banco de dados. <!-- .element: class="fragment" -->
-- **Ideal para**: Sistemas complexos e escaláveis. <!-- .element: class="fragment" -->
+## 2. Características do Empreendedor 👤
+
+Nem todo mundo nasce empreendedor, mas as competências podem ser desenvolvidas. Pesquisas indicam que empreendedores de sucesso compartilham certas características:
+
+1.  **Iniciativa**: Não esperar pelos outros; agir para que as coisas aconteçam.
+2.  **Persistência**: Ver o erro como aprendizado, não como fim.
+3.  **Correr Riscos Calculados**: Estudar as chances antes de apostar alto.
+4.  **Liderança e Persuasão**: Capacidade de engajar pessoas em seu propósito.
+5.  **Criatividade**: Buscar formas diferentes de resolver problemas antigos.
 
 ---
 
-## 3. O Papel das APIs 📡
-
-- **Contract-First**: Acordo de comunicação. <!-- .element: class="fragment" -->
-- REST como padrão dominante. <!-- .element: class="fragment" -->
-- JSON: A língua universal. <!-- .element: class="fragment" -->
+## 2. Características do Empreendedor 👤
 
 ---
 
-## Escalabilidade: Vertical vs Horizontal
+---
 
-| Vertical (Scale Up) | Horizontal (Scale Out) |
-| :--- | :--- |
-| Aumenta CPU/RAM | Adiciona mais servidores |
-| Tem limite físico | Virtualmente ilimitada |
-| Causa downtime no upgrade | Zero downtime (Redundância) |
+## 3. Tipos de Empreendedores 📊
+
+Existem diversas formas de empreender. Conhecer seu perfil ajuda a focar nas estratégias corretas:
+
+| Perfil | Características | Foco Principal |
+| :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> |
+| **Por Oportunidade** | Enxerga uma lacuna no mercado. | Lucratividade e Crescimento |
+| **Por Necessidade** | Empreende por falta de alternativa. | Sobrevivência e Renda Fixa |
+| **Intraempreendedor** | Inova dentro da empresa onde trabalha. | Eficiência e Novos Processos |
+| **Social** | Busca resolver problemas da comunidade. | Impacto Social e Sustentabilidade |
+| **Serial** | Cria e vende empresas repetidamente. | Inovação e Escalabilidade |
 
 ---
 
-## Arquitetura de Microsserviços
+## 3. Tipos de Empreendedores 📊
+
+---
+
+---
+
+## 4. O Ciclo do Empreendedorismo (Mermaid) 🏗️
 
 ```mermaid
 graph LR
-    User[Cliente] --> AGW[API Gateway]
-    AGW --> S1[Usuários]
-    AGW --> S2[Pedidos]
-    AGW --> S3[Pagamentos]
-    S1 --> DB1[(DB)]
-    S2 --> DB2[(DB)]
-    S3 --> DB3[(DB)]
+    A(["Identificação do Problema"]) --> B(["Geração da Ideia"])
+    B --> C(["Validação do Modelo"])
+    C --> D(["Execução/Lançamento"])
+    D --> E(["Aprendizado e Ajuste"])
+    E --> A
 ```
 
 ---
 
-## 4. Ferramentas Indispensáveis 🛠️
+## 4. O Ciclo do Empreendedorismo (Mermaid) 🏗️
 
 ---
 
-## Client HTTP: Postman & Insomnia
+---
 
-- Testar rotas sem Frontend. <!-- .element: class="fragment" -->
-- Analisar Headers e Status Codes. <!-- .element: class="fragment" -->
-- Simular diferentes cenários de erro. <!-- .element: class="fragment" -->
+## 5. Ferramentas de Mentalidade (Termynal) 💻
+
+O empreendedor moderno utiliza a tecnologia para validar suas ideias rapidamente.
 
 ---
 
-## Containerização: Docker 🐋
+## 5. Ferramentas de Mentalidade (Termynal) 💻
 
-- "Roda na minha máquina, roda em qualquer lugar". <!-- .element: class="fragment" -->
-- Isola dependências e versões. <!-- .element: class="fragment" -->
-- Facilita a subida de múltiplos serviços locais. <!-- .element: class="fragment" -->
-
----
-
-## 5. Estrutura de Projeto Backend 📂
-
-- Divisão clara de responsabilidades. <!-- .element: class="fragment" -->
-- Controllers, Services e Repositories. <!-- .element: class="fragment" -->
-- Tratamento global de exceções. <!-- .element: class="fragment" -->
+```termynal
+$ empreendedor --check-vibe
+> Verificando mentalidade atual...
+  - [x] Paixão pelo problema
+  - [x] Tolerância à incerteza
+  - [x] Foco na execução
+> Status: PRONTO PARA INICIAR!
+```
 
 ---
 
-## 6. Setup do Ambiente 🚀
+## 5. Ferramentas de Mentalidade (Termynal) 💻
 
 ---
 
-## Requisitos:
+---
 
-- IDE: VS Code ou IntelliJ. <!-- .element: class="fragment" -->
-- Postman (Desktop ou Extensão). <!-- .element: class="fragment" -->
-- Docker Desktop. <!-- .element: class="fragment" -->
-- Git & GitHub. <!-- .element: class="fragment" -->
+## 6. Aprofundamento: O Mindset Ágil e Lean Startup 🔄
+
+No nível intermediário, o empreendedorismo deixa de ser apenas sobre 'ter ideias' e passa a ser sobre **validação contínua**. O modelo *Lean Startup* (Startup Enxuta) introduz o conceito de MVP (Produto Mínimo Viável) para testar hipóteses no mercado real com o menor custo possível. Empreendedores experientes não focam em planos perfeitos, mas em ciclos rápidos de construção, medição e aprendizado.
 
 ---
 
-## Resumo da Aula ✅
+---
 
-- Microsserviços trazem resiliência e escala. <!-- .element: class="fragment" -->
-- APIs são o coração da comunicação moderna. <!-- .element: class="fragment" -->
-- Ferramentas como Docker mudaram o jogo. <!-- .element: class="fragment" -->
-- Começamos nossa jornada Fullstack! <!-- .element: class="fragment" -->
+## 7. Mini-Projeto: Perfil Empreendedor 🚀
+
+Sua primeira missão prática:
+1.  Realize uma autoavaliação baseada nas 5 características citadas no item 2.
+2.  Dê uma nota de 1 a 10 para si mesmo em cada uma.
+3.  Identifique qual delas você precisa desenvolver mais e crie uma ação simples para esta semana (ex: "Vou liderar a organização de um grupo de estudos").
 
 ---
 
-## Próxima Aula: Arquitetura e Gateway 🏗️
+---
 
-- Como os serviços conversam? <!-- .element: class="fragment" -->
-- O que é Service Discovery? <!-- .element: class="fragment" -->
-- Protegendo a porta de entrada. <!-- .element: class="fragment" -->
+## 8. Exercícios de Fixação 🧠
+
+1.  Diferencie o empreendedor "por oportunidade" do empreendedor "por necessidade".
+2.  O que caracteriza o **Intraempreendedorismo** e qual sua importância para as grandes empresas?
+3.  Explique por que "assumir riscos" em experimentos do empreendedorismo deve ser algo **calculado**.
 
 ---
 
-## Dúvidas? 🤔
+---
 
-> "A arquitetura de hoje é o legado de amanhã. Escolha com sabedoria."
+## 8. Exercícios de Fixação 🧠
+
+!!! warning "Atenção"
+    Lembre-se: Ideias valem centavos, a **execução** vale milhões. Não se apegue apenas ao plano, foque em como realizar.
+
+---
+
+---
+
+## 8. Exercícios de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 01](../exercicios/exercicio-01.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 01](../projetos/projeto-01.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Vamos aprender a [Identificar Oportunidades de Negócio](../aulas/aula-02.md)! 🏗️
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 01
+
+### Obrigado!

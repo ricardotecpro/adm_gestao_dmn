@@ -1,19 +1,23 @@
-# Exercícios 10 - Canais de Comunicação e Distribuição 📡
+# Exercícios 10 - Canais de Comunicação 🧩
 
 ## 🟢 Fáceis
 
-1. **Canais**: Qual a função principal dos Canais em um modelo de negócio?
-2. **Fases**: Quais são as 5 fases de um canal (do conhecimento ao pós-venda)?
+1. O que definem os Canais de forma teórica em relação orgânica às vendas no modelo lido?
+2. Canal primariamente tem apenas e unicamente intuito de venda transacional? Cite um contraponto do marketing.
 
 ## 🟡 Médios
 
-3. **Próprios vs Parceiros**: Qual a vantagem de usar um canal de parceiro (ex: Marketplace) em vez de uma loja própria no início do negócio?
-4. **Entrega**: Como o canal de entrega influencia a Proposta de Valor de uma pizzaria?
+3. Qual a disparidade de viabilidade e de impacto comparando canais Diretos com canais Indiretos parceirizados.
+4. Defina o viés moderno entre atuar num Multicanal perante um Omnichannel onde marcas modernas aportam.
 
 ## 🔴 Desafio
 
-5. **Estratégia de Canais**:
-    Você criou uma **Marca de Roupas Sustentáveis**.
-    * Qual seria o melhor canal para a fase de **Conhecimento** (Awareness)?
-    * Como o cliente faria a **Avaliação** da qualidade sem tocar na roupa física?
-    * Qual seria a sua estratégia para o **Pós-venda** para garantir que ele compre novamente?
+5. Canais se comunicam matematicamente de forma contígua a taxas de funil perante CAC. Demonstre o racional intermediário estratégico que fundamenta em cancelar certas bases para manter a taxa de conversão final escalável nas estratégias focadas do Omnichannel.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-10.md)**

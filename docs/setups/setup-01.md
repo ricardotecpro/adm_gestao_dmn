@@ -1,29 +1,44 @@
-# Setup 01: Android Studio 🤖
+# Setup de Produtividade: Ambiente Windows 🪟
 
-O Android Studio é a IDE oficial para o desenvolvimento Android.
+!!! tip "Objetivo"
+    **Objetivo**: Preparar seu ambiente de sistema operacional Windows com as ferramentas certas de mapeamento, produtividade e cloud necessárias para atuar profissionalmente na gestão de modelos de negócios e Canvas.
 
-## 1. Requisitos de Sistema
-*   **RAM**: Mínimo 8GB (Sugerido 16GB+).
-*   **Espaço**: Mínimo 10GB para IDE + SDKs.
-*   **Processador**: Intel Core i5 ou equivalente.
+---
 
-## 2. Instalação
-1.  Acesse o site oficial: [developer.android.com/studio](https://developer.android.com/studio).
-2.  Baixe a versão mais recente para o seu Sistema Operacional.
-3.  Execute o instalador e escolha a opção "Standard" na configuração inicial.
+## 1. O Ecossistema de Ferramentas 🛠️
 
-## 3. Configurando o SDK
-*   Após a instalação, vá em **Settings > Languages & Frameworks > Android SDK**.
-*   Certifique-se de que a versão mais recente do Android (estável) esteja instalada.
-*   Na aba **SDK Tools**, instale o "Android Emulator" e o "Intel x86 Emulator Accelerator (HAXM)" se estiver no Windows com Intel.
+Para o empreendedor digital no Windows, focar no ecossistema de fácil uso com forte interoperabilidade é crucial:
 
-## 4. Criando um Emulador (AVD)
-1.  Abra o **Device Manager**.
-2.  Clique em **Create Device**.
-3.  Escolha um dispositivo (ex: Pixel 7).
-4.  Selecione uma imagem de sistema (ex: Level 34 - Android 14).
-5.  Finalize e clique no "Play" para iniciar o celular virtual.
+```mermaid
+graph LR
+    A([Sistema Windows]) --> B([Notion - Gestão e Tarefas])
+    A --> C([Draw.io - Mapas e BPMN])
+    A --> D([PowerBI - Dados])
+    C --> E([Nuvem OneDrive/Google Drive])
+```
 
-## 5. Solução de Problemas ⚠️
-*   **VT-x is disabled**: Você precisa habilitar a virtualização na BIOS do seu computador.
-*   **Studio muito lento**: Adicione a pasta do projeto e as pastas do Android SDK nas exclusões do seu Antivírus.
+---
+
+## 2. Instalação Ágil (Chocolatey) 💻
+
+Em vez de baixar executáveis manualmente, usuários avançados no Windows utilizam o **Chocolatey** para instalar todas as ferramentas do ambiente de negócios de uma vez com um Terminal seguro.
+
+Execute como Administrador:
+
+```termynal
+$ choco install notion drawio powerbi slack googlechrome -y
+> [Processando] Download do Notion... OK
+> [Processando] Download do Draw.io... OK
+> [Processando] Download do PowerBI Desktop... OK
+> Instalação Concluída. Seu setup de negócios está pronto!
+```
+
+---
+
+!!! warning "Atenção ao Windows Update"
+    Ocasionalmente atualizações forçadas reiniciam seu computador. Configure o "Horário Ativo" no Windows Update para o período que você está acordado e sempre mantenha backups contínuos de seus fluxos de caixa e matrizes no OneDrive ou Google Drive.
+
+---
+
+## 3. Próximo Passo
+Se você usa outro sistema ou trabalha com Devs, recomendamos ler também como estruturar o ambiente de gestão para [Linux](./setup-02.md) e [macOS](./setup-03.md).

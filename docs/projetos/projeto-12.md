@@ -1,12 +1,38 @@
-# Projeto 12 - Processos Operacionais ⚙️
+# Projeto 12 - Destruindo Gargalos 🚀
 
-## Objetivo
-Identificar as atividades críticas que garantem a entrega de valor de forma repetível e com qualidade.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Mapeamento do processo produtivo em fluxograma para achar o elo frágil (TOC).
 
-## Atividades
-1. **Fluxograma Simples**: Desenhe o passo a passo da atividade MAIS importante do seu negócio (ex: o preparo do prato ou a criação do software).
-2. **Identificação de Gargalos**: Onde esse processo pode travar? O que fazer para evitar?
-3. **Padrão de Qualidade**: Liste 3 critérios que definem que o trabalho foi "bem feito" ao final da atividade.
+---
 
-## Entrega
-O fluxograma da atividade principal e a lista de critérios de qualidade.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 12](../aulas/aula-12.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 12
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 12](../exercicios/solucao-12.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

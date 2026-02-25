@@ -1,139 +1,182 @@
-# Processos de Valor e Inovação ⚙️
-## Aula 04 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 04 - Etapas de Processo de Valor e Inovação 📄
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## O Ciclo da Inovação 💡
+## Avisos da Aula
 
-A inovação não é um evento isolado, é um processo contínuo de experimentação e aprendizado.
-
-<!-- .element: class="fragment" -->
-**Não é apenas sobre ideias, é sobre execução.**
-
----
-
-## Tipos de Inovação 🏗️
-
-1. **Incremental:** Melhorias em produtos existentes.
-2. **Radial/Desruptiva:** Cria novos mercados e desbanca líderes.
-3. **Arquitetural:** Aplica tecnologias existentes em novos contextos.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Inovação de Valor (Oceano Azul) 🌊
+## 1. O que é o Processo de Valor? 🛠️
 
-Reduzir custos e aumentar o valor simultaneamente.
-- **Eliminar** o que o mercado dá como certo, mas não agrega valor.
-- **Reduzir** abaixo dos padrões da indústria.
-- **Elevar** acima dos padrões.
-- **Criar** o que ninguém nunca ofereceu.
+O valor não aparece por mágica; ele é **construído** através de etapas lógicas que transformam uma percepção em um resultado concreto.
+
+### As 4 Etapas do Processo:
+1.  **Criação**: Identificação da oportunidade e desenvolvimento da ideia.
+2.  **Configuração**: Estruturação dos recursos (pessoas, tecnologia, dinheiro).
+3.  **Entrega**: Como o valor chega até o cliente (canais, marketing).
+4.  **Captura**: Como o negócio recebe o retorno (financeiro ou social).
 
 ---
 
-## Lean Startup (Startup Enxuta) 🏃‍♂️
+## 1. O que é o Processo de Valor? 🛠️
+
+---
+
+---
+
+## 2. Tipologias de Inovação 🏗️
+
+A inovação pode acontecer de diferentes formas e em diferentes níveis de intensidade:
+
+- { .fragment } **Inovação Incremental**: Pequenas melhorias em algo que já existe (ex: nova versão de um celular).
+- { .fragment } **Inovação Radical**: Cria um novo mercado ou desbanca um existente (ex: a transição das câmeras de filme para digitais).
+- { .fragment } **Inovação de Processo**: Mudar o "como" as coisas são feitas para ganhar eficiência.
+- { .fragment } **Inovação de Modelo de Negócio**: Mudar a forma como se ganha dinheiro (ex: streaming vs venda de CDs).
+
+---
+
+## 2. Tipologias de Inovação 🏗️
+
+---
+
+---
+
+## 3. Ambiente Inovador 🚀
+
+Para que a inovação floresça, o ambiente deve permitir:
+- { .fragment } **Segurança Psicológica**: Liberdade para errar e aprender.
+- { .fragment } **Colaboração**: Troca de ideias entre diferentes áreas.
+- { .fragment } **Flexibilidade**: Capacidade de mudar a rota rapidamente.
+
+---
+
+---
+
+## 4. Estruturação do Processo (Mermaid) 📊
 
 ```mermaid
 graph TD
-    A["Construir (Build)"] --> B["Medir (Measure)"]
-    B --> C["Aprender (Learn)"]
-    C --> A
-```
-Foco em reduzir o tempo do ciclo e evitar desperdícios.
-
----
-
-## MVP: Produto Mínimo Viável 📦
-
-A versão mais simples de um produto que permite validar uma hipótese central de negócio com o menor esforço possível.
-
-<!-- .element: class="fragment" -->
-**Não é um produto "incompleto", é um produto focado.**
-
----
-
-## Design Thinking 🧠
-
-Metodologia focada no ser humano para resolver problemas complexos.
-- Empatia
-- Definição
-- Ideação
-- Prototipagem
-- Teste
-
----
-
-## Pivotar vs. Perseverar 🔄
-
-- **Perseverar:** Manter a estratégia e ajustar a execução.
-- **Pivotar:** Mudar drasticamente um componente chave do modelo de negócio após falha na validação.
-
----
-
-## Inovação Aberta (Open Innovation) 🌐
-
-Colaborar com parceiros externos, universidades e até concorrentes para acelerar o processo de inovação.
-
----
-
-## Gestão de Processos de Negócio (BPM) 📊
-
-Documentar, analisar e otimizar como o valor flui dentro da empresa.
-Processos eficientes permitem escala.
-
----
-
-## A Curva de Adoção de Inovação 📈
-
-```mermaid
-graph LR
-    A["Inovadores"] --> B["Adotantes Iniciais"]
-    B --> C["Maioria Inicial"]
-    C --> D["Maioria Tardia"]
-    D --> E["Retardatários"]
+    A(["Fase 1: Diagnóstico"]) --> B(["Fase 2: Ideação"])
+    B --> C(["Fase 3: Prototipagem"])
+    C --> D(["Fase 4: Validação"])
+    D --> E(["Fase 5: Escala"])
 ```
 
 ---
 
-## Falha Rápida e Barata ❌📉
-
-Se você vai errar, que seja logo e gastando o mínimo possível. O aprendizado da falha é o insumo da próxima versão.
+## 4. Estruturação do Processo (Mermaid) 📊
 
 ---
 
-## Cultura de Inovação 🏢
+---
 
-"A cultura come a estratégia no café da manhã." (Peter Drucker)
-As pessoas devem ter segurança psicológica para sugerir ideias e testar hipóteses.
+## 5. Simulando o Processo (Termynal) 💻
+
+Vamos validar a fase atual do seu processo de inovação:
 
 ---
 
-## Tecnologia como Facilitador 💻
+## 5. Simulando o Processo (Termynal) 💻
 
-A tecnologia (IA, Cloud, No-code) permite que os processos de inovação sejam muito mais rápidos hoje do que há 10 anos.
-
----
-
-## Intraempreendedorismo reconsiderado 🧐
-
-Como incentivar os funcionários a agirem como donos e inovarem dentro da estrutura corporativa?
-
----
-
-## Resumo da Aula 📝
-
-- Definição e tipos de inovação.
-- Metodologias: Lean Startup e Design Thinking.
-- Conceito de MVP e o ciclo Construir-Medir-Aprender.
-- Importância da cultura organizacional.
+```termynal
+$ inovacao --check-stage
+> Verificando fase do projeto...
+  - [x] Problema identificado
+  - [x] Solução proposta
+  - [/] Protótipo em construção
+> Status: Fase de EXPERIMENTAÇÃO.
+> Dica: Não demore para testar com clientes reais!
+```
 
 ---
 
-## Próximo Passo 👣
-
-Na próxima aula, vamos mergulhar na **Gestão de Negócios e Estratégias**.
+## 5. Simulando o Processo (Termynal) 💻
 
 ---
 
-## Desafio: O MVP da sua Ideia 🛠️
+---
 
-Se você tivesse apenas **R$ 500,00** e **1 semana**, como você validaria sua ideia de negócio principal? O que seria o seu MVP?
+## 6. Aprofundamento: Curva de Adoção de Inovação e TRL 📉
+
+A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difusão da Inovação** (Innovators, Early Adopters, Early Majority...) é crucial para saber como comunicar o lançamento. Além disso, a escala TRL (Technology Readiness Level) auxilia a mensurar a maturidade de uma tecnologia, indo de uma pesquisa básica (TRL 1) até um sistema provado em ambiente real (TRL 9).
+
+---
+
+---
+
+## 7. Mini-Projeto: Planejando a Inovação 🚀
+
+1.  Identifique uma empresa que você conhece que tenha passado por uma **Inovação Incremental** recentemente.
+2.  Agora, descreva um exemplo de **Inovação de Modelo de Negócio**.
+3.  Desenhe um pequeno cronograma de 3 passos para validar uma ideia inovadora em uma semana.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+1.  Explique a diferença entre Inovação Radical e Incremental.
+2.  Quais são as 4 etapas básicas do processo de valor?
+3.  Por que a "Captura de Valor" é essencial para a sustentabilidade de uma empresa?
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+!!! info "Dica"
+    O planejamento não deve ser rígido. No processo de inovação, o planejamento serve para dar direção, mas a execução exige adaptabilidade.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 04](../../exercicios/exercicio-04.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 04](../../projetos/projeto-04.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Fim do Bloco 1! No Bloco 2, iniciaremos a [Gestão de Negócios e Ideação](../../aulas/aula-05.md)! 💻
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 04
+
+### Obrigado!

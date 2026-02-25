@@ -1,130 +1,182 @@
-# Aula 03 - Modelagem de APIs RESTful 📡
-## Recursos, Verbos e Contratos
+<!-- .slide: class="center" -->
+
+# Aula 03 - Análise de Valor: Inovação e Sustentabilidade 📡
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. O que é REST? <!-- .element: class="fragment" -->
-2. Recursos e URIs <!-- .element: class="fragment" -->
-3. Verbos HTTP (GET, POST, PUT...) <!-- .element: class="fragment" -->
-4. Status Codes <!-- .element: class="fragment" -->
-5. JSON: A Linguagem das APIs <!-- .element: class="fragment" -->
-6. Boas Práticas de Design <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. REST: A "Língua" da Web 🌐
+## 1. O que é Valor? 💎
 
-- Style arquitetural para sistemas distribuídos. <!-- .element: class="fragment" -->
-- Baseado no protocolo **HTTP**. <!-- .element: class="fragment" -->
-- Independência entre Client e Server. <!-- .element: class="fragment" -->
+Para o empreendedor, **valor** não é o preço que se cobra, mas o benefício que o cliente percebe. 
 
----
-
-## Princípios REST
-
-- **Stateless**: Cada requisição é única. <!-- .element: class="fragment" -->
-- **Uniform Interface**: Padrões compartilhados. <!-- .element: class="fragment" -->
-- **Cacheable**: Melhore a performance. <!-- .element: class="fragment" -->
+!!! info "Conceito"
+    **Proposta de Valor** é o conjunto de vantagens que uma empresa oferece aos seus clientes para satisfazer suas necessidades ou resolver seus problemas.
 
 ---
 
-## 2. Identificando Recursos 📍
+## 1. O que é Valor? 💎
 
-- Um recurso é qualquer coisa que expomos. <!-- .element: class="fragment" -->
-- **URI**: O endereço do recurso. <!-- .element: class="fragment" -->
-
-### O que NÃO fazer:
-`GET /obterUsuarios` ❌
-
-### O que fazer:
-`GET /usuarios` ✅ (Sempre substantivos no plural!)
+### Dimensões do Valor:
+1.  **Funcional**: Resolve um problema prático (ex: um aplicativo de transporte).
+2.  **Emocional**: Proporciona uma sensação positiva (ex: uma marca de roupas de luxo).
+3.  **Social**: Ajuda o cliente a se conectar com outros (ex: redes sociais).
+4.  **Sustentável**: Gera impacto positivo no mundo (ex: produtos eco-friendly).
 
 ---
 
-## 3. Os Verbos HTTP 🛠️
+---
 
-Eles definem a intenção da chamada:
+## 2. Inovação vs. Criatividade 🎨
 
-- **GET**: Buscar dados. <!-- .element: class="fragment" -->
-- **POST**: Criar novo dado. <!-- .element: class="fragment" -->
-- **PUT**: Atualizar (Trocar tudo). <!-- .element: class="fragment" -->
-- **PATCH**: Atualizar (Apenas um pedaço). <!-- .element: class="fragment" -->
-- **DELETE**: Remover dado. <!-- .element: class="fragment" -->
+Muitas pessoas confundem os dois termos, mas eles são os dois lados da mesma moeda:
+
+- <!-- .element: class="fragment" --> **Criatividade**: É o ato de pensar coisas novas. É a matéria-prima (ideias).
+- <!-- .element: class="fragment" --> **Inovação**: É o ato de **fazer** coisas novas que gerem valor. É a criatividade aplicada com resultado.
 
 ---
 
-## Idempotência e Segurança
+## 2. Inovação vs. Criatividade 🎨
 
-| Verbo | Seguro? | Idempotente? |
-| :--- | :--- | :--- |
-| GET | Sim ✅ | Sim ✅ |
-| POST | Não ❌ | Não ❌ |
-| PUT | Não ❌ | Sim ✅ |
-| DELETE | Não ❌ | Sim ✅ |
+!!! warning "Atenção"
+    Não existe inovação sem execução. Uma ideia criativa que fica no papel nunca se torna uma inovação.
 
 ---
 
-## 4. Status Codes: A Resposta 🚦
+---
 
-- **2xx**: Deu certo! (200, 201, 204). <!-- .element: class="fragment" -->
-- **4xx**: Você (cliente) errou algo (400, 401, 404). <!-- .element: class="fragment" -->
-- **5xx**: Eu (servidor) quebrei (500, 503). <!-- .element: class="fragment" -->
+## 3. Sustentabilidade e Diversidade 🌍
+
+Os negócios modernos não podem ignorar o impacto que causam. O valor de uma empresa hoje também é medido por:
+
+- <!-- .element: class="fragment" --> **Sustentabilidade**: Uso consciente de recursos para não comprometer as gerações futuras.
+- <!-- .element: class="fragment" --> **Diversidade Cultural**: Incluir diferentes visões de mundo na criação do produto, tornando-o mais universal e inclusivo.
+- <!-- .element: class="fragment" --> **Inclusão Social**: Como o seu negócio ajuda a diminuir as desigualdades?
 
 ---
 
-## 5. O Formato JSON 🏗️
+## 3. Sustentabilidade e Diversidade 🌍
 
-```json
-{
-  "nome": "Curso Backend",
-  "modulo": 1,
-  "ativo": true
-}
+---
+
+---
+
+## 4. O Ciclo da Inovação (Mermaid) 🔄
+
+```mermaid
+graph LR
+    A(["Criatividade (Ideias)"]) --> B(["Prototipagem"])
+    B --> C(["Teste de Mercado"])
+    C --> D(["Inovação (Resultado)"])
+    D --> E(["Impacto Sustentável"])
+    E --> A
 ```
 
-- Leve, legível e universal. <!-- .element: class="fragment" -->
+---
+
+## 4. O Ciclo da Inovação (Mermaid) 🔄
 
 ---
 
-## 6. Design de URIs Complexas
+---
 
-Como buscar os pedidos de um usuário específico?
+## 5. Simulando Valor (Termynal) 📊
 
-`GET /usuarios/123/pedidos` ✅
-
-- Hierarquia lógica e limpa. <!-- .element: class="fragment" -->
+Como saber se sua proposta tem valor? Vamos rodar um "diagnóstico de valor":
 
 ---
 
-## 7. Prática: Postman em Ação 💻
+## 5. Simulando Valor (Termynal) 📊
 
-- Testando verbos em APIs reais. <!-- .element: class="fragment" -->
-- Analisando Headers e Body. <!-- .element: class="fragment" -->
-
----
-
-## Desafio REST ⚡
-
-Se você quer mudar apenas o e-mail de um usuário, qual verbo deve usar: PUT ou PATCH?
-
----
-
-## Resumo ✅
-
-- REST é sobre recursos e padrões. <!-- .element: class="fragment" -->
-- URIs usam substantivos no plural. <!-- .element: class="fragment" -->
-- Status codes guiam o frontend. <!-- .element: class="fragment" -->
-- JSON é o padrão de facto. <!-- .element: class="fragment" -->
+```termynal
+$ check-value --target "Meu Negócio"
+> Analisando diferenciação... [ALTA]
+> Verificando sustentabilidade... [75%]
+> Checando inclusão... [EM PROGRESSO]
+> Diagnóstico: Seu modelo possui ALTO POTENCIAL de mercado!
+```
 
 ---
 
-## Próxima Aula: Swagger e Mocks 📝
-
-- Documentação automática. <!-- .element: class="fragment" -->
-- Como trabalhar sem o backend pronto? <!-- .element: class="fragment" -->
+## 5. Simulando Valor (Termynal) 📊
 
 ---
 
-## Dúvidas? 📡
+---
+
+## 6. Aprofundamento: A Equação de Valor e o CAC/LTV 📐
+
+A percepção de valor não é estática. Empreendedores avançados calculam o Custo de Aquisição de Clientes (CAC) e o Lifetime Value (LTV). A regra de ouro intermediária é garantir que LTV > 3 * CAC. O valor verdadeiro é entregue quando a solução não apenas resolve a dor, mas também gera uma economia (de tempo ou dinheiro) quantificável que supera o esforço de adoção.
+
+---
+
+---
+
+## 7. Mini-Projeto: Valor e Impacto 🚀
+
+1.  Pense em um produto comum (ex: uma garrafa de água).
+2.  Como você poderia inovar nesse produto usando a **sustentabilidade**?
+3.  Como você adicionaria **diversidade cultural** no marketing desse produto?
+4.  Escreva uma frase de "Proposta de Valor" para o seu novo produto inovador.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+1.  Diferencie Valor Funcional de Valor Emocional com exemplos.
+2.  Por que a Diversidade é considerada um ativo estratégico para a inovação?
+3.  Explique o conceito de "Triple Bottom Line" (Pessoas, Planeta, Lucro) no contexto da sustentabilidade.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 03](../exercicios/exercicio-03.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 03](../projetos/projeto-03.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Vamos entender as [Etapas do Processo de Valor](../aulas/aula-04.md)! 📄
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 03
+
+### Obrigado!

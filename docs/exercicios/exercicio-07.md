@@ -1,20 +1,23 @@
-# Exercícios 07 - Modelagem de Negócios: O Canvas 🧪
+# Exercícios 07 - Modelagem Canvas 🧩
 
 ## 🟢 Fáceis
 
-1. **Canvas**: Quem criou o Business Model Canvas e qual sua principal vantagem sobre o Plano de Negócios tradicional?
-2. **Estrutura**: O "Lado Direito" do Canvas foca na Eficiência ou no Valor para o Cliente? Justifique.
+1. Qual a grande diferença e grande proposta revolucionária do Canvas sobre o Plano clássico (Seapa/Sebrae)?
+2. Quantos e quais são os blocos lógicos essenciais do Business Model Canvas (BMC)?
 
 ## 🟡 Médios
 
-3. **Blocos**: Escolha 3 dos 9 blocos do Canvas e explique como eles se conectam entre si.
-4. **Agilidade**: Por que dizemos que o Canvas é uma ferramenta "viva" e não um documento estático?
+3. Se uma alteração radical for feita na Segmentação de Clientes, que blocos do Canvas sofreriam abalo em cadeia direto?
+4. Descreva o papel lógico e semântico dos Canais versus a área de Relacionamento no Canvas.
 
 ## 🔴 Desafio
 
-4. **Modelando o Netflix**:
-    Tente preencher os blocos do Canvas para a Netflix:
-    * **Proposta de Valor**: O que eles entregam além de filmes?
-    * **Segmentos de Clientes**: Quem são eles?
-    * **Fontes de Receita**: Como o dinheiro entra?
-    * **Atividades-chave**: O que a Netflix faz todo dia para não parar?
+5. O Canvas não é estático. Use o conceito de Padronização e Business Model Patterns, aplique isso definindo a configuração atípica de um Business Canvas na vertente Freemium Digital e Long Tail de produtos físicos nichados.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-07.md)**

@@ -38,7 +38,7 @@ def parse_quiz_markdown(content: str) -> list:
         
         # Parse opções
         options = []
-        option_pattern = r'-\s+\[([ x])\]\s+(.+?)(?=\n\s*-|\n\n|\Z)'
+        option_pattern = r'-\s+\[([ x])\]\s+(.+?)(?=\n\s*-|\n\s*>|\n\n|\Z)'
         
         for opt_match in re.finditer(option_pattern, options_text, re.DOTALL):
             is_correct = opt_match.group(1) == 'x'
@@ -47,12 +47,16 @@ def parse_quiz_markdown(content: str) -> list:
                 'text': option_text,
                 'correct': is_correct
             })
+            
+        expl_match = re.search(r'>\s*Explicação:\s*(.+?)(?=\n\n|\Z)', options_text, re.DOTALL)
+        explanation = expl_match.group(1).strip() if expl_match else ""
         
         if options:  # Só adiciona se encontrou opções
             questions.append({
                 'number': question_num,
                 'text': question_text,
-                'options': options
+                'options': options,
+                'explanation': explanation
             })
     
     return questions
@@ -74,7 +78,8 @@ def generate_quiz_html(quiz_number: int, questions: list) -> str:
         
         for opt in q['options']:
             correct_attr = 'true' if opt['correct'] else 'false'
-            feedback = f"✅ Correto! {opt['text']}" if opt['correct'] else f"Incorreto. Tente novamente."
+            expl_html = f"<br><br><strong>Explicação:</strong> {q.get('explanation', '')}" if q.get('explanation') else ""
+            feedback = f"✅ Correto! {opt['text']}{expl_html}" if opt['correct'] else f"Incorreto. {expl_html}"
             
             html_parts.append(
                 f'  <div class="quiz-option" data-correct="{correct_attr}" '
@@ -119,13 +124,13 @@ def convert_quiz(quiz_path: pathlib.Path) -> bool:
 
 def convert_all_quizzes():
     """Converte todos os quizzes"""
-    # Usar pasta .src como fonte
-    quizzes_src_dir = pathlib.Path('docs/quizzes/.src')
+    # Usar pasta src como fonte
+    quizzes_src_dir = pathlib.Path('docs/quizzes/src')
     
     if not quizzes_src_dir.exists():
-        print("[yellow]⚠ Pasta docs/quizzes/.src/ não encontrada. Criando...[/yellow]")
+        print("[yellow]⚠ Pasta docs/quizzes/src/ não encontrada. Criando...[/yellow]")
         quizzes_src_dir.mkdir(parents=True, exist_ok=True)
-        print("[yellow]⚠ Por favor, coloque os arquivos markdown originais em docs/quizzes/.src/[/yellow]")
+        print("[yellow]⚠ Por favor, coloque os arquivos markdown originais em docs/quizzes/src/[/yellow]")
         return
     
     print("\n[bold cyan]🧠 Convertendo Quizzes para HTML...[/bold cyan]")
@@ -134,7 +139,7 @@ def convert_all_quizzes():
     quiz_files = sorted(quizzes_src_dir.glob('quiz-*.md'))
     
     if not quiz_files:
-        print("[yellow]⚠ Nenhum arquivo de quiz encontrado em docs/quizzes/.src/[/yellow]")
+        print("[yellow]⚠ Nenhum arquivo de quiz encontrado em docs/quizzes/src/[/yellow]")
         return
     
     converted = 0

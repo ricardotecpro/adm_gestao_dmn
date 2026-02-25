@@ -1,84 +1,178 @@
-# Aula 12 - Introdução ao React ⚛️
-## O Poder dos Componentes Modernos
+<!-- .slide: class="center" -->
+
+# Aula 12 - Atividades-chave do Negócio ⚙️
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. O que são SPAs? <!-- .element: class="fragment" -->
-2. Por que React? <!-- .element: class="fragment" -->
-3. Vite: A Ferramenta Rápida <!-- .element: class="fragment" -->
-4. JSX: JS + HTML <!-- .element: class="fragment" -->
-5. Componentes e LEGO <!-- .element: class="fragment" -->
-6. Props: O Coração Dinâmico <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. Single Page Applications (SPA) 📄
+## 1. O que são Atividades-chave? 🔑
 
-- O site que nunca recarrega. <!-- .element: class="fragment" -->
-- Navegação fluida e instantânea. <!-- .element: class="fragment" -->
-- Ex: Gmail, Facebook, Spotify Web. <!-- .element: class="fragment" -->
+As atividades-chave são as ações essenciais que uma empresa deve executar para criar e oferecer uma Proposta de Valor, alcançar mercados, manter Relacionamentos com Clientes e obter Receitas.
 
----
-
-## 2. Por que o React venceu? ⚔️
-
-- **Componentização** (Foco no Reuso). <!-- .element: class="fragment" -->
-- **Virtual DOM** (Foco na Performance). <!-- .element: class="fragment" -->
-- **Gigantesco Ecossistema** (Foco no Emprego). <!-- .element: class="fragment" -->
+!!! info "Conceito"
+    Se você parar de realizar uma **Atividade-chave**, o seu modelo de negócio quebra. Elas são o "core" da sua operação.
 
 ---
 
-## 3. Vite: O Novo Padrão ⚡
-
-- Inicia o projeto em segundos. <!-- .element: class="fragment" -->
-- Feedback instantâneo durante o código. <!-- .element: class="fragment" -->
+## 1. O que são Atividades-chave? 🔑
 
 ---
 
-## 4. JSX: A Mistura Perfeita 🧪
+---
 
-```jsx
-function Titulo() {
-  const nome = "React";
-  return <h1>Olá, {nome}!</h1>;
-}
+## 2. Categorias de Atividades 📂
+
+Geralmente, as atividades se encaixam em três grandes grupos:
+
+1.  **Produção**: Atividades ligadas ao design, fabricação e entrega de um produto em larga escala (ex: fábricas de automóveis).
+2.  **Resolução de Problemas**: Atividades que buscam soluções únicas para problemas de clientes individuais (ex: consultorias, hospitais).
+3.  **Plataforma/Rede**: Atividades ligadas à gestão e promoção de uma plataforma ou rede (ex: Visa, eBay, Microsoft, Uber).
+
+---
+
+## 2. Categorias de Atividades 📂
+
+---
+
+---
+
+## 3. Atividade vs. Tarefa ⚖️
+
+Nem tudo o que você faz no dia a dia é uma Atividade-chave.
+- <!-- .element: class="fragment" --> **Tarefa**: Responder e-mails, limpar o escritório.
+- <!-- .element: class="fragment" --> **Atividade-chave**: Desenvolvimento de Software (para uma empresa de tecnologia), Gestão da Cadeia de Suprimentos (para um e-commerce).
+
+---
+
+---
+
+## 4. O Fluxo de Operação (Mermaid) 🌊
+
+```mermaid
+graph TD
+    A(["Insumos (Entrada)"]) --> B(["Atividade-chave (Processamento)"])
+    B --> C(["Valor Entregue (Saída)"])
+    B --> D(["Qualidade"])
+    D -- "Feedback" --> B
 ```
 
-- Parece HTML, mas tem o poder do Javascript. <!-- .element: class="fragment" -->
+---
+
+## 4. O Fluxo de Operação (Mermaid) 🌊
 
 ---
 
-## 5. Componentes = LEGO 🧩
+---
 
-- Pequenas partes isoladas. <!-- .element: class="fragment" -->
-- Facilita testes e trabalho em equipe. <!-- .element: class="fragment" -->
+## 5. Auditoria de Atividades (Termynal) 💻
+
+Seu negócio está focando no que importa?
 
 ---
 
-## 6. Props: Passando o Bastão 🎁
+## 5. Auditoria de Atividades (Termynal) 💻
 
-- Permite que componentes recebam dados do "pai". <!-- .element: class="fragment" -->
-- Torna componentes genéricos e reutilizáveis. <!-- .element: class="fragment" -->
-
----
-
-## Resumo ✅
-
-- SPA torna a Web parecida com Apps. <!-- .element: class="fragment" -->
-- React organiza sua UI em componentes. <!-- .element: class="fragment" -->
-- Vite é seu melhor amigo no desenvolvimento. <!-- .element: class="fragment" -->
-
----
-
-## Próxima Aula: Dinâmica e Estado 🎣
-
-### O que acontece quando o usuário clica?
-
-- Hooks: `useState`. <!-- .element: class="fragment" -->
-- Reatividade na prática. <!-- .element: class="fragment" -->
+```termynal
+$ core-business --audit
+> Analisando lista de tarefas...
+  - [x] Desenvolvimento do Produto [CORE]
+  - [x] Marketing Estratégico [CORE]
+  - [!] Organização de Arquivos [SECUNDÁRIO]
+> Alerta: Você está gastando muito tempo em tarefas secundárias.
+> Dica: Delegue o que não for Atividade-chave!
+```
 
 ---
 
-## Dúvidas? ⚛️
+## 5. Auditoria de Atividades (Termynal) 💻
+
+---
+
+---
+
+## 6. Aprofundamento: Gargalos e Teoria das Restrições (TOC) 🏭
+
+Gerir atividades-chave exige dominar a operacionalidade. A **Teoria das Restrições (TOC)** dita que todo sistema produtivo é limitado por pelo menos um gargalo (restrição). Empreendedores precisam mapear o macroprocesso, identificar esse gargalo e subordinar todo o resto a ele. Otimizar qualquer parte que não seja a restrição é considerado um desperdício de tempo que mascara ineficiências latentes.
+
+---
+
+---
+
+## 7. Mini-Projeto: Priorizando o Core 🚀
+
+Imagine que você é dono de um **Restaurante Gourmet**.
+1.  Liste 3 Atividades que você faz no dia a dia.
+2.  Identifique qual delas é a **Atividade-chave** (aquela que sem ela o restaurante fecha).
+3.  Como você poderia terceirizar uma atividade que não é chave?
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+1.  Quais são as três categorias principais de Atividades-chave?
+2.  Dê um exemplo de uma Atividade-chave para uma empresa que é uma **Plataforma**.
+3.  Por que é importante focar nas Atividades-chave e delegar as secundárias?
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+!!! warning "Atenção"
+    Não tente ser bom em tudo. Escolha as atividades que realmente geram diferencial competitivo e torne-se o melhor nelas.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 12](../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 12](../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Entrando no Bloco 4! [Recursos Essenciais e Parcerias](../aulas/aula-13.md) 🧩
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 12
+
+### Obrigado!

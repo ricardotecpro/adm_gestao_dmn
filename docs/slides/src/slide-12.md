@@ -1,141 +1,178 @@
-# Atividades-chave do Negócio 🛠️
-## Aula 12 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 12 - Atividades-chave do Negócio ⚙️
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## O que são Atividades-chave? 🤔
+## Avisos da Aula
 
-São as ações mais importantes que uma empresa deve realizar para operar com sucesso.
-Elas permitem criar e oferecer a Proposta de Valor, alcançar mercados e gerar receita.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Categorias de Atividades 📂
+## 1. O que são Atividades-chave? 🔑
+
+As atividades-chave são as ações essenciais que uma empresa deve executar para criar e oferecer uma Proposta de Valor, alcançar mercados, manter Relacionamentos com Clientes e obter Receitas.
+
+!!! info "Conceito"
+    Se você parar de realizar uma **Atividade-chave**, o seu modelo de negócio quebra. Elas são o "core" da sua operação.
+
+---
+
+## 1. O que são Atividades-chave? 🔑
+
+---
+
+---
+
+## 2. Categorias de Atividades 📂
+
+Geralmente, as atividades se encaixam em três grandes grupos:
+
+1.  **Produção**: Atividades ligadas ao design, fabricação e entrega de um produto em larga escala (ex: fábricas de automóveis).
+2.  **Resolução de Problemas**: Atividades que buscam soluções únicas para problemas de clientes individuais (ex: consultorias, hospitais).
+3.  **Plataforma/Rede**: Atividades ligadas à gestão e promoção de uma plataforma ou rede (ex: Visa, eBay, Microsoft, Uber).
+
+---
+
+## 2. Categorias de Atividades 📂
+
+---
+
+---
+
+## 3. Atividade vs. Tarefa ⚖️
+
+Nem tudo o que você faz no dia a dia é uma Atividade-chave.
+- { .fragment } **Tarefa**: Responder e-mails, limpar o escritório.
+- { .fragment } **Atividade-chave**: Desenvolvimento de Software (para uma empresa de tecnologia), Gestão da Cadeia de Suprimentos (para um e-commerce).
+
+---
+
+---
+
+## 4. O Fluxo de Operação (Mermaid) 🌊
 
 ```mermaid
 graph TD
-    A["Atividades-chave"] --> B["Produção"]
-    A --> C["Resolução de Problemas"]
-    A --> D["Plataforma e Rede"]
+    A(["Insumos (Entrada)"]) --> B(["Atividade-chave (Processamento)"])
+    B --> C(["Valor Entregue (Saída)"])
+    B --> D(["Qualidade"])
+    D -- "Feedback" --> B
 ```
 
 ---
 
-## 1. Produção 🏭
-
-Focadas no design, fabricação e entrega de um produto em quantidades substanciais ou qualidade superior.
-Ex: Fábricas de carros, padarias, confecções.
+## 4. O Fluxo de Operação (Mermaid) 🌊
 
 ---
 
-## 2. Resolução de Problemas 🧠
+---
 
-Focadas em encontrar novas soluções para problemas de clientes individuais. Serviço intensivo em conhecimento.
-Ex: Consultorias, hospitais, agências de publicidade.
+## 5. Auditoria de Atividades (Termynal) 💻
+
+Seu negócio está focando no que importa?
 
 ---
 
-## 3. Plataforma e Rede 🌐
+## 5. Auditoria de Atividades (Termynal) 💻
 
-Focadas na gestão, promoção e manutenção de uma plataforma que serve como ponto de encontro.
-Ex: Visa (Rede), Airbnb (Plataforma), eBay (Marketplace).
-
----
-
-## Atividade-chave vs. Atividade Comum 🥊
-
-- **Comum:** Pagar a conta de luz, limpar o escritório.
-- **Chave:** Desenvolver o algoritmo de recomendação (Netflix), gerenciar a logística (Amazon).
-
-Se a atividade parar, o modelo de negócio morre.
-
----
-
-## Terceirização (Outsourcing) 🤝
-
-Empresas inteligentes focam no que é "Core" (Principal) e terceirizam o resto.
-Ex: A Apple foca no Design e Software e terceiriza a fabricação física.
-
----
-
-## Cadeia de Valor de Porter 💎
-
-```mermaid
-graph LR
-    A["Logística Interna"] --> B["Operações"]
-    B --> C["Marketing e Vendas"]
-    C --> D["Serviços"]
+```termynal
+$ core-business --audit
+> Analisando lista de tarefas...
+  - [x] Desenvolvimento do Produto [CORE]
+  - [x] Marketing Estratégico [CORE]
+  - [!] Organização de Arquivos [SECUNDÁRIO]
+> Alerta: Você está gastando muito tempo em tarefas secundárias.
+> Dica: Delegue o que não for Atividade-chave!
 ```
 
 ---
 
-## Gestão da Qualidade 🏆
-
-Garantir que os processos de produção sigam padrões para evitar desperdícios e devoluções.
+## 5. Auditoria de Atividades (Termynal) 💻
 
 ---
 
-## P&D (Pesquisa e Desenvolvimento) 🧪
+---
 
-Atividade-chave vital para empresas de tecnologia. Inovar é um processo contínuo de experimentação.
+## 6. Aprofundamento: Gargalos e Teoria das Restrições (TOC) 🏭
+
+Gerir atividades-chave exige dominar a operacionalidade. A **Teoria das Restrições (TOC)** dita que todo sistema produtivo é limitado por pelo menos um gargalo (restrição). Empreendedores precisam mapear o macroprocesso, identificar esse gargalo e subordinar todo o resto a ele. Otimizar qualquer parte que não seja a restrição é considerado um desperdício de tempo que mascara ineficiências latentes.
 
 ---
 
-## Atividades de Marketing e Canais 📢
+---
 
-Em muitos negócios B2C, a principal atividade é contar uma história atraente e gerenciar canais de venda.
+## 7. Mini-Projeto: Priorizando o Core 🚀
+
+Imagine que você é dono de um **Restaurante Gourmet**.
+1.  Liste 3 Atividades que você faz no dia a dia.
+2.  Identifique qual delas é a **Atividade-chave** (aquela que sem ela o restaurante fecha).
+3.  Como você poderia terceirizar uma atividade que não é chave?
 
 ---
 
-## A Importância do RH Estratégico 👥
+---
 
-Em empresas de serviço (Resolução de Problemas), a atividade-chave é atrair e treinar os melhores cérebros.
+## 8. Exercício de Fixação 🧠
+
+1.  Quais são as três categorias principais de Atividades-chave?
+2.  Dê um exemplo de uma Atividade-chave para uma empresa que é uma **Plataforma**.
+3.  Por que é importante focar nas Atividades-chave e delegar as secundárias?
 
 ---
 
-## Automação de Atividades 🤖
+---
 
-Como transformar uma atividade manual lenta em um processo digital escalável?
-Uso de ERPs, CRMs e IA.
+## 8. Exercício de Fixação 🧠
+
+!!! warning "Atenção"
+    Não tente ser bom em tudo. Escolha as atividades que realmente geram diferencial competitivo e torne-se o melhor nelas.
 
 ---
 
-## Sustentabilidade Operacional 🌱
+---
 
-Atividades que visam reduzir o impacto ambiental e melhorar a eficiência energética são o novo diferencial competitivo.
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## Gargalos de Atividades 🍾
+---
 
-Identificar qual passo do processo está atrasando todo o resto. Resolva o gargalo e você aumenta a capacidade total.
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 12](../../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 12](../../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Entrando no Bloco 4! [Recursos Essenciais e Parcerias](../../aulas/aula-13.md) 🧩
 
 ---
 
-## Monitoramento de Performance 📊
+## Discussão Aberta 1
 
-Uso de Dashboards para ver o status das atividades em tempo real.
-"O que os olhos não veem, o bolso não sente."
-
----
-
-## Resumo da Aula 📝
-
-- Definição de Atividades-chave.
-- Categorias: Produção, Problemas, Plataforma.
-- Diferença entre atividades Core e Suporte.
-- Automação e Foco.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Próximo Passo 👣
+## Discussão Aberta 2
 
-Na próxima aula, vamos falar sobre os recursos necessários para realizar essas atividades: **Recursos Essenciais e Ativos**.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Desafio: A Atividade do Google 🔍
+<!-- .slide: class="center" -->
 
-Qual a principal atividade-chave do Google?
-É vender anúncios? É gerenciar servidores? É desenvolver algoritmos de busca?
-(Spoiler: São todas, mas qual é a MAIS importante para o DNA deles?)
+# FIM DA AULA 12
+
+### Obrigado!

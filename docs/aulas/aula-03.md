@@ -69,7 +69,13 @@ $ check-value --target "Meu Negócio"
 
 ---
 
-## 6. Mini-Projeto: Valor e Impacto 🚀
+## 6. Aprofundamento: A Equação de Valor e o CAC/LTV 📐
+
+A percepção de valor não é estática. Empreendedores avançados calculam o Custo de Aquisição de Clientes (CAC) e o Lifetime Value (LTV). A regra de ouro intermediária é garantir que LTV > 3 * CAC. O valor verdadeiro é entregue quando a solução não apenas resolve a dor, mas também gera uma economia (de tempo ou dinheiro) quantificável que supera o esforço de adoção.
+
+---
+
+## 7. Mini-Projeto: Valor e Impacto 🚀
 
 1.  Pense em um produto comum (ex: uma garrafa de água).
 2.  Como você poderia inovar nesse produto usando a **sustentabilidade**?
@@ -78,12 +84,20 @@ $ check-value --target "Meu Negócio"
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Diferencie Valor Funcional de Valor Emocional com exemplos.
 2.  Por que a Diversidade é considerada um ativo estratégico para a inovação?
 3.  Explique o conceito de "Triple Bottom Line" (Pessoas, Planeta, Lucro) no contexto da sustentabilidade.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 03](../exercicios/exercicio-03.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 03](../projetos/projeto-03.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos entender as [Etapas do Processo de Valor](./aula-04.md)! 📄

@@ -66,7 +66,13 @@ Tentar vender para todo mundo é o caminho mais rápido para não vender para ni
 
 ---
 
-## 6. Mini-Projeto: Observação de Campo 🚀
+## 6. Aprofundamento: Matriz CSD e Oceano Azul 🌊
+
+Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **Certezas, Suposições e Dúvidas (Matriz CSD)**. Além disso, a estratégia do **Oceano Azul** sugere que, em vez de competir em mercados saturados (oceanos vermelhos), o empreendedor intermediário deve buscar espaços inexplorados, criando nova demanda e tornando a concorrência irrelevante através de inovação de valor.
+
+---
+
+## 7. Mini-Projeto: Observação de Campo 🚀
 
 1.  Escolha um trajeto que você faz diariamente (ou uma rede social que usa muito).
 2.  Anote 3 situações que geram frustração (problemas).
@@ -75,12 +81,20 @@ Tentar vender para todo mundo é o caminho mais rápido para não vender para ni
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Defina, com suas palavras, a diferença entre ideia e oportunidade.
 2.  Cite dois exemplos de mudanças tecnológicas recentes que criaram novas oportunidades de negócio.
 3.  Por que a segmentação é importante na fase de identificação de oportunidades?
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 02](../exercicios/exercicio-02.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 02](../projetos/projeto-02.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos mergulhar na [Análise de Valor: Inovação e Sustentabilidade](./aula-03.md)! 📡

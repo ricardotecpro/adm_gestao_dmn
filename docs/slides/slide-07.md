@@ -1,106 +1,187 @@
-# Aula 07 - Repositories e Banco de Dados 🗄️
-## Onde a informação descansa
+<!-- .slide: class="center" -->
+
+# Aula 07 - Modelagem de Negócios: O Canvas 🧪
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. Por que Bancos de Dados? <!-- .element: class="fragment" -->
-2. PostgreSQL: O Robusto <!-- .element: class="fragment" -->
-3. SQL Básico (SELECT, INSERT...) <!-- .element: class="fragment" -->
-4. Relacionamentos (1:N, N:N) <!-- .element: class="fragment" -->
-5. Camada de Persistence <!-- .element: class="fragment" -->
-6. O Padrão Repository <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. Persistência de Dados 💾
+## 1. O que é o Canvas? 🎨
 
-- Sem banco, o servidor esquece tudo ao reiniciar. <!-- .element: class="fragment" -->
-- Precisamos de segurança e integridade. <!-- .element: class="fragment" -->
-- **Estritamente Tipado**: O banco garante o formato. <!-- .element: class="fragment" -->
+O **Business Model Canvas** é um mapa visual que resume o modelo de negócio em 9 blocos fundamentais. Ele permite que você entenda como a empresa cria, entrega e captura valor em uma única página.
 
 ---
 
-## 2. Por que PostgreSQL? 🐘
+---
 
-- Código Aberto (Open Source). <!-- .element: class="fragment" -->
-- Extremamente confiável (ACID). <!-- .element: class="fragment" -->
-- Suporta dados complexos (JSONB). <!-- .element: class="fragment" -->
+## 2. Os 9 Blocos do Canvas 🧱
+
+Para modelar seu negócio, você deve preencher:
+
+1.  **Segmento de Clientes**: Quem estamos atendendo?
+2.  **Proposta de Valor**: Que problema resolvemos?
+3.  **Canais**: Como chegamos ao cliente?
+4.  **Relacionamento**: Como interagimos com cada segmento?
+5.  **Fontes de Receita**: Como ganhamos dinheiro?
+6.  **Recursos Principais**: O que é essencial para o negócio?
+7.  **Atividades Principais**: O que fazemos no dia a dia?
+8.  **Parcerias Principais**: Quem nos ajuda?
+9.  **Estrutura de Custos**: O que gera gasto?
 
 ---
 
-## 3. SQL: A Linguagem Universal 🗣️
+## 2. Os 9 Blocos do Canvas 🧱
 
-```sql
--- Buscar usuários VIP
-SELECT * FROM usuarios 
-WHERE tipo = 'VIP' 
-ORDER BY nome;
+---
+
+---
+
+## 3. A Lógica do Canvas (Mermaid) 🔗
+
+O Canvas é dividido em dois lados: o lado **Direito** (valor e cliente) e o lado **Esquerdo** (eficiência e infraestrutura).
+
+---
+
+## 3. A Lógica do Canvas (Mermaid) 🔗
+
+```mermaid
+graph TD
+    subgraph "Lado Emocional (Valor)"
+        V(["Proposta de Valor"]) --> C(["Canais"])
+        C --> R(["Relacionamento"])
+        R --> CL(["Segmentos de Clientes"])
+        CL --> RE(["Receitas"])
+    end
+    subgraph "Lado Racional (Eficiência)"
+        P(["Parcerias"]) --> A(["Atividades"])
+        A --> RP(["Recursos"])
+        RP --> CU(["Custos"])
+    end
+    V --- RP
+    V --- A
 ```
 
-- **DDL**: Define a estrutura (Tabelas). <!-- .element: class="fragment" -->
-- **DML**: Manipula os dados (Linhas). <!-- .element: class="fragment" -->
+---
+
+## 3. A Lógica do Canvas (Mermaid) 🔗
 
 ---
 
-## 4. O Coração: Relacionamentos 🔗
+---
 
-- **1:N**: Um cliente, muitos pedidos. <!-- .element: class="fragment" -->
-- **N:N**: Muitos alunos, muitos cursos. <!-- .element: class="fragment" -->
-- **Foreign Key**: A âncora que liga tudo. <!-- .element: class="fragment" -->
+## 4. Canvas vs. Plano de Negócios 📊
+
+- <!-- .element: class="fragment" --> **Canvas**: Ágil, visual, focado em testes de hipóteses e mudanças rápidas.
+- <!-- .element: class="fragment" --> **Plano de Negócios**: Detalhado, linear, focado em execução e captação de recursos tradicionais.
+
+> **Dica**: Use o Canvas para encontrar o modelo certo e o Plano de Negócios para detalhar como você vai executá-lo.
 
 ---
 
-## 5. Camada de Persistence 🧱
-
-- O código que conversa com o driver do banco. <!-- .element: class="fragment" -->
-- Onde as queries são traduzidas para o código. <!-- .element: class="fragment" -->
+## 4. Canvas vs. Plano de Negócios 📊
 
 ---
 
-## 6. Padrão Repository 📥
+---
 
-- "Não me diga como, diga O QUE você quer". <!-- .element: class="fragment" -->
-- Isola o SQL da regra de negócio. <!-- .element: class="fragment" -->
+## 5. Simulando um Modelo (Termynal) 📥
 
-```javascript
-// No Service
-userRepository.findByEmail(email);
+Vamos rodar uma verificação no seu Canvas:
+
+---
+
+## 5. Simulando um Modelo (Termynal) 📥
+
+```termynal
+$ canvas --check-balance
+> Verificando equilíbrio entre lados... [OK]
+> Checando Proposta de Valor vs Cliente... [CONECTADO]
+> Analisando Receitas vs Custos... [ALERTA: Margem Pequena]
+> Diagnóstico: Seu modelo é viável, mas os custos operacionais estão altos!
 ```
 
 ---
 
-## 7. Migrations 📜
-
-- Controle de versão para o Banco. <!-- .element: class="fragment" -->
-- Permite "voltar no tempo" se algo quebrar. <!-- .element: class="fragment" -->
-- Mantém o time em sincronia. <!-- .element: class="fragment" -->
+## 5. Simulando um Modelo (Termynal) 📥
 
 ---
 
-## Desafio SQL ⚡
+---
 
-Qual comando você usaria para mudar o preço de todos os produtos da categoria 'Games' para 99.90?
+## 6. Aprofundamento: Padrões de Modelos de Negócios (Business Model Patterns) 🧩
+
+O Canvas não é apenas para preenchimento; ele serve para detectar padrões. Modelos **Long Tail** (venda de muitos itens de nicho em pequena quantidade), **Plataformas Multilaterais** (unir dois grupos de clientes distintos, como o Uber faz com motoristas e passageiros) e **Freemium** (base gratuita para converter uma minoria em premium) são estratégias intermediárias que mudam radicalmente o preenchimento de cada bloco do Canvas.
 
 ---
 
-## Resumo ✅
+---
 
-- Bancos de dados dão memória ao sistema. <!-- .element: class="fragment" -->
-- PostgreSQL é o padrão da indústria. <!-- .element: class="fragment" -->
-- SQL é habilidade obrigatória para backend. <!-- .element: class="fragment" -->
-- Repository Pattern traz flexibilidade. <!-- .element: class="fragment" -->
+## 7. Mini-Projeto: Modelando uma Startup 🏗️
+
+Imagine que você está criando o **Uber das Bicicletas**.
+1.  Qual a sua principal **Proposta de Valor**?
+2.  Quem são seus **Segmentos de Clientes**?
+3.  Quais seriam seus dois principais **Recursos**?
+4.  De onde viria sua **Fonte de Receita**?
 
 ---
 
-## Próxima Aula: Integridade! ✅
+---
 
-### Validação e Boas Práticas
+## 8. Exercício de Fixação 🧠
 
-- Garantindo que dados "sujos" não entrem no banco. <!-- .element: class="fragment" -->
-- Tratamento de exceções de banco. <!-- .element: class="fragment" -->
+1.  Quais são los 9 blocos do Business Model Canvas?
+2.  O que o "lado direito" do Canvas representa?
+3.  Por que o Canvas é considerado uma ferramenta de "metodologia ágil"?
 
 ---
 
-## Dúvidas? 🗄️
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 07](../exercicios/exercicio-07.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 07](../projetos/projeto-07.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Como definir exatamente quem é seu cliente? [Segmentação de Clientes e Público-Alvo](../aulas/aula-08.md) 🚢
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 07
+
+### Obrigado!

@@ -1,19 +1,23 @@
-# Exercícios 04 - Processos de Valor e Inovação ⚙️
+# Exercícios 04 - Processo de Inovação 🧩
 
 ## 🟢 Fáceis
 
-1. **Inovação**: Defina o que é "Inovação Incremental" e dê um exemplo.
-2. **MVP**: O que significa a sigla MVP e qual seu principal objetivo?
+1. Quais são as diferenças conceituais entre Inovação Incremental e Inovação Disruptiva?
+2. Defina sustentabilidade na inovação. Por que inovar é vital para a longevidade?
 
 ## 🟡 Médios
 
-3. **Lean Startup**: Explique o ciclo "Construir-Medir-Aprender". Por que a medição é tão importante?
-4. **Pivotagem**: O que significa "pivotar" um negócio e em que situação um empreendedor deve tomar essa decisão?
+3. Inovar sempre significa criar tecnologia do zero? Forneça um exemplo base.
+4. De que maneiras a Cultura Organizacional afeta as taxas de inovação na empresa?
 
 ## 🔴 Desafio
 
-5. **Design Thinking na Prática**:
-    Imagine que você quer criar um app para organizar caronas em faculdades.
-    * Como você aplicaria a fase de **Empatia**?
-    * Descreva como seria o seu **MVP** para testar a ideia em apenas uma semana.
-    * Quais métricas você usaria para saber se a ideia foi validada ou não?
+5. Dado o nível de TRL (Technology Readiness Level), descreva como a inovação flui do ambiente acadêmico até o teste validado, e o que é o 'Vale da Morte' da Inovação neste percurso.
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-04.md)**

@@ -1,110 +1,182 @@
-# Aula 04 - Documentação e Mocks 📝
-## Developer Experience e Contratos
+<!-- .slide: class="center" -->
+
+# Aula 04 - Etapas de Processo de Valor e Inovação 📄
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. Por que documentar? <!-- .element: class="fragment" -->
-2. OpenAPI vs Swagger <!-- .element: class="fragment" -->
-3. Swagger UI e Editor <!-- .element: class="fragment" -->
-4. O Poder dos Mocks <!-- .element: class="fragment" -->
-5. Developer Experience (DX) <!-- .element: class="fragment" -->
-6. Ferramentas de Simulação <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. Documentação é DX 🚀
+## 1. O que é o Processo de Valor? 🛠️
 
-- Sua API é seu produto. <!-- .element: class="fragment" -->
-- Documentar economiza tempo de suporte. <!-- .element: class="fragment" -->
-- Facilita a integração com Front/Mobile. <!-- .element: class="fragment" -->
+O valor não aparece por mágica; ele é **construído** através de etapas lógicas que transformam uma percepção em um resultado concreto.
 
----
-
-## 2. OpenAPI (OAS) 📜
-
-- O padrão mundial. <!-- .element: class="fragment" -->
-- Arquivo YAML ou JSON descritivo. <!-- .element: class="fragment" -->
-- Agnóstico de linguagem. <!-- .element: class="fragment" -->
+### As 4 Etapas do Processo:
+1.  **Criação**: Identificação da oportunidade e desenvolvimento da ideia.
+2.  **Configuração**: Estruturação dos recursos (pessoas, tecnologia, dinheiro).
+3.  **Entrega**: Como o valor chega até o cliente (canais, marketing).
+4.  **Captura**: Como o negócio recebe o retorno (financeiro ou social).
 
 ---
 
-## 3. Swagger: O Canivete Suíço 🛠️
-
-- **Editor**: Escreva e valide o contrato. <!-- .element: class="fragment" -->
-- **UI**: Gere a página visual de testes. <!-- .element: class="fragment" -->
-- **Codegen**: Gere código (client/server) automaticamente. <!-- .element: class="fragment" -->
+## 1. O que é o Processo de Valor? 🛠️
 
 ---
 
-## Swagger UI em Ação
+---
 
-- Permite testar endpoints no próprio navegador. <!-- .element: class="fragment" -->
-- Mostra exemplos de JSON de entrada e saída. <!-- .element: class="fragment" -->
-- Exibe todos os Status Codes possíveis. <!-- .element: class="fragment" -->
+## 2. Tipologias de Inovação 🏗️
+
+A inovação pode acontecer de diferentes formas e em diferentes níveis de intensidade:
+
+- <!-- .element: class="fragment" --> **Inovação Incremental**: Pequenas melhorias em algo que já existe (ex: nova versão de um celular).
+- <!-- .element: class="fragment" --> **Inovação Radical**: Cria um novo mercado ou desbanca um existente (ex: a transição das câmeras de filme para digitais).
+- <!-- .element: class="fragment" --> **Inovação de Processo**: Mudar o "como" as coisas são feitas para ganhar eficiência.
+- <!-- .element: class="fragment" --> **Inovação de Modelo de Negócio**: Mudar a forma como se ganha dinheiro (ex: streaming vs venda de CDs).
 
 ---
 
-## 4. O Poder dos Mocks 🎭
-
-- **Development in Parallel**: Front não espera pelo Back. <!-- .element: class="fragment" -->
-- Servidor "Fake" que retorna dados reais. <!-- .element: class="fragment" -->
-- Valide a experiência antes da implementação complexa. <!-- .element: class="fragment" -->
+## 2. Tipologias de Inovação 🏗️
 
 ---
 
-## 5. Developer Experience (DX) 👨‍💻
+---
 
-Como ser amado por outros devs:
+## 3. Ambiente Inovador 🚀
 
-- Nomes de rotas claros. <!-- .element: class="fragment" -->
-- Erros descritivos no Body. <!-- .element: class="fragment" -->
-- Exemplos de requisição. <!-- .element: class="fragment" -->
-- Documentação atualizada (ou gerada pelo código). <!-- .element: class="fragment" -->
+Para que a inovação floresça, o ambiente deve permitir:
+- <!-- .element: class="fragment" --> **Segurança Psicológica**: Liberdade para errar e aprender.
+- <!-- .element: class="fragment" --> **Colaboração**: Troca de ideias entre diferentes áreas.
+- <!-- .element: class="fragment" --> **Flexibilidade**: Capacidade de mudar a rota rapidamente.
 
 ---
 
-## 6. Ferramentas Recomendadas 🧰
+---
 
-- **Swagger Editor**: Online ou Local. <!-- .element: class="fragment" -->
-- **Mockoon**: Mock local amigável. <!-- .element: class="fragment" -->
-- **Prism**: Mock via CLI. <!-- .element: class="fragment" -->
-- **Postman**: Collections documentadas. <!-- .element: class="fragment" -->
+## 4. Estruturação do Processo (Mermaid) 📊
+
+```mermaid
+graph TD
+    A(["Fase 1: Diagnóstico"]) --> B(["Fase 2: Ideação"])
+    B --> C(["Fase 3: Prototipagem"])
+    C --> D(["Fase 4: Validação"])
+    D --> E(["Fase 5: Escala"])
+```
 
 ---
 
-## 7. Prática: Editando um YAML 💻
-
-- Desenhando um endpoint `GET /tarefas`. <!-- .element: class="fragment" -->
-- Definindo parâmetros de entrada. <!-- .element: class="fragment" -->
-- Criando esquemas de dados. <!-- .element: class="fragment" -->
+## 4. Estruturação do Processo (Mermaid) 📊
 
 ---
 
-## Desafio: Mock vs Stubs ⚡
+---
 
-Qual a principal vantagem de um Mock Server online (como Postman) em relação a um Mock rodando apenas no computador do desenvolvedor?
+## 5. Simulando o Processo (Termynal) 💻
+
+Vamos validar a fase atual do seu processo de inovação:
 
 ---
 
-## Resumo ✅
+## 5. Simulando o Processo (Termynal) 💻
 
-- OpenAPI é o contrato. <!-- .element: class="fragment" -->
-- Swagger UI é a vitrine da sua API. <!-- .element: class="fragment" -->
-- Mocks destravam o desenvolvimento da equipe. <!-- .element: class="fragment" -->
-- DX é o diferencial de uma boa API. <!-- .element: class="fragment" -->
-
----
-
-## Próxima Aula: Implementação Backend! 💻
-
-### Módulo 2: Manipulação de Dados
-
-- Controllers e Services. <!-- .element: class="fragment" -->
-- Repositories e Banco de Dados. <!-- .element: class="fragment" -->
-- Mão na massa com código real! <!-- .element: class="fragment" -->
+```termynal
+$ inovacao --check-stage
+> Verificando fase do projeto...
+  - [x] Problema identificado
+  - [x] Solução proposta
+  - [/] Protótipo em construção
+> Status: Fase de EXPERIMENTAÇÃO.
+> Dica: Não demore para testar com clientes reais!
+```
 
 ---
 
-## Dúvidas? 📝
+## 5. Simulando o Processo (Termynal) 💻
+
+---
+
+---
+
+## 6. Aprofundamento: Curva de Adoção de Inovação e TRL 📉
+
+A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difusão da Inovação** (Innovators, Early Adopters, Early Majority...) é crucial para saber como comunicar o lançamento. Além disso, a escala TRL (Technology Readiness Level) auxilia a mensurar a maturidade de uma tecnologia, indo de uma pesquisa básica (TRL 1) até um sistema provado em ambiente real (TRL 9).
+
+---
+
+---
+
+## 7. Mini-Projeto: Planejando a Inovação 🚀
+
+1.  Identifique uma empresa que você conhece que tenha passado por uma **Inovação Incremental** recentemente.
+2.  Agora, descreva um exemplo de **Inovação de Modelo de Negócio**.
+3.  Desenhe um pequeno cronograma de 3 passos para validar uma ideia inovadora em uma semana.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+1.  Explique a diferença entre Inovação Radical e Incremental.
+2.  Quais são as 4 etapas básicas do processo de valor?
+3.  Por que a "Captura de Valor" é essencial para a sustentabilidade de uma empresa?
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+!!! info "Dica"
+    O planejamento não deve ser rígido. No processo de inovação, o planejamento serve para dar direção, mas a execução exige adaptabilidade.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 04](../exercicios/exercicio-04.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 04](../projetos/projeto-04.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Fim do Bloco 1! No Bloco 2, iniciaremos a [Gestão de Negócios e Ideação](../aulas/aula-05.md)! 💻
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 04
+
+### Obrigado!

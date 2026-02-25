@@ -1,5 +1,5 @@
 [project]
-name = "adm_dmn"
+name = "adm_gestao_dmn"
 version = "1.0.0"
 description = "Desenvolvimento de Modelos de Negócios"
 authors = [

@@ -1,12 +1,38 @@
-# Projeto 05 - Análise SWOT 📊
+# Projeto 05 - Design a Fundo 🚀
 
-## Objetivo
-Aplicar a ferramenta FOFA para entender a posição estratégica de uma ideia de negócio.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Sprint prático de Duplo Diamante num final de semana.
 
-## Atividades
-1. **Ambiente Interno**: Liste 3 Forças e 3 Fraquezas da sua ideia ou de uma empresa existente.
-2. **Ambiente Externo**: Liste 3 Oportunidades e 3 Ameaças que o mercado oferece hoje.
-3. **Cruzamento Estratégico**: Escolha uma Força e mostre como ela pode ser usada para aproveitar uma Oportunidade.
+---
 
-## Entrega
-A matriz SWOT preenchida e uma breve análise do cruzamento estratégico realizado.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 05](../aulas/aula-05.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 05
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 05](../exercicios/solucao-05.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

@@ -1,0 +1,61 @@
+import os
+import re
+
+AULAS_DIR = r"d:\SourceCode\REPOS\github.io\adm_gestao_dmn\docs\aulas"
+
+intermediate_content = {
+    "01": "## X. Aprofundamento: O Mindset Ágil e Lean Startup 🔄\n\nNo nível intermediário, o empreendedorismo deixa de ser apenas sobre 'ter ideias' e passa a ser sobre **validação contínua**. O modelo *Lean Startup* (Startup Enxuta) introduz o conceito de MVP (Produto Mínimo Viável) para testar hipóteses no mercado real com o menor custo possível. Empreendedores experientes não focam em planos perfeitos, mas em ciclos rápidos de construção, medição e aprendizado.\n\n---\n\n",
+    "02": "## X. Aprofundamento: Matriz CSD e Oceano Azul 🌊\n\nPara avançarmos, é vital não apenas identificar oportunidades, mas mapear **Certezas, Suposições e Dúvidas (Matriz CSD)**. Além disso, a estratégia do **Oceano Azul** sugere que, em vez de competir em mercados saturados (oceanos vermelhos), o empreendedor intermediário deve buscar espaços inexplorados, criando nova demanda e tornando a concorrência irrelevante através de inovação de valor.\n\n---\n\n",
+    "03": "## X. Aprofundamento: A Equação de Valor e o CAC/LTV 📐\n\nA percepção de valor não é estática. Empreendedores avançados calculam o Custo de Aquisição de Clientes (CAC) e o Lifetime Value (LTV). A regra de ouro intermediária é garantir que LTV > 3 * CAC. O valor verdadeiro é entregue quando a solução não apenas resolve a dor, mas também gera uma economia (de tempo ou dinheiro) quantificável que supera o esforço de adoção.\n\n---\n\n",
+    "04": "## X. Aprofundamento: Curva de Adoção de Inovação e TRL 📉\n\nA inovação não atinge a todos simultaneamente. Compreender a **Curva de Difusão da Inovação** (Innovators, Early Adopters, Early Majority...) é crucial para saber como comunicar o lançamento. Além disso, a escala TRL (Technology Readiness Level) auxilia a mensurar a maturidade de uma tecnologia, indo de uma pesquisa básica (TRL 1) até um sistema provado em ambiente real (TRL 9).\n\n---\n\n",
+    "05": "## X. Aprofundamento: Design Thinking e Duplo Diamante 💎\n\nNo estágio intermediário da ideação, não dependemos da \"inspiração divina\". Utilizamos o modelo estruturado do **Duplo Diamante**: Descobrir e Definir (espaço do problema), Desenvolver e Entregar (espaço da solução). Esse pensamento divergente e convergente garante que estamos tendo as ideias certas para os problemas reais, alinhando empatia, prototipação e viabilidade técnica.\n\n---\n\n",
+    "06": "## X. Aprofundamento: Modelagem Financeira e Break-even 📈\n\nUm Plano de Negócios maduro exige projeções tangíveis. O conceito de **Break-even Point (Ponto de Equilíbrio)** é vital: o exato momento em que as receitas se igualam aos custos (fixos e variáveis). Além disso, a elaboração de cenários (Otimista, Realista e Pessimista) capacita o negócio a se proteger de variações drásticas do fluxo de caixa nos primeiros anos de operação.\n\n---\n\n",
+    "07": "## X. Aprofundamento: Padrões de Modelos de Negócios (Business Model Patterns) 🧩\n\nO Canvas não é apenas para preenchimento; ele serve para detectar padrões. Modelos **Long Tail** (venda de muitos itens de nicho em pequena quantidade), **Plataformas Multilaterais** (unir dois grupos de clientes distintos, como o Uber faz com motoristas e passageiros) e **Freemium** (base gratuita para converter uma minoria em premium) são estratégias intermediárias que mudam radicalmente o preenchimento de cada bloco do Canvas.\n\n---\n\n",
+    "08": "## X. Aprofundamento: Personas e Job To Be Done (JTBD) 🎯\n\nSegmentação demográfica (idade, renda) é insuficiente. O conceito intermediário exige focar em **Personas** (arquétipos semi-fictícios, com dores e desejos comportamentais e psicográficos) e no modelo **Job To Be Done** (o trabalho a ser feito). Segundo o JTBD, o cliente \"contrata\" um produto para resolver um problema em uma circunstância específica. Entender a jornada do usuário é mais importante que o Censo.\n\n---\n\n",
+    "09": "## X. Aprofundamento: Canvas da Proposta de Valor (VPC) 🎁\n\nPara alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** cruza o Perfil do Cliente (Tarefas, Dores e Ganhos) com o Mapa de Valor do Produto (Criadores de Ganhos, Aliviadores de Dores e Produtos/Serviços). O \"Fit\" ocorre apenas quando os aliviadores de fato resolvem as dores mais extremas mapeadas no perfil, garantindo que o produto tenha tração inicial (Product-Market Fit).\n\n---\n\n",
+    "10": "## X. Aprofundamento: Estratégias Omnichannel e CAC vs. Canal 📱\n\nA maturidade em canais requer transitar do modelo Multicanal para o **Omnichannel**, onde a experiência do usuário é contínua e integrada em todos os pontos de contato físicos e digitais. Além disso, a gestão intermediária acompanha minuciosamente a eficiência de cada funil, descartando canais cujo CAC seja insustentável e escalando os canais que trazem os Early Adopters com maior retenção.\n\n---\n\n",
+    "11": "## X. Aprofundamento: Cohort Analysis e Churn Rate 💔\n\nRelacionar-se inclui metrificar retenção. O **Churn Rate** mede a taxa de cancelamento ou evasão de clientes. O aprofundamento analítico utiliza a análise de **Cohorts** (grupos de usuários que iniciaram juntos) para detectar em qual semana exata os usuários desistem da plataforma, permitindo intervir com automação de marketing pontual (ex: réguas de relacionamento, onboarding contínuo e Customer Success proativo).\n\n---\n\n",
+    "12": "## X. Aprofundamento: Gargalos e Teoria das Restrições (TOC) 🏭\n\nGerir atividades-chave exige dominar a operacionalidade. A **Teoria das Restrições (TOC)** dita que todo sistema produtivo é limitado por pelo menos um gargalo (restrição). Empreendedores precisam mapear o macroprocesso, identificar esse gargalo e subordinar todo o resto a ele. Otimizar qualquer parte que não seja a restrição é considerado um desperdício de tempo que mascara ineficiências latentes.\n\n---\n\n",
+    "13": "## X. Aprofundamento: Gestão Ágil de Ativos e Capital Humano 🧠\n\nRecursos não são apenas físicos. A alocação ótima do Capital Humano, protegendo as informações fundamentais e direitos de Propriedade Intelectual (PI), é vital a médio prazo. A abordagem *asset-light* (como ter servidores em nuvem, não comprar frotas – sublocar) reflete uma maturidade estratégica onde se prefere o OPEX (Despesas Operacionais flexíveis) ao CAPEX (Despesas de Capital pesadas) para facilitar o pivot das operações.\n\n---\n\n",
+    "14": "## X. Aprofundamento: Joint Ventures e Alianças API/Economy 🤝\n\nParcerias vão além da simples relação cliente-fornecedor. Alianças estratégicas (coopetição = colaborar com competidores) e a submissão a ecossistemas interconectados são sinais de maturidade. No mundo digital, as APIs (interfaces de comunicação de software) são as novas 'parcerias': construir sobre a base de terceiros (ex: usar Google Maps API, Stripe para pagamentos), poupando meses de desenvolvimento proprietário e acelerando a entrada no mercado.\n\n---\n\n",
+    "15": "## X. Aprofundamento: Economia de Escala vs. Escopo e Burn Rate 🔥\n\nDominar custos implica entender que o crescimento pode trazer a **Economia de Escala** (redução do custo unitário pelo volume) ou **Economia de Escopo** (usar a mesma infraestrutura para vender múltiplos produtos). Para startups, o **Burn Rate** (taxa mensal que a empresa gasta do seu capital investido até virar lucrativa) e a projeção de \"Runway\" (quantos meses a empresa dura até quebrar) são os indicadores cruciais de sobrevivência e necessidade de novas captações.\n\n---\n\n",
+    "16": "## X. Aprofundamento: O Efeito de Rede e MRR/ARR 🕸️\n\nA maestria em fontes de receita muitas vezes se apoia no **Efeito de Rede**: o produto se torna mais valioso à medida que mais pessoas o usam (ex: WhatsApp, MercadoLivre). Na medição financeira moderna, especialmente em negócios digitais ou serviços SaaS, foca-se brutalmente no MRR (Monthly Recurring Revenue - Receita Recorrente Mensal) e o ARR (Anual), métricas fiéis para atrair investidores em rodadas de Series A/B.\n\n---\n\n"
+}
+
+for i in range(1, 17):
+    num_str = f"{i:02d}"
+    file_path = os.path.join(AULAS_DIR, f"aula-{num_str}.md")
+    if not os.path.exists(file_path):
+        print(f"Skipping {file_path}")
+        continue
+    
+    with open(file_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    # Re-number and inject
+    content = content.replace("## 7. Exercício", "## 8. Exercício")
+    content = content.replace("## 6. Mini-Projeto", "## 7. Mini-Projeto")
+    
+    intro = intermediate_content.get(num_str, "")
+    intro = intro.replace("X", "6")
+    
+    # insert intro
+    if "## 7. Mini-Projeto" in content:
+        content = content.replace("## 7. Mini-Projeto", intro + "## 7. Mini-Projeto")
+        
+    links = f"\n---\n\n## 📚 Material Complementar\n\n*   **[📝 Exercícios da Aula {num_str}](../exercicios/exercicio-{num_str}.md)**: Pratique os conceitos com questões focadas.\n*   **[🚀 Projeto da Aula {num_str}](../projetos/projeto-{num_str}.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.\n\n"
+    
+    # insert links
+    if "**Próxima Aula**" in content:
+        content = content.replace("**Próxima Aula**", links + "**Próxima Aula**")
+    elif "!!! warning \"Atenção\"" in content and "**FIM DO CURSO**" not in content:
+        content = content.replace("!!! warning \"Atenção\"", links + "!!! warning \"Atenção\"")
+    elif "!!! success \"Conclusão do Módulo\"" in content:
+        content = content.replace("!!! success \"Conclusão do Módulo\"", links + "!!! success \"Conclusão do Módulo\"")
+    elif "**FIM DO CURSO**" in content:
+        content = content.replace("**FIM DO CURSO**", links + "**FIM DO CURSO**")
+        
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(content)
+        
+print("Aulas refatoradas com sucesso!")

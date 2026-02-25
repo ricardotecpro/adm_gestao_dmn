@@ -63,7 +63,13 @@ graph TD
 
 ---
 
-## 6. Mini-Projeto: Criando sua Persona 🚀
+## 6. Aprofundamento: Personas e Job To Be Done (JTBD) 🎯
+
+Segmentação demográfica (idade, renda) é insuficiente. O conceito intermediário exige focar em **Personas** (arquétipos semi-fictícios, com dores e desejos comportamentais e psicográficos) e no modelo **Job To Be Done** (o trabalho a ser feito). Segundo o JTBD, o cliente "contrata" um produto para resolver um problema em uma circunstância específica. Entender a jornada do usuário é mais importante que o Censo.
+
+---
+
+## 7. Mini-Projeto: Criando sua Persona 🚀
 
 Escolha um negócio (ex: Loja de Jogos Digitais).
 1.  Defina o **Público-Alvo** em 3 linhas.
@@ -72,7 +78,7 @@ Escolha um negócio (ex: Loja de Jogos Digitais).
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Qual a diferença entre segmentação demográfica e psicográfica?
 2.  Por que criar uma Persona ajuda mais no marketing do que apenas ter um Público-Alvo?
@@ -84,5 +90,13 @@ Escolha um negócio (ex: Loja de Jogos Digitais).
     Um segmento ideal deve ser: Mensurável, Acessível, Substancial (grande o suficiente) e Acionável.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 08](../exercicios/exercicio-08.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 08](../projetos/projeto-08.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Entrando no Bloco 3! [Definição da Proposta de Valor ao Cliente](./aula-09.md) ✅

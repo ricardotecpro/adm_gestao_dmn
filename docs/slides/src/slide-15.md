@@ -1,146 +1,179 @@
-# Estrutura de Custos 💰
-## Aula 15 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 15 - Estrutura de Custos do Negócio 💰
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## O que é a Estrutura de Custos? 🤔
+## Avisos da Aula
 
-Descreve todos os custos incorridos para operar um modelo de negócio.
-Criar valor, manter relacionamentos e gerar receita, tudo gera custos.
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Classes de Custos 📂
+## 1. O que é Estrutura de Custos? 🏗️
+
+A estrutura de custos descreve todos os custos incorridos para operar um modelo de negócio. Criar e entregar valor, manter relacionamentos e gerar receita, tudo gera custo.
+
+---
+
+---
+
+## 2. Tipos de Estruturas de Custo 📂
+
+Existem dois extremos na forma como os negócios lidam com custos:
+
+1.  **Direcionado pelo Custo (Cost-driven)**: Focado em minimizar custos onde quer que seja possível (ex: companhias aéreas low-cost como a RyanAir).
+2.  **Direcionado pelo Valor (Value-driven)**: Focado na criação de valor e personalização, com menos preocupação com o custo (ex: hotéis de luxo, marcas de grife).
+
+---
+
+## 2. Tipos de Estruturas de Custo 📂
+
+---
+
+---
+
+## 3. Características dos Custos 📊
+
+Para gerir seu financeiro, você deve entender estes quatro conceitos:
+
+- { .fragment } **Custos Fixos**: Permanecem os mesmos, independentemente do volume de produção (ex: aluguel, salários administrativos).
+- { .fragment } **Custos Variáveis**: Mudam proporcionalmente ao volume de bens ou serviços produzidos (ex: matéria-prima, comissões de venda).
+- { .fragment } **Economias de Escala**: Benefícios de custo que o negócio desfruta à medida que sua produção se expande (custo por unidade cai).
+- { .fragment } **Economias de Escopo**: Benefícios de custo que o negócio desfruta devido a uma maior variedade de operações (ex: usar a mesma logística para vários tipos de produtos).
+
+---
+
+## 3. Características dos Custos 📊
+
+---
+
+---
+
+## 4. O Mapa de Custos (Mermaid) 📉
 
 ```mermaid
 graph TD
-    A["Estrutura de Custos"] --> B["Fixos"]
-    A --> C["Variáveis"]
-    A --> D["Economia de Escala"]
-    A --> E["Economia de Escopo"]
+    A(["Custos Totais"]) --> B(["Custos Fixos"])
+    A --> C(["Custos Variáveis"])
+    B --> B1(["Aluguel"])
+    B --> B2(["Salários"])
+    C --> C1(["Matéria-prima"])
+    C --> C2(["Impostos/Taxas"])
 ```
 
 ---
 
-## 1. Custos Fixos 🏢
-
-Custos que permanecem os mesmos, independentemente do volume de bens ou serviços produzidos.
-- Aluguel do escritório/fábrica.
-- Salários fixos da equipe.
-- Mensalidades de softwares (SaaS).
-- Imposto Predial.
+## 4. O Mapa de Custos (Mermaid) 📉
 
 ---
 
-## 2. Custos Variáveis 📈
+---
 
-Custos que variam proporcionalmente ao volume de bens ou serviços produzidos.
-- Matéria-prima.
-- Comissões de vendas.
-- Taxas de entrega / Logística.
-- Consumo de energia na produção.
+## 5. Simulador de Gastos (Termynal) 💻
+
+Como está a saúde financeira da sua operação?
 
 ---
 
-## 3. Economia de Escala 🏗️
+## 5. Simulador de Gastos (Termynal) 💻
 
-Vantagem de custo que uma empresa obtém à medida que sua produção aumenta.
-- Compras em grandes lotes reduzem o custo unitário.
-- Diluição dos custos fixos em mais unidades vendidas.
-
----
-
-## 4. Economia de Escopo 📂
-
-Vantagem de custo que uma empresa obtém quando tem uma operação de maior escopo.
-- Usar a mesma logística para entregar 10 tipos de produtos diferentes.
-- Usar o mesmo canal de marketing para várias marcas.
-
----
-
-## Focado no Custo vs. Focado no Valor 🥊
-
-- **Cost-driven:** Baixo preço, automação máxima, outsourcing massivo. (Ex: Ryanair, GOL).
-- **Value-driven:** Foco na criação de valor e propostas premium. (Ex: Hotéis 5 estrelas, Marcas de grife).
-
----
-
-## O Perigo dos Custos Ocultos 🕵️‍♂️
-
-Custos que não são óbvios no início, mas destroem o lucro.
-- Retrabalho por falta de qualidade.
-- Rotatividade alta de funcionários (Turnover).
-- Manutenções de emergência.
-
----
-
-## Ponto de Equilíbrio (Break-even Point) ⚖️
-
-```mermaid
-graph LR
-    A["Receita Total"] === B["Custo Total"]
-    B --> C["A partir daqui é LUCRO"]
+```termynal
+$ finance --audit-costs
+> Analisando custos fixos... [ALTO]
+> Verificando custos variáveis... [CONTROLADOS]
+> Calculando Ponto de Equilíbrio... [1.500 unidades/mês]
+> Resultado: Suas despesas fixas estão consumindo sua margem.
+> Dica: Tente renegociar o aluguel ou otimizar a equipe administrativa!
 ```
 
-É o volume de vendas onde o lucro é zero (Empate).
+---
+
+## 5. Simulador de Gastos (Termynal) 💻
 
 ---
 
-## CAC (Custo de Aquisição de Cliente) 💰
+---
 
-Quanto você gasta em marketing e vendas para conseguir 1 novo cliente?
-Se o CAC for maior que o que o cliente gasta (LTV), o negócio vai quebrar.
+## 6. Aprofundamento: Economia de Escala vs. Escopo e Burn Rate 🔥
+
+Dominar custos implica entender que o crescimento pode trazer a **Economia de Escala** (redução do custo unitário pelo volume) ou **Economia de Escopo** (usar a mesma infraestrutura para vender múltiplos produtos). Para startups, o **Burn Rate** (taxa mensal que a empresa gasta do seu capital investido até virar lucrativa) e a projeção de "Runway" (quantos meses a empresa dura até quebrar) são os indicadores cruciais de sobrevivência e necessidade de novas captações.
 
 ---
 
-## LTV (Lifetime Value) 💎
+---
 
-O valor total que um cliente deixa na sua empresa durante todo o tempo de relacionamento. Objetivo: LTV >> CAC.
+## 7. Mini-Projeto: Calculando o Básico 🚀
+
+Imagine que você vende **Camisetas Estampadas**.
+1.  O aluguel da sua sala é de R$ 1.000,00 (**Custo Fixo**).
+2.  Cada camiseta custa R$ 20,00 para ser produzida (**Custo Variável**).
+3.  Se você vender a camiseta por R$ 50,00, quantas você precisa vender por mês apenas para pagar o aluguel?
+4.  Identifique uma forma de gerar **Economia de Escala** nesse negócio.
 
 ---
 
-## Margem de Contribuição 💹
+---
 
-Preço de Venda - Custo Variável.
-É o que sobra para pagar os custos fixos e gerar lucro.
+## 8. Exercício de Fixação 🧠
+
+1.  Qual a diferença entre um negócio *Cost-driven* e um *Value-driven*?
+2.  Explique o conceito de "Custos Variáveis" com um exemplo de uma empresa de serviços.
+3.  O que são "Economias de Escopo" e como elas ajudam a reduzir custos?
 
 ---
 
-## Custos em Negócios Digitais 💻
+---
 
-Baixo custo variável (copiar um software custa zero), mas alto custo fixo inicial (Desenvolvimento/P&D).
+## 8. Exercício de Fixação 🧠
+
+!!! info "Dica"
+    O segredo de um negócio lucrativo é manter os custos fixos baixos e os variáveis sob controle, enquanto se escala a Proposta de Valor.
 
 ---
 
-## Análise de Sensibilidade 📊
+---
 
-O que acontece com meu lucro se o dólar subir 10%?
-O que acontece se eu der 5% de desconto em tudo?
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## Sustentabilidade Financeira 🛡️
+---
 
-Uma empresa não quebra por falta de lucro, quebra por falta de **Caixa**. Saiba gerir seus vencimentos e recebimentos.
+## 📚 Material Complementar
+
+- { .fragment } **[📝 Exercícios da Aula 15](../../exercicios/exercicio-15.md)**: Pratique os conceitos com questões focadas.
+- { .fragment } **[🚀 Projeto da Aula 15](../../projetos/projeto-15.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Como o dinheiro entra? [Fontes de Receita e Modelos de Ganho](../../aulas/aula-16.md) 🏆
 
 ---
 
-## Resumo da Aula 📝
+## Discussão Aberta 1
 
-- Definição de Estrutura de Custos.
-- Custos Fixos, Variáveis e Economias.
-- Negócios focados em Custo vs Valor.
-- Break-even e Margens.
-
----
-
-## Próximo Passo 👣
-
-Na nossa última aula, vamos falar sobre como o dinheiro volta: **Fontes de Receita**.
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
 
 ---
 
-## Desafio: Custo da Padaria 🥖
+## Discussão Aberta 2
 
-Liste **3 custos fixos** e **3 custos variáveis** de uma padaria de bairro.
-Como eles poderiam obter uma "Economia de Escala"?
+- Como os conceitos vistos afetam nosso ambiente? { .fragment }
+- Quem tem um exemplo prático? { .fragment }
+- Pontos de ruptura? { .fragment }
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 15
+
+### Obrigado!

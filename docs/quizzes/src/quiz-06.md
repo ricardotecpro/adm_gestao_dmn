@@ -1,71 +1,82 @@
-# Quiz 06 - O Plano de Negócios 💾
+# Quiz 06 - Plano de Negócios
 
-1. Qual o principal objetivo de um Plano de Negócios (PN)?
-    - [ ] Obter um documento bonito para colocar na estante
-    - [x] Diminuir riscos e testar a viabilidade da ideia antes de investir tempo e dinheiro reais
-    - [ ] Servir como manual de instruções de como usar os computadores da empresa
-    - [ ] Ser uma lista de nomes de funcionários que a empresa quer contratar
-    *Explicação: O PN é um "simulador" do negócio, onde você comete erros no papel em vez de cometer no mercado.*
+1. O que melhor define a matriz principal do tema 'Plano de Negócios'?
 
-2. O Plano de Negócios é um documento estático (que nunca muda)?
-    - [ ] Sim, depois de impresso e assinado, nada deve ser alterado
-    - [x] Não, é um documento vivo que deve ser atualizado conforme o mercado e a empresa evoluem
-    - [ ] Só muda se o governo criar uma nova lei de empresas
-    - [ ] Muda apenas se a empresa mudar de endereço físico
-    *Explicação: O PN deve servir como um guia, adaptando-se aos novos desafios e aprendizados do empreendedor.*
+    - [ ] Apenas o acúmulo financeiro no curto prazo.
+    - [x] O foco centrado em resolver fricções reais de forma sustentável e escalável.
+    - [ ] A cópia integral de modelos de negócios gringos e gigantes.
+    - [ ] Trabalhar isoladamente sem precisar interagir com clientes ou inovações.
+    > Explicação: A essência de gestão nos negócios foca sempre em solucionar dores (fricções reais) de maneira que possa crescer sustentavelmente sem ruptura.
 
-3. Sobre o "Sumário Executivo", é correto dizer:
-    - [ ] É a parte mais longa e detalhada do plano
-    - [x] É uma síntese dos pontos principais, servindo para despertar o interesse do investidor/leitor
-    - [ ] Deve conter apenas o currículo do empreendedor
-    - [ ] É a única parte do plano que não precisa de dados reais
-    *Explicação: O sumário é o "cartão de visitas" do plano; ele resume a visão, o mercado e a financeiro.*
+2. Na fase avançada deste tema, o principal erro estratégico a evitar é:
 
-4. Na seção de "Análise de Mercado" do PN, deve-se considerar:
-    - [ ] Apenas o que a família do empreendedor acha da ideia
-    - [x] O perfil do cliente, o comportamento dos concorrentes e os fornecedores
-    - [ ] O preço do petróleo no mercado internacional (para qualquer negócio)
-    - [ ] Apenas o histórico de vendas de empresas que já faliram
-    *Explicação: Conhecer o "terreno" onde você vai pisar é vital para não ser pego de surpresa.*
+    - [x] Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.
+    - [ ] Dialogar ativamente e pesquisar profundamente seu usuário foco.
+    - [ ] Usar métricas tangíveis em planilhas para guiar o negócio.
+    - [ ] Iterar de forma ágil adaptando seu modelo.
+    > Explicação: A mortalidade das empresas está atrelada em 'tentar vender sem validar', saltando as validações intrínsecas necessárias para preencher os gargalos.
 
-5. O que é o "Plano Operacional" dentro de um Plano de Negócios?
-    - [ ] A lista de preços dos produtos
-    - [x] A descrição de como o negócio vai funcionar no dia a dia (processos, local, equipamentos)
-    - [ ] O plano de saúde dos funcionários
-    - [ ] A estratégia de postagens no Instagram
-    *Explicação: O operacional define o "como fazer" a empresa rodar e entregar o valor prometido.*
+3. Marque a alternativa que descreve a melhor adaptação tecnológica em Plano de Negócios:
 
-6. Qual a importância da "Análise Financeira" no PN?
-    - [ ] Para saber quanto dinheiro o empreendedor pode gastar em viagens
-    - [x] Para prever faturamento, custos e o tempo necessário para o negócio se pagar (Payback)
-    - [ ] Para decidir a cor do cartão de crédito da empresa
-    - [ ] Apenas para cumprir uma exigência do banco para pegar empréstimos
-    *Explicação: Sem números que façam sentido, a melhor ideia do mundo pode levar à falência.*
+    - [ ] Acreditar que a tecnologia de ponta substitui todo modelo de negócios.
+    - [ ] Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.
+    - [x] Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.
+    - [ ] Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.
+    > Explicação: O modelo de negócios atua viabilizado pelas novas frentes em nuvem integrando APIs fluídas ao invés de codificar tudo em silos mortos com alto custo (Asset-Light).
 
-7. Uma das vantagens de se fazer um PN é:
-    - [ ] Garantir 100% de sucesso e lucro imediato
-    - [x] Facilitar a captação de recursos e parcerias estratégicas
-    - [ ] Eliminar a necessidade de trabalhar duro no início
-    - [ ] Tornar o empreendedor imune a crises econômicas
-    *Explicação: Investidores e bancos se sentem muito mais seguros ao ver um planejamento estruturado.*
+4. Relacionado às métricas de acompanhamento em 'Plano de Negócios', o que devemos olhar agressivamente?
 
-8. O Plano de Negócios serve APENAS para quem quer abrir uma empresa nova?
-    - [ ] Sim, quem já tem empresa não precisa de plano algum
-    - [x] Não, empresas já existentes usam PNs para planejar expansões ou novos produtos
-    - [ ] Sim, o PN é exclusivo para startups de tecnologia (SaaS)
-    - [ ] Não, o PN é feito apenas para ser entregue na faculdade
-    *Explicação: O planejamento é uma ferramenta de gestão contínua para qualquer crescimento organizado.*
+    - [ ] O número absoluto de curtidas estáticas nas mídias base.
+    - [ ] As horas inativas passivas não registradas na folha-ponto da equipe logada.
+    - [x] Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.
+    - [ ] A velocidade da fofoca corporativa em relação as corporações focadas gigantes.
+    > Explicação: A métrica principal nas amarras contábeis de tech startups exige dominar os indicadores chaves tangíveis perenes fidedignos da retenção, ignorando amarras de puras 'Métricas de Vaidades'.
 
-9. Na descrição dos "Produtos e Serviços", o empreendedor deve focar em:
-    - [ ] Listar todos os componentes técnicos minúsculos do objeto
-    - [x] Destacar os benefícios e diferenciais que o produto traz para o cliente
-    - [ ] Comparar apenas o peso físico do seu produto com o do concorrente
-    - [ ] Dizer que o produto é "o melhor do mundo" sem provar nada
-    *Explicação: O cliente compra soluções e benefícios, não apenas características técnicas.*
+5. Em 'Plano de Negócios', o termo 'Escalabilidade' se refere a:
 
-10. Qual a relação entre o PN e o Canvas?
-    - [ ] São a mesma coisa, você deve escolher apenas um para fazer
-    - [x] O Canvas é para idear e visualizar rapidamente; o PN é para detalhar a execução e viabilidade
-    - [ ] O Canvas substituiu o PN e hoje ninguém mais usa planos escritos
-    - [ ] O PN é para o dono e o Canvas é para os funcionários
-    *Explicação: Eles são complementares. O Canvas é o "esboço" rápido e o PN é o "projeto arquitetônico" detalhado.*
+    - [ ] Subir as escadas corporativas fidedignas engessadas corporativas inativas.
+    - [x] Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.
+    - [ ] Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.
+    - [ ] Diminuir atratividade no fluxo perene na busca inativa atipica global.
+    > Explicação: Escalar não é inchar inchar fisicamente! Escalar num plano robusto trata de separar a alta na Margem com uma curva minúscula de Custo operacional viabilizando massificações.
+
+6. Sobre a perenidade contínua do negócio em 'Plano de Negócios', o ideal atestado no mercado atual aponta para:
+
+    - [ ] Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.
+    - [ ] Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.
+    - [x] Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.
+    - [ ] Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.
+    > Explicação: Os dinâmicos ecossistemas requerem sempre fluidez (SaaS Cloud, parcerias atestáveis na cadeia da web) visando isolar o engessamento passado obsoleto e pautando viés rentável.
+
+7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Plano de Negócios' num planejamento rígido tradicional?
+
+    - [x] Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.
+    - [ ] Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.
+    - [ ] Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.
+    - [ ] Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.
+    > Explicação: Hipóteses matam os planos cegos! A não validação empírica queima todo o RunWay em frentes obscenas baseadas no delírio do fundador antes de testar a tese pura (Premissa Lean).
+
+8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Plano de Negócios'?
+
+    - [ ] Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.
+    - [x] Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.
+    - [ ] Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.
+    - [ ] Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.
+    > Explicação: Focar e atacar onde a energia cessa (Gargalo - Teoria das Restrições) determina o fluxo. Nenhuma organização melhora até o nó ser aliviado pela logística integrada.
+
+9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?
+
+    - [ ] Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.
+    - [ ] O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.
+    - [x] Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.
+    - [ ] Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.
+    > Explicação: Empreender cria os Fossos ('Moats'), isolando os gigantes copiadores em barreiras formadas por marcas fortes, propriedade intelectual fechada e patentes inatas ou eficiências exclusivas puristas.
+
+10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Plano de Negócios' atrelado na era ágil?
+
+    - [x] Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.
+    - [ ] Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.
+    - [ ] Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.
+    - [ ] Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.
+    > Explicação: Amar o Problema (A dor real, as fricções tangíveis da sociedade do público alvo) perpetua e sustenta sua evolução. Amar a solução fixa engessa sua ótica e culmina no colapso do encerramento corporativo da inovação vital!
+

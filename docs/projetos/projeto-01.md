@@ -1,12 +1,38 @@
-# Projeto 01 - Perfil Empreendedor 🚀
+# Projeto 01 - O Despertar do Empreendedor 🚀
 
-## Objetivo
-Realizar uma autoanálise profunda das competências empreendedoras e identificar áreas de crescimento.
+!!! info "Mão na Massa"
+    **Desafio Prático**: Criando o seu Mapa Estratégico Pessoal de Empreendedorismo.
 
-## Atividades
-1. **Autoavaliação**: Atribua uma nota de 1 a 10 para cada uma das 10 CCEs (Características do Comportamento Empreendedor).
-2. **Entrevista**: Converse com um empreendedor local e pergunte qual característica ele considera mais vital no dia a dia.
-3. **Plano de Desenvolvimento**: Escolha a sua nota mais baixa e escreva 3 ações práticas para melhorá-la nos próximos 30 dias.
+---
 
-## Entrega
-Um documento contendo a tabela de notas, o resumo da entrevista e o plano de ação.
+## 🎯 O Objetivo do Projeto
+
+Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 01](../aulas/aula-01.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+
+## 🛠️ Requisitos de Entrega
+
+Para obter êxito neste nível intermediário, certifique-se de apresentar:
+
+1.  **Fundamentação**: Aplicação clara e documentada do conceito.
+2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
+3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+
+---
+
+## 🚀 Passo a Passo da Execução
+
+```termynal
+$ projeto-init --aula 01
+> Lendo os requisitos de inovação baseados...
+> Criando workspace em branco do business.
+> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
+> Iniciando [EXECUÇÃO].
+```
+
+1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
+2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
+3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+
+---
+
+**Revisão**: Sempre utilize a [Solução dos Exercícios da Aula 01](../exercicios/solucao-01.md) para fixar conceitos fundamentais antes da entrega final dos desafios propostos nas frentes deste projeto!

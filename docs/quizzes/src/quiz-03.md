@@ -1,71 +1,82 @@
-# Quiz 09 - O Canvas da Proposta de Valor 💎
+# Quiz 03 - Análise de Valor
 
-1. O que é o "Value Proposition Canvas" (VPC)?
-    - [ ] Uma ferramenta para calcular o preço exato de cada produto
-    - [x] Uma ferramenta visual para detalhar o encaixe entre o perfil do cliente e a oferta da empresa
-    - [ ] O mesmo que o Business Model Canvas, mas com cores diferentes
-    - [ ] Um contrato jurídico entre a empresa e seus fornecedores
-    *Explicação: O VPC foca em "dar um zoom" nos blocos de Proposta de Valor e Segmento de Clientes do BMC.*
+1. O que melhor define a matriz principal do tema 'Análise de Valor'?
 
-2. Quais são as duas partes principais do Canvas da Proposta de Valor?
-    - [ ] Receitas e Custos
-    - [ ] Parceiros e Atividades
-    - [x] Perfil do Cliente e Mapa de Valor
-    - [ ] Marketing e Vendas
-    *Explicação: O objetivo é entender o cliente (lado direito) para criar o valor certo (lado esquerdo).*
+    - [ ] Apenas o acúmulo financeiro no curto prazo.
+    - [x] O foco centrado em resolver fricções reais de forma sustentável e escalável.
+    - [ ] A cópia integral de modelos de negócios gringos e gigantes.
+    - [ ] Trabalhar isoladamente sem precisar interagir com clientes ou inovações.
+    > Explicação: A essência de gestão nos negócios foca sempre em solucionar dores (fricções reais) de maneira que possa crescer sustentavelmente sem ruptura.
 
-3. No Perfil do Cliente, o que são as "Tarefas do Cliente" (Customer Jobs)?
-    - [ ] O emprego que o cliente possui atualmente
-    - [x] O que os clientes estão tentando realizar em sua vida pessoal ou profissional (problemas, necessidades)
-    - [ ] Os exercícios físicos que o cliente faz na academia
-    - [ ] As tarefas domésticas que o cliente delega para outros
-    *Explicação: Tarefas podem ser funcionais, sociais ou emocionais (ex: querer parecer elegante).*
+2. Na fase avançada deste tema, o principal erro estratégico a evitar é:
 
-4. O que são as "Dores" (Pains) no Perfil do Cliente?
-    - [ ] Doenças físicas que o cliente sente
-    - [x] Complicações, riscos e resultados negativos que o cliente enfrenta ou teme ao realizar uma tarefa
-    - [ ] O cansaço após um dia longo de trabalho
-    - [ ] O custo do produto que é alto demais
-    *Explicação: Dores são os obstáculos que impedem o cliente de concluir a tarefa de forma satisfatória.*
+    - [x] Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.
+    - [ ] Dialogar ativamente e pesquisar profundamente seu usuário foco.
+    - [ ] Usar métricas tangíveis em planilhas para guiar o negócio.
+    - [ ] Iterar de forma ágil adaptando seu modelo.
+    > Explicação: A mortalidade das empresas está atrelada em 'tentar vender sem validar', saltando as validações intrínsecas necessárias para preencher os gargalos.
 
-5. No Mapa de Valor, o que é um "Aliviador de Dor" (Pain Reliever)?
-    - [ ] Um desconto de 10% em qualquer compra
-    - [x] Uma funcionalidade do produto que elimina ou reduz um problema específico do cliente
-    - [ ] Um brinde surpresa enviado junto com o pedido
-    - [ ] O manual de instruções do produto
-    *Explicação: Ataca diretamente as dores listadas no perfil do cliente.*
+3. Marque a alternativa que descreve a melhor adaptação tecnológica em Análise de Valor:
 
-6. O que são os "Ganhos" (Gains) no Perfil do Cliente?
-    - [ ] O salário mensal que o cliente recebe
-    - [x] Os benefícios, resultados positivos e desejos que o cliente espera conseguir com uma solução
-    - [ ] Os pontos de fidelidade que o cliente acumula
-    - [ ] A herança que o cliente receberá da família
-    *Explicação: Ganhos são o "sorriso no rosto" do cliente ao usar o produto.*
+    - [ ] Acreditar que a tecnologia de ponta substitui todo modelo de negócios.
+    - [ ] Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.
+    - [x] Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.
+    - [ ] Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.
+    > Explicação: O modelo de negócios atua viabilizado pelas novas frentes em nuvem integrando APIs fluídas ao invés de codificar tudo em silos mortos com alto custo (Asset-Light).
 
-7. No Mapa de Valor, o que é um "Criador de Ganho" (Gain Creator)?
-    - [ ] Um televisor novo na sala de espera da empresa
-    - [x] Uma funcionalidade que produz benefícios extras ou supera as expectativas do cliente
-    - [ ] O vendedor que convence o cliente a gastar mais
-    - [ ] O logo da empresa que é muito bonito
-    *Explicação: Explica como seu produto cria os resultados positivos que o cliente deseja.*
+4. Relacionado às métricas de acompanhamento em 'Análise de Valor', o que devemos olhar agressivamente?
 
-8. Quando ocorre o "Encaixe" (Fit) ideal no VPC?
-    - [ ] Quando o produto é o mais barato do mercado
-    - [x] Quando o seu Mapa de Valor atende às Tarefas, Dores e Ganhos mais importantes do Perfil do Cliente
-    - [ ] Quando a empresa gasta muito dinheiro em propaganda no Super Bowl
-    - [ ] Quando o cliente indica o produto para apenas um amigo
-    *Explicação: O encaixe prova que você está criando algo que as pessoas realmente querem e precisam.*
+    - [ ] O número absoluto de curtidas estáticas nas mídias base.
+    - [ ] As horas inativas passivas não registradas na folha-ponto da equipe logada.
+    - [x] Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.
+    - [ ] A velocidade da fofoca corporativa em relação as corporações focadas gigantes.
+    > Explicação: A métrica principal nas amarras contábeis de tech startups exige dominar os indicadores chaves tangíveis perenes fidedignos da retenção, ignorando amarras de puras 'Métricas de Vaidades'.
 
-9. Por que é importante priorizar Dores e Ganhos no Canvas?
-    - [ ] Para economizar tinta da impressora
-    - [x] Porque você não consegue resolver todos os problemas de uma vez; deve focar nos mais críticos
-    - [ ] Porque clientes gostam de ver listas curtas
-    - [ ] Não é importante; deve-se tentar resolver tudo o que o cliente reclama
-    *Explicação: Focar no que é vital garante assertividade e melhor uso dos recursos da empresa.*
+5. Em 'Análise de Valor', o termo 'Escalabilidade' se refere a:
 
-10. O VPC deve ser preenchido baseado em:
-    - [ ] Apenas na imaginação criativa do empreendedor
-    - [x] Pesquisas reais, entrevistas e observação do comportamento do cliente
-    - [ ] O que o concorrente escreveu no blog dele
-    - [ ] Intuição e sorte
-    *Explicação: Validar as suposições com o mercado é o que diferencia um plano realista de uma fantasia.*
+    - [ ] Subir as escadas corporativas fidedignas engessadas corporativas inativas.
+    - [x] Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.
+    - [ ] Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.
+    - [ ] Diminuir atratividade no fluxo perene na busca inativa atipica global.
+    > Explicação: Escalar não é inchar inchar fisicamente! Escalar num plano robusto trata de separar a alta na Margem com uma curva minúscula de Custo operacional viabilizando massificações.
+
+6. Sobre a perenidade contínua do negócio em 'Análise de Valor', o ideal atestado no mercado atual aponta para:
+
+    - [ ] Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.
+    - [ ] Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.
+    - [x] Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.
+    - [ ] Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.
+    > Explicação: Os dinâmicos ecossistemas requerem sempre fluidez (SaaS Cloud, parcerias atestáveis na cadeia da web) visando isolar o engessamento passado obsoleto e pautando viés rentável.
+
+7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Análise de Valor' num planejamento rígido tradicional?
+
+    - [x] Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.
+    - [ ] Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.
+    - [ ] Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.
+    - [ ] Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.
+    > Explicação: Hipóteses matam os planos cegos! A não validação empírica queima todo o RunWay em frentes obscenas baseadas no delírio do fundador antes de testar a tese pura (Premissa Lean).
+
+8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Análise de Valor'?
+
+    - [ ] Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.
+    - [x] Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.
+    - [ ] Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.
+    - [ ] Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.
+    > Explicação: Focar e atacar onde a energia cessa (Gargalo - Teoria das Restrições) determina o fluxo. Nenhuma organização melhora até o nó ser aliviado pela logística integrada.
+
+9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?
+
+    - [ ] Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.
+    - [ ] O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.
+    - [x] Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.
+    - [ ] Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.
+    > Explicação: Empreender cria os Fossos ('Moats'), isolando os gigantes copiadores em barreiras formadas por marcas fortes, propriedade intelectual fechada e patentes inatas ou eficiências exclusivas puristas.
+
+10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Análise de Valor' atrelado na era ágil?
+
+    - [x] Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.
+    - [ ] Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.
+    - [ ] Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.
+    - [ ] Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.
+    > Explicação: Amar o Problema (A dor real, as fricções tangíveis da sociedade do público alvo) perpetua e sustenta sua evolução. Amar a solução fixa engessa sua ótica e culmina no colapso do encerramento corporativo da inovação vital!
+

@@ -62,7 +62,13 @@ $ gestao --analisar-ideia
 
 ---
 
-## 6. Mini-Projeto: Maratona de Ideias 🚀
+## 6. Aprofundamento: Design Thinking e Duplo Diamante 💎
+
+No estágio intermediário da ideação, não dependemos da "inspiração divina". Utilizamos o modelo estruturado do **Duplo Diamante**: Descobrir e Definir (espaço do problema), Desenvolver e Entregar (espaço da solução). Esse pensamento divergente e convergente garante que estamos tendo as ideias certas para os problemas reais, alinhando empatia, prototipação e viabilidade técnica.
+
+---
+
+## 7. Mini-Projeto: Maratona de Ideias 🚀
 
 1.  Escolha um problema comum (ex: "As pessoas perdem muito tempo filas de banco").
 2.  Faça um **Brainstorming** individual e escreva 10 soluções malucas.
@@ -71,7 +77,7 @@ $ gestao --analisar-ideia
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Quais são as três estratégias competitivas de Porter?
 2.  Por que no Brainstorming não se deve criticar as ideias na fase inicial?
@@ -83,5 +89,13 @@ $ gestao --analisar-ideia
     **Ideação** é o processo sistemático de gerar, desenvolver e comunicar novas ideias. É a ponte entre o problema identificado e a solução projetada.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 05](../exercicios/exercicio-05.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 05](../projetos/projeto-05.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos aprender a formalizar essas ideias no [Plano de Negócios](./aula-06.md) 🧠

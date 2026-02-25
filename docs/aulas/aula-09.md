@@ -75,7 +75,13 @@ $ valor --analisar-proposta
 
 ---
 
-## 6. Mini-Projeto: O Canvas da Proposta de Valor 🚀
+## 6. Aprofundamento: Canvas da Proposta de Valor (VPC) 🎁
+
+Para alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** cruza o Perfil do Cliente (Tarefas, Dores e Ganhos) com o Mapa de Valor do Produto (Criadores de Ganhos, Aliviadores de Dores e Produtos/Serviços). O "Fit" ocorre apenas quando os aliviadores de fato resolvem as dores mais extremas mapeadas no perfil, garantindo que o produto tenha tração inicial (Product-Market Fit).
+
+---
+
+## 7. Mini-Projeto: O Canvas da Proposta de Valor 🚀
 
 1.  Escolha um negócio (ex: Um app de delivery de comida saudável).
 2.  Liste 2 **Dores** do cliente (ex: falta de tempo, comida ruim no trabalho).
@@ -84,7 +90,7 @@ $ valor --analisar-proposta
 
 ---
 
-## 7. Exercício de Fixação 🧠
+## 8. Exercício de Fixação 🧠
 
 1.  Dê um exemplo de proposta de valor baseada em "Redução de Custo".
 2.  Qual a diferença entre um benefício funcional e um benefício emocional?
@@ -96,5 +102,13 @@ $ valor --analisar-proposta
     Sua proposta de valor deve ser **clara**, **objetiva** e **fácil de entender**. Se o cliente demorar mais de 5 segundos para entender o que você faz, ele irá embora.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 09](../exercicios/exercicio-09.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 09](../projetos/projeto-09.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como essa proposta chega até o cliente? [Canais de Comunicação e Distribuição](./aula-10.md) 🚢

@@ -71,7 +71,13 @@ $ empreendedor --check-vibe
 
 ---
 
-## 6. Mini-Projeto: Perfil Empreendedor 🚀
+## 6. Aprofundamento: O Mindset Ágil e Lean Startup 🔄
+
+No nível intermediário, o empreendedorismo deixa de ser apenas sobre 'ter ideias' e passa a ser sobre **validação contínua**. O modelo *Lean Startup* (Startup Enxuta) introduz o conceito de MVP (Produto Mínimo Viável) para testar hipóteses no mercado real com o menor custo possível. Empreendedores experientes não focam em planos perfeitos, mas em ciclos rápidos de construção, medição e aprendizado.
+
+---
+
+## 7. Mini-Projeto: Perfil Empreendedor 🚀
 
 Sua primeira missão prática:
 1.  Realize uma autoavaliação baseada nas 5 características citadas no item 2.
@@ -80,7 +86,7 @@ Sua primeira missão prática:
 
 ---
 
-## 7. Exercícios de Fixação 🧠
+## 8. Exercícios de Fixação 🧠
 
 1.  Diferencie o empreendedor "por oportunidade" do empreendedor "por necessidade".
 2.  O que caracteriza o **Intraempreendedorismo** e qual sua importância para as grandes empresas?
@@ -92,5 +98,13 @@ Sua primeira missão prática:
     Lembre-se: Ideias valem centavos, a **execução** vale milhões. Não se apegue apenas ao plano, foque em como realizar.
 
 ---
+
+
+---
+
+## 📚 Material Complementar
+
+*   **[📝 Exercícios da Aula 01](../exercicios/exercicio-01.md)**: Pratique os conceitos com questões focadas.
+*   **[🚀 Projeto da Aula 01](../projetos/projeto-01.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos aprender a [Identificar Oportunidades de Negócio](./aula-02.md)! 🏗️

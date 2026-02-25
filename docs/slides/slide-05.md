@@ -1,102 +1,180 @@
-# Aula 05 - Implementação de APIs ⚙️
-## Controllers e Rotas
+<!-- .slide: class="center" -->
+
+# Aula 05 - Gestão de Negócios e Ideação ⚙️
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Agenda 📅
+## Avisos da Aula
 
-1. Camadas do Backend <!-- .element: class="fragment" -->
-2. O Papel do Controller <!-- .element: class="fragment" -->
-3. Rotas e Handlers <!-- .element: class="fragment" -->
-4. Capturando Dados (Params/Body) <!-- .element: class="fragment" -->
-5. Status Codes na Prática <!-- .element: class="fragment" -->
-6. Injeção de Dependência <!-- .element: class="fragment" -->
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## 1. Organização em Camadas 🧱
+## 1. Gestão de Negócios 🏢
 
-- **Controller**: Trata a entrada (HTTP). <!-- .element: class="fragment" -->
-- **Service**: Regras de negócio. <!-- .element: class="fragment" -->
-- **Repository**: Acesso ao banco. <!-- .element: class="fragment" -->
+A gestão é o conjunto de decisões e ações que garantem a sobrevivência e o crescimento de uma empresa. No mundo empreendedor, gerir significa equilibrar recursos limitados com metas ambiciosas.
 
----
-
-## 2. O Papel do Controller 🎮
-
-- Ele é o ponto de entrada. <!-- .element: class="fragment" -->
-- **Não deve ter lógica complexa!** <!-- .element: class="fragment" -->
-- Deve apenas orquestrar a execução. <!-- .element: class="fragment" -->
-
-> **Controller** = Garçom 🤵
-> **Service** = Cozinheiro 👨‍🍳
+### Estratégias Competitivas (Michael Porter):
+Para se destacar, uma empresa deve escolher um caminho:
+1.  **Liderança em Custo**: Ser o mais barato do mercado (ex: marcas próprias de supermercado).
+2.  **Diferenciação**: Oferecer algo único pelo qual o cliente aceite pagar mais (ex: Apple).
+3.  **Foco (Nicho)**: Atender perfeitamente um grupo específico de pessoas.
 
 ---
 
-## 3. Rotas e Handlers 📍
+## 1. Gestão de Negócios 🏢
 
-- **Rota**: Verbo HTTP + Path. <!-- .element: class="fragment" -->
-- **Handler**: Função executada. <!-- .element: class="fragment" -->
+---
 
-```javascript
-router.post('/login', controller.realizarLogin);
+---
+
+## 2. Fontes de Novas Ideias 💡
+
+As ideias não surgem do nada. Elas vêm de:
+- <!-- .element: class="fragment" --> **Feedback de Clientes**: Ouvir o que as pessoas detestam nos produtos atuais.
+- <!-- .element: class="fragment" --> **Análise da Concorrência**: Observar o que os outros fazem bem (ou mal).
+- <!-- .element: class="fragment" --> **Tendências Globais**: Novas tecnologias ou comportamentos sociais.
+
+---
+
+---
+
+## 3. Métodos de Geração de Ideias (Ideação) 🧠
+
+Existem ferramentas para "forçar" o cérebro a ser criativo:
+
+1.  **Brainstorming**: Tempestade de ideias. O foco é a quantidade, sem julgamentos iniciais.
+2.  **Grupos de Discussão (Focus Groups)**: Conversar com potenciais usuários para validar percepções.
+3.  **Questionários**: Coletar dados quantitativos sobre dores e necessidades.
+
+---
+
+## 3. Métodos de Geração de Ideias (Ideação) 🧠
+
+---
+
+---
+
+## 4. O Fluxo de Ideação (Mermaid) 🌊
+
+```mermaid
+graph TD
+    A(["Definição do Desafio"]) --> B(["Brainstorming (Divergência)"])
+    B --> C(["Filtro de Ideias (Convergência)"])
+    C --> D(["Ranking de Prioridade"])
+    D --> E(["Protótipo Inicial"])
 ```
 
 ---
 
-## 4. Capturando Dados 📥
-
-- **Path Params**: `/id/123` (Identificação). <!-- .element: class="fragment" -->
-- **Query Params**: `?q=busca` (Filtro). <!-- .element: class="fragment" -->
-- **Body**: Enviando JSON (Criação/Update). <!-- .element: class="fragment" -->
+## 4. O Fluxo de Ideação (Mermaid) 🌊
 
 ---
 
-## 5. Respostas de Qualidade 📤
+---
 
-- Nunca esqueça o Status Code! <!-- .element: class="fragment" -->
-- Sucesso: 200, 201, 204. <!-- .element: class="fragment" -->
-- Erro: 400, 401, 404, 500. <!-- .element: class="fragment" -->
+## 5. Ferramentas de Gestão (Termynal) 💻
+
+Como um gestor moderno analisa uma ideia?
 
 ---
 
-## 6. Injeção de Dependência 💉
+## 5. Ferramentas de Gestão (Termynal) 💻
 
-- Receber serviços prontos. <!-- .element: class="fragment" -->
-- Facilita testar o Controller "isolado". <!-- .element: class="fragment" -->
-
----
-
-## 7. Prática: O Primeiro Endpoint 💻
-
-- Mapeando um `GET /ping`. <!-- .element: class="fragment" -->
-- Retornando um `pong` em JSON. <!-- .element: class="fragment" -->
-- Testando no Insomnia/Postman. <!-- .element: class="fragment" -->
+```termynal
+$ gestao --analisar-ideia
+> Verificando viabilidade técnica... [OK]
+> Analisando mercado potencial... [GRANDE]
+> Checando diferencial competitivo... [PENDENTE]
+> Dica: Sua ideia é boa, mas como você vai impedir os outros de copiarem?
+```
 
 ---
 
-## Desafio: Params vs Query ⚡
-
-Se você quer listar todos os alunos de uma sala com o nome "Pedro", qual tipo de parâmetro você usaria para o nome?
+## 5. Ferramentas de Gestão (Termynal) 💻
 
 ---
 
-## Resumo ✅
+---
 
-- Controllers são a porta de entrada. <!-- .element: class="fragment" -->
-- Devem ser leves e objetivos. <!-- .element: class="fragment" -->
-- Capturam dados e retornam status/JSON. <!-- .element: class="fragment" -->
-- Seguem as rotas definidas. <!-- .element: class="fragment" -->
+## 6. Aprofundamento: Design Thinking e Duplo Diamante 💎
+
+No estágio intermediário da ideação, não dependemos da "inspiração divina". Utilizamos o modelo estruturado do **Duplo Diamante**: Descobrir e Definir (espaço do problema), Desenvolver e Entregar (espaço da solução). Esse pensamento divergente e convergente garante que estamos tendo as ideias certas para os problemas reais, alinhando empatia, prototipação e viabilidade técnica.
 
 ---
 
-## Próxima Aula: Regras de Negócio! 🧠
+---
 
-### Services e Validações
+## 7. Mini-Projeto: Maratona de Ideias 🚀
 
-- Onde o cálculo acontece. <!-- .element: class="fragment" -->
-- Isolando o código do "mundo externo". <!-- .element: class="fragment" -->
+1.  Escolha um problema comum (ex: "As pessoas perdem muito tempo filas de banco").
+2.  Faça um **Brainstorming** individual e escreva 10 soluções malucas.
+3.  Aplique um filtro de **Diferenciação**: Qual dessas soluções é a mais única?
+4.  Crie um pequeno **Questionário** de 3 perguntas que você faria para potenciais clientes.
 
 ---
 
-## Dúvidas? ⚙️
+---
+
+## 8. Exercício de Fixação 🧠
+
+1.  Quais são as três estratégias competitivas de Porter?
+2.  Por que no Brainstorming não se deve criticar as ideias na fase inicial?
+3.  Qual a importância de ouvir a concorrência para gerar novas ideias?
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+!!! info "Conceito"
+    **Ideação** é o processo sistemático de gerar, desenvolver e comunicar novas ideias. É a ponte entre o problema identificado e a solução projetada.
+
+---
+
+---
+
+## 8. Exercício de Fixação 🧠
+
+
+---
+
+---
+
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 05](../exercicios/exercicio-05.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 05](../projetos/projeto-05.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Vamos aprender a formalizar essas ideias no [Plano de Negócios](../aulas/aula-06.md) 🧠
+
+---
+
+## Discussão Aberta 1
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+## Discussão Aberta 2
+
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
+
+---
+
+<!-- .slide: class="center" -->
+
+# FIM DA AULA 05
+
+### Obrigado!

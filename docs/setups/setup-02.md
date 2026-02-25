@@ -1,33 +1,42 @@
-# Setup 02: Xcode (iOS Foundation) 🍎
+# Setup de Produtividade: Ambiente Linux 🐧
 
-O Xcode é a ferramenta necessária para compilar e testar apps iOS.
+!!! tip "Objetivo"
+    **Objetivo**: Parametrizar o ambiente Linux (distribuições Debian/Ubuntu) para estabilidade extrema na gestão de operações diárias, design de negócios (BPMN) e análise sem custo de licenciamento.
 
-> [!IMPORTANT]
-> O Xcode requer um computador **Mac** (macOS).
+---
 
-## 1. Instalação
-1.  Abra a **App Store** no seu Mac.
-2.  Pesquise por **Xcode**.
-3.  Clique em Obter/Instalar.
-4.  Após o download, abra o Xcode para carregar os componentes adicionais do macOS.
+## 1. Segurança e Fluidez no Open Source 🌐
 
-## 2. Configurando Simuladores
-1.  Vá em **Settings > Platforms**.
-2.  Verifique se o componente "iOS" está baixado.
-3.  Se não estiver, clique em "GET" para baixar a versão mais estável.
+Ter o Linux no core da sua operação enxuta garante custo zero com licenciamento e foca seus recursos num ambiente ultra blindado (Zero-Trust):
 
-## 3. Comandos de Linha (CLI)
-Para que ferramentas de automação funcionem, você precisa instalar os Command Line Tools:
-```bash
-xcode-select --install
+```mermaid
+graph TD
+    A([Linux Ubuntu/Mint]) --> B([Obsidian - Notas Locais])
+    A --> C([Dia / LibreOffice Draw - BPMN])
+    A --> D([Metabase Docker - Dados Livres])
 ```
 
-## 4. Opcional: CocoaPods
-Muitos projetos iOS antigos ainda usam CocoaPods para dependências:
-```bash
-sudo gem install cocoapods
+---
+
+## 2. Instalação Profissional Diária (APT / Snap) 💻
+
+Instale todo o aparato e pacotes logísticos para suas matrizes através do seu console:
+
+```termynal
+$ sudo apt update && sudo apt install libreoffice dia -y
+> Atualizando repositórios...
+> LibreOffice instalado.
+> Dia (Mapas Mentais) instalados.
+$ sudo snap install obsidian --classic
+> Obsidian (Gestão de Conhecimento Rápido) instalado! Seu Vault está pronto!
 ```
 
-## 5. Solução de Problemas ⚠️
-*   **Espaço em Disco**: O Xcode é muito grande. Garanta pelo menos 40GB de espaço livre para ele e os simuladores.
-*   **Build Lento**: Use simuladores de modelos mais simples (ex: iPhone SE) para poupar memória RAM se necessário.
+---
+
+!!! info "Segurança em Nuvem"
+    O Linux é fenomenal, mas evite salvar seus Canvas localmente se você for um viajante. Instale o Rclone ou Nextcloud para manter a sincronia ininterrupta de seus manifestos e planos de negócio com o resto de sua diretoria.
+
+---
+
+## 3. Ferramentas Extras
+Consulte os guias de ambientação para [Windows](./setup-01.md) ou [macOS](./setup-03.md) caso algum funcionário de suas futuras integrações use essas plataformas.

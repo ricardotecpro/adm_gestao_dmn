@@ -1,19 +1,23 @@
-# Exercícios 01 - Empreendedorismo e Visão Empreendedora 🧩
+# Exercícios 01 - Intro ao Empreendedorismo 🧩
 
 ## 🟢 Fáceis
 
-1. **Definição**: Com suas palavras, defina o que é ser um empreendedor. É apenas abrir uma empresa?
-2. **Perfis**: Cite três tipos de perfis empreendedores estudados em sala.
+1. Defina o que é ser um empreendedor com suas palavras.
+2. Quais são as diferenças marcantes entre o empreendedor por necessidade e o por oportunidade?
 
 ## 🟡 Médios
 
-3. **Cenário**: João percebeu que no seu bairro não há nenhuma padaria que venda produtos sem glúten, apesar de haver muitos moradores com restrições alimentares. Isso é uma visão empreendedora? Justifique.
-4. **Características**: Escolha duas características do comportamento empreendedor (CCEs) e explique sua importância para o sucesso de um negócio.
+3. Um funcionário otimiza um setor interno reduzindo custos em 30%. Ele pode ser considerado empreendedor? Justifique baseado nos tipos de perfis.
+4. Explique a importância da característica 'Correr Riscos Calculados' na visão empreendedora.
 
 ## 🔴 Desafio
 
-5. **Análise de Perfil**:
-    Pesquise a história de um empreendedor brasileiro famoso (ex: Luiza Trajano, Geraldo Rufino ou Silvio Santos).
-    * Quais foram as principais dificuldades enfrentadas no início?
-    * Como a "Visão Empreendedora" dele(a) transformou um problema em uma oportunidade gigante?
-    * Identifique pelo menos 3 características empreendedoras marcantes nessa trajetória.
+5. Como a mentalidade 'Lean Startup' e o uso de MVP revolucionam a validação de um empreendimento, diferenciando da abertura clássica de empresas de décadas atrás?
+
+---
+
+## 📚 Correção
+
+Após tentar responder e pesquisar, verifique a resolução oficial e o gabarito para consolidar o aprendizado:
+
+**[👉 Ver Soluções (Gabarito Oficial)](solucao-01.md)**
