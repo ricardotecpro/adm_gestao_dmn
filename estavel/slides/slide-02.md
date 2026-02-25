@@ -1,199 +1,179 @@
-# Identificação de Oportunidades 🔍
-## Aula 02 - Desenvolvimento de Modelos de Negócios
+<!-- .slide: class="center" -->
+
+# Aula 02 - Identificação de Oportunidades de Negócio 🏗️
+
+### Desenvolvimento de Modelos de Negócios
+
+[Pressione ESPAÇO para avançar]
 
 ---
 
-## Onde nascem as Ideias? 💡
+## Avisos da Aula
 
-As melhores ideias surgem da observação atenta de problemas reais.
-
-<!-- .element: class="fragment" -->
-- "Eu odeio quando..."
-- "Por que ninguém fez isso ainda?"
-- "Isso poderia ser muito mais fácil."
+- Desliguem os celulares <!-- .element: class="fragment" -->
+- Foco na lógica <!-- .element: class="fragment" -->
+- Participação ativa <!-- .element: class="fragment" -->
 
 ---
 
-## Ideia vs. Oportunidade 💎
+## 1. Ideia vs. Oportunidade 💡
 
-Nem toda ideia é uma oportunidade de negócio.
+Ter uma ideia brilhante não garante um negócio de sucesso. A diferença entre elas é fundamental:
 
-<!-- .element: class="fragment" -->
-**Oportunidade é:**
-- Desejável (Alguém quer?)
-- Viável (Podemos fazer?)
-- Lucrativa (Dá dinheiro?)
+- <!-- .element: class="fragment" --> **Ideia**: Uma concepção abstrata, algo que "seria legal fazer".
+- <!-- .element: class="fragment" --> **Oportunidade**: É uma ideia que encontra um **mercado**, resolve uma **dor real** e possui **viabilidade econômica**.
 
 ---
 
-## O Ciclo da Oportunidade 🔄
+## 1. Ideia vs. Oportunidade 💡
+
+!!! info "Conceito"
+    Uma **Oportunidade de Negócio** é uma ideia que se mostra viável para ser implementada, gerando valor tanto para o empreendedor quanto para o cliente.
+
+---
+
+---
+
+## 2. Onde nascem as oportunidades? 🔍
+
+As melhores oportunidades surgem da observação atenta do ambiente:
+
+1.  **Problemas não resolvidos**: Reclamações de clientes sobre produtos existentes.
+2.  **Mudanças Sociais**: Novos hábitos de consumo (ex: aumento do home office).
+3.  **Avanços Tecnológicos**: Surgimento de novas ferramentas que permitem fazer algo de forma mais barata ou rápida.
+4.  **Mudanças Legais**: Novas leis que geram necessidade de adaptação das empresas.
+5.  **Lacunas de Mercado**: Regiões ou públicos que não são atendidos por grandes marcas.
+
+---
+
+## 2. Onde nascem as oportunidades? 🔍
+
+---
+
+---
+
+## 3. O Funil de Oportunidades (Mermaid) 🌪️
 
 ```mermaid
 graph TD
-    A["Observação"] --> B["Identificação do Problema"]
-    B --> C["Geração de Ideias"]
-    C --> D["Validação Inicial"]
-    D --> E["Oportunidade Real"]
+    A(["Observação do Mundo"]) --> B(["Geração de Ideias (Brainstorming)"])
+    B --> C(["Filtro de Viabilidade"])
+    C --> D(["Análise de Mercado"])
+    D --> E(["Oportunidade Validada"])
 ```
 
 ---
 
-## Pesquisa de Mercado 📊
-
-Não se baseie apenas no "acho".
-
-<!-- .element: class="fragment" -->
-- Tamanho do mercado (TAM, SAM, SOM)
-- Tendências de consumo
-- Comportamento do cliente
+## 3. O Funil de Oportunidades (Mermaid) 🌪️
 
 ---
 
-## Analisando a Concorrência 🤺
+---
 
-Quem já está resolvendo esse problema?
+## 4. Ferramentas de Mapeamento 🛠️
 
-<!-- .element: class="fragment" -->
-- Quais são os pontos fracos deles?
-- O que o cliente ainda reclama?
-- Como você pode ser diferente? (Não apenas melhor)
+Para identificar se sua ideia é uma oportunidade, use o comando da "realidade":
 
 ---
 
-## O Oceano Azul 🌊
+## 4. Ferramentas de Mapeamento 🛠️
 
-```mermaid
-graph LR
-    A["Oceano Vermelho"] -- Competição Feroz --> B["Preço Baixo"]
-    C["Oceano Azul"] -- Inovação de Valor --> D["Sem Concorrentes"]
+```termynal
+$ oportunidade --scan-market
+> Analisando demanda... [OK]
+> Verificando concorrência... [ALTA]
+> Calculando diferenciação... [NECESSÁRIA]
+> Alerta: Foque em um nicho específico para vencer a concorrência!
 ```
 
 ---
 
-## Diferenciação Estratégica ✨
-
-- **Produto:** Recursos únicos.
-- **Serviço:** Atendimento excepcional.
-- **Preço:** Modelo de custo baixo.
-- **Marca:** Conexão emocional.
+## 4. Ferramentas de Mapeamento 🛠️
 
 ---
 
-## Entrevistas com Clientes 🗣️
+---
 
-"Fale com 10 pessoas que sofrem com o problema."
+## 5. Análise de Nicho 🎯
 
-<!-- .element: class="fragment" -->
-- Não venda sua ideia.
-- Escute a dor deles.
-- Pergunte quanto eles pagariam pela solução.
+Tentar vender para todo mundo é o caminho mais rápido para não vender para ninguém.
+- <!-- .element: class="fragment" --> **Segmentação**: Dividir o mercado em grupos menores.
+- <!-- .element: class="fragment" --> **Diferenciação**: O que faz você ser a escolha óbvia em comparação aos outros?
+
+!!! warning "Atenção"
+    Não se apaixone pela sua solução, se apaixone pelo **problema** do seu cliente. A solução pode mudar, o problema é o que sustenta o negócio.
 
 ---
 
-## O Mapa da Empatia 🧠
-
-```mermaid
-mindmap
-  root((Cliente))
-    O que vê?
-    O que ouve?
-    O que pensa/sente?
-    O que fala/faz?
-    Dores
-    Ganhos
-```
+## 5. Análise de Nicho 🎯
 
 ---
 
-## Identificando Nichos 🎯
+---
 
-"Quem tenta vender para todo mundo, não vende para ninguém."
+## 6. Aprofundamento: Matriz CSD e Oceano Azul 🌊
 
-<!-- .element: class="fragment" -->
-Foque em um grupo específico com uma necessidade específica.
+Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **Certezas, Suposições e Dúvidas (Matriz CSD)**. Além disso, a estratégia do **Oceano Azul** sugere que, em vez de competir em mercados saturados (oceanos vermelhos), o empreendedor intermediário deve buscar espaços inexplorados, criando nova demanda e tornando a concorrência irrelevante através de inovação de valor.
 
 ---
 
-## Exemplos de Nichos de Sucesso 🥇
+---
 
-- Padaria apenas para celíacos.
-- Pet shop focado em gatos.
-- Consultoria para pequenas clínicas médicas.
+## 7. Mini-Projeto: Observação de Campo 🚀
+
+1.  Escolha um trajeto que você faz diariamente (ou uma rede social que usa muito).
+2.  Anote 3 situações que geram frustração (problemas).
+3.  Para cada problema, pense em uma solução simples que poderia ser um negócio.
+4.  Escolha a melhor das três e verifique: "As pessoas pagariam por isso?".
 
 ---
 
-## Sinais de Alerta 🚩
+---
 
-- Ninguém quer pagar.
-- O mercado é pequeno demais.
-- A solução é muito complexa/cara.
-- O problema não é tão doloroso assim.
+## 8. Exercício de Fixação 🧠
+
+1.  Defina, com suas palavras, a diferença entre ideia e oportunidade.
+2.  Cite dois exemplos de mudanças tecnológicas recentes que criaram novas oportunidades de negócio.
+3.  Por que a segmentação é importante na fase de identificação de oportunidades?
 
 ---
 
-## Criatividade e Brainstorming 🧠⚡
+---
 
-- Quantidade gera qualidade.
-- Não julgue as ideias no início.
-- Combine ideias diferentes (Mashup).
+## 8. Exercício de Fixação 🧠
+
 
 ---
 
-## Ferramenta: Matriz de Priorização 📋
+---
 
-```mermaid
-quadrantChart
-    title Priorização de Ideias
-    x-axis Baixo Impacto --> Alto Impacto
-    y-axis Alta Complexidade --> Baixa Complexidade
-    "Ignorar" : [0.2, 0.2]
-    "Planejar" : [0.2, 0.8]
-    "Testar Agora" : [0.8, 0.8]
-    "Dívida Técnica" : [0.8, 0.2]
-```
+## 📚 Material Complementar
+
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 02](../../exercicios/exercicio-02.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 02](../../projetos/projeto-02.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+
+**Próxima Aula**: Vamos mergulhar na [Análise de Valor: Inovação e Sustentabilidade](../../aulas/aula-03.md)! 📡
 
 ---
 
-## O Protótipo de Papel 📝
+## Discussão Aberta 1
 
-Antes de construir, rascunhe.
-A validação visual ajuda a identificar falhas lógicas rapidamente.
-
----
-
-## Tendências Tecnológicas 🤖
-
-Como a IA, Blockchain ou IoT podem criar novas oportunidades no seu setor?
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
-## Oportunidades em Crises 📉
+## Discussão Aberta 2
 
-"Enquanto uns choram, outros vendem lenços."
-Mudanças no ambiente geram novas necessidades.
-
----
-
-## Ética e Responsabilidade 🤝
-
-Uma oportunidade real deve ser ética e sustentável a longo prazo.
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
-## Resumo da Aula 📝
+<!-- .slide: class="center" -->
 
-- Diferença entre ideia e oportunidade.
-- Importância da pesquisa e escuta ativa.
-- Identificação de nichos e diferenciação.
+# FIM DA AULA 02
 
----
-
-## Próximo Passo 👣
-
-Na próxima aula, vamos falar sobre como criar uma **Proposta de Valor** irresistível.
-
----
-
-## Desafio: O Caçador de Problemas 🕵️‍♂️
-
-Liste **5 problemas** que você observou nesta última semana em estabelecimentos comerciais que você visitou.
+### Obrigado!
