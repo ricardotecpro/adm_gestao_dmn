@@ -5,8 +5,8 @@ repo_name: ricardotecpro/adm_dmn
 theme:
   name: material
   language: pt-BR
-  favicon: assets/images/logic_logo.svg
-  logo: assets/images/logic_logo.svg
+  favicon: assets/images/logo_gestao.svg
+  logo: assets/images/logo_gestao.svg
   custom_dir: overrides
   features:
     - navigation.tracking
@@ -216,6 +216,7 @@ nav:
           - 'Solução': exercicios/solucao-16.md
   - Projetos:
       - 'Índice': projetos/index.md
+      - 'Projeto Referência': projetos/projeto-referencia.md
       - 'Proj 01': projetos/projeto-01.md
       - 'Proj 02': projetos/projeto-02.md
       - 'Proj 03': projetos/projeto-03.md
