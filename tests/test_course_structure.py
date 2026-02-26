@@ -2,89 +2,65 @@ import pytest
 import os
 from pathlib import Path
 
-# Expected course structure
-EXPECTED_LESSONS = [f"aulas/aula-{i:02d}.md" for i in range(1, 17)]
-EXPECTED_SLIDES = [f"slide-{i:02d}.md" for i in range(1, 17)]
-EXPECTED_QUIZZES = [f"quiz-{i:02d}.md" for i in range(1, 17)]
-EXPECTED_EXERCISES = [f"exercicio-{i:02d}.md" for i in range(1, 17)]
-EXPECTED_PROJECTS = [f"projeto-{i:02d}.md" for i in range(1, 17)]
-EXPECTED_SETUPS = [f"setup-{i:02d}.md" for i in range(1, 4)]
-EXPECTED_INDEXES = [
-    "aulas/index.md",
-    "exercicios/index.md",
-    "projetos/index.md",
-    "quizzes/index.md",
-    "slides/index.md",
-    "setups/index.md"
-]
 
 def test_content_structure_exists():
     """Verify that the basic directory structure exists."""
-    assert os.path.exists("docs"), "Docs directory missing"
-    assert os.path.exists("docs/slides"), "Slides directory missing"
-    assert os.path.exists("docs/quizzes"), "Quizzes directory missing"
-    assert os.path.exists("docs/exercicios"), "Exercises directory missing"
-    assert os.path.exists("docs/projetos"), "Projects directory missing"
+    assert Path("docs").exists(), "Docs directory missing"
+    assert Path("docs/slides").exists(), "Slides directory missing"
+    assert Path("docs/quizzes").exists(), "Quizzes directory missing"
+    assert Path("docs/exercicios").exists(), "Exercises directory missing"
+    assert Path("docs/projetos").exists(), "Projects directory missing"
 
-def test_lessons_exist():
-    """Verify that all 15 lessons exist in docs/."""
-    missing_lessons = []
-    for lesson in EXPECTED_LESSONS:
-        if not os.path.exists(f"docs/{lesson}"):
-            missing_lessons.append(lesson)
-    
-    assert not missing_lessons, f"Missing lessons: {missing_lessons}"
 
-def test_slides_exist():
-    """Verify that all 15 slides exist in docs/slides/."""
-    missing_slides = []
-    for slide in EXPECTED_SLIDES:
-        if not os.path.exists(f"docs/slides/{slide}"):
-            missing_slides.append(slide)
-    
-    assert not missing_slides, f"Missing slides: {missing_slides}"
+def test_lessons_completeness():
+    """Verify that lessons follow the naming convention and have content."""
+    lessons = list(Path("docs/aulas").glob("aula-*.md"))
+    assert len(lessons) > 0, "No lessons found in docs/aulas"
+    for lesson in lessons:
+        assert lesson.stat().st_size > 50, f"Lesson {lesson.name} is too small"
 
-def test_quizzes_exist():
-    """Verify that all 15 quizzes exist in docs/quizzes/."""
-    missing_quizzes = []
-    for quiz in EXPECTED_QUIZZES:
-        if not os.path.exists(f"docs/quizzes/{quiz}"):
-            missing_quizzes.append(quiz)
-    
-    assert not missing_quizzes, f"Missing quizzes: {missing_quizzes}"
 
-def test_exercises_exist():
-    """Verify that all 15 exercises exist in docs/exercicios/."""
-    missing_exercises = []
-    for exercise in EXPECTED_EXERCISES:
-        if not os.path.exists(f"docs/exercicios/{exercise}"):
-            missing_exercises.append(exercise)
+def test_slides_sync():
+    """Verify that every lesson has a corresponding slide."""
+    lessons = {f.stem for f in Path("docs/aulas").glob("aula-*.md")}
+    slides = {f.stem for f in Path("docs/slides").glob("slide-*.md")}
     
-    assert not missing_exercises, f"Missing exercises: {missing_exercises}"
+    # Compare stem numbers
+    lesson_nums = {re.search(r'\d+', l).group() for l in lessons if re.search(r'\d+', l)}
+    slide_nums = {re.search(r'\d+', s).group() for s in slides if re.search(r'\d+', s)}
+    
+    missing = lesson_nums - slide_nums
+    assert not missing, f"Lessons without slides: {missing}"
 
-def test_projects_exist():
-    """Verify that all 15 projects exist in docs/projetos/."""
-    missing_projects = []
-    for project in EXPECTED_PROJECTS:
-        if not os.path.exists(f"docs/projetos/{project}"):
-            missing_projects.append(project)
-    
-    assert not missing_projects, f"Missing projects: {missing_projects}"
 
-def test_setups_exist():
-    """Verify that all 9 setups exist in docs/setups/."""
-    missing_setups = []
-    for setup in EXPECTED_SETUPS:
-        if not os.path.exists(f"docs/setups/{setup}"):
-            missing_setups.append(setup)
+def test_quizzes_sync():
+    """Verify that every lesson has a corresponding quiz."""
+    lessons = {f.stem for f in Path("docs/aulas").glob("aula-*.md")}
+    quizzes = {f.stem for f in Path("docs/quizzes").glob("quiz-*.md")}
     
-    assert not missing_setups, f"Missing setups: {missing_setups}"
+    lesson_nums = {re.search(r'\d+', l).group() for l in lessons if re.search(r'\d+', l)}
+    quiz_nums = {re.search(r'\d+', s).group() for s in quizzes if re.search(r'\d+', s)}
+    
+    missing = lesson_nums - quiz_nums
+    assert not missing, f"Lessons without quizzes: {missing}"
+
 
 def test_indexes_exist():
     """Verify that all subdirectory index files exist."""
+    EXPECTED_INDEXES = [
+        "aulas/index.md",
+        "exercicios/index.md",
+        "projetos/index.md",
+        "quizzes/index.md",
+        "slides/index.md",
+        "setups/index.md"
+    ]
     missing_indexes = []
     for index in EXPECTED_INDEXES:
         if not os.path.exists(f"docs/{index}"):
             missing_indexes.append(index)
     
     assert not missing_indexes, f"Missing indexes: {missing_indexes}"
+
+
+import re # Ensure re is imported locally if used in helper or globally

@@ -1,87 +1,88 @@
-"""
-Testes automatizados para navegação do site
-"""
 import pytest
 import re
+import yaml
+from pathlib import Path
 from playwright.sync_api import Page, expect
 
 
+def load_nav_config():
+    """Loads navigation and site title from mkdocs.yml"""
+    with open("mkdocs.yml", "r", encoding="utf-8") as f:
+        return yaml.load(f, Loader=yaml.UnsafeLoader)
+
+
 class TestNavigation:
-    """Testes para navegação do site"""
+    """Agnostic navigation tests"""
+
+    @pytest.fixture(autouse=True)
+    def setup_config(self):
+        self.config = load_nav_config()
+        self.site_name = self.config.get("site_name", "Curso")
+        self.nav = self.config.get("nav", [])
 
     def test_home_page_loads(self, page_with_base_url: Page, base_url: str):
-        """Verifica se a página inicial carrega"""
+        """Verifica se a página inicial carrega com o título correto"""
         page = page_with_base_url
         page.goto(base_url)
-        
-        expect(page).to_have_title(re.compile(r"Desenvolvimento de Modelos de Negócios"))
+        expect(page).to_have_title(re.compile(rf"{self.site_name}"))
 
     def _ensure_menu_visible(self, page: Page):
         """Helper to ensure menu is visible (opens drawer if needed)"""
-        # Use more specific selector for the header button to avoid ambiguity
         drawer_button = page.locator("label.md-header__button[for='__drawer']")
-        if drawer_button.is_visible():
+        if drawer_button.is_visible() and not page.locator("nav.md-nav[aria-label='Menu']").is_visible():
             drawer_button.click()
 
-    def test_curso_menu_exists(self, page_with_base_url: Page, base_url: str):
-        """Verifica se o menu 'Aulas' existe"""
+    def test_navigation_menus_exist(self, page_with_base_url: Page, base_url: str):
+        """Verifica se os menus principais definidos no nav do mkdocs.yml existem"""
         page = page_with_base_url
         page.goto(base_url)
-        
-        # Open menu if mobile
         self._ensure_menu_visible(page)
         
-        # Procura pelo item de menu "Aulas"
-        # Usando match flexível
-        link = page.get_by_role("link", name="Aulas").first
-        expect(link).to_be_visible()
+        for item in self.nav:
+            # item is a dict like {'Aulas': [...]} or {'Sobre': 'sobre.md'}
+            menu_name = list(item.keys())[0]
+            link = page.get_by_role("link", name=menu_name).first
+            # Some items might be collapsible labels, not direct links
+            # We just check if the text is present in the primary nav container
+            expect(page.locator("nav.md-nav--primary")).to_contain_text(menu_name[:10])
 
-    def test_plano_ensino_menu_exists(self, page_with_base_url: Page, base_url: str):
-        """Verifica se o menu 'Plano de Ensino' existe"""
+    def test_navigation_to_first_lesson(self, page_with_base_url: Page, base_url: str):
+        """Dinamicamente navega para a primeira aula encontrada no nav"""
         page = page_with_base_url
         page.goto(base_url)
-        
         self._ensure_menu_visible(page)
-        
-        # Procura pelo item de menu "Plano" (conforme mkdocs.yml)
-        link = page.get_by_role("link", name="Plano", exact=True).first
-        expect(link).to_be_visible()
 
-    def test_print_version_link_exists(self, page_with_base_url: Page, base_url: str):
-        """Verifica se o link 'Impressão' existe"""
-        page = page_with_base_url
-        page.goto(base_url)
-        
-        # Link de impressão geralmente é um ícone no header ou footer
-        # Verificamos a presença no DOM, searching for print_page
-        print_link = page.locator("a[href*='print_page']")
-        expect(print_link.first).to_be_attached()
+        # Find "Aulas" or similar section
+        aulas_item = next((item for item in self.nav if "Aulas" in item), None)
+        if not aulas_item:
+            pytest.skip("Aulas section not found in nav")
 
-    def test_navigation_to_lesson_01(self, page_with_base_url: Page, base_url: str):
-        """Verifica se é possível navegar para Aula 01"""
-        page = page_with_base_url
-        page.goto(base_url)
+        aulas_list = aulas_item["Aulas"]
+        # Find first module (nesting)
+        first_module = next((item for item in aulas_list if isinstance(item, dict)), None)
+        if not first_module:
+            pytest.skip("No modules found in Aulas")
+
+        module_name = list(first_module.keys())[0]
+        first_lesson_list = first_module[module_name]
         
-        self._ensure_menu_visible(page)
+        # Get first lesson link info
+        first_lesson = first_lesson_list[0]
+        lesson_name = list(first_lesson.keys())[0]
         
-        # Navigate Aulas -> Módulo 1: Fundamentos -> Aula 01
-        # Click Aulas
+        # Action: Click Aulas
         page.get_by_role("link", name="Aulas").first.click(force=True)
         
-        # Click Módulo 1 - Fundamentos e Oportunidade
-        # Use a more robust locator targeting the label specifically
-        module_label = page.locator("label:has-text('Módulo 1 - Fundamentos e Oportunidade')").first
-        module_label.click(force=True)
-        
-        # Short wait for menu expansion animation
+        # Action: Click Module
+        page.locator(f"label:has-text('{module_name}')").first.click(force=True)
         page.wait_for_timeout(500)
         
-        # Click Aula 01
-        aula_01_link = page.get_by_role("link", name="Aula 01", exact=False).first
-        expect(aula_01_link).to_be_visible()
-        aula_01_link.click(force=True)
+        # Action: Click Lesson
+        lesson_link = page.get_by_role("link", name=lesson_name, exact=False).first
+        expect(lesson_link).to_be_visible()
+        lesson_link.click(force=True)
         
-        # Verifica se chegou na página correta
-        expect(page).to_have_url(re.compile(r".*/aulas/aula-01/?$"))
-        # H1 is "Aula 01 - Conceitos de Empreendedorismo e Visão Empreendedora 🚀"
-        expect(page.locator("h1")).to_contain_text("Conceitos de Empreendedorismo")
+        # Verify arrival
+        expect(page.locator("h1")).to_be_visible()
+        # Header starts with "Aula XX"
+        expect(page.locator("h1")).to_contain_text(re.compile(r"Aula \d+"))

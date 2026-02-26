@@ -1,0 +1,256 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Scripts\python.exe
+cachedir: .pytest_cache
+baseurl: http://127.0.0.1:8766
+rootdir: D:\SourceCode\REPOS\github.io\adm_gestao_dmn
+configfile: pyproject.toml
+plugins: base-url-2.1.0, playwright-0.5.2
+collecting ... collected 127 items
+
+tests/test_assets.py::test_assets_exist PASSED                           [  0%]
+tests/test_course_structure.py::test_content_structure_exists PASSED     [  1%]
+tests/test_course_structure.py::test_lessons_completeness PASSED         [  2%]
+tests/test_course_structure.py::test_slides_sync PASSED                  [  3%]
+tests/test_course_structure.py::test_quizzes_sync PASSED                 [  3%]
+tests/test_course_structure.py::test_indexes_exist PASSED                [  4%]
+tests/test_fullscreen.py::test_shortcuts_hidden_in_fullscreen[chromium] PASSED [  5%]
+tests/test_layout.py::test_homepage_structure[chromium] PASSED           [  6%]
+tests/test_layout.py::test_lesson_pages_accessible[chromium] PASSED      [  7%]
+tests/test_layout.py::test_quiz_functionality[chromium] PASSED           [  7%]
+tests/test_layout.py::test_renderers_present[chromium] FAILED            [  8%]
+tests/test_navigation.py::TestNavigation::test_home_page_loads[chromium] PASSED [  9%]
+tests/test_navigation.py::TestNavigation::test_navigation_menus_exist[chromium] FAILED [ 10%]
+tests/test_navigation.py::TestNavigation::test_navigation_to_first_lesson[chromium] FAILED [ 11%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_index_loads[chromium] PASSED [ 11%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-1] PASSED [ 12%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_has_interactive_elements[chromium] PASSED [ 13%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_questions_visible[chromium] PASSED [ 14%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_can_select_answer[chromium] PASSED [ 14%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_has_multiple_questions[chromium] PASSED [ 15%]
+tests/test_slides.py::TestSlides::test_slides_index_loads[chromium] PASSED [ 16%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-1] PASSED [ 17%]
+tests/test_slides.py::TestSlides::test_revealjs_present_on_slide_01[chromium] PASSED [ 18%]
+tests/test_slides.py::TestSlides::test_slide_navigation_exists[chromium] PASSED [ 18%]
+tests/test_slides.py::TestSlides::test_slide_content_visible[chromium] PASSED [ 19%]
+tests/test_slides.py::TestSlides::test_slide_markdown_loads_without_404[chromium] PASSED [ 20%]
+tests/test_termynal_copy.py::test_termynal_copy_button[chromium] PASSED  [ 21%]
+tests/test_layout.py::test_build_output_exists PASSED                    [ 22%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path0-48-block0] PASSED [ 22%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path1-34-block1] PASSED [ 23%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path2-47-block2] PASSED [ 24%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path3-42-block3] PASSED [ 25%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path4-41-block4] PASSED [ 25%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path5-32-block5] PASSED [ 26%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path6-34-block6] PASSED [ 27%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path7-55-block7] PASSED [ 28%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path8-37-block8] PASSED [ 29%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path9-36-block9] PASSED [ 29%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path10-36-block10] PASSED [ 30%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path11-37-block11] PASSED [ 31%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path12-36-block12] PASSED [ 32%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path13-36-block13] PASSED [ 33%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path14-36-block14] PASSED [ 33%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path15-39-block15] PASSED [ 34%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path16-31-block16] PASSED [ 35%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path17-12-block17] PASSED [ 36%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path18-12-block18] PASSED [ 37%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path19-12-block19] PASSED [ 37%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path20-77-block20] PASSED [ 38%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path21-57-block21] PASSED [ 39%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path22-76-block22] PASSED [ 40%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path23-67-block23] PASSED [ 40%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path24-66-block24] PASSED [ 41%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path25-51-block25] PASSED [ 42%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path26-57-block26] PASSED [ 43%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path27-93-block27] PASSED [ 44%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path28-64-block28] PASSED [ 44%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path29-63-block29] PASSED [ 45%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path30-63-block30] PASSED [ 46%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path31-62-block31] PASSED [ 47%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path32-61-block32] PASSED [ 48%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path33-57-block33] PASSED [ 48%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path34-61-block34] PASSED [ 49%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path35-64-block35] PASSED [ 50%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path36-18-block36] PASSED [ 51%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path37-67-block37] PASSED [ 51%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path38-69-block38] PASSED [ 52%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path39-35-block39] PASSED [ 53%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path40-77-block40] PASSED [ 54%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path41-57-block41] PASSED [ 55%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path42-76-block42] PASSED [ 55%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path43-67-block43] PASSED [ 56%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path44-66-block44] PASSED [ 57%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path45-51-block45] PASSED [ 58%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path46-57-block46] PASSED [ 59%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path47-93-block47] PASSED [ 59%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path48-64-block48] PASSED [ 60%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path49-63-block49] PASSED [ 61%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path50-63-block50] PASSED [ 62%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path51-62-block51] PASSED [ 62%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path52-61-block52] PASSED [ 63%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path53-57-block53] PASSED [ 64%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path54-61-block54] PASSED [ 65%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path55-64-block55] PASSED [ 66%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-2] PASSED [ 66%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-2] PASSED [ 67%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-3] PASSED [ 68%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-3] PASSED [ 69%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-4] PASSED [ 70%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-4] PASSED [ 70%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-5] PASSED [ 71%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-5] PASSED [ 72%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-6] PASSED [ 73%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-6] PASSED [ 74%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-7] PASSED [ 74%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-7] PASSED [ 75%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-8] PASSED [ 76%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-8] PASSED [ 77%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-9] PASSED [ 77%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-9] PASSED [ 78%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-10] PASSED [ 79%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-10] PASSED [ 80%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-11] PASSED [ 81%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-11] PASSED [ 81%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-12] PASSED [ 82%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-12] PASSED [ 83%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-13] PASSED [ 84%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-13] PASSED [ 85%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-14] PASSED [ 85%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-14] PASSED [ 86%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-15] PASSED [ 87%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-15] PASSED [ 88%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-16] PASSED [ 88%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-16] PASSED [ 89%]
+tests/test_site_structure.py::test_site_exists PASSED                    [ 90%]
+tests/test_site_structure.py::test_site_slides_exists PASSED             [ 91%]
+tests/test_site_structure.py::test_debug_cwd PASSED                      [ 92%]
+tests/test_slide_build.py::test_slide_markdown_copied_to_site PASSED     [ 92%]
+tests/test_slide_build.py::test_slide_html_copied_to_site PASSED         [ 93%]
+tests/test_slide_build.py::test_slide_markdown_content_valid_in_site PASSED [ 94%]
+tests/test_slide_build.py::test_all_slides_present_in_site PASSED        [ 95%]
+tests/test_slide_build.py::test_slide_index_exists_in_site PASSED        [ 96%]
+tests/test_slide_generation.py::test_slide_markdown_files_exist PASSED   [ 96%]
+tests/test_slide_generation.py::test_slide_html_files_exist PASSED       [ 97%]
+tests/test_slide_generation.py::test_slide_html_references_correct_markdown PASSED [ 98%]
+tests/test_slide_generation.py::test_slide_markdown_has_content PASSED   [ 99%]
+tests/test_slide_generation.py::test_slide_html_has_revealjs_structure PASSED [100%]
+
+================================== FAILURES ===================================
+______________________ test_renderers_present[chromium] _______________________
+
+page = <Page url='http://127.0.0.1:8766/aulas/aula-01/'>
+base_url = 'http://127.0.0.1:8766'
+
+    def test_renderers_present(page: Page, base_url):
+        """Test standard renderers (Mermaid, MathJax) presence on a lesson page."""
+        lesson_files = sorted(Path("docs/aulas").glob("aula-*.md"))
+        if not lesson_files:
+            pytest.skip("No lessons found")
+    
+        page.goto(f"{base_url}/aulas/{lesson_files[0].stem}/")
+        # Just check if assets are attached
+>       expect(page.locator("script[src*='mermaid']")).to_be_attached()
+E       AssertionError: Locator expected to be attached
+E       Actual value: None
+E       Error: strict mode violation: locator("script[src*='mermaid']") resolved to 2 elements:
+E           1) <script src="https://unpkg.com/mermaid@11.12.3/dist/mermaid.min.js"></script> aka locator("script:nth-child(14)")
+E           2) <script src="../../assets/js/mermaid-init.js"></script> aka locator("script:nth-child(15)")
+E        
+E       Call log:
+E         - Expect "to_be_attached" with timeout 5000ms
+E         - waiting for locator("script[src*='mermaid']")
+
+tests\test_layout.py:77: AssertionError
+____________ TestNavigation.test_navigation_menus_exist[chromium] _____________
+
+self = <test_navigation.TestNavigation object at 0x000002848DA28E10>
+page_with_base_url = <Page url='http://127.0.0.1:8766/'>
+base_url = 'http://127.0.0.1:8766'
+
+    def test_navigation_menus_exist(self, page_with_base_url: Page, base_url: str):
+        """Verifica se os menus principais definidos no nav do mkdocs.yml existem"""
+        page = page_with_base_url
+        page.goto(base_url)
+        self._ensure_menu_visible(page)
+    
+        for item in self.nav:
+            # item is a dict like {'Aulas': [...]} or {'Sobre': 'sobre.md'}
+            menu_name = list(item.keys())[0]
+            link = page.get_by_role("link", name=menu_name).first
+            # Some items might be collapsible labels, not direct links
+            # We just check if the text is present in the nav
+>           expect(page.locator("nav.md-nav")).to_contain_text(menu_name)
+E           AssertionError: Locator expected to contain text 'Informa��es'
+E           Actual value: None
+E           Error: strict mode violation: locator("nav.md-nav") resolved to 4 elements:
+E               1) <nav data-md-level="0" aria-label="Navega��o" class="md-nav md-nav--primary md-nav--lifted">�</nav> aka get_by_role("navigation", name="Navega��o")
+E               2) <nav class="md-nav" data-md-level="1" aria-expanded="true" aria-labelledby="__nav_1_label">�</nav> aka get_by_text("Informa��es Sobre Plano")
+E               3) <nav aria-label="�ndice" class="md-nav md-nav--secondary">�</nav> aka get_by_role("navigation", name="�ndice")
+E               4) <nav class="md-nav" aria-label="\U0001f5fa\ufe0f Mapa da Jornada (M\xf3dulos)">\u2026</nav> aka get_by_role("navigation", name="\U0001f5fa\ufe0f Mapa da Jornada (M\xf3dulos)")
+E            
+E           Call log:
+E             - Expect "to_contain_text" with timeout 5000ms
+E             - waiting for locator("nav.md-nav")
+
+tests\test_navigation.py:47: AssertionError
+__________ TestNavigation.test_navigation_to_first_lesson[chromium] ___________
+
+self = <test_navigation.TestNavigation object at 0x000002848D9DD0F0>
+page_with_base_url = <Page url='http://127.0.0.1:8766/aulas/aula-01/'>
+base_url = 'http://127.0.0.1:8766'
+
+    def test_navigation_to_first_lesson(self, page_with_base_url: Page, base_url: str):
+        """Dinamicamente navega para a primeira aula encontrada no nav"""
+        page = page_with_base_url
+        page.goto(base_url)
+        self._ensure_menu_visible(page)
+    
+        # Find "Aulas" or similar section
+        aulas_item = next((item for item in self.nav if "Aulas" in item), None)
+        if not aulas_item:
+            pytest.skip("Aulas section not found in nav")
+    
+        aulas_list = aulas_item["Aulas"]
+        # Find first module (nesting)
+        first_module = next((item for item in aulas_list if isinstance(item, dict)), None)
+        if not first_module:
+            pytest.skip("No modules found in Aulas")
+    
+        module_name = list(first_module.keys())[0]
+        first_lesson_list = first_module[module_name]
+    
+        # Get first lesson link info
+        first_lesson = first_lesson_list[0]
+        lesson_name = list(first_lesson.keys())[0]
+    
+        # Action: Click Aulas
+        page.get_by_role("link", name="Aulas").first.click(force=True)
+    
+        # Action: Click Module
+        page.locator(f"label:has-text('{module_name}')").first.click(force=True)
+        page.wait_for_timeout(500)
+    
+        # Action: Click Lesson
+        lesson_link = page.get_by_role("link", name=lesson_name, exact=False).first
+        expect(lesson_link).to_be_visible()
+        lesson_link.click(force=True)
+    
+        # Verify arrival
+        expect(page.locator("h1")).to_be_visible()
+        # Asserts that the H1 contains at least a part of the lesson name to be agnostic
+        clean_lesson_name = re.sub(r'Aula \d+ - ', '', lesson_name)
+>       expect(page.locator("h1")).to_contain_text(clean_lesson_name[:10])
+E       AssertionError: Locator expected to contain text 'Intro ao E'
+E       Actual value: Aula 01 - Conceitos de Empreendedorismo e Vis\xe3o Empreendedora \U0001f680 
+E       Call log:
+E         - Expect "to_contain_text" with timeout 5000ms
+E         - waiting for locator("h1")
+E           8 � locator resolved to <h1 id="aula-01-conceitos-de-empreendedorismo-e-visao-empreendedora">Aula 01 - Conceitos de Empreendedorismo e Vis�o E�</h1>
+E             - unexpected value "Aula 01 - Conceitos de Empreendedorismo e Vis\xe3o Empreendedora \U0001f680"
+
+tests\test_navigation.py:89: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_layout.py::test_renderers_present[chromium] - AssertionErro...
+FAILED tests/test_navigation.py::TestNavigation::test_navigation_menus_exist[chromium]
+FAILED tests/test_navigation.py::TestNavigation::test_navigation_to_first_lesson[chromium]
+================== 3 failed, 124 passed in 222.62s (0:03:42) ==================
