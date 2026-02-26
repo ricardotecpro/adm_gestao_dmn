@@ -167,10 +167,10 @@ Para alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** 
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 09](../../exercicios/exercicio-09.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 09](../../projetos/projeto-09.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 09](../exercicios/exercicio-09.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 09](../projetos/projeto-09.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Como essa proposta chega até o cliente? [Canais de Comunicação e Distribuição](../../aulas/aula-10.md) 🚢
+**Próxima Aula**: Como essa proposta chega até o cliente? [Canais de Comunicação e Distribuição](../aulas/aula-10.md) 🚢
 
 ---
 

@@ -155,10 +155,10 @@ Escolha um negócio (ex: Loja de Jogos Digitais).
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 08](../../exercicios/exercicio-08.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 08](../../projetos/projeto-08.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 08](../exercicios/exercicio-08.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 08](../projetos/projeto-08.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Entrando no Bloco 3! [Definição da Proposta de Valor ao Cliente](../../aulas/aula-09.md) ✅
+**Próxima Aula**: Entrando no Bloco 3! [Definição da Proposta de Valor ao Cliente](../aulas/aula-09.md) ✅
 
 ---
 

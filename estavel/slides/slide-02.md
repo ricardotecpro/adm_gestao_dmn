@@ -149,10 +149,10 @@ Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **C
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 02](../../exercicios/exercicio-02.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 02](../../projetos/projeto-02.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 02](../exercicios/exercicio-02.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 02](../projetos/projeto-02.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Vamos mergulhar na [Análise de Valor: Inovação e Sustentabilidade](../../aulas/aula-03.md)! 📡
+**Próxima Aula**: Vamos mergulhar na [Análise de Valor: Inovação e Sustentabilidade](../aulas/aula-03.md)! 📡
 
 ---
 

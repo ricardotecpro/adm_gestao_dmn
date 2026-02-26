@@ -152,10 +152,10 @@ A percepção de valor não é estática. Empreendedores avançados calculam o C
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 03](../../exercicios/exercicio-03.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 03](../../projetos/projeto-03.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 03](../exercicios/exercicio-03.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 03](../projetos/projeto-03.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Vamos entender as [Etapas do Processo de Valor](../../aulas/aula-04.md)! 📄
+**Próxima Aula**: Vamos entender as [Etapas do Processo de Valor](../aulas/aula-04.md)! 📄
 
 ---
 

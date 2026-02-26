@@ -140,8 +140,8 @@ Imagine que você criou um **App de Meditação**.
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 16](../../exercicios/exercicio-16.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 16](../../projetos/projeto-16.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 16](../exercicios/exercicio-16.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 16](../projetos/projeto-16.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 !!! success "Conclusão do Módulo"
     Parabéns! Você completou as 16 aulas do curso de **Desenvolvimento de Modelos de Negócios**. Agora você tem todas as ferramentas para tirar sua ideia do papel e construir um negócio sólido, lucrativo e inovador.

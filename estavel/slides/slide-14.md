@@ -144,10 +144,10 @@ Imagine que você está criando um **SaaS (Software como Serviço) para Advogado
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 14](../../exercicios/exercicio-14.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 14](../../projetos/projeto-14.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 14](../exercicios/exercicio-14.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 14](../projetos/projeto-14.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Quanto custa tudo isso? [Estrutura de Custos do Negócio](../../aulas/aula-15.md) 💰
+**Próxima Aula**: Quanto custa tudo isso? [Estrutura de Custos do Negócio](../aulas/aula-15.md) 💰
 
 ---
 
