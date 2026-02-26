@@ -4,32 +4,32 @@ Teste seus conhecimentos rapidamente ao final de cada módulo.
 
 <div class="grid cards" markdown>
 
--   :material-numeric-1-box: **Fase 1**
+-   :material-numeric-1-box: **Módulo 1**
     ---
-    - [Quiz 01 - Intro](quiz-01.md)
-    - [Quiz 02 - Java vs Swift](quiz-02.md)
-    - [Quiz 03 - Kotlin](quiz-03.md)
-    - [Quiz 04 - Estrutura App](quiz-04.md)
+    - [Quiz 01 - Intro e Visão](quiz-01.md)
+    - [Quiz 02 - Oportunidades](quiz-02.md)
+    - [Quiz 03 - Análise de Valor](quiz-03.md)
+    - [Quiz 04 - Inovação](quiz-04.md)
 
--   :material-numeric-2-box: **Fase 2**
+-   :material-numeric-2-box: **Módulo 2**
     ---
-    - [Quiz 05 - UI/Layouts](quiz-05.md)
-    - [Quiz 06 - Navegação](quiz-06.md)
-    - [Quiz 07 - MVVM](quiz-07.md)
-    - [Quiz 08 - Persistência](quiz-08.md)
+    - [Quiz 05 - Gestão e Estratégia](quiz-05.md)
+    - [Quiz 06 - Plano de Negócios](quiz-06.md)
+    - [Quiz 07 - Canvas](quiz-07.md)
+    - [Quiz 08 - Segmentação](quiz-08.md)
 
--   :material-numeric-3-box: **Fase 3**
+-   :material-numeric-3-box: **Módulo 3**
     ---
-    - [Quiz 09 - RecyclerView](quiz-09.md)
-    - [Quiz 10 - API REST](quiz-10.md)
-    - [Quiz 11 - Async/Threads](quiz-11.md)
-    - [Quiz 12 - UX/Material](quiz-12.md)
+    - [Quiz 09 - Proposta de Valor](quiz-09.md)
+    - [Quiz 10 - Canais](quiz-10.md)
+    - [Quiz 11 - Relacionamento](quiz-11.md)
+    - [Quiz 12 - Atividades-chave](quiz-12.md)
 
--   :material-numeric-4-box: **Fase 4**
+-   :material-numeric-4-box: **Módulo 4**
     ---
-    - [Quiz 13 - Sensores](quiz-13.md)
-    - [Quiz 14 - Testes/Debug](quiz-14.md)
-    - [Quiz 15 - Publicação](quiz-15.md)
-    - [Quiz 16 - Revisão Final](quiz-16.md)
+    - [Quiz 13 - Recursos](quiz-13.md)
+    - [Quiz 14 - Parceiros](quiz-14.md)
+    - [Quiz 15 - Custos](quiz-15.md)
+    - [Quiz 16 - Receitas](quiz-16.md)
 
 </div>

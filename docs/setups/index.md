@@ -4,19 +4,19 @@ Guias para configurar seu computador para o desenvolvimento de produtos e gestã
 
 <div class="grid cards" markdown>
 
--   :material-android: **Android**
+-   :material-microsoft-windows: **Windows**
     ---
-    Instalação do Android Studio, SDK e emuladores.
-    - [Setup 01 - Android Studio](setup-01.md)
+    Configuração do ambiente de gestão e ferramentas no Windows.
+    - [Setup 01 - Windows](setup-01.md)
 
--   :material-apple: **iOS (Opcional/Referência)**
+-   :material-linux: **Linux**
     ---
-    Configuração básica de Xcode e ferramentas Mac.
-    - [Setup 02 - Xcode Foundation](setup-02.md)
+    Preparação do terminal e utilitários para Linux.
+    - [Setup 02 - Linux](setup-02.md)
 
--   :material-cog: **Ferramentas de Apoio**
+-   :material-apple: **macOS**
     ---
-    Git, Terminais e Postman/Insomnia para testes de API.
-    - [Setup 03 - Tools](setup-03.md)
+    Ajustes e ferramentas essenciais para usuários Mac.
+    - [Setup 03 - macOS](setup-03.md)
 
 </div>
