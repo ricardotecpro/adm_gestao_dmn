@@ -6,7 +6,7 @@ Bem-vindo à sua jornada no mundo do empreendedorismo moderno. Este curso foi pr
 
 ---
 
-## ⚡ Atalhos Rápidos
+**⚡ Atalhos Rápidos**
 
 <div class="grid cards" markdown>
 
