@@ -23,15 +23,15 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 01
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Iniciando Diagnóstico de Perfil Empreendedor...
+> Mapeando HARD SKILLS e SOFT SKILLS... [OK]
+> Gerando Matriz de Competências...
+> Dica: Seja honesto sobre seus pontos de melhoria!
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Autoavaliação**: Liste 5 habilidades técnicas e 5 comportamentais que você possui hoje.
+2. **Mapa de Paixões**: Identifique 3 áreas de interesse onde você trabalharia mesmo sem remuneração inicial (Ikigai).
+3. **Plano de Desenvolvimento**: Escolha uma competência que você **não possui** e descreva como pretende adquiri-la nos próximos 6 meses.
 
 ---
 

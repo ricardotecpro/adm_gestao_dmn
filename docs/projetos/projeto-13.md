@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 13
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Inventariando Ativos Críticos...
+> Categorizando: FÍSICOS, INTELECTUAIS, HUMANOS...
+> Aplicando estratégia ASSET-LIGHT... [OK]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Checklist de Ativos**: Liste 2 recursos essenciais de cada categoria (Físico, Intelectual, Humano, Financeiro).
+2. **Propriedade Intelectual**: Qual é o ativo mais difícil de copiar no seu negócio? (ex: código, marca, patente).
+3. **Gestão enxuta**: Como você usaria parcerias para não precisar "comprar" um recurso físico caro no início?
 
 ---
 

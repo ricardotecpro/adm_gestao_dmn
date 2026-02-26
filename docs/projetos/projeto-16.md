@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 16
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Definindo MODELOS DE RECEITA...
+> Analisando RECORRÊNCIA vs TRANSAÇÃO...
+> Validando EFEITO DE REDE... [GO!]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Fontes de Ganho**: Defina 2 formas de cobrar o seu cliente (ex: assinatura + taxa de uso).
+2. **Mecanismo de Preço**: Como o preço será definido? (Preço fixo de catálogo, leilão, negociação ou volume).
+3. **Escala**: Como você pode usar o "Efeito de Rede" para que seu negócio se torne mais valioso à medida que cresce?
 
 ---
 

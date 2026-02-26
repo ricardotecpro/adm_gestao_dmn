@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 05
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Gerando Matriz SWOT (FOFA)...
+> Cruzando FORÇAS com OPORTUNIDADES...
+> Identificando AMEAÇAS críticas... [ALERT]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Quadrante Interno**: Liste 3 Forças e 3 Fraquezas do seu projeto/equipe atual.
+2. **Quadrante Externo**: Identifique 2 Oportunidades do mercado e 2 Ameaças (concorrentes, leis, economia).
+3. **Análise de Sobrevivência**: Como você usaria uma de suas Forças para mitigar uma das Ameaças identificadas?
 
 ---
 

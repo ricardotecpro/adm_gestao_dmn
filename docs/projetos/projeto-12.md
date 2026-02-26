@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 12
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Mapeando Atividades-chave...
+> Identificando GARGALOS (TOC)...
+> Otimizando o CORE BUSINESS... [CORE]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Lista de Atividades**: Liste 5 ações que sua empresa faz no dia a dia.
+2. **Filtro Core**: Separe o que é Atividade-chave (vital) do que é tarefa secundária.
+3. **Resolução de Problemas**: Descreva o macroprocesso de como seu produto é "fabricado" ou como seu serviço é "entregue", identificando onde pode haver um gargalo.
 
 ---
 

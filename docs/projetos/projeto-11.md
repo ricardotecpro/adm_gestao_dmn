@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 11
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Definindo Réguas de Relacionamento...
+> Calculando estimativa de CHURN RATE...
+> Criando estratégia de RETENÇÃO... [OK]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Categorias**: Defina qual será o tipo de relação principal (ex: Self-service, Assistência Dedicada, Cocriação).
+2. **Ciclo de Vida**: Desenhe a jornada de retenção: como você vai manter o cliente engajado após 6 meses?
+3. **Métricas de Sucesso**: Como você vai medir a satisfação (ex: NPS) e a fidelidade dos seus clientes?
 
 ---
 

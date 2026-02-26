@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 04
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Iniciando Prototipagem de Baixa Fidelidade...
+> Selecionando ferramentas: FIGMA / PAPEL...
+> Criando fluxo de navegação do MVP...
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Esboço do MVP**: Desenhe (no papel ou ferramenta digital) as 3 telas/etapas principais da jornada do seu cliente.
+2. **Funcionalidade Mínima**: Identifique qual é a ÚNICA função que o produto precisa ter para que o cliente pague por ele (ou use).
+3. **Teste de Conceito**: Apresente esse desenho para uma pessoa e peça para ela explicar o que ela entendeu da solução (sem você explicar primeiro).
 
 ---
 

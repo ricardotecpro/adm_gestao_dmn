@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 03
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Definindo DNA da Proposta de Valor...
+> Comparando: ANALÓGICO vs DIGITAL...
+> Gerando frase de impacto (Mantra)...
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Definição do Valor**: Para o problema identificado no Lab 02, escreva em uma frase qual é o benefício principal da sua solução.
+2. **Diferenciação**: Liste 2 motivos pelos quais um cliente escolheria você e não o concorrente mais próximo.
+3. **Elevator Pitch**: Redija um texto de no máximo 30 segundos explicando sua ideia focando no GANHO do cliente, não nas funções do produto.
 
 ---
 

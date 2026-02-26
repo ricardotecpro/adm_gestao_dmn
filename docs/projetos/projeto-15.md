@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 15
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Calculando CUSTOS FIXOS e VARIÁVEIS...
+> Projetando BURN RATE e RUNWAY...
+> Definindo PONTO DE EQUILÍBRIO... [CALCULADO]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Estrutura de Gastos**: Liste seus 3 maiores custos fixos mensais e seus 3 principais custos variáveis por produto/serviço.
+2. **Estratégia**: Seu modelo é *Cost-driven* (foco em baixo preço) ou *Value-driven* (foco em alta margem)? Justifique.
+3. **Sobrevivência**: Calcule o Ponto de Equilíbrio (Break-even): quantas vendas você precisa fazer por mês para não ter prejuízo?
 
 ---
 

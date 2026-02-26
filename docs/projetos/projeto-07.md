@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 07
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Abrindo Business Model Canvas...
+> Preenchendo os 9 blocos estratégicos...
+> Validando coerência do modelo... [OK]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Lado Direito (Valor)**: Preencha Segmentos de Clientes, Proposta de Valor, Canais e Relacionamento.
+2. **Lado Esquerdo (Eficiência)**: Preencha Atividades, Recursos e Parceiros.
+3. **Base (Financeiro)**: Defina de onde vem o dinheiro (Receitas) e para onde ele vai (Custos). Use setas para ligar os blocos que interagem entre si.
 
 ---
 

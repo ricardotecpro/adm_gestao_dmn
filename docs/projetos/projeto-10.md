@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 10
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Mapeando Jornada do Cliente...
+> Definindo Canais de COMUNICAÇÃO e VENDA...
+> Analisando OMNICHANNEL... [INTEGRATED]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Seleção de Canais**: Escolha 1 canal DIRETO (ex: site) e 1 canal INDIRETO (ex: marketplace) para seu produto.
+2. **Fases do Canal**: Descreva como o cliente vai: 1) Descobrir, 2) Avaliar, 3) Comprar, 4) Receber e 5) Ter Pós-venda.
+3. **Estratégia Omni**: Como você garante que a experiência do cliente seja a mesma em todos esses canais?
 
 ---
 

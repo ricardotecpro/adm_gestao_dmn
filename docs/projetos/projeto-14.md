@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 14
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Mapeando rede de Alianças Estratégicas...
+> Selecionando Parceiros Críticos...
+> Integrando via API Economy... [INTEGRATED]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Mapa de Alianças**: Identifique 2 parceiros-chave e classifique-os (Aliança Estratégica, Joint Venture ou Coopetição).
+2. **Motivação**: Por que você precisa deles? (Otimização, Redução de Risco ou Aquisição de Recursos).
+3. **Risco de Dependência**: O que acontece com seu negócio se o seu principal parceiro tecnológico aumentar o preço em 50% ou parar de funcionar?
 
 ---
 

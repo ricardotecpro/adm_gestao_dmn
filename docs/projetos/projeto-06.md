@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 06
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Estruturando Sumário Executivo...
+> Definindo Missão, Visão e Valores...
+> Compilando Plano de Negócio (Draft)...
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Identidade**: Escreva a Missão (por que existimos) e a Visão (onde queremos chegar em 5 anos) do seu negócio.
+2. **Sumário Executivo**: Resuma em 5 parágrafos o seu negócio: Problema, Solução, Mercado, Modelo de Receita e Equipe.
+3. **Análise de Setor**: Identifique em qual setor do CNAE (ou categoria de mercado) seu negócio se enquadra.
 
 ---
 

@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 09
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Iniciando Value Proposition Canvas...
+> Mapeando PERFIL DO CLIENTE...
+> Criando MAPA DE VALOR... [MATCH!]
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Perfil do Cliente**: Liste as Tarefas (Jobs), Dores e Ganhos do seu segmento escolhido.
+2. **Mapa de Valor**: Descreva como seu produto Alivia as Dores e Cria Ganhos para esse cliente.
+3. **Encaixe (Fit)**: Selecione os 3 pontos de maior "match" entre o que o cliente quer e o que você oferece.
 
 ---
 

@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 08
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Iniciando Mapa de Empatia...
+> O que o cliente PENSA e SENTE?
+> Definindo a PERSONA: 'Pedro, o Programador'...
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Mapa de Empatia**: Escolha um cliente real e responda: O que ele Ouve? O que ele Vê? O que ele Fala e Faz? Quais são suas Dores e Ganhos?
+2. **Criação da Persona**: Dê um nome, idade, profissão e um hobby para o seu cliente ideal. Torne-o uma pessoa "viva" em um parágrafo.
+3. **JTBD (Job To Be Done)**: Qual é o "trabalho" que o seu cliente está tentando realizar quando "contrata" o seu produto?
 
 ---
 

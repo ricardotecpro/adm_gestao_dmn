@@ -250,7 +250,7 @@ def generate_all_quizzes():
 
 
 def main():
-    print("[bold]START: Automação de Conteúdo: Desenvolvimento de Modelos de Negócios[/bold]")
+    print(f"[bold]START: Automação de Conteúdo: {SITE_NAME}[/bold]")
     print("=" * 50)
     
     generate_all_slides()

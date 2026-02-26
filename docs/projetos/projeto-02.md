@@ -23,15 +23,14 @@ Para obter êxito neste nível intermediário, certifique-se de apresentar:
 
 ```termynal
 $ projeto-init --aula 02
-> Lendo os requisitos de inovação baseados...
-> Criando workspace em branco do business.
-> Dica: Mantenha o foco absoluto e estude seu mercado alvo!
-> Iniciando [EXECUÇÃO].
+> Ativando modo 'Caçador de Problemas'...
+> Escaneando ambiente em busca de FRICÇÕES... [SCANNING]
+> Detectado: 3 ineficiências latentes no setor escolhido.
 ```
 
-1. Escreva sua premissa inicial e ancore nos tópicos debatidos na teoria.
-2. Monte sua pesquisa ou quadro base sem preciosismo (rascunho inicial).
-3. Refine a solução como se estivesse preparando um 'pitch' oficial para uma banca avaliadora de investidores Anjo.
+1. **Observação de Campo**: Escolha um ambiente (ex: um supermercado, uma fila de banco, um app de compras) e observe 3 problemas recorrentes.
+2. **Entrevista Rápida**: Pergunte a 2 pessoas que frequentam esse ambiente o que mais as irrita naquele processo.
+3. **Documentação da Dor**: Descreva qual desses problemas é o mais "doloroso" e por que as soluções atuais falham em resolvê-lo.
 
 ---
 
