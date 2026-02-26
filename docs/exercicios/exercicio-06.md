@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Por que estruturamos um Plano de Negócios clássico perante investidores bancários?
-2. Destaque os principais componentes do Sumário Executivo.
+1. Qual a importância do Sumário Executivo em um Plano de Negócios?
+2. Por que o Plano de Negócios ainda é solicitado por bancos e investidores tradicionais?
 
 ## 🟡 Médios
 
-3. Como validar uma Projeção de Caixa sem conhecer o futuro? Que medidas usar?
-4. O Plano Operacional ajuda a prever a logística, os insumos essenciais e a real viabilidade do esforço. Qual a essência fundamental nele?
+3. Como as Projeções Financeiras podem ser validadas mesmo diante da incerteza do futuro? 
+4. Explique o papel do "Plano Operacional". Quais itens fundamentais (estoque, pessoal, logística) ele deve detalhar?
 
 ## 🔴 Desafio
 
-5. Para modelos ágeis em incerteza, como conciliar o Plano de Negócios Tradicional com a análise de Break-Even dinâmico em cenários desfavoráveis e incertos? Justifique em relação ao cálculo de OPEX e fixos contínuos.
+5. Discute a conciliação entre o Plano de Negócios Tradicional e a mentalidade ágil em cenários de alta incerteza. Como o cálculo do Break-Even (Ponto de Equilíbrio) ajuda a definir o risco real do empreendedor?
 
 ---
 

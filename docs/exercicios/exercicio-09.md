@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Defina Proposta de Valor.
-2. O Valor sempre deve girar em torno apenas de vantagens tangíveis das especificações métricas? Justifique no design.
+1. O que é a "Proposta de Valor" no contexto do Business Model Canvas?
+2. A Proposta de Valor deve focar apenas em características técnicas do produto? Explique.
 
 ## 🟡 Médios
 
-3. Um diferencial muito fácil de ser copiado pela vasta concorrência assegura sustentabilidade da Proposta ao tempo? Explique com métricas simples.
-4. Como inovar perante mercados hiper superlotados provando que a Promessa Mútua de Valor perdura.
+3. Por que um diferencial competitivo fácil de ser copiado não sustenta uma Proposta de Valor a longo prazo?
+4. Como focar em "Ganhos" (Gains) e "Dores" (Pains) ajuda a criar uma promessa de valor mais assertiva para o cliente?
 
 ## 🔴 Desafio
 
-5. Utilizando o framework Value Proposition Canvas na complexidade intermediária dita acima do Value Proposition Canvas (VPC), descreva como Aliviadores da Dor e os Ganhadores criam correspondência fatal perante dores agudas, explicando a barreira e o 'FIT problem-solution'.
+5. Utilizando o framework Value Proposition Canvas (VPC), descreva como ocorre o "Encaixe" (Fit) entre o Perfil do Cliente e o Mapa de Valor. Por que resolver uma "Dor Aguda" é mais lucrativo do que oferecer um ganho incidental?
 
 ---
 

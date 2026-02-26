@@ -1,7 +1,7 @@
-site_name: Desenvolvimento de Modelos de Negócios
-site_url: https://ricardotecpro.github.io/adm_dmn
-repo_url: https://github.com/ricardotecpro/adm_dmn
-repo_name: ricardotecpro/adm_dmn
+site_name: Gestão e Modelos de Negócios
+site_url: https://ricardotecpro.github.io/ads_gestao_dmn
+repo_url: https://github.com/ricardotecpro/ads_gestao_dmn
+repo_name: ricardotecpro/ads_gestao_dmn
 
 exclude_docs: |
   quizzes/src/*
@@ -54,6 +54,8 @@ theme:
     code: Roboto Mono
   font_display: swap
   font_style: normal
+  static_templates:
+    - 404.html
 
 copyright: 'Copyright &copy; 2026 Ricardo Tec Pro'
 
@@ -86,6 +88,8 @@ markdown_extensions:
       base_path: docs
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 
 plugins:
@@ -97,7 +101,7 @@ plugins:
       lang: pt
   - mkdocs-jupyter
   - glightbox
-  - awesome-pages:
+  - awesome-pages
   - mkdocs_quiz
   - git-authors:
       show_contribution: true
@@ -195,15 +199,15 @@ nav:
       - 'Aula 15 - Estrutura de Custos': aulas/aula-15.md
       - 'Aula 16 - Fontes de Receita': aulas/aula-16.md
   - Materiais:
-    - Materiais: materiais.md
+    - materiais.md
     - Roadmap: project_roadmap.md
     - Slides: slides/index.md
     - Exercícios: exercicios/index.md
     - Quizzes: quizzes/index.md
     - Projetos: projetos/index.md
-  - Configuração:
-    - setups/index.md
-    - 'Ambiente Windows': setups/setup-01.md
-    - 'Ambiente Linux': setups/setup-02.md
-    - 'Ambiente macOS': setups/setup-03.md
+    - Configuração:
+      - setups/index.md
+      - 'Ambiente Windows': setups/setup-01.md
+      - 'Ambiente Linux': setups/setup-02.md
+      - 'Ambiente macOS': setups/setup-03.md
   - Impressão: print_page.md

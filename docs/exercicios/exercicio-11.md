@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Como é percebida uma relação Autoatendimento e que benefício tem para startups iniciais do cenário SAAS?
-2. No extremo adverso, para mercados Ultra High Tickets ou B2B Complexos que relacionamento se opera?
+1. O que caracteriza o relacionamento de "Autoatendimento" e qual o seu benefício para empresas de software (SaaS)?
+2. Em quais cenários o relacionamento de "Assistência Pessoal Dedicada" é mais recomendado?
 
 ## 🟡 Médios
 
-3. A cocriação vem a fortalecer bases. Exemplifique cocriações.
-4. Fidelidade e Retenção custam muito mais do que Captação agressiva? Expresse o racional comum vital do Marketing.
+3. Como a "Cocriação" fortalece o relacionamento entre marca e cliente? Dê um exemplo prático (ex: YouTube ou LEGO).
+4. Explique o conceito de "Custo de Mudança" (Switching Costs) e como ele influencia a fidelização do cliente em um serviço.
 
 ## 🔴 Desafio
 
-5. No nível profundo analítico como Cohort Analysis e a mensuração ativa de Churn Rate (Evasões) protegem os ativos contábeis antes das falências irrevesíveis dos Modelos de Negócios e qual atuação é empregada por analistas CS (Customer Success) e Onboardings baseados nas matrizes do software de relacionamento reativo intermediário SaaS.
+5. Analise o impacto da "Cohort Analysis" e da taxa de "Churn" (Evasão) na saúde financeira de um modelo de negócio de assinatura. Qual o papel das equipes de "Customer Success" (Sucesso do Cliente) na redução do Churn?
 
 ---
 

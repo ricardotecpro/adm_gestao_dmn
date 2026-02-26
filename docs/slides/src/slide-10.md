@@ -40,7 +40,7 @@ Os canais são os pontos de contato entre a empresa e o cliente. Eles servem com
 Os canais podem ser divididos entre diretos e indiretos:
 
 | Tipo | Exemplos | Prós | Contras |
-| :--- { .fragment } | :--- { .fragment } | :--- { .fragment } | :--- { .fragment } |
+| :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> |
 | **Direto** | Site oficial, Loja Própria, Venda Direta. | Margem maior, controle total. | Custo de aquisição alto. |
 | **Indireto** | Marketplace (Amazon, App Store), Atacado. | Grande alcance, confiança. | Margem menor, zero controle. |
 
@@ -155,8 +155,8 @@ A maturidade em canais requer transitar do modelo Multicanal para o **Omnichanne
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 10](../../exercicios/exercicio-10.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 10](../../projetos/projeto-10.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 10](../../exercicios/exercicio-10.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 10](../../projetos/projeto-10.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como manter esse cliente perto de você? [Relacionamento com o Cliente](../../aulas/aula-11.md) 🤝
 
@@ -164,9 +164,9 @@ A maturidade em canais requer transitar do modelo Multicanal para o **Omnichanne
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

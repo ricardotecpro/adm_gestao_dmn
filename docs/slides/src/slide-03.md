@@ -41,8 +41,8 @@ Para o empreendedor, **valor** não é o preço que se cobra, mas o benefício q
 
 Muitas pessoas confundem os dois termos, mas eles são os dois lados da mesma moeda:
 
-- { .fragment } **Criatividade**: É o ato de pensar coisas novas. É a matéria-prima (ideias).
-- { .fragment } **Inovação**: É o ato de **fazer** coisas novas que gerem valor. É a criatividade aplicada com resultado.
+- <!-- .element: class="fragment" --> **Criatividade**: É o ato de pensar coisas novas. É a matéria-prima (ideias).
+- <!-- .element: class="fragment" --> **Inovação**: É o ato de **fazer** coisas novas que gerem valor. É a criatividade aplicada com resultado.
 
 ---
 
@@ -59,9 +59,9 @@ Muitas pessoas confundem os dois termos, mas eles são os dois lados da mesma mo
 
 Os negócios modernos não podem ignorar o impacto que causam. O valor de uma empresa hoje também é medido por:
 
-- { .fragment } **Sustentabilidade**: Uso consciente de recursos para não comprometer as gerações futuras.
-- { .fragment } **Diversidade Cultural**: Incluir diferentes visões de mundo na criação do produto, tornando-o mais universal e inclusivo.
-- { .fragment } **Inclusão Social**: Como o seu negócio ajuda a diminuir as desigualdades?
+- <!-- .element: class="fragment" --> **Sustentabilidade**: Uso consciente de recursos para não comprometer as gerações futuras.
+- <!-- .element: class="fragment" --> **Diversidade Cultural**: Incluir diferentes visões de mundo na criação do produto, tornando-o mais universal e inclusivo.
+- <!-- .element: class="fragment" --> **Inclusão Social**: Como o seu negócio ajuda a diminuir as desigualdades?
 
 ---
 
@@ -152,8 +152,8 @@ A percepção de valor não é estática. Empreendedores avançados calculam o C
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 03](../../exercicios/exercicio-03.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 03](../../projetos/projeto-03.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 03](../../exercicios/exercicio-03.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 03](../../projetos/projeto-03.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos entender as [Etapas do Processo de Valor](../../aulas/aula-04.md)! 📄
 
@@ -161,17 +161,17 @@ A percepção de valor não é estática. Empreendedores avançados calculam o C
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

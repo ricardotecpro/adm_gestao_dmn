@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. O que definem os Canais de forma teórica em relação orgânica às vendas no modelo lido?
-2. Canal primariamente tem apenas e unicamente intuito de venda transacional? Cite um contraponto do marketing.
+1. O que são os "Canais" no Business Model Canvas e quais são suas cinco fases?
+2. Explique a diferença entre canais Próprios e canais de Parceiros.
 
 ## 🟡 Médios
 
-3. Qual a disparidade de viabilidade e de impacto comparando canais Diretos com canais Indiretos parceirizados.
-4. Defina o viés moderno entre atuar num Multicanal perante um Omnichannel onde marcas modernas aportam.
+3. Quais são as vantagens e desvantagens de utilizar canais Indiretos (como varejistas ou distribuidores) para alcançar o cliente?
+4. Diferencie o modelo Multicanal do modelo Omnichannel. Por que a integração é a chave do sucesso no varejo moderno?
 
 ## 🔴 Desafio
 
-5. Canais se comunicam matematicamente de forma contígua a taxas de funil perante CAC. Demonstre o racional intermediário estratégico que fundamenta em cancelar certas bases para manter a taxa de conversão final escalável nas estratégias focadas do Omnichannel.
+5. Analise a relação entre os Canais e o CAC (Custo de Aquisição de Clientes). Como a escolha de um canal inadequado pode inviabilizar a lucratividade de um produto, mesmo que ele tenha uma boa proposta de valor?
 
 ---
 

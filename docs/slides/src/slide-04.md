@@ -38,10 +38,10 @@ O valor não aparece por mágica; ele é **construído** através de etapas lóg
 
 A inovação pode acontecer de diferentes formas e em diferentes níveis de intensidade:
 
-- { .fragment } **Inovação Incremental**: Pequenas melhorias em algo que já existe (ex: nova versão de um celular).
-- { .fragment } **Inovação Radical**: Cria um novo mercado ou desbanca um existente (ex: a transição das câmeras de filme para digitais).
-- { .fragment } **Inovação de Processo**: Mudar o "como" as coisas são feitas para ganhar eficiência.
-- { .fragment } **Inovação de Modelo de Negócio**: Mudar a forma como se ganha dinheiro (ex: streaming vs venda de CDs).
+- <!-- .element: class="fragment" --> **Inovação Incremental**: Pequenas melhorias em algo que já existe (ex: nova versão de um celular).
+- <!-- .element: class="fragment" --> **Inovação Radical**: Cria um novo mercado ou desbanca um existente (ex: a transição das câmeras de filme para digitais).
+- <!-- .element: class="fragment" --> **Inovação de Processo**: Mudar o "como" as coisas são feitas para ganhar eficiência.
+- <!-- .element: class="fragment" --> **Inovação de Modelo de Negócio**: Mudar a forma como se ganha dinheiro (ex: streaming vs venda de CDs).
 
 ---
 
@@ -54,9 +54,9 @@ A inovação pode acontecer de diferentes formas e em diferentes níveis de inte
 ## 3. Ambiente Inovador 🚀
 
 Para que a inovação floresça, o ambiente deve permitir:
-- { .fragment } **Segurança Psicológica**: Liberdade para errar e aprender.
-- { .fragment } **Colaboração**: Troca de ideias entre diferentes áreas.
-- { .fragment } **Flexibilidade**: Capacidade de mudar a rota rapidamente.
+- <!-- .element: class="fragment" --> **Segurança Psicológica**: Liberdade para errar e aprender.
+- <!-- .element: class="fragment" --> **Colaboração**: Troca de ideias entre diferentes áreas.
+- <!-- .element: class="fragment" --> **Flexibilidade**: Capacidade de mudar a rota rapidamente.
 
 ---
 
@@ -152,8 +152,8 @@ A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difus
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 04](../../exercicios/exercicio-04.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 04](../../projetos/projeto-04.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 04](../../exercicios/exercicio-04.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 04](../../projetos/projeto-04.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Fim do Bloco 1! No Bloco 2, iniciaremos a [Gestão de Negócios e Ideação](../../aulas/aula-05.md)! 💻
 
@@ -161,17 +161,17 @@ A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difus
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

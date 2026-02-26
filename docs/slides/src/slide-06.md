@@ -36,11 +36,11 @@ O **Plano de Negócios** é o "mapa" do seu empreendimento. É um documento que 
 ## 2. Estrutura Básica de um Plano Profissional 📋
 
 Um PN completo geralmente contém:
-- { .fragment } **Sumário Executivo**: Resumo dos pontos principais (feito por último!).
-- { .fragment } **Análise de Mercado**: Estudo dos clientes, concorrentes e fornecedores.
-- { .fragment } **Plano de Marketing**: Como o produto será vendido e divulgado.
-- { .fragment } **Plano Operacional**: Como o negócio vai funcionar no dia a dia.
-- { .fragment } **Plano Financeiro**: Projeção de custos, receitas e ponto de equilíbrio.
+- <!-- .element: class="fragment" --> **Sumário Executivo**: Resumo dos pontos principais (feito por último!).
+- <!-- .element: class="fragment" --> **Análise de Mercado**: Estudo dos clientes, concorrentes e fornecedores.
+- <!-- .element: class="fragment" --> **Plano de Marketing**: Como o produto será vendido e divulgado.
+- <!-- .element: class="fragment" --> **Plano Operacional**: Como o negócio vai funcionar no dia a dia.
+- <!-- .element: class="fragment" --> **Plano Financeiro**: Projeção de custos, receitas e ponto de equilíbrio.
 
 ---
 
@@ -68,8 +68,8 @@ graph TD
 ## 4. O PN no Mundo Moderno 🚀
 
 Antigamente, planos de negócios eram livros de 100 páginas. Hoje, eles são mais ágeis e focados.
-- { .fragment } **PN Tradicional**: Detalhado, focado em estabilidade e financiamento bancário.
-- { .fragment } **PN Ágil (Lean)**: Focado em testes rápidos e aprendizado constante.
+- <!-- .element: class="fragment" --> **PN Tradicional**: Detalhado, focado em estabilidade e financiamento bancário.
+- <!-- .element: class="fragment" --> **PN Ágil (Lean)**: Focado em testes rápidos e aprendizado constante.
 
 ---
 
@@ -148,8 +148,8 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 06](../../exercicios/exercicio-06.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 06](../../projetos/projeto-06.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 06](../../exercicios/exercicio-06.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 06](../../projetos/projeto-06.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos simplificar tudo com o [Modelagem de Negócios: O Canvas](../../aulas/aula-07.md) 🗄️
 
@@ -157,25 +157,25 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 3
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

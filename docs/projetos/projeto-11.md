@@ -7,15 +7,15 @@
 
 ## 🎯 O Objetivo do Projeto
 
-Este projeto visa aplicar todo o rigor e as ferramentas discutidas na [Aula 11](../aulas/aula-11.md) em um cenário de negócios do mundo real. Você deixará o plano das ideias para a simulação ou aplicação tangível e prática.
+Neste projeto, você aplicará os conceitos da [Aula 11](../aulas/aula-11.md) em um cenário prático. O objetivo é transformar a teoria em uma entrega tangível que simula a realidade do mercado.
 
 ## 🛠️ Requisitos de Entrega
 
-Para obter êxito neste nível intermediário, certifique-se de apresentar:
+Para concluir este desafio com sucesso, sua entrega deve conter:
 
-1.  **Fundamentação**: Aplicação clara e documentada do conceito.
-2.  **Dados Evidenciados**: Planilhas, textos focados ou gráficos que representem clareza analítica das métricas e não suposições cegas.
-3.  **Registro de Insights**: Um breve parágrafo documentando as dificuldades encontradas nesta simulação (mitiga o risco de errar com dinheiro verdadeiro no futuro).
+1. **Fundamentação Teórica**: Explicação de como os conceitos da aula foram aplicados.
+2. **Evidências Práticas**: Documentos, gráficos ou análises que comprovem a execução (evite generalismos).
+3. **Análise Crítica**: Um breve relato sobre os aprendizados e dificuldades da simulação.
 
 ---
 

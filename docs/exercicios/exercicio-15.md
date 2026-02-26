@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Discirna de modo fluído Custos e viabilidade entre modelo Direcionado ao Valor versus Direcionados na base bruta dos Custos focados intersecionados ativos perenes lógicos puros inatos ao planejamento.
-2. Qual pilar atesta Custo Fixo de um Custo estritamente Variável nas dinâmicas tangíveis operacionais lógicas?
+1. Diferencie a Estrutura de Custos de uma empresa "Direcionada pelo Custo" de uma "Direcionada pelo Valor".
+2. O que são Custos Fixos e Custos Variáveis? Dê um exemplo para cada.
 
 ## 🟡 Médios
 
-3. Qual tática ou margem atestável a franquia Fast-Food ou corporação escalonada atestada perante bases ganham ao comprar matéria em margens fluídas exponenciadas de bases massificadas intersecionadas globais?
-4. Expanda no fenômeno das Economias atreladas nas bases do Escopo puro onde logística fluí em fluxos paralelos orgânicos perenes aos conglomerados nativos passivos das estruturas de pontes de distribuição de base sólida logística imbuída globais.
+3. Como grandes redes de varejo ou fast-food utilizam a "Economia de Escala" para obter vantagem competitiva?
+4. Explique o conceito de "Economia de Escopo". Como uma empresa de logística pode se beneficiar ao entregar diferentes tipos de produtos usando a mesma frota?
 
 ## 🔴 Desafio
 
-5. Explicite O Efeito Burn Rate implacável que as Startups sofrem base nas projeções atestadas de viés intermediário e defina 'Runway' atrelado de métricas pautadas nos modelos base tech desprovidos puramente nativamente natos da margem atrelada fluída de ganhos iniciais interativos transacionais das massificações lógicas inatas garantidas fluídas ao percurso dos trilhos dos ecossistemas de risco e capital nativos da era tech.
+5. Discuta o impacto do "Burn Rate" e do "Runway" na sobrevivência de uma startup de tecnologia. Por que é perigoso focar apenas no crescimento de usuários ignorando a sustentabilidade da estrutura de custos?
 
 ---
 

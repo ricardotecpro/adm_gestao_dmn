@@ -1,82 +1,72 @@
 # Quiz 11 - Relacionamento com Cliente
 
-1. O que melhor define a matriz principal do tema 'Relacionamento com Cliente'?
+1. Qual o principal objetivo do bloco "Relacionamento com Clientes"?
+    - [ ] Fabricar o produto mais barato do mercado.
+    - [x] Definir os tipos de relações que uma empresa estabelece com segmentos de clientes específicos para conquistar e reter clientes.
+    - [ ] Contratar o maior número possível de funcionários para o SAC.
+    - [ ] Automatizar todas as interações para nunca mais falar com humanos.
+    > Explicação: O relacionamento foca em como a empresa atrai, mantém e expande sua base de clientes.
 
-    - [ ] Apenas o acúmulo financeiro no curto prazo.
-    - [x] O foco centrado em resolver fricções reais de forma sustentável e escalável.
-    - [ ] A cópia integral de modelos de negócios gringos e gigantes.
-    - [ ] Trabalhar isoladamente sem precisar interagir com clientes ou inovações.
-    > Explicação: A essência de gestão nos negócios foca sempre em solucionar dores (fricções reais) de maneira que possa crescer sustentavelmente sem ruptura.
+2. O que define o modelo de "Assistência Pessoal"?
+    - [ ] O cliente deve resolver tudo sozinho através de um manual.
+    - [x] A interação baseia-se em comunicação humana, onde o cliente pode falar com um representante real.
+    - [ ] Um robô que responde mensagens automáticas pré-programadas.
+    - [ ] O dono da empresa visitando pessoalmente cada cliente uma vez por ano.
+    > Explicação: É o modelo clássico de suporte por e-mail, telefone ou balcão de atendimento.
 
-2. Na fase avançada deste tema, o principal erro estratégico a evitar é:
+3. O que define o "Self-Service" (Autoatendimento)?
+    - [ ] A empresa não fornece nenhum tipo de ajuda ao cliente.
+    - [x] A empresa fornece todos os meios necessários para que os clientes se ajudem sozinhos.
+    - [ ] O cliente deve fabricar o próprio produto que comprou.
+    - [ ] Quando o cliente serve sua própria comida em um restaurante buffet.
+    > Explicação: Exemplos comuns são FAQs, bases de conhecimento e sistemas de rastreamento de pedidos.
 
-    - [x] Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.
-    - [ ] Dialogar ativamente e pesquisar profundamente seu usuário foco.
-    - [ ] Usar métricas tangíveis em planilhas para guiar o negócio.
-    - [ ] Iterar de forma ágil adaptando seu modelo.
-    > Explicação: A mortalidade das empresas está atrelada em 'tentar vender sem validar', saltando as validações intrínsecas necessárias para preencher os gargalos.
+4. O que são os "Serviços Automatizados" no relacionamento?
+    - [ ] Apenas o envio de notas fiscais por e-mail.
+    - [x] Uma forma de autoatendimento que reconhece clientes individuais e suas características, oferecendo informações personalizadas (ex: recomendações da Amazon).
+    - [ ] Máquinas de venda automática (vending machines) em aeroportos.
+    - [ ] Demitir todos os humanos do setor de marketing.
+    > Explicação: Eles simulam um relacionamento pessoal mas de forma escalável através da tecnologia.
 
-3. Marque a alternativa que descreve a melhor adaptação tecnológica em Relacionamento com Cliente:
+5. Qual a vantagem de criar "Comunidades" para o relacionamento com o cliente?
+    - [ ] Para que os clientes reclamem uns com os outros e não incomodem a empresa.
+    - [x] Permitir que os usuários troquem conhecimentos, resolvam problemas uns dos outros e aumentem o engajamento com a marca.
+    - [ ] Para economizar dinheiro com publicidade impressa.
+    - [ ] Para rastrear a localização física dos clientes em tempo real.
+    > Explicação: Comunidades sólidas tornam o cliente parte do ecossistema da empresa e reduzem custos de suporte.
 
-    - [ ] Acreditar que a tecnologia de ponta substitui todo modelo de negócios.
-    - [ ] Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.
-    - [x] Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.
-    - [ ] Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.
-    > Explicação: O modelo de negócios atua viabilizado pelas novas frentes em nuvem integrando APIs fluídas ao invés de codificar tudo em silos mortos com alto custo (Asset-Light).
+6. O que é a "Co-criação" como estratégia de relacionamento?
+    - [ ] Obrigar o cliente a trabalhar de graça para a empresa.
+    - [x] Envolver o cliente na criação de valor, como escrever avaliações, criar conteúdo ou ajudar no design de novos produtos (ex: LEGO Ideas).
+    - [ ] Quando dois concorrentes decidem criar um produto juntos.
+    - [ ] Fazer uma pesquisa de satisfação após a compra.
+    > Explicação: A co-criação gera um senso de propriedade e lealdade profunda no cliente.
 
-4. Relacionado às métricas de acompanhamento em 'Relacionamento com Cliente', o que devemos olhar agressivamente?
+7. Qual a diferença entre Estratégias de Aquisição e de Retenção?
+    - [ ] Nenhuma, ambas servem para ganhar dinheiro.
+    - [x] Aquisição foca em trazer novos clientes; Retenção foca em manter os atuais e evitar que eles migrem para a concorrência.
+    - [ ] Aquisição é barata, Retenção é impossível.
+    - [ ] Retenção é usada apenas quando a empresa está falindo.
+    > Explicação: Manter um cliente atual costuma ser muito mais barato do que conquistar um novo.
 
-    - [ ] O número absoluto de curtidas estáticas nas mídias base.
-    - [ ] As horas inativas passivas não registradas na folha-ponto da equipe logada.
-    - [x] Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.
-    - [ ] A velocidade da fofoca corporativa em relação as corporações focadas gigantes.
-    > Explicação: A métrica principal nas amarras contábeis de tech startups exige dominar os indicadores chaves tangíveis perenes fidedignos da retenção, ignorando amarras de puras 'Métricas de Vaidades'.
+8. O que indica uma alta taxa de "Churn" (Cancelamento)?
+    - [ ] Que o produto é um sucesso absoluto e ninguém quer sair.
+    - [x] Que os clientes estão insatisfeitos com a proposta de valor ou com o relacionamento oferecido pela empresa.
+    - [ ] Que o preço está baixo demais e atraindo muita gente.
+    - [ ] Que a empresa deve contratar mais advogados.
+    > Explicação: O Churn é um sinal de alerta de que a empresa está perdendo clientes mais rápido do que consegue sustentá-los.
 
-5. Em 'Relacionamento com Cliente', o termo 'Escalabilidade' se refere a:
+9. O que é o "Lifetime Value" (LTV) de um cliente?
+    - [ ] O valor da primeira compra que o cliente fez.
+    - [x] O valor total de lucro que um cliente gera para a empresa durante todo o tempo de relacionamento com ela.
+    - [ ] A idade média dos clientes da empresa.
+    - [ ] O tempo que o produto leva para estragar após o uso.
+    > Explicação: Entender o LTV ajuda a definir quanto a empresa pode gastar para adquirir um novo cliente (CAC).
 
-    - [ ] Subir as escadas corporativas fidedignas engessadas corporativas inativas.
-    - [x] Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.
-    - [ ] Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.
-    - [ ] Diminuir atratividade no fluxo perene na busca inativa atipica global.
-    > Explicação: Escalar não é inchar inchar fisicamente! Escalar num plano robusto trata de separar a alta na Margem com uma curva minúscula de Custo operacional viabilizando massificações.
-
-6. Sobre a perenidade contínua do negócio em 'Relacionamento com Cliente', o ideal atestado no mercado atual aponta para:
-
-    - [ ] Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.
-    - [ ] Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.
-    - [x] Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.
-    - [ ] Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.
-    > Explicação: Os dinâmicos ecossistemas requerem sempre fluidez (SaaS Cloud, parcerias atestáveis na cadeia da web) visando isolar o engessamento passado obsoleto e pautando viés rentável.
-
-7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Relacionamento com Cliente' num planejamento rígido tradicional?
-
-    - [x] Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.
-    - [ ] Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.
-    - [ ] Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.
-    - [ ] Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.
-    > Explicação: Hipóteses matam os planos cegos! A não validação empírica queima todo o RunWay em frentes obscenas baseadas no delírio do fundador antes de testar a tese pura (Premissa Lean).
-
-8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Relacionamento com Cliente'?
-
-    - [ ] Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.
-    - [x] Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.
-    - [ ] Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.
-    - [ ] Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.
-    > Explicação: Focar e atacar onde a energia cessa (Gargalo - Teoria das Restrições) determina o fluxo. Nenhuma organização melhora até o nó ser aliviado pela logística integrada.
-
-9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?
-
-    - [ ] Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.
-    - [ ] O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.
-    - [x] Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.
-    - [ ] Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.
-    > Explicação: Empreender cria os Fossos ('Moats'), isolando os gigantes copiadores em barreiras formadas por marcas fortes, propriedade intelectual fechada e patentes inatas ou eficiências exclusivas puristas.
-
-10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Relacionamento com Cliente' atrelado na era ágil?
-
-    - [x] Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.
-    - [ ] Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.
-    - [ ] Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.
-    - [ ] Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.
-    > Explicação: Amar o Problema (A dor real, as fricções tangíveis da sociedade do público alvo) perpetua e sustenta sua evolução. Amar a solução fixa engessa sua ótica e culmina no colapso do encerramento corporativo da inovação vital!
+10. Como o bloco de Relacionamento influencia a Proposta de Valor?
+    - [ ] Não influencia; são blocos totalmente independentes.
+    - [x] O tipo de relacionamento pode fazer parte da Proposta de Valor (ex: um atendimento VIP exclusivo é um valor em si).
+    - [ ] O relacionamento serve apenas para esconder falhas na proposta de valor.
+    - [ ] Um bom relacionamento permite vender produtos que não funcionam.
+    > Explicação: A forma como você trata o cliente é frequentemente o que diferencia seu produto em um mercado saturado.
 

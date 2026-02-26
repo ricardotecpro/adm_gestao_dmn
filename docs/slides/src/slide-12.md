@@ -50,8 +50,8 @@ Geralmente, as atividades se encaixam em três grandes grupos:
 ## 3. Atividade vs. Tarefa ⚖️
 
 Nem tudo o que você faz no dia a dia é uma Atividade-chave.
-- { .fragment } **Tarefa**: Responder e-mails, limpar o escritório.
-- { .fragment } **Atividade-chave**: Desenvolvimento de Software (para uma empresa de tecnologia), Gestão da Cadeia de Suprimentos (para um e-commerce).
+- <!-- .element: class="fragment" --> **Tarefa**: Responder e-mails, limpar o escritório.
+- <!-- .element: class="fragment" --> **Atividade-chave**: Desenvolvimento de Software (para uma empresa de tecnologia), Gestão da Cadeia de Suprimentos (para um e-commerce).
 
 ---
 
@@ -148,8 +148,8 @@ Imagine que você é dono de um **Restaurante Gourmet**.
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 12](../../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 12](../../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 12](../../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 12](../../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Entrando no Bloco 4! [Recursos Essenciais e Parcerias](../../aulas/aula-13.md) 🧩
 
@@ -157,17 +157,17 @@ Imagine que você é dono de um **Restaurante Gourmet**.
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

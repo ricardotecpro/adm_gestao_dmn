@@ -81,8 +81,8 @@ graph TD
 
 ## 4. Canvas vs. Plano de Negócios 📊
 
-- { .fragment } **Canvas**: Ágil, visual, focado em testes de hipóteses e mudanças rápidas.
-- { .fragment } **Plano de Negócios**: Detalhado, linear, focado em execução e captação de recursos tradicionais.
+- <!-- .element: class="fragment" --> **Canvas**: Ágil, visual, focado em testes de hipóteses e mudanças rápidas.
+- <!-- .element: class="fragment" --> **Plano de Negócios**: Detalhado, linear, focado em execução e captação de recursos tradicionais.
 
 > **Dica**: Use o Canvas para encontrar o modelo certo e o Plano de Negócios para detalhar como você vai executá-lo.
 
@@ -157,8 +157,8 @@ Imagine que você está criando o **Uber das Bicicletas**.
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 07](../../exercicios/exercicio-07.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 07](../../projetos/projeto-07.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 07](../../exercicios/exercicio-07.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 07](../../projetos/projeto-07.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como definir exatamente quem é seu cliente? [Segmentação de Clientes e Público-Alvo](../../aulas/aula-08.md) 🚢
 
@@ -166,17 +166,17 @@ Imagine que você está criando o **Uber das Bicicletas**.
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

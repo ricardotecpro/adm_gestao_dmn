@@ -20,8 +20,8 @@
 
 Muitos confundem produto com proposta de valor. O produto é o objeto; a proposta de valor é a **solução** que ele entrega.
 
-- { .fragment } **Produto**: Uma furadeira.
-- { .fragment } **Proposta de Valor**: Um furo na parede para pendurar um quadro de memórias.
+- <!-- .element: class="fragment" --> **Produto**: Uma furadeira.
+- <!-- .element: class="fragment" --> **Proposta de Valor**: Um furo na parede para pendurar um quadro de memórias.
 
 ---
 
@@ -113,8 +113,8 @@ $ valor --analisar-proposta
 
 ## 5. Proposta de Valor vs. Slogan 📢
 
-- { .fragment } **Slogan**: Uma frase curta de marketing (ex: "Just Do It").
-- { .fragment } **Proposta de Valor**: Uma declaração clara de benefícios (ex: "Oferecemos equipamentos de alta performance para atletas que buscam superar seus limites").
+- <!-- .element: class="fragment" --> **Slogan**: Uma frase curta de marketing (ex: "Just Do It").
+- <!-- .element: class="fragment" --> **Proposta de Valor**: Uma declaração clara de benefícios (ex: "Oferecemos equipamentos de alta performance para atletas que buscam superar seus limites").
 
 ---
 
@@ -167,8 +167,8 @@ Para alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** 
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 09](../../exercicios/exercicio-09.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 09](../../projetos/projeto-09.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 09](../../exercicios/exercicio-09.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 09](../../projetos/projeto-09.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como essa proposta chega até o cliente? [Canais de Comunicação e Distribuição](../../aulas/aula-10.md) 🚢
 
@@ -176,9 +176,9 @@ Para alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** 
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

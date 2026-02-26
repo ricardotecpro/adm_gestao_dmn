@@ -45,8 +45,8 @@ Todo negócio precisa de uma combinação desses quatro tipos de recursos:
 
 Um recurso essencial não precisa necessariamente ser de propriedade da empresa; ele pode ser alugado ou obtido por meio de parceiros.
 
-- { .fragment } **Próprio**: Maior controle, custo fixo inicial alto.
-- { .fragment } **Alugado/Terceirizado**: Menor controle, maior flexibilidade e custos variáveis.
+- <!-- .element: class="fragment" --> **Próprio**: Maior controle, custo fixo inicial alto.
+- <!-- .element: class="fragment" --> **Alugado/Terceirizado**: Menor controle, maior flexibilidade e custos variáveis.
 
 ---
 
@@ -147,8 +147,8 @@ Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 13](../../exercicios/exercicio-13.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 13](../../projetos/projeto-13.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 13](../../exercicios/exercicio-13.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 13](../../projetos/projeto-13.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Quem pode te ajudar? [Parceiros-chave e Alianças Estratégicas](../../aulas/aula-14.md) 🤝
 
@@ -156,17 +156,17 @@ Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

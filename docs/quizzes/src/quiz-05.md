@@ -1,82 +1,72 @@
 # Quiz 05 - Estratégias e Ideação
 
-1. O que melhor define a matriz principal do tema 'Estratégias e Ideação'?
+1. O que diferencia a estratégia corporativa tradicional do desenvolvimento ágil de modelos de negócios?
+    - [ ] A tradicional é mais rápida e barata.
+    - [x] O desenvolvimento ágil foca em validação de campo e experimentação contínua, enquanto a tradicional foca em planos estáticos de 5 anos.
+    - [ ] Não há diferença real entre as duas; é apenas terminologia de mercado.
+    - [ ] A tradicional não utiliza computadores ou tecnologia.
+    > Explicação: No mundo volátil atual, planos de longo prazo baseados em pressupostos costumam falhar; o ágil substitui o "planejamento" pela "validação".
 
-    - [ ] Apenas o acúmulo financeiro no curto prazo.
-    - [x] O foco centrado em resolver fricções reais de forma sustentável e escalável.
-    - [ ] A cópia integral de modelos de negócios gringos e gigantes.
-    - [ ] Trabalhar isoladamente sem precisar interagir com clientes ou inovações.
-    > Explicação: A essência de gestão nos negócios foca sempre em solucionar dores (fricções reais) de maneira que possa crescer sustentavelmente sem ruptura.
+2. Qual técnica é ideal para "pensar fora da caixa" durante a ideação?
+    - [ ] Perguntar para a mesma equipe de sempre o que eles acham.
+    - [x] Uso de analogias, pensamento visual e cenários "E se..." (What if).
+    - [ ] Ler o manual de normas e procedimentos da empresa.
+    - [ ] Focar apenas em como reduzir o preço do produto atual em 5%.
+    > Explicação: Técnicas de criatividade como analogias de outros setores ajudam a quebrar preconceitos sobre como o modelo atual deve funcionar.
 
-2. Na fase avançada deste tema, o principal erro estratégico a evitar é:
+3. No Value Proposition Canvas, o que significa o "Encaixe" (Fit)?
+    - [ ] Quando o produto cabe dentro da embalagem de entrega.
+    - [x] Quando os benefícios da sua oferta (analgésicos e geradores de ganho) atendem precisamente às dores e desejos do cliente.
+    - [ ] Quando o cliente concorda em pagar o preço que você pediu.
+    - [ ] Quando a equipe de marketing concorda com a equipe de vendas.
+    > Explicação: O "Fit" ocorre quando o mercado realmente vê valor na sua solução porque ela resolve uma dor real documentada no perfil do cliente.
 
-    - [x] Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.
-    - [ ] Dialogar ativamente e pesquisar profundamente seu usuário foco.
-    - [ ] Usar métricas tangíveis em planilhas para guiar o negócio.
-    - [ ] Iterar de forma ágil adaptando seu modelo.
-    > Explicação: A mortalidade das empresas está atrelada em 'tentar vender sem validar', saltando as validações intrínsecas necessárias para preencher os gargalos.
+4. Por que o "Pensamento Visual" (Visual Thinking) é importante na modelagem de negócios?
+    - [ ] Porque desenhar é mais divertido do que escrever.
+    - [x] Facilita a comunicação de conceitos complexos, permite ver o quadro geral e as interconexões entre as partes.
+    - [ ] Para economizar espaço nos documentos da empresa.
+    - [ ] Para que a empresa pareça uma startup descolada.
+    > Explicação: Ferramentas como o Canvas são visuais justamente para permitir que a equipe entenda a lógica do negócio em um único "relance" (Big Picture).
 
-3. Marque a alternativa que descreve a melhor adaptação tecnológica em Estratégias e Ideação:
+5. O que é o "Cenário de Negócio" (Business Scenario)?
+    - [ ] Um filme institucional sobre a empresa.
+    - [x] Uma simulação de como o modelo de negócio se comportaria em diferentes condições de mercado ou tecnologia.
+    - [ ] O local onde a empresa está fisicamente instalada.
+    - [ ] A lista de feriados em que a empresa não abrirá.
+    > Explicação: Testar cenários ajuda a empresa a estar preparada para mudanças macroeconômicas ou avanços tecnológicos dos concorrentes.
 
-    - [ ] Acreditar que a tecnologia de ponta substitui todo modelo de negócios.
-    - [ ] Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.
-    - [x] Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.
-    - [ ] Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.
-    > Explicação: O modelo de negócios atua viabilizado pelas novas frentes em nuvem integrando APIs fluídas ao invés de codificar tudo em silos mortos com alto custo (Asset-Light).
+6. Em ideação, o que é o "Epicentro de Inovação"?
+    - [ ] O centro geográfico de uma cidade onde as startups se reúnem.
+    - [x] O ponto de partida para a mudança no modelo (ex: novas receitas, novos recursos ou novos segmentos).
+    - [ ] O nome do software principal utilizado pela empresa.
+    - [ ] A sala de reuniões principal da diretoria.
+    > Explicação: A inovação pode começar por qualquer um dos blocos do Canvas; o bloco escolhido é o "epicentro" daquela mudança.
 
-4. Relacionado às métricas de acompanhamento em 'Estratégias e Ideação', o que devemos olhar agressivamente?
+7. Qual a função de uma "Storytelling" (Contação de Histórias) na venda de uma ideia?
+    - [ ] Entreter o público com mitos e lendas urbanas.
+    - [x] Humanizar a proposta de valor, tornando-a memorável e facilitando a compreensão do benefício para o usuário.
+    - [ ] Enrolar os investidores quando não se tem dados reais.
+    - [ ] Explicar a história da fundação da empresa desde 1950.
+    > Explicação: Histórias conectam emocionalmente o cliente ou investidor ao problema que você está resolvendo.
 
-    - [ ] O número absoluto de curtidas estáticas nas mídias base.
-    - [ ] As horas inativas passivas não registradas na folha-ponto da equipe logada.
-    - [x] Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.
-    - [ ] A velocidade da fofoca corporativa em relação as corporações focadas gigantes.
-    > Explicação: A métrica principal nas amarras contábeis de tech startups exige dominar os indicadores chaves tangíveis perenes fidedignos da retenção, ignorando amarras de puras 'Métricas de Vaidades'.
+8. O que caracteriza um modelo de negócio "Inovador"?
+    - [ ] Usar inteligência artificial apenas porque é a moda atual.
+    - [x] Reorganizar a forma como o valor é criado, entregue e capturado de modo a gerar uma vantagem competitiva única.
+    - [ ] Ter o site mais bonito do mercado.
+    - [ ] Vender o produto mais barato que todos os concorrentes.
+    > Explicação: Inovação de modelo nem sempre envolve nova tecnologia; muitas vezes é uma nova forma de cobrar (receita) ou de entregar (canal) um valor já conhecido.
 
-5. Em 'Estratégias e Ideação', o termo 'Escalabilidade' se refere a:
+9. Qual o papel da "Curiosidade" em um líder estrategista?
+    - [ ] Saber da vida pessoal de todos os colaboradores.
+    - [x] Questionar o "status quo" e buscar tendências periféricas que podem impactar o negócio.
+    - [ ] Perguntar sobre o salário de executivos de outras empresas.
+    - [ ] Olhar o que os funcionários estão fazendo nos computadores.
+    > Explicação: A curiosidade estratégica leva à descoberta de novos oceanos azuis e evita que a empresa seja pega de surpresa por disrupções.
 
-    - [ ] Subir as escadas corporativas fidedignas engessadas corporativas inativas.
-    - [x] Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.
-    - [ ] Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.
-    - [ ] Diminuir atratividade no fluxo perene na busca inativa atipica global.
-    > Explicação: Escalar não é inchar inchar fisicamente! Escalar num plano robusto trata de separar a alta na Margem com uma curva minúscula de Custo operacional viabilizando massificações.
-
-6. Sobre a perenidade contínua do negócio em 'Estratégias e Ideação', o ideal atestado no mercado atual aponta para:
-
-    - [ ] Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.
-    - [ ] Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.
-    - [x] Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.
-    - [ ] Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.
-    > Explicação: Os dinâmicos ecossistemas requerem sempre fluidez (SaaS Cloud, parcerias atestáveis na cadeia da web) visando isolar o engessamento passado obsoleto e pautando viés rentável.
-
-7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Estratégias e Ideação' num planejamento rígido tradicional?
-
-    - [x] Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.
-    - [ ] Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.
-    - [ ] Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.
-    - [ ] Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.
-    > Explicação: Hipóteses matam os planos cegos! A não validação empírica queima todo o RunWay em frentes obscenas baseadas no delírio do fundador antes de testar a tese pura (Premissa Lean).
-
-8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Estratégias e Ideação'?
-
-    - [ ] Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.
-    - [x] Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.
-    - [ ] Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.
-    - [ ] Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.
-    > Explicação: Focar e atacar onde a energia cessa (Gargalo - Teoria das Restrições) determina o fluxo. Nenhuma organização melhora até o nó ser aliviado pela logística integrada.
-
-9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?
-
-    - [ ] Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.
-    - [ ] O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.
-    - [x] Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.
-    - [ ] Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.
-    > Explicação: Empreender cria os Fossos ('Moats'), isolando os gigantes copiadores em barreiras formadas por marcas fortes, propriedade intelectual fechada e patentes inatas ou eficiências exclusivas puristas.
-
-10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Estratégias e Ideação' atrelado na era ágil?
-
-    - [x] Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.
-    - [ ] Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.
-    - [ ] Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.
-    - [ ] Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.
-    > Explicação: Amar o Problema (A dor real, as fricções tangíveis da sociedade do público alvo) perpetua e sustenta sua evolução. Amar a solução fixa engessa sua ótica e culmina no colapso do encerramento corporativo da inovação vital!
+10. Ao priorizar ideias de ideação, qual critério deve ser o mais forte?
+    - [ ] A ideia que o CEO mais gostou pessoalmente.
+    - [ ] A ideia que parece ser a mais barata de implementar.
+    - [x] A ideia que apresenta o melhor equilíbrio entre viabilidade técnica, lucratividade e dor real do cliente.
+    - [ ] A ideia que o departamento de TI disse que seria a mais fácil de programar.
+    > Explicação: Uma boa ideia estratégica deve ser desejável pelo cliente, viável no negócio e possível na tecnologia.
 

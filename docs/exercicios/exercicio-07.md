@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Qual a grande diferença e grande proposta revolucionária do Canvas sobre o Plano clássico (Seapa/Sebrae)?
-2. Quantos e quais são os blocos lógicos essenciais do Business Model Canvas (BMC)?
+1. Qual a principal diferença entre o Business Model Canvas e um Plano de Negócios tradicional de 50 páginas?
+2. Quantos blocos existem no Canvas e quais são os quatro grandes pilares que eles dividem (Infraestrutura, Oferta, Cliente, Finanças)?
 
 ## 🟡 Médios
 
-3. Se uma alteração radical for feita na Segmentação de Clientes, que blocos do Canvas sofreriam abalo em cadeia direto?
-4. Descreva o papel lógico e semântico dos Canais versus a área de Relacionamento no Canvas.
+3. Se uma empresa mudar radicalmente seu "Segmento de Clientes", quais outros blocos do Canvas provavelmente precisarão ser ajustados imediatamente?
+4. Explique a diferença entre o bloco de "Canais" e o bloco de "Relacionamento com o Cliente".
 
 ## 🔴 Desafio
 
-5. O Canvas não é estático. Use o conceito de Padronização e Business Model Patterns, aplique isso definindo a configuração atípica de um Business Canvas na vertente Freemium Digital e Long Tail de produtos físicos nichados.
+5. O Canvas é dinâmico. Explique como um modelo de negócio pode evoluir de uma venda única (Venda de Ativos) para um modelo de "Long Tail" ou "Freemium" usando os blocos do Canvas como referência para essa mudança estratégica.
 
 ---
 

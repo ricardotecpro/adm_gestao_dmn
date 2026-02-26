@@ -1,82 +1,72 @@
 # Quiz 10 - Canais de Comunicação
 
-1. O que melhor define a matriz principal do tema 'Canais de Comunicação'?
+1. Quais são as 5 fases de um canal segundo o Business Model Generation?
+    - [ ] Produção, Logística, Venda, Feedback e Descarte.
+    - [x] Atenção, Avaliação, Compra, Entrega e Pós-venda.
+    - [ ] Televisão, Rádio, Internet, Jornal e Telefone.
+    - [ ] Início, Meio, Fim, Pagamento e Reclamação.
+    > Explicação: Estas fases descrevem a jornada do cliente desde o primeiro contato até o suporte após a compra.
 
-    - [ ] Apenas o acúmulo financeiro no curto prazo.
-    - [x] O foco centrado em resolver fricções reais de forma sustentável e escalável.
-    - [ ] A cópia integral de modelos de negócios gringos e gigantes.
-    - [ ] Trabalhar isoladamente sem precisar interagir com clientes ou inovações.
-    > Explicação: A essência de gestão nos negócios foca sempre em solucionar dores (fricções reais) de maneira que possa crescer sustentavelmente sem ruptura.
+2. Qual a principal diferença entre Canais Próprios e Canais de Parceiros?
+    - [ ] Canais próprios são gratuitos, de parceiros são pagos.
+    - [x] Canais próprios (ex: site direto) têm margens maiores mas alto custo de montagem; canais de parceiros (ex: varejo) têm margens menores mas alcance rápido.
+    - [ ] Canais de parceiros são usados apenas para produtos ilegais.
+    - [ ] Canais próprios funcionam apenas offline.
+    > Explicação: A escolha entre canais próprios ou de parceiros depende da estratégia de margem versus velocidade de escala da empresa.
 
-2. Na fase avançada deste tema, o principal erro estratégico a evitar é:
+3. O que é o "Custo de Aquisição de Clientes" (CAC) relacionado a canais?
+    - [ ] O valor do produto que o cliente compra.
+    - [x] A soma de todos os investimentos em marketing e vendas dividida pelo número de novos clientes conquistados.
+    - [ ] O valor que o cliente paga de frete para receber o produto.
+    - [ ] O salário dos vendedores da loja física.
+    > Explicação: O CAC é uma métrica vital para entender se o canal escolhido é financeiramente viável a longo prazo.
 
-    - [x] Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.
-    - [ ] Dialogar ativamente e pesquisar profundamente seu usuário foco.
-    - [ ] Usar métricas tangíveis em planilhas para guiar o negócio.
-    - [ ] Iterar de forma ágil adaptando seu modelo.
-    > Explicação: A mortalidade das empresas está atrelada em 'tentar vender sem validar', saltando as validações intrínsecas necessárias para preencher os gargalos.
+4. Qual a função da fase de "Atenção" (Awareness) nos canais?
+    - [ ] Convencer o cliente a assinar um contrato imediatamente.
+    - [x] Aumentar o conhecimento dos clientes sobre os produtos e serviços da empresa.
+    - [ ] Pedir desculpas por um erro na entrega.
+    - [ ] Cobrar uma fatura atrasada do cliente.
+    > Explicação: É o primeiro contato, onde o cliente descobre que a solução da empresa existe.
 
-3. Marque a alternativa que descreve a melhor adaptação tecnológica em Canais de Comunicação:
+5. O que acontece na fase de "Avaliação" (Evaluation)?
+    - [ ] O cliente decide nunca mais comprar na empresa.
+    - [x] Ajudamos os clientes a avaliar a Proposta de Valor da nossa organização.
+    - [ ] A empresa avalia se o cliente tem dinheiro para pagar.
+    - [ ] O governo avalia os impostos que a empresa deve pagar.
+    > Explicação: Nesta fase, fornecemos informações, comparativos e provas sociais para ajudar o cliente na tomada de decisão.
 
-    - [ ] Acreditar que a tecnologia de ponta substitui todo modelo de negócios.
-    - [ ] Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.
-    - [x] Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.
-    - [ ] Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.
-    > Explicação: O modelo de negócios atua viabilizado pelas novas frentes em nuvem integrando APIs fluídas ao invés de codificar tudo em silos mortos com alto custo (Asset-Light).
+6. O que caracteriza a fase de "Compra" (Purchase)?
+    - [ ] O momento em que o cliente olha o produto na vitrine.
+    - [x] Como permitimos que os clientes comprem produtos e serviços específicos.
+    - [ ] Quando o cliente recebe o produto em casa.
+    - [ ] O processo de fabricação do produto na China.
+    > Explicação: Refere-se à facilidade de pagamento, checkout, segurança e confirmação da transação.
 
-4. Relacionado às métricas de acompanhamento em 'Canais de Comunicação', o que devemos olhar agressivamente?
+7. O que caracteriza a fase de "Entrega" (Delivery)?
+    - [ ] Enviar um e-mail de marketing para o cliente.
+    - [x] Como entregamos a Proposta de Valor aos clientes (pode ser física ou digital).
+    - [ ] O momento em que o fornecedor entrega a matéria-prima na fábrica.
+    - [ ] Quando o cliente indica o produto para um amigo.
+    > Explicação: A entrega deve ser coerente com a promessa feita na fase de Proposta de Valor.
 
-    - [ ] O número absoluto de curtidas estáticas nas mídias base.
-    - [ ] As horas inativas passivas não registradas na folha-ponto da equipe logada.
-    - [x] Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.
-    - [ ] A velocidade da fofoca corporativa em relação as corporações focadas gigantes.
-    > Explicação: A métrica principal nas amarras contábeis de tech startups exige dominar os indicadores chaves tangíveis perenes fidedignos da retenção, ignorando amarras de puras 'Métricas de Vaidades'.
+8. Qual o papel do "Pós-venda" no bloco de Canais?
+    - [ ] Cobrar juros de parcelas atrasadas.
+    - [x] Fornecer suporte ao cliente após a compra, garantindo a satisfação e abrindo caminho para novas vendas.
+    - [ ] Tentar vender o produto novamente pelo dobro do preço.
+    - [ ] Ignorar o cliente após ele ter pago o boleto.
+    > Explicação: Um bom pós-venda reduz o churn (taxa de cancelamento) e aumenta o LTV (Lifetime Value) do cliente.
 
-5. Em 'Canais de Comunicação', o termo 'Escalabilidade' se refere a:
+9. O que é uma estratégia de canal "Omnichannel"?
+    - [ ] Vender apenas através de um único canal muito forte.
+    - [x] Integrar todos os canais de contato da empresa para que o cliente tenha uma experiência fluida e sem interrupções entre o físico e o digital.
+    - [ ] Ter nomes diferentes para a empresa em cada rede social.
+    - [ ] Bloquear o site da empresa em determinados países.
+    > Explicação: No Omnichannel, o cliente pode comprar online e retirar na loja física, por exemplo, de forma totalmente integrada.
 
-    - [ ] Subir as escadas corporativas fidedignas engessadas corporativas inativas.
-    - [x] Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.
-    - [ ] Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.
-    - [ ] Diminuir atratividade no fluxo perene na busca inativa atipica global.
-    > Explicação: Escalar não é inchar inchar fisicamente! Escalar num plano robusto trata de separar a alta na Margem com uma curva minúscula de Custo operacional viabilizando massificações.
-
-6. Sobre a perenidade contínua do negócio em 'Canais de Comunicação', o ideal atestado no mercado atual aponta para:
-
-    - [ ] Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.
-    - [ ] Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.
-    - [x] Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.
-    - [ ] Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.
-    > Explicação: Os dinâmicos ecossistemas requerem sempre fluidez (SaaS Cloud, parcerias atestáveis na cadeia da web) visando isolar o engessamento passado obsoleto e pautando viés rentável.
-
-7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Canais de Comunicação' num planejamento rígido tradicional?
-
-    - [x] Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.
-    - [ ] Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.
-    - [ ] Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.
-    - [ ] Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.
-    > Explicação: Hipóteses matam os planos cegos! A não validação empírica queima todo o RunWay em frentes obscenas baseadas no delírio do fundador antes de testar a tese pura (Premissa Lean).
-
-8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Canais de Comunicação'?
-
-    - [ ] Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.
-    - [x] Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.
-    - [ ] Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.
-    - [ ] Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.
-    > Explicação: Focar e atacar onde a energia cessa (Gargalo - Teoria das Restrições) determina o fluxo. Nenhuma organização melhora até o nó ser aliviado pela logística integrada.
-
-9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?
-
-    - [ ] Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.
-    - [ ] O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.
-    - [x] Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.
-    - [ ] Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.
-    > Explicação: Empreender cria os Fossos ('Moats'), isolando os gigantes copiadores em barreiras formadas por marcas fortes, propriedade intelectual fechada e patentes inatas ou eficiências exclusivas puristas.
-
-10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Canais de Comunicação' atrelado na era ágil?
-
-    - [x] Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.
-    - [ ] Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.
-    - [ ] Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.
-    - [ ] Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.
-    > Explicação: Amar o Problema (A dor real, as fricções tangíveis da sociedade do público alvo) perpetua e sustenta sua evolução. Amar a solução fixa engessa sua ótica e culmina no colapso do encerramento corporativo da inovação vital!
+10. Porque é importante testar múltiplos canais no início de uma startup?
+    - [ ] Para gastar o orçamento de marketing o mais rápido possível.
+    - [x] Para identificar qual canal tem o menor CAC e a maior taxa de conversão para o seu segmento específico.
+    - [ ] Para aparecer em todos os canais de TV ao mesmo tempo.
+    - [ ] Porque é divertido gerenciar muitas redes sociais diferentes.
+    > Explicação: Diferentes segmentos de clientes "vivem" em diferentes canais; a experimentação encontra o caminho mais eficiente para o crescimento.
 

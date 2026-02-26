@@ -1,4 +1,4 @@
-# Soluções: Aula 07 - Modelagem de Negócios: O Canvas 🎓
+# Soluções: Aula 07 - Modelagem Canvas 🎓
 
 Este documento contém as resoluções comentadas dos exercícios da [Aula 07](../aulas/aula-07.md). Use-o para validar seu entendimento após tentar resolver sozinho!
 
@@ -6,38 +6,38 @@ Este documento contém as resoluções comentadas dos exercícios da [Aula 07](.
 
 ## 🟢 Fáceis
 
-### 1. Qual a grande diferença e grande proposta revolucionária do Canvas sobre o Plano clássico (Seapa/Sebrae)?
-**Resposta Sugerida**: A grande revolução do Canvas é a sua **natureza visual e não linear**. Enquanto Planos de Negócios clássicos são documentos longos e estáticos que tentam prever o futuro em detalhes, o Canvas é um mapa de uma única página que foca na lógica do negócio e permite testes rápidos de hipóteses. Ele foi feito para ser riscado, alterado e atualizado constantemente, acompanhando a velocidade das startups e das mudanças de mercado.
+### 1. Qual a principal diferença entre o Business Model Canvas e um Plano de Negócios tradicional de 50 páginas?
+**Resposta Sugerida**: O Canvas é uma ferramenta visual e ágil em uma única página que foca na lógica de como o negócio cria e entrega valor. O Plano de Negócios tradicional é um documento extenso e detalhado, focado em previsões e execução rígida, que costuma demorar meses para ser escrito e fica obsoleto rapidamente.
 
-### 2. Quantos e quais são os blocos lógicos essenciais do Business Model Canvas (BMC)?
-**Resposta Sugerida**: São **9 blocos**: Segmento de Clientes, Proposta de Valor, Canais, Relacionamento, Fontes de Receita, Recursos Principais, Atividades Principais, Parcerias Principais e Estrutura de Custos.
+### 2. Quantos blocos existem no Canvas e quais são os quatro grandes pilares que eles dividem (Infraestrutura, Oferta, Cliente, Finanças)?
+**Resposta Sugerida**: O Canvas possui 9 blocos.
+- **Oferta**: Proposta de Valor.
+- **Cliente**: Segmentos, Canais e Relacionamento.
+- **Infraestrutura**: Atividades-chave, Recursos e Parcerias.
+- **Finanças**: Estrutura de Custos e Fontes de Receita.
 
 ---
 
 ## 🟡 Médios
 
-### 3. Se uma alteração radical for feita na Segmentação de Clientes, que blocos do Canvas sofreriam abalo em cadeia direto?
-**Resposta Sugerida**: Praticamente todos do "lado direito" (emocional):
-1.  **Proposta de Valor**: Se o cliente muda, a dor que resolvemos pode não ser a mesma.
-2.  **Canais**: O novo cliente pode usar outros meios de comunicação/compra.
-3.  **Relacionamento**: A forma de tratar esse novo público pode ser diferente.
-4.  **Receitas**: O novo cliente pode ter outra disposição a pagar ou outro modelo de pagamento.
+### 3. Se uma empresa mudar radicalmente seu "Segmento de Clientes", quais outros blocos do Canvas provavelmente precisarão ser ajustados imediatamente?
+**Resposta Sugerida**: Quase todos. Mudar o cliente exige ajustar a **Proposta de Valor** (o que entregamos a ele), os **Canais** (como chegamos até ele) e o **Relacionamento** (como interagimos). Isso pode exigir novos **Recursos** e **Atividades**, alterando a **Estrutura de Custos** e possivelmente as **Fontes de Receita**.
 
-### 4. Descreva o papel lógico e semântico dos Canais versus a área de Relacionamento no Canvas.
-**Resposta Sugerida**:
-- **Canais**: Referem-se ao **"COMO"** o valor chega ao cliente (comunicação, distribuição e venda). Ex: Site, Loja física, Redes Sociais.
-- **Relacionamento**: Refere-se ao **"TIPO DE VÍNCULO"** que a empresa cria com o cliente para retê-lo e fidelizá-lo. Ex: Self-service, Assistência Pessoal dedicada, Co-criação.
-*Semântica*: Canal é o caminho; Relacionamento é o trato na jornada.
+### 4. Explique a diferença entre o bloco de "Canais" e o bloco de "Relacionamento com o Cliente".
+**Resposta Sugerida**: 
+- **Canais**: É o "caminho" físico ou digital para entregar a proposta de valor (ex: site, correios, loja física). 
+- **Relacionamento**: É o "tom" e a "forma" da interação humana ou automatizada para atrair e reter o cliente (ex: autoatendimento, gerente exclusivo, comunidade).
 
 ---
 
 ## 🔴 Desafio
 
-### 5. O Canvas não é estático. Use o conceito de Padronização e Business Model Patterns, aplique isso definindo a configuração atípica de um Business Canvas na vertente Freemium Digital e Long Tail de produtos físicos nichados.
+### 5. O Canvas é dinâmico. Explique como um modelo de negócio pode evoluir de uma venda única (Venda de Ativos) para um modelo de "Long Tail" ou "Freemium" usando os blocos do Canvas como referência para essa mudança estratégica.
 **Resposta Sugerida**: 
-- **Freemium Digital**: No bloco de **Segmento de Clientes**, dividimos entre "Usuários Grátis" (massa) e "Usuários Pagantes" (nicho). A **Fonte de Receita** vem apenas dos pagantes, enquanto a **Estrutura de Custos** deve ser baixíssima por usuário para suportar a base gratuita.
-- **Long Tail (Cauda Longa)**: No bloco de **Proposta de Valor**, o foco não é um único produto "sucesso de vendas", mas uma variedade infinita de itens de nicho. Isso exige **Recursos Principais** focados em plataformas de TI robustas e **Parcerias** com diversos fornecedores pequenos, visando vender "pouco de muito" em vez de "muito de pouco".
+- Se a empresa vai para o **Freemium**, ela altera a **Fonte de Receita** (acrescenta uma base grátis e uma premium) e o **Relacionamento** (passa a ser mais escalável/automatizado). 
+- No **Long Tail**, a empresa muda a **Proposta de Valor** para focar em nichos e os **Recursos/Parcerias** para manter um estoque infinito de itens de baixa procura (ex: Amazon).
+A modelagem Canvas permite visualizar essas alterações em tempo real e testar a sustentabilidade financeira antes da execução.
 
 ---
 
-[⬅️ Voltar para Exercícios](exercicio-07.md) | [🚀 Ir para Projeto 07](../projetos/projeto-07.md)
+[⬅️ Voltar para Exercícios](exercicio-07.md) | [🎯 Ir para Aula 08](../aulas/aula-08.md)

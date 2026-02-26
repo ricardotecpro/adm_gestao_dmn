@@ -35,10 +35,10 @@ Tentar vender para "todo mundo" é o erro número 1 de novos empreendedores. Se 
 
 Podemos dividir os clientes por diferentes critérios:
 
-- { .fragment } **Geográfica**: Onde eles moram ou trabalham (ex: bairro, cidade, clima).
-- { .fragment } **Demográfica**: Idade, gênero, renda, profissão, nível escolar.
-- { .fragment } **Psicográfica**: Estilo de vida, valores, personalidade, interesses.
-- { .fragment } **Comportamental**: Como eles usam o produto, frequência de compra, lealdade à marca.
+- <!-- .element: class="fragment" --> **Geográfica**: Onde eles moram ou trabalham (ex: bairro, cidade, clima).
+- <!-- .element: class="fragment" --> **Demográfica**: Idade, gênero, renda, profissão, nível escolar.
+- <!-- .element: class="fragment" --> **Psicográfica**: Estilo de vida, valores, personalidade, interesses.
+- <!-- .element: class="fragment" --> **Comportamental**: Como eles usam o produto, frequência de compra, lealdade à marca.
 
 ---
 
@@ -50,8 +50,8 @@ Podemos dividir os clientes por diferentes critérios:
 
 ## 3. Público-Alvo vs. Persona 👤
 
-- { .fragment } **Público-Alvo**: Uma definição ampla (ex: Mulheres, 25-40 anos, moradoras de SP, classe B).
-- { .fragment } **Persona**: Um personagem fictício que representa seu cliente ideal (ex: "Clara, 32 anos, arquiteta, gosta de café gourmet e busca praticidade no dia a dia").
+- <!-- .element: class="fragment" --> **Público-Alvo**: Uma definição ampla (ex: Mulheres, 25-40 anos, moradoras de SP, classe B).
+- <!-- .element: class="fragment" --> **Persona**: Um personagem fictício que representa seu cliente ideal (ex: "Clara, 32 anos, arquiteta, gosta de café gourmet e busca praticidade no dia a dia").
 
 ---
 
@@ -155,8 +155,8 @@ Escolha um negócio (ex: Loja de Jogos Digitais).
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 08](../../exercicios/exercicio-08.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 08](../../projetos/projeto-08.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 08](../../exercicios/exercicio-08.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 08](../../projetos/projeto-08.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Entrando no Bloco 3! [Definição da Proposta de Valor ao Cliente](../../aulas/aula-09.md) ✅
 
@@ -164,9 +164,9 @@ Escolha um negócio (ex: Loja de Jogos Digitais).
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

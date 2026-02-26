@@ -44,9 +44,9 @@ Existem quatro tipos diferentes de parcerias:
 ## 3. Por que fazer parcerias? ❓
 
 Nenhuma empresa é uma ilha. Os motivos principais são:
-- { .fragment } **Otimização e Economia de Escala**: Reduzir custos por meio de infraestrutura compartilhada.
-- { .fragment } **Redução de Risco e Incerteza**: Dividir o risco de entrar em um novo mercado tecnológico.
-- { .fragment } **Aquisição de Recursos ou Atividades**: Onde a empresa foca no seu "core" e deixa o resto com especialistas.
+- <!-- .element: class="fragment" --> **Otimização e Economia de Escala**: Reduzir custos por meio de infraestrutura compartilhada.
+- <!-- .element: class="fragment" --> **Redução de Risco e Incerteza**: Dividir o risco de entrar em um novo mercado tecnológico.
+- <!-- .element: class="fragment" --> **Aquisição de Recursos ou Atividades**: Onde a empresa foca no seu "core" e deixa o resto com especialistas.
 
 ---
 
@@ -144,8 +144,8 @@ Imagine que você está criando um **SaaS (Software como Serviço) para Advogado
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 14](../../exercicios/exercicio-14.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 14](../../projetos/projeto-14.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 14](../../exercicios/exercicio-14.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 14](../../projetos/projeto-14.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Quanto custa tudo isso? [Estrutura de Custos do Negócio](../../aulas/aula-15.md) 💰
 
@@ -153,25 +153,25 @@ Imagine que você está criando um **SaaS (Software como Serviço) para Advogado
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 3
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

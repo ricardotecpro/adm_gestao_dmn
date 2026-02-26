@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Separe nos vieses puramente simples o abismo entre Transação Base Pontual e Assinatura Recorrente fluída inata orgânica. Dê os vieses e os preenchimentos lógicos perante a sustentabilidade das amarras.
-2. Qual pilar atesta como via fluída imbatível na taxação contínua de bases pleníssimas como os bancos, Uber, Booking passivos fluídos plenos nos setores modernos globais?
+1. Explique a diferença entre Fontes de Receita Transacionais e Receitas Recorrentes.
+2. Dê três exemplos de produtos ou serviços que utilizam o modelo de Taxa de Assinatura (Subscription).
 
 ## 🟡 Médios
 
-3. Destaque e explane atestadamente como Franchising base fluí ou Franchisings e os Modelos puros fluídos e atestáveis Licenciamentos geram atuações fadigadas menores à frente da matriz dona nativa pura inata pleníssima.
-4. Expanda nas óticas de Fremium model da base dos streams e elucide na prática da isca e das ancoragens orgânicas interativas fluídas perenes do modelo de ancoragens virtuais inatas nos SAAS básicos vitais globais fluídos ativos puristas das inovações das receitas da Era.
+3. Como funciona a "Taxa de Corretagem" e em quais tipos de plataformas ela é o principal motor de receita?
+4. Diferencie "Venda de Ativos" de "Licenciamento". Qual o benefício do licenciamento para o criador da propriedade intelectual?
 
 ## 🔴 Desafio
 
-5. Explicite o abalo atrelado na maestria em fontes de receitas e as correntes interligáveis baseadas amplificadamente e exponenciais gerando ativas fluídas plenas o massivo absoluto e bilionário 'Efeito de Rede' apoiando e sustentando tramas puramente fidedignas nativas e perenes engessando concorrências em MRR vitais pautadamente inatos ao passo global de domínio fidedigno mercadológico pautado fluido ativamente de blindagens imponentes absolutas gigantes.
+5. Analise o modelo de "Precificação Dinâmica". Por que ele é tão eficaz para empresas de transporte (como Uber) e aviação, e quais são os riscos de imagem para a marca ao utilizá-lo?
 
 ---
 

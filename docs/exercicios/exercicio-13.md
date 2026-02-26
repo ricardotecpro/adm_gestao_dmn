@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Qual é a base e elo lógico de intersecção existencial do Bloco de Recursos e das macro atividades correlatas ativas no canvas interativo?
-2. Distância de bases de recursos vitais como Patrimônio vs Finanças nas óticas modernas de empreendimentos ativos globais nascidos recém saídos dos Berços base da web 4.0 atuais perenes.
+1. Qual a função do bloco "Recursos Essenciais" no Business Model Canvas e como ele se relaciona com a Proposta de Valor?
+2. Liste as quatro categorias principais de Recursos Essenciais.
 
 ## 🟡 Médios
 
-3. Qual importância de capital Intelectual? Exemplifique no setor tech atual da bolsa ou de bases modernas.
-4. Cite formas e caminhos lógicos puros utilizados pelos ecossistemas orgânicos dos modelos físicos para amarrar recursos atestadamente sem incorrer falências antecipadas passivas brutais.
+3. Por que o Capital Intelectual (marcas, patentes, dados) é considerado um dos recursos mais valiosos na economia digital? Dê um exemplo.
+4. Explique a diferença entre possuir um recurso físico (ex: um servidor próprio) e alugar esse recurso (ex: computação em nuvem), focando na flexibilidade financeira.
 
 ## 🔴 Desafio
 
-5. Gestão ágil do 'Asset-Light' tem salvo Unicórnios no mercado global interligado? Explique o fenômeno tangível vital sob as siglas CAPEX (ativos fixos) a e como as sublocações dinâmicas OPEX (operacionais fluidos e variáveis lógicos) aceleraram perante incertezas do mercado atrelado passivo oscilante global. 
+5. Como o conceito de "Asset-Light" (Leve em Ativos) permite que uma startup escale exponencialmente mais rápido do que uma empresa tradicional? Utilize os termos CAPEX e OPEX em sua explicação.
 
 ---
 

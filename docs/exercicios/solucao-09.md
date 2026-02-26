@@ -1,4 +1,4 @@
-# Soluções: Aula 09 - Definição de Proposta de Valor ao Cliente 🎓
+# Soluções: Aula 09 - Proposta de Valor 🎓
 
 Este documento contém as resoluções comentadas dos exercícios da [Aula 09](../aulas/aula-09.md). Use-o para validar seu entendimento após tentar resolver sozinho!
 
@@ -6,34 +6,30 @@ Este documento contém as resoluções comentadas dos exercícios da [Aula 09](.
 
 ## 🟢 Fáceis
 
-### 1. Defina Proposta de Valor.
-**Resposta Sugerida**: A Proposta de Valor é a promessa de benefício que uma empresa faz ao seu cliente. É o conjunto de motivos pelos quais um consumidor deve escolher o seu produto ou serviço em vez do concorrente. Ela explica como você resolve um problema, entrega benefícios específicos e por que você é único.
+### 1. O que é a "Proposta de Valor" no contexto do Business Model Canvas?
+**Resposta Sugerida**: É o conjunto de produtos e serviços que criam valor para um Segmento de Clientes específico. É o motivo pelo qual os clientes recorrem a uma empresa em vez de outra; ela resolve um problema ou satisfaz uma necessidade.
 
-### 2. O Valor sempre deve girar em torno apenas de vantagens tangíveis das especificações métricas? Justifique no design.
-**Resposta Sugerida**: Não. O valor também pode ser **emocional e intangível**. No caso do **Design**, por exemplo, o valor pode estar na estética, no status social que o produto confere ou na facilidade de uso (usabilidade). Um iPhone não é vendido apenas por gigabytes de memória, mas pela experiência de design e integração do ecossistema Apple.
+### 2. A Proposta de Valor deve focar apenas em características técnicas do produto? Explique.
+**Resposta Sugerida**: Não. Ela deve focar nos benefícios reais e resultados que o cliente percebe. Muitas vezes, fatores qualitativos como design, facilidade de uso, redução de risco ou status social são tão ou mais importantes que as especificações técnicas (ex: um iPhone vs um celular genérico com a mesma memória).
 
 ---
 
 ## 🟡 Médios
 
-### 3. Um diferencial muito fácil de ser copiado pela vasta concorrência assegura sustentabilidade da Proposta ao tempo? Explique com métricas simples.
-**Resposta Sugerida**: Não. Se o seu diferencial é apenas "preço baixo", um concorrente maior pode baixar o preço ainda mais e quebrar seu negócio (guerra de preços). A sustentabilidade vem de diferenciais difíceis de copiar, como **marca forte (Moat)**, **tecnologia proprietária** ou **rede de relacionamento exclusiva**. Em termos de métricas, diferenciais copiáveis tendem a reduzir a Margem de Lucro ao longo do tempo conforme a concorrência aumenta.
+### 3. Por que um diferencial competitivo fácil de ser copiado não sustenta uma Proposta de Valor a longo prazo?
+**Resposta Sugerida**: Se o diferencial (ex: apenas o preço baixo) puder ser replicado rapidamente pela concorrência, a empresa perde sua vantagem única. Para ser sustentável, a proposta de valor deve se apoiar em elementos difíceis de copiar, como marca, patentes, efeito de rede ou uma experiência do cliente excepcional.
 
-### 4. Como inovar perante mercados hiper superlotados provando que a Promessa Mútua de Valor perdura.
-**Resposta Sugerida**: A inovação em mercados saturados ocorre através da **re-segmentação** ou da criação de um **Oceano Azul**. Isso significa olhar para uma necessidade específica que os grandes players ignoram ou mudar a forma de entrega (ex: Nubank inovando em um mercado de bancos gigantes ao focar em atendimento humano e zero taxas). A promessa perdura quando o cliente sente que a empresa é sua "parceira" na resolução da dor, e não apenas uma vendedora.
+### 4. Como focar em "Ganhos" (Gains) e "Dores" (Pains) ajuda a criar uma promessa de valor mais assertiva para o cliente?
+**Resposta Sugerida**: Ao focar nisso, você deixa de vender "produtos" e passa a vender "soluções". Entender o que frustra o cliente (Dores) e o que traria alegria ou facilidade para ele (Ganhos) permite que você comunique exatamente o que ele quer ouvir, aumentando a taxa de conversão e a satisfação.
 
 ---
 
 ## 🔴 Desafio
 
-### 5. Utilizando o framework Value Proposition Canvas na complexidade intermediária dita acima do Value Proposition Canvas (VPC), descreva como Aliviadores da Dor e os Ganhadores criam correspondência fatal perante dores agudas, explicando a barreira e o 'FIT problem-solution'.
-**Resposta Sugerida**: 
-O **Value Proposition Canvas (VPC)** funciona como um quebra-cabeça:
-- Do lado do cliente, mapeamos as **Dores Agudas** (problemas graves que ele quer evitar).
-- Do lado da empresa, criamos **Aliviadores de Dor** (funcionalidades específicas que eliminam essas dores).
-
-A "correspondência fatal" ou **Problem-Solution Fit** ocorre quando o benefício do produto "encaixa" exatamente na dor principal do cliente. Se o cliente tem medo de perder dinheiro com investimentos (dor), e seu produto oferece um algoritmo de proteção de capital (aliviador), o encaixe é perfeito. A barreira para o sucesso é tentar oferecer "ganhadores" (coisas legais, mas não essenciais) antes de resolver a "dor aguda". O cliente só "contrata" a solução se ela primeiro parar a dor que o incomoda hoje.
+### 5. Utilizando o framework Value Proposition Canvas (VPC), descreva como ocorre o "Encaixe" (Fit) entre o Perfil do Cliente e o Mapa de Valor. Por que resolver uma "Dor Aguda" é mais lucrativo do que oferecer um ganho incidental?
+**Resposta Sugerida**: O **Encaixe** ocorre quando os Analgésicos do seu Mapa de Valor eliminam as Dores do Cliente e os Criadores de Ganho produzem os ganhos esperados por ele. 
+- **Justificativa**: Resolver uma "Dor Aguda" é mais lucrativo porque o cliente possui um problema crítico que exige solução imediata (ex: um software que evita multas fiscais). O valor percebido é muito maior do que um ganho incidental (algo "legal de se ter"), tornando o cliente muito menos sensível ao preço.
 
 ---
 
-[⬅️ Voltar para Exercícios](exercicio-09.md) | [🚀 Ir para Projeto 09](../projetos/projeto-09.md)
+[⬅️ Voltar para Exercícios](exercicio-09.md) | [📣 Ir para Aula 10](../aulas/aula-10.md)

@@ -1,4 +1,4 @@
-# Soluções: Aula 06 - O Plano de Negócios 🎓
+# Soluções: Aula 06 - Plano de Negócios 🎓
 
 Este documento contém as resoluções comentadas dos exercícios da [Aula 06](../aulas/aula-06.md). Use-o para validar seu entendimento após tentar resolver sozinho!
 
@@ -6,40 +6,34 @@ Este documento contém as resoluções comentadas dos exercícios da [Aula 06](.
 
 ## 🟢 Fáceis
 
-### 1. Por que estruturamos um Plano de Negócios clássico perante investidores bancários?
-**Resposta Sugerida**: Investidores tradicionais e bancos buscam segurança e previsibilidade. O Plano de Negócios detalhado demonstra que o empreendedor fez o "dever de casa", estudou os riscos, planejou as finanças e possui uma estratégia clara para pagar o empréstimo ou gerar retorno sobre o investimento, reduzindo a sensação de risco para quem está colocando capital no negócio.
+### 1. Qual a importância do Sumário Executivo em um Plano de Negócios?
+**Resposta Sugerida**: O Sumário Executivo é a "vitrine" do plano. Ele resume os pontos principais (o que é o negócio, Proposta de Valor, equipe e necessidades financeiras). É a primeira parte que um investidor lê; se não for convincente, o restante do documento será ignorado.
 
-### 2. Destaque os principais componentes do Sumário Executivo.
-**Resposta Sugerida**: O Sumário Executivo deve conter:
-- Descrição clara da empresa e sua Proposta de Valor.
-- Resumo do perfil dos empreendedores.
-- Destaque dos diferenciais competitivos.
-- Resumo das projeções financeiras (Investimento inicial, faturamento e lucro).
-- Prazo estimado para o retorno do investimento (Payback).
+### 2. Por que o Plano de Negócios ainda é solicitado por bancos e investidores tradicionais?
+**Resposta Sugerida**: Porque ele demonstra que o empreendedor teve o rigor de planejar, estudar o mercado, prever custos e entender a viabilidade financeira. Para instituições que lidam com crédito, é uma ferramenta de redução de risco e comprovação de capacidade técnica.
 
 ---
 
 ## 🟡 Médios
 
-### 3. Como validar uma Projeção de Caixa sem conhecer o futuro? Que medidas usar?
-**Resposta Sugerida**: Validamos através de **Cenários**. Em vez de um único número, criamos três projeções:
-1.  **Cenário Realista**: Baseado em pesquisas atuais e dados de mercado.
-2.  **Cenário Otimista**: Considerando que todas as metas de vendas serão superadas.
-3.  **Cenário Pessimista**: Considerando dificuldades econômicas ou entrada de concorrentes.
-Isso prepara a empresa para tomar decisões mesmo em tempos de incerteza ("se as vendas caírem 20%, ainda sobrevivemos?").
+### 3. Como as Projeções Financeiras podem ser validadas mesmo diante da incerteza do futuro?
+**Resposta Sugerida**: Através de **Análise de Cenários** (Otimista, Realista e Pessimista) e Benchmarking (comparação com números de empresas similares do setor). Validar as premissas (ex: custo de marketing por cliente) com dados reais de testes pequenos torna a projeção menos "mágica" e mais realista.
 
-### 4. O Plano Operacional ajuda a prever a logística, os insumos essenciais e a real viabilidade do esforço. Qual a essência fundamental nele?
-**Resposta Sugerida**: A essência do Plano Operacional é responder ao "COMO". Como o produto será fabricado? Como o serviço será entregue? Quais máquinas, pessoas e processos são necessários? Ele transforma a estratégia em rotina prática, garantindo que a empresa tenha capacidade técnica para entregar a promessa de valor feita ao cliente.
+### 4. Explique o papel do "Plano Operacional". Quais itens fundamentais (estoque, pessoal, logística) ele deve detalhar?
+**Resposta Sugerida**: O Plano Operacional descreve o "como fazer". Ele deve detalhar no mínimo:
+- **Processos**: Como o produto é fabricado ou o serviço prestado.
+- **Capacidade instalada**: Quanto a empresa consegue produzir por mês.
+- **Pessoal**: Quantos funcionários são necessários e quais competências.
+- **Suprimentos**: Quem são os fornecedores e qual a política de estoque.
 
 ---
 
 ## 🔴 Desafio
 
-### 5. Para modelos ágeis em incerteza, como conciliar o Plano de Negócios Tradicional com a análise de Break-Even dinâmico em cenários desfavoráveis e incertos? Justifique em relação ao cálculo de OPEX e fixos contínuos.
-**Resposta Sugerida**: 
-A conciliação é feita através do **Monitoramento de Burn Rate** (taxa de queima de caixa). Em modelos ágeis, focamos em manter o OPEX (Despesas Operacionais) o mais baixo possível (Estrutura Enxuta) enquanto buscamos o **Break-Even Point (Ponto de Equilíbrio)**.
-O cálculo deve ser dinâmico: se o cenário se torna desfavorável, o gestor deve cortar custos fixos contínuos imediatamente para baixar o ponto de equilíbrio (fazer com que a empresa precise vender menos para se pagar). O Plano de Negócios, nesse caso, atua como uma bússola de longo prazo, enquanto o Break-Even dinâmico é o leme que ajusta a sobrevivência no curto prazo.
+### 5. Discuta a conciliação entre o Plano de Negócios Tradicional e a mentalidade ágil em cenários de alta incerteza. Como o cálculo do Break-Even (Ponto de Equilíbrio) ajuda a definir o risco real do empreendedor?
+**Resposta Sugerida**: A conciliação ocorre ao usar o Plano de Negócios para definir os fundamentos financeiros e o Canvas/Lean Startup para validar as hipóteses do dia a dia. 
+- **Break-Even**: É o ponto onde as receitas igualam os custos (lucro zero). Saber exatamente quantos produtos você precisa vender para não ter prejuízo permite ao empreendedor avaliar se a sua meta de vendas é realista ou se ele está em um negócio de altíssimo risco que exige muito capital para sobreviver.
 
 ---
 
-[⬅️ Voltar para Exercícios](exercicio-06.md) | [🚀 Ir para Projeto 06](../projetos/projeto-06.md)
+[⬅️ Voltar para Exercícios](exercicio-06.md) | [📋 Ir para Aula 07](../aulas/aula-07.md)

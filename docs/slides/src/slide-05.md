@@ -37,9 +37,9 @@ Para se destacar, uma empresa deve escolher um caminho:
 ## 2. Fontes de Novas Ideias 💡
 
 As ideias não surgem do nada. Elas vêm de:
-- { .fragment } **Feedback de Clientes**: Ouvir o que as pessoas detestam nos produtos atuais.
-- { .fragment } **Análise da Concorrência**: Observar o que os outros fazem bem (ou mal).
-- { .fragment } **Tendências Globais**: Novas tecnologias ou comportamentos sociais.
+- <!-- .element: class="fragment" --> **Feedback de Clientes**: Ouvir o que as pessoas detestam nos produtos atuais.
+- <!-- .element: class="fragment" --> **Análise da Concorrência**: Observar o que os outros fazem bem (ou mal).
+- <!-- .element: class="fragment" --> **Tendências Globais**: Novas tecnologias ou comportamentos sociais.
 
 ---
 
@@ -150,8 +150,8 @@ No estágio intermediário da ideação, não dependemos da "inspiração divina
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 05](../../exercicios/exercicio-05.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 05](../../projetos/projeto-05.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 05](../../exercicios/exercicio-05.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 05](../../projetos/projeto-05.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos aprender a formalizar essas ideias no [Plano de Negócios](../../aulas/aula-06.md) 🧠
 
@@ -159,17 +159,17 @@ No estágio intermediário da ideação, não dependemos da "inspiração divina
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

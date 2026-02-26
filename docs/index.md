@@ -1,4 +1,4 @@
-# 🎓 Curso: Desenvolvimento de Modelos de Negócios
+# 🎓 Curso: Gestão e Modelos de Negócios
 
 > "Transformar uma ideia em um negócio sustentável exige mais do que paixão; exige método, modelagem e validação constante."
 
@@ -6,7 +6,7 @@ Bem-vindo à sua jornada no mundo do empreendedorismo moderno. Este curso foi pr
 
 ---
 
-**⚡ Atalhos Rápidos**
+## ⚡ Atalhos Rápidos
 
 <div class="grid cards" markdown>
 

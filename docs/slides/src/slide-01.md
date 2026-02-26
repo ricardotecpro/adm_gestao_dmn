@@ -57,7 +57,7 @@ Nem todo mundo nasce empreendedor, mas as competências podem ser desenvolvidas.
 Existem diversas formas de empreender. Conhecer seu perfil ajuda a focar nas estratégias corretas:
 
 | Perfil | Características | Foco Principal |
-| :--- { .fragment } | :--- { .fragment } | :--- { .fragment } |
+| :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> |
 | **Por Oportunidade** | Enxerga uma lacuna no mercado. | Lucratividade e Crescimento |
 | **Por Necessidade** | Empreende por falta de alternativa. | Sobrevivência e Renda Fixa |
 | **Intraempreendedor** | Inova dentro da empresa onde trabalha. | Eficiência e Novos Processos |
@@ -163,8 +163,8 @@ Sua primeira missão prática:
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 01](../../exercicios/exercicio-01.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 01](../../projetos/projeto-01.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 01](../../exercicios/exercicio-01.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 01](../../projetos/projeto-01.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos aprender a [Identificar Oportunidades de Negócio](../../aulas/aula-02.md)! 🏗️
 
@@ -172,9 +172,9 @@ Sua primeira missão prática:
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

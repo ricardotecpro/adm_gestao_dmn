@@ -43,13 +43,13 @@ Um modelo de negócio pode envolver dois tipos diferentes de receitas:
 
 Existem várias maneiras de fazer o dinheiro entrar:
 
-- { .fragment } **Venda de Ativos**: Venda do direito de propriedade de um produto físico.
-- { .fragment } **Taxa de Uso**: Pagamento pelo uso de um serviço específico (ex: minutos de hotel, entrega de pacotes).
-- { .fragment } **Taxa de Assinatura**: Venda do acesso contínuo a um serviço (ex: Spotify).
-- { .fragment } **Empréstimo/Aluguel/Leasing**: Direito temporário de uso de um ativo.
-- { .fragment } **Licenciamento**: Permissão para usar propriedade intelectual protegida.
-- { .fragment } **Taxa de Corretagem**: Taxas por serviços de intermediação (ex: corretoras de imóveis, cartões de crédito).
-- { .fragment } **Anúncios**: Taxas por publicidade de produtos ou serviços.
+- <!-- .element: class="fragment" --> **Venda de Ativos**: Venda do direito de propriedade de um produto físico.
+- <!-- .element: class="fragment" --> **Taxa de Uso**: Pagamento pelo uso de um serviço específico (ex: minutos de hotel, entrega de pacotes).
+- <!-- .element: class="fragment" --> **Taxa de Assinatura**: Venda do acesso contínuo a um serviço (ex: Spotify).
+- <!-- .element: class="fragment" --> **Empréstimo/Aluguel/Leasing**: Direito temporário de uso de um ativo.
+- <!-- .element: class="fragment" --> **Licenciamento**: Permissão para usar propriedade intelectual protegida.
+- <!-- .element: class="fragment" --> **Taxa de Corretagem**: Taxas por serviços de intermediação (ex: corretoras de imóveis, cartões de crédito).
+- <!-- .element: class="fragment" --> **Anúncios**: Taxas por publicidade de produtos ou serviços.
 
 ---
 
@@ -104,7 +104,7 @@ $ precificacao --check-strategy
 
 ## 6. Aprofundamento: O Efeito de Rede e MRR/ARR 🕸️
 
-A maestria em fontes de receita muitas vezes se apoia no **Efeito de Rede**: o produto se torna mais valioso à medida que mais pessoas o usam (ex: WhatsApp, MercadoLivre). Na medição financeira moderna, especialmente em negócios digitais ou serviços SaaS, foca-se brutalmente no MRR (Monthly Recurring Revenue - { .fragment } Receita Recorrente Mensal) e o ARR (Anual), métricas fiéis para atrair investidores em rodadas de Series A/B.
+A maestria em fontes de receita muitas vezes se apoia no **Efeito de Rede**: o produto se torna mais valioso à medida que mais pessoas o usam (ex: WhatsApp, MercadoLivre). Na medição financeira moderna, especialmente em negócios digitais ou serviços SaaS, foca-se brutalmente no MRR (Monthly Recurring Revenue - <!-- .element: class="fragment" --> Receita Recorrente Mensal) e o ARR (Anual), métricas fiéis para atrair investidores em rodadas de Series A/B.
 
 ---
 
@@ -140,8 +140,8 @@ Imagine que você criou um **App de Meditação**.
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 16](../../exercicios/exercicio-16.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 16](../../projetos/projeto-16.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 16](../../exercicios/exercicio-16.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 16](../../projetos/projeto-16.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 !!! success "Conclusão do Módulo"
     Parabéns! Você completou as 16 aulas do curso de **Desenvolvimento de Modelos de Negócios**. Agora você tem todas as ferramentas para tirar sua ideia do papel e construir um negócio sólido, lucrativo e inovador.
@@ -159,17 +159,17 @@ Desejamos muito sucesso na sua jornada empreendedora!
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

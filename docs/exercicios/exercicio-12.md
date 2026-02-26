@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Resuma a premissa de que o modelo de negócio baseia e direciona o foco do Empreendedor e não as macro gerências irrelevantes.
-2. Qual seria uma Atividade-chave focada em startups puras de software versus logística atestadas?
+1. O que define uma "Atividade-chave" no Business Model Canvas?
+2. Dê um exemplo de Atividade-chave para uma empresa de software comparada a uma empresa de logística.
 
 ## 🟡 Médios
 
-3. Como as atividades principais protegem o núcleo da corporação perante concorrentes que agem focados lateralmente.
-4. Defina plataforma ativa e Resolução de dores interligadas a um núcleo matricial de serviço corporativo consultivo ativo vital nos fluxos diários gerenciais propostos no mercado global ativo do Canvas padrão ideal testado e validado e escalonado interativamente na gestão do time matricial base ativa do mercado corporativo clássico vital pleno moderno no cenário global atual.
+3. Como as Atividades-chave ajudam a sustentar a Proposta de Valor da empresa?
+4. Explique a importância da Atividade-chave de "Resolução de Problemas" em empresas de consultoria ou serviços especializados.
 
 ## 🔴 Desafio
 
-5. Elucide na profundidade da Teoria das Restrições (TOC) explanando gargalos orgânicos e justifique por que 'Otimizar um setor ou atividades irrelevante só prejudica as ineficiências latentes do modelo' perante um núcleo produtivo empresarial que subordina perdas.
+5. Discuta a aplicação da Teoria das Restrições (TOC) na gestão de Atividades-chave. Por que focar na otimização de uma atividade que não é o "gargalo" do sistema pode ser um desperdício de recursos para a organização?
 
 ---
 

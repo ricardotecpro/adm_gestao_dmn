@@ -20,8 +20,8 @@
 
 Ter uma ideia brilhante não garante um negócio de sucesso. A diferença entre elas é fundamental:
 
-- { .fragment } **Ideia**: Uma concepção abstrata, algo que "seria legal fazer".
-- { .fragment } **Oportunidade**: É uma ideia que encontra um **mercado**, resolve uma **dor real** e possui **viabilidade econômica**.
+- <!-- .element: class="fragment" --> **Ideia**: Uma concepção abstrata, algo que "seria legal fazer".
+- <!-- .element: class="fragment" --> **Oportunidade**: É uma ideia que encontra um **mercado**, resolve uma **dor real** e possui **viabilidade econômica**.
 
 ---
 
@@ -97,8 +97,8 @@ $ oportunidade --scan-market
 ## 5. Análise de Nicho 🎯
 
 Tentar vender para todo mundo é o caminho mais rápido para não vender para ninguém.
-- { .fragment } **Segmentação**: Dividir o mercado em grupos menores.
-- { .fragment } **Diferenciação**: O que faz você ser a escolha óbvia em comparação aos outros?
+- <!-- .element: class="fragment" --> **Segmentação**: Dividir o mercado em grupos menores.
+- <!-- .element: class="fragment" --> **Diferenciação**: O que faz você ser a escolha óbvia em comparação aos outros?
 
 !!! warning "Atenção"
     Não se apaixone pela sua solução, se apaixone pelo **problema** do seu cliente. A solução pode mudar, o problema é o que sustenta o negócio.
@@ -149,8 +149,8 @@ Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **C
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 02](../../exercicios/exercicio-02.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 02](../../projetos/projeto-02.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 02](../../exercicios/exercicio-02.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 02](../../projetos/projeto-02.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Vamos mergulhar na [Análise de Valor: Inovação e Sustentabilidade](../../aulas/aula-03.md)! 📡
 
@@ -158,17 +158,17 @@ Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **C
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

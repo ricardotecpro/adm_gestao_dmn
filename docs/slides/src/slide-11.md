@@ -37,12 +37,12 @@ No Business Model Canvas, o relacionamento descreve o "tom" e a intensidade da i
 
 As empresas podem escolher diferentes níveis de proximidade:
 
-- { .fragment } **Assistência Pessoal**: Interação humana real (ex: call center, vendedor na loja).
-- { .fragment } **Assistência Personalizada**: Um gerente exclusivo para o cliente (ex: Private Banking).
-- { .fragment } **Self-Service**: A empresa fornece os meios, o cliente faz tudo sozinho (ex: Caixas eletrônicos).
-- { .fragment } **Serviços Automatizados**: Self-service com inteligência (ex: recomendação da Netflix).
-- { .fragment } **Comunidades**: Clientes interagem entre si para resolver problemas (ex: Fóruns de jogos).
-- { .fragment } **Co-criação**: O cliente ajuda a criar o valor (ex: Reviews da Amazon, vídeos do YouTube).
+- <!-- .element: class="fragment" --> **Assistência Pessoal**: Interação humana real (ex: call center, vendedor na loja).
+- <!-- .element: class="fragment" --> **Assistência Personalizada**: Um gerente exclusivo para o cliente (ex: Private Banking).
+- <!-- .element: class="fragment" --> **Self-Service**: A empresa fornece os meios, o cliente faz tudo sozinho (ex: Caixas eletrônicos).
+- <!-- .element: class="fragment" --> **Serviços Automatizados**: Self-service com inteligência (ex: recomendação da Netflix).
+- <!-- .element: class="fragment" --> **Comunidades**: Clientes interagem entre si para resolver problemas (ex: Fóruns de jogos).
+- <!-- .element: class="fragment" --> **Co-criação**: O cliente ajuda a criar o valor (ex: Reviews da Amazon, vídeos do YouTube).
 
 ---
 
@@ -106,8 +106,8 @@ $ crm --check-health
 ## 5. Churn Rate: O Perigo do Cancelamento 📉
 
 O **Churn** é a taxa de clientes que param de comprar de você.
-- { .fragment } **Low Churn**: Indica que o relacionamento está forte.
-- { .fragment } **High Churn**: Indica que algo na proposta de valor ou no atendimento está falhando.
+- <!-- .element: class="fragment" --> **Low Churn**: Indica que o relacionamento está forte.
+- <!-- .element: class="fragment" --> **High Churn**: Indica que algo na proposta de valor ou no atendimento está falhando.
 
 ---
 
@@ -160,8 +160,8 @@ Imagine um **App de Academia**.
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 11](../../exercicios/exercicio-11.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 11](../../projetos/projeto-11.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 11](../../exercicios/exercicio-11.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 11](../../projetos/projeto-11.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: O que você faz todo dia? [Atividades-chave do Negócio](../../aulas/aula-12.md) ⚙️
 
@@ -169,9 +169,9 @@ Imagine um **App de Academia**.
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

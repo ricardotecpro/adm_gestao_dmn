@@ -43,10 +43,10 @@ Existem dois extremos na forma como os negócios lidam com custos:
 
 Para gerir seu financeiro, você deve entender estes quatro conceitos:
 
-- { .fragment } **Custos Fixos**: Permanecem os mesmos, independentemente do volume de produção (ex: aluguel, salários administrativos).
-- { .fragment } **Custos Variáveis**: Mudam proporcionalmente ao volume de bens ou serviços produzidos (ex: matéria-prima, comissões de venda).
-- { .fragment } **Economias de Escala**: Benefícios de custo que o negócio desfruta à medida que sua produção se expande (custo por unidade cai).
-- { .fragment } **Economias de Escopo**: Benefícios de custo que o negócio desfruta devido a uma maior variedade de operações (ex: usar a mesma logística para vários tipos de produtos).
+- <!-- .element: class="fragment" --> **Custos Fixos**: Permanecem os mesmos, independentemente do volume de produção (ex: aluguel, salários administrativos).
+- <!-- .element: class="fragment" --> **Custos Variáveis**: Mudam proporcionalmente ao volume de bens ou serviços produzidos (ex: matéria-prima, comissões de venda).
+- <!-- .element: class="fragment" --> **Economias de Escala**: Benefícios de custo que o negócio desfruta à medida que sua produção se expande (custo por unidade cai).
+- <!-- .element: class="fragment" --> **Economias de Escopo**: Benefícios de custo que o negócio desfruta devido a uma maior variedade de operações (ex: usar a mesma logística para vários tipos de produtos).
 
 ---
 
@@ -149,8 +149,8 @@ Imagine que você vende **Camisetas Estampadas**.
 
 ## 📚 Material Complementar
 
-- { .fragment } **[📝 Exercícios da Aula 15](../../exercicios/exercicio-15.md)**: Pratique os conceitos com questões focadas.
-- { .fragment } **[🚀 Projeto da Aula 15](../../projetos/projeto-15.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 15](../../exercicios/exercicio-15.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 15](../../projetos/projeto-15.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
 **Próxima Aula**: Como o dinheiro entra? [Fontes de Receita e Modelos de Ganho](../../aulas/aula-16.md) 🏆
 
@@ -158,17 +158,17 @@ Imagine que você vende **Camisetas Estampadas**.
 
 ## Discussão Aberta 1
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 
 ## Discussão Aberta 2
 
-- Como os conceitos vistos afetam nosso ambiente? { .fragment }
-- Quem tem um exemplo prático? { .fragment }
-- Pontos de ruptura? { .fragment }
+- Como os conceitos vistos afetam nosso ambiente? <!-- .element: class="fragment" -->
+- Quem tem um exemplo prático? <!-- .element: class="fragment" -->
+- Pontos de ruptura? <!-- .element: class="fragment" -->
 
 ---
 

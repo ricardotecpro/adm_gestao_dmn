@@ -1,82 +1,71 @@
 # Quiz 15 - Estrutura de Custos
 
-1. O que melhor define a matriz principal do tema 'Estrutura de Custos'?
+1. O que representa a "Estrutura de Custos" no Business Model Canvas?
+    - [ ] O extrato bancário da empresa no final do ano.
+    - [x] Todos os custos e gastos incorridos para operar um modelo de negócio.
+    - [ ] Apenas o salário dos diretores e gerentes.
+    - [ ] O preço que os fornecedores cobram pelos produtos.
+    > Explicação: A estrutura de custos descreve os gastos mais importantes para criar e entregar valor, manter relacionamentos e gerar receita.
 
-    - [ ] Apenas o acúmulo financeiro no curto prazo.
-    - [x] O foco centrado em resolver fricções reais de forma sustentável e escalável.
-    - [ ] A cópia integral de modelos de negócios gringos e gigantes.
-    - [ ] Trabalhar isoladamente sem precisar interagir com clientes ou inovações.
-    > Explicação: A essência de gestão nos negócios foca sempre em solucionar dores (fricções reais) de maneira que possa crescer sustentavelmente sem ruptura.
+2. Qual a diferença entre um modelo de negócio "Direcionado pelo Custo" e um "Direcionado pelo Valor"?
+    - [ ] Não há diferença; todas as empresas querem custar pouco.
+    - [x] O primeiro foca em minimizar custos; o segundo foca na criação de valor premium e personalização, com menos foco no custo.
+    - [ ] O primeiro é para empresas pobres; o segundo é para empresas ricas.
+    - [ ] O primeiro é ilegal; o segundo é o padrão do mercado.
+    > Explicação: Empresas Low-cost (como companhias aéreas de baixo custo) focam no primeiro; marcas de luxo focam no segundo.
 
-2. Na fase avançada deste tema, o principal erro estratégico a evitar é:
+3. O que são "Custos Fixos"?
+    - [ ] Custos que nunca mudam, independente do passar dos anos.
+    - [x] Custos que permanecem os mesmos, independentemente do volume de bens ou serviços produzidos (ex: aluguel, salários).
+    - [ ] Gastos com reparos que não estavam previstos.
+    - [ ] O valor pago por matérias-primas que varia todo mês.
+    > Explicação: Custos fixos devem ser pagos mesmo que a empresa não venda nada em um determinado mês.
 
-    - [x] Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.
-    - [ ] Dialogar ativamente e pesquisar profundamente seu usuário foco.
-    - [ ] Usar métricas tangíveis em planilhas para guiar o negócio.
-    - [ ] Iterar de forma ágil adaptando seu modelo.
-    > Explicação: A mortalidade das empresas está atrelada em 'tentar vender sem validar', saltando as validações intrínsecas necessárias para preencher os gargalos.
+4. O que caracteriza os "Custos Variáveis"?
+    - [ ] Impostos que mudam conforme a lei do governo.
+    - [x] Custos que variam proporcionalmente ao volume de bens ou serviços produzidos.
+    - [ ] O valor do dólar no mercado internacional.
+    - [ ] Gastos com viagens que a equipe faz de vez em quando.
+    > Explicação: Se você produz mais unidades de um produto físico, o custo com matéria-prima aumenta proporcionalmente.
 
-3. Marque a alternativa que descreve a melhor adaptação tecnológica em Estrutura de Custos:
+5. O que é "Economia de Escala"?
+    - [ ] Comprar uma balança de precisão para a fábrica.
+    - [x] Vantagens de custo que uma empresa desfruta à medida que sua produção se expande (custo unitário cai).
+    - [ ] Fazer economia guardando moedas em um cofre.
+    - [ ] Quando o governo reduz os impostos para pequenas empresas.
+    > Explicação: Empresas maiores podem comprar insumos em volume maior e diluir custos fixos por mais unidades vendidas.
 
-    - [ ] Acreditar que a tecnologia de ponta substitui todo modelo de negócios.
-    - [ ] Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.
-    - [x] Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.
-    - [ ] Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.
-    > Explicação: O modelo de negócios atua viabilizado pelas novas frentes em nuvem integrando APIs fluídas ao invés de codificar tudo em silos mortos com alto custo (Asset-Light).
+6. O que é "Economia de Escopo"?
+    - [ ] Ver o negócio através de um telescópio.
+    - [x] Vantagens de custo que uma empresa desfruta devido a um maior escopo de operações (ex: mesmos canais para vários produtos).
+    - [ ] Limitar o crescimento da empresa para não perder o foco.
+    - [ ] Contratar um profissional para definir o escopo do projeto.
+    > Explicação: Ocorre quando uma infraestrutura única pode suportar múltiplas linhas de produtos ou serviços.
 
-4. Relacionado às métricas de acompanhamento em 'Estrutura de Custos', o que devemos olhar agressivamente?
+7. Por que é importante identificar os custos "Mais Caros" do modelo?
+    - [ ] Para ostentar para os investidores que a empresa é grande.
+    - [x] Para focar esforços de otimização onde o impacto financeiro será realmente significativo.
+    - [ ] Para demitir os funcionários que trabalham nessas áreas.
+    - [ ] Para aumentar o preço do produto final sem aviso prévio.
+    > Explicação: Saber onde o dinheiro realmente "foge" permite uma gestão estratégica de eficiência.
 
-    - [ ] O número absoluto de curtidas estáticas nas mídias base.
-    - [ ] As horas inativas passivas não registradas na folha-ponto da equipe logada.
-    - [x] Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.
-    - [ ] A velocidade da fofoca corporativa em relação as corporações focadas gigantes.
-    > Explicação: A métrica principal nas amarras contábeis de tech startups exige dominar os indicadores chaves tangíveis perenes fidedignos da retenção, ignorando amarras de puras 'Métricas de Vaidades'.
+8. Como a tecnologia Cloud (Nuvem) afeta a estrutura de custos de TI?
+    - [ ] Ela torna os custos sempre mais caros e imprevisíveis.
+    - [x] Ela transforma custos fixos (servidores caros) em custos variáveis (pagamento por uso/assinatura).
+    - [ ] Ela elimina a necessidade de qualquer gasto com tecnologia.
+    - [ ] Ela serve apenas para guardar fotos e não afeta empresas.
+    > Explicação: O modelo SaaS/Cloud permite que startups comecem com custo baixo e escalem conforme a demanda.
 
-5. Em 'Estrutura de Custos', o termo 'Escalabilidade' se refere a:
+9. O que significa o termo "Burn Rate" (Taxa de Queima)?
+    - [ ] O risco de incêndio nas instalações físicas da empresa.
+    - [x] A velocidade com que uma empresa gasta seu capital de investidores antes de se tornar lucrativa.
+    - [ ] A quantidade de papel que a empresa gasta nas impressoras.
+    - [ ] A taxa de funcionários que pedem demissão por estresse.
+    > Explicação: Controlar o Burn Rate é fundamental para a sobrevivência de empresas em estágio inicial.
 
-    - [ ] Subir as escadas corporativas fidedignas engessadas corporativas inativas.
-    - [x] Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.
-    - [ ] Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.
-    - [ ] Diminuir atratividade no fluxo perene na busca inativa atipica global.
-    > Explicação: Escalar não é inchar inchar fisicamente! Escalar num plano robusto trata de separar a alta na Margem com uma curva minúscula de Custo operacional viabilizando massificações.
-
-6. Sobre a perenidade contínua do negócio em 'Estrutura de Custos', o ideal atestado no mercado atual aponta para:
-
-    - [ ] Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.
-    - [ ] Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.
-    - [x] Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.
-    - [ ] Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.
-    > Explicação: Os dinâmicos ecossistemas requerem sempre fluidez (SaaS Cloud, parcerias atestáveis na cadeia da web) visando isolar o engessamento passado obsoleto e pautando viés rentável.
-
-7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Estrutura de Custos' num planejamento rígido tradicional?
-
-    - [x] Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.
-    - [ ] Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.
-    - [ ] Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.
-    - [ ] Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.
-    > Explicação: Hipóteses matam os planos cegos! A não validação empírica queima todo o RunWay em frentes obscenas baseadas no delírio do fundador antes de testar a tese pura (Premissa Lean).
-
-8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Estrutura de Custos'?
-
-    - [ ] Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.
-    - [x] Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.
-    - [ ] Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.
-    - [ ] Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.
-    > Explicação: Focar e atacar onde a energia cessa (Gargalo - Teoria das Restrições) determina o fluxo. Nenhuma organização melhora até o nó ser aliviado pela logística integrada.
-
-9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?
-
-    - [ ] Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.
-    - [ ] O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.
-    - [x] Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.
-    - [ ] Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.
-    > Explicação: Empreender cria os Fossos ('Moats'), isolando os gigantes copiadores em barreiras formadas por marcas fortes, propriedade intelectual fechada e patentes inatas ou eficiências exclusivas puristas.
-
-10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Estrutura de Custos' atrelado na era ágil?
-
-    - [x] Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.
-    - [ ] Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.
-    - [ ] Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.
-    - [ ] Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.
-    > Explicação: Amar o Problema (A dor real, as fricções tangíveis da sociedade do público alvo) perpetua e sustenta sua evolução. Amar a solução fixa engessa sua ótica e culmina no colapso do encerramento corporativo da inovação vital!
-
+10. Um modelo de negócio pode ser sustentável se a Estrutura de Custos for superior às Fontes de Receita a longo prazo?
+    - [ ] Sim, desde que a empresa seja famosa.
+    - [x] Não; a longo prazo, o negócio entrará em colapso financeiro sem lucro ou investimento externo contínuo.
+    - [ ] Sim, em mercados digitais o lucro não é necessário.
+    - [ ] Depende apenas do tipo de produto que está sendo vendido.
+    > Explicação: A sustentabilidade financeira exige que, eventualmente, o valor gerado supere o custo de operação.

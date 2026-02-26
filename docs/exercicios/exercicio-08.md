@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. O que significa nichar um mercado e as vantagens desta restrição?
-2. Tratar características demográficas sozinhas atesta resultados plenos para startups? Por quê? 
+1. O que significa "nichar" um mercado e quais as vantagens dessa estratégia para uma pequena empresa?
+2. Por que usar apenas características demográficas (idade, gênero, localização) não é suficiente para uma segmentação profunda em startups?
 
 ## 🟡 Médios
 
-3. Construa e diferencie a essência de Público-alvo versus da Persona Analítica Ideal.
-4. Exemplifique B2B e B2C determinando quem efetua a ação vital de compra corporativa.
+3. Diferencie "Público-alvo" de "Persona". Por que a persona é mais eficaz para o design de produtos e marketing digital?
+4. Explique a diferença entre mercados B2B (Business-to-Business) e B2C (Business-to-Consumer). Como o processo de decisão de compra muda entre eles?
 
 ## 🔴 Desafio
 
-5. O framework Intermediário 'Job To Be Done (JTBD)' inverte as lógicas do marketing e as personas engessadas e cegas faturadas globalmente pelo sistema demográfico. Desenvolva através da explicação com uma furadeira qual seria na realidade a tarefa subjacente.
+5. Explique o conceito de "Job To Be Done" (JTBD). Utilizando o exemplo clássico de uma furadeira, descreva qual é o "trabalho" real que o cliente está tentando realizar ao comprá-la.
 
 ---
 

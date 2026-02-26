@@ -2,17 +2,17 @@
 
 ## 🟢 Fáceis
 
-1. Quais os motivos base de mitigar e partilhar esforços na criação das redes puras passivas orgânicas conjuntas aos pares e redes perenes atreladas?
-2. O termo Coopetição é a base dos negócios híbridos de pares? Forneça contexto lúdico onde englobam pares puros das bases do conceito ativo fluído.
+1. Quais são as três principais motivações para uma empresa buscar parcerias estratégicas?
+2. O que é o conceito de "Coopetição"? Dê um exemplo real onde concorrentes colaboram entre si.
 
 ## 🟡 Médios
 
-3. Risco fatiado no Joint Venturing interseciona lucros também ou age a título benevolente das premissas conjuntas dos acordos base?
-4. Com a nova era atestada interligada pautada nos Ecossistemas base tech fluídos puros os Parceiros perderam o contato? Elucide no marketplace nativo fluído ou intersecção nas gigantes redes perenes vitais globais.
+3. Qual a diferença entre uma parceria de Comprador-Fornecedor (Buyer-Supplier) e uma Joint Venture?
+4. Como as alianças estratégicas ajudam as empresas a reduzir riscos e incertezas em mercados altamente inovadores?
 
 ## 🔴 Desafio
 
-5. O mercado avançado aponta 'Alianças API/Economy' substituindo elos braçais orgânicos inertes puros vitais dos moldes corporativos dos parceiros na era passada. Debata por que programar a roda inteira internamente beira ou flerta no suícidio logístico perante a aliança imediata nas APIs pautadas puras atestadamente robustas externas interlaçadas de gigantes fluídos escalonáveis mundiais.
+5. No cenário atual de "Economia de APIs", debata por que é mais estratégico para uma startup integrar serviços externos (como meios de pagamento e logística) via parcerias tecnológicas do que tentar desenvolver todas essas funcionalidades internamente do zero.
 
 ---
 
