@@ -22,7 +22,7 @@ def copy_slides(config, **kwargs):
     # Diretório fonte dos slides
     slides_source = pathlib.Path('docs/slides')
     if not slides_source.exists():
-        print("[yellow]⚠ Pasta docs/slides/ não encontrada[/yellow]")
+        print("[yellow]WARNING: Pasta docs/slides/ não encontrada[/yellow]")
         return
     
     # Copiar todos os slides HTML e Markdown

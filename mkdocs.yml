@@ -174,23 +174,29 @@ nav:
     - Plano: plano.md
   - Aulas:
     - aulas/index.md
-    - 'Aula 01 - Intro ao Empreendedorismo': aulas/aula-01.md
-    - 'Aula 02 - Identificação de Oportunidades': aulas/aula-02.md
-    - 'Aula 03 - Análise de Valor': aulas/aula-03.md
-    - 'Aula 04 - Processo de Inovação': aulas/aula-04.md
-    - 'Aula 05 - Estratégias e Ideação': aulas/aula-05.md
-    - 'Aula 06 - Plano de Negócios': aulas/aula-06.md
-    - 'Aula 07 - Modelagem Canvas': aulas/aula-07.md
-    - 'Aula 08 - Segmentação de Clientes': aulas/aula-08.md
-    - 'Aula 09 - Proposta de Valor': aulas/aula-09.md
-    - 'Aula 10 - Canais de Comunicação': aulas/aula-10.md
-    - 'Aula 11 - Relacionamento com Cliente': aulas/aula-11.md
-    - 'Aula 12 - Atividades-chave': aulas/aula-12.md
-    - 'Aula 13 - Recursos Essenciais': aulas/aula-13.md
-    - 'Aula 14 - Parcerias Estratégicas': aulas/aula-14.md
-    - 'Aula 15 - Estrutura de Custos': aulas/aula-15.md
-    - 'Aula 16 - Fontes de Receita': aulas/aula-16.md
+    - 'Módulo 1 - Fundamentos e Oportunidade':
+      - 'Aula 01 - Intro ao Empreendedorismo': aulas/aula-01.md
+      - 'Aula 02 - Identificação de Oportunidades': aulas/aula-02.md
+      - 'Aula 03 - Análise de Valor': aulas/aula-03.md
+      - 'Aula 04 - Processo de Inovação': aulas/aula-04.md
+    - 'Módulo 2 - Estratégia e Modelagem':
+      - 'Aula 05 - Estratégias e Ideação': aulas/aula-05.md
+      - 'Aula 06 - Plano de Negócios': aulas/aula-06.md
+      - 'Aula 07 - Modelagem Canvas': aulas/aula-07.md
+      - 'Aula 08 - Segmentação de Clientes': aulas/aula-08.md
+    - 'Módulo 3 - Proposta de Valor e Canais':
+      - 'Aula 09 - Proposta de Valor': aulas/aula-09.md
+      - 'Aula 10 - Canais de Comunicação': aulas/aula-10.md
+      - 'Aula 11 - Relacionamento com Cliente': aulas/aula-11.md
+      - 'Aula 12 - Atividades-chave': aulas/aula-12.md
+    - 'Módulo 4 - Execução e Viabilidade':
+      - 'Aula 13 - Recursos Essenciais': aulas/aula-13.md
+      - 'Aula 14 - Parcerias Estratégicas': aulas/aula-14.md
+      - 'Aula 15 - Estrutura de Custos': aulas/aula-15.md
+      - 'Aula 16 - Fontes de Receita': aulas/aula-16.md
   - Materiais:
+    - Materiais Extras: materiais.md
+    - Roadmap: project_roadmap.md
     - Slides:
         - slides/index.md
         - 'Slide 01': slides/slide-01.html
@@ -301,7 +307,4 @@ nav:
         - 'Ambiente Windows': setups/setup-01.md
         - 'Ambiente Linux': setups/setup-02.md
         - 'Ambiente macOS': setups/setup-03.md
-  - Outros:
-      - 'Roadmap': project_roadmap.md
-      - 'Materiais Extras': materiais.md
   - Impressão: print_page.md

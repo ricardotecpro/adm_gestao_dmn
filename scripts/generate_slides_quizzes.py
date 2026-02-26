@@ -146,10 +146,10 @@ def generate_all_slides():
     slides_src_dir = slides_dst_dir / 'src'
     
     if not slides_src_dir.exists():
-        print("[yellow]⚠ Pasta docs/slides/src/ não encontrada.[/yellow]")
+        print("[yellow]WARNING: Pasta docs/slides/src/ não encontrada.[/yellow]")
         return
     
-    print("\n[bold cyan]📊 Gerando Slides HTML...[/bold cyan]")
+    print("\n[bold cyan]PROCESSO: Gerando Slides HTML...[/bold cyan]")
     
     for i in track(range(1, 17), description="Processando slides..."):
         src_md_name = f"slide-{i:02d}.md"
@@ -190,10 +190,10 @@ def generate_all_quizzes():
     quizzes_src_dir = quizzes_dst_dir / 'src'
     
     if not quizzes_src_dir.exists():
-        print("[yellow]⚠ Pasta docs/quizzes/src/ não encontrada.[/yellow]")
+        print("[yellow]WARNING: Pasta docs/quizzes/src/ não encontrada.[/yellow]")
         return
     
-    print("\n[bold magenta]📝 Gerando Quizzes Interativos...[/bold magenta]")
+    print("\n[bold magenta]PROCESSO: Gerando Quizzes Interativos...[/bold magenta]")
     
     for i in track(range(1, 17), description="Processando quizzes..."):
         src_md_name = f"quiz-{i:02d}.md"
@@ -207,13 +207,13 @@ def generate_all_quizzes():
 
 
 def main():
-    print("[bold]🚀 Automação de Conteúdo: Desenvolvimento de Modelos de Negócios[/bold]")
+    print("[bold]START: Automação de Conteúdo: Desenvolvimento de Modelos de Negócios[/bold]")
     print("=" * 50)
     
     generate_all_slides()
     generate_all_quizzes()
     
-    print("\n[green]✅ Conteúdo de Slides e Quizzes gerado com sucesso![/green]")
+    print("\n[green]OK: Conteúdo de Slides e Quizzes gerado com sucesso![/green]")
 
 
 if __name__ == '__main__':

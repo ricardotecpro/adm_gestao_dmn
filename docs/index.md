@@ -1,68 +1,75 @@
-# Desenvolvimento de Modelos de Negócios 🚀
+# 🎓 Curso: Desenvolvimento de Modelos de Negócios
 
-Descubra como transformar ideias em negócios lucrativos. Aprenda a estruturar o Canvas, definir propostas de valor, segmentar clientes e gerir custos com foco em inovação e sustentabilidade.
+> "Transformar uma ideia em um negócio sustentável exige mais do que paixão; exige método, modelagem e validação constante."
 
-!!! tip "Foco do Curso"
-    **Metodologia**: Aprendizado prático focado na construção de modelos reais de negócio, utilizando ferramentas visuais de gestão e técnicas de marketing modernas.
+Bem-vindo à sua jornada no mundo do empreendedorismo moderno. Este curso foi projetado para capacitar você a estruturar modelos de negócios inovadores, desde a identificação de oportunidades até a análise de viabilidade financeira, utilizando ferramentas de ponta como o Canvas e o VPC.
 
 ---
 
-## 🎯 O Que Você Vai Aprender
+## ⚡ Atalhos Rápidos
 
 <div class="grid cards" markdown>
 
--   :material-lightbulb-on: **Empreendedorismo**
+-   :material-book-open-page-variant: **Trilha de Aulas**
     ---
-    Desenvolva sua visão empreendedora e aprenda a identificar oportunidades ocultas em diferentes ambientes.
-    [:octicons-arrow-right-24: Ir para Módulo 1](aulas/aula-01.md)
+    16 lições modernas englobando estratégia, modelagem, canais e viabilidade.
+    [:octicons-arrow-right-24: Iniciar Jornada](aulas/index.md)
 
--   :material-chart-ppf: **Modelagem Canvas**
+-   :material-presentation: **Slides Interativos**
     ---
-    Domine o Business Model Canvas para visualizar, projetar e pivotar seu modelo de negócio de forma ágil.
-    [:octicons-code-24: Ver Modelagem](aulas/aula-07.md)
+    Material visual otimizado com transições e suporte Reveal.js.
+    [:octicons-arrow-right-24: Ver Slides](slides/index.md)
 
--   :material-account-tie: **Público e Valor**
+-   :material-school: **Quizzes e Prática**
     ---
-    Segmentação estratégica de clientes e criação de propostas de valor que resolvam dores reais e gerem desejo.
-    [:octicons-rocket-24: Ver Estratégia](aulas/aula-09.md)
+    Avalie seu progresso com 160 questões técnicas exclusivas.
+    [:octicons-arrow-right-24: Testar Conhecimento](quizzes/index.md)
 
--   :material-currency-usd: **Viabilidade Financeira**
+-   :material-rocket: **Modelagem e Projetos**
     ---
-    Estruture seus custos e fontes de receita para garantir a sustentabilidade e o crescimento do seu empreendimento.
-    [:octicons-repo-24: Ver Projetos](projetos/index.md)
+    Aplique conceitos de Canvas e VPC em casos reais e simulações.
+    [:octicons-arrow-right-24: Ver Projetos](projetos/index.md)
+
+-   :material-dumbbell: **Exercícios Progressivos**
+    ---
+    Das questões conceituais ao desafio prático de modelagem de negócios.
+    [:octicons-arrow-right-24: Praticar Agora](exercicios/index.md)
+
+-   :material-cog: **Setup e Ferramentas**
+    ---
+    Configurações essenciais para o uso de ferramentas visuais e digitais.
+    [:octicons-arrow-right-24: Configurar](setups/index.md)
 
 </div>
 
 ---
 
-## 📚 Jornada de Aprendizado (16 Aulas)
+## 🗺️ Mapa da Jornada (Módulos)
 
-O curso é estruturado em quatro blocos de conhecimento.
+O curso está estruturado em **4 Módulos** cruciais para a construção de negócios sólidos:
 
-### 🧱 Bloco 1: Fundamentos e Oportunidades (Aulas 01-04)
-*   [Aula 01 - Intro ao Empreendedorismo](aulas/aula-01.md) 🧩
-*   [Aula 02 - Identificação de Oportunidades](aulas/aula-02.md) 🏗️
-*   [Aula 03 - Análise de Valor](aulas/aula-03.md) 📡
-*   [Aula 04 - Processo de Inovação](aulas/aula-04.md) 📄
+### 📦 Módulo 1: Fundamentos e Oportunidades
+*A essência do empreendedorismo e a identificação de valor.*
+- **Aulas 01 a 04**: Intro ao Empreendedorismo, Identificação de Oportunidades, Análise de Valor e Processo de Inovação.
 
-### 🏗️ Bloco 2: Gestão e Planejamento (Aulas 05-08)
-*   [Aula 05 - Estratégias e Ideação](aulas/aula-05.md) ⚙️
-*   [Aula 06 - Plano de Negócios](aulas/aula-06.md) 💾
-*   [Aula 07 - Modelagem Canvas](aulas/aula-07.md) 🧪
-*   [Aula 08 - Segmentação de Clientes](aulas/aula-08.md) 🚢
+### 📐 Módulo 2: Estratégia e Modelagem
+*Transformando ideias em planos e modelos estruturados.*
+- **Aulas 05 a 08**: Estratégias e Ideação, Plano de Negócios (PN), Modelagem Canvas e Segmentação de Clientes.
 
-### 🔌 Bloco 3: Proposta de Valor e Relacionamento (Aulas 09-12)
-*   [Aula 09 - Proposta de Valor](aulas/aula-09.md) 🔑
-*   [Aula 10 - Canais de Comunicação](aulas/aula-10.md) 🔐
-*   [Aula 11 - Relacionamento com Cliente](aulas/aula-11.md) 🛡️
-*   [Aula 12 - Atividades-chave](aulas/aula-12.md) 🔄
+### 🧠 Módulo 3: Proposta de Valor e Canais
+*Conectando o produto ao cliente de forma eficiente.*
+- **Aulas 09 a 12**: Proposta de Valor (VPC), Canais de Comunicação, Relacionamento com Cliente e Atividades-chave.
 
-### 🚀 Bloco 4: Recursos, Parcerias e Finanças (Aulas 13-16)
-*   [Aula 13 - Recursos Essenciais](aulas/aula-13.md) 🌐
-*   [Aula 14 - Parcerias Estratégicas](aulas/aula-14.md) 🧱
-*   [Aula 15 - Estrutura de Custos](aulas/aula-15.md) 🔄
-*   [Aula 16 - Fontes de Receita](aulas/aula-16.md) 🎓
+### 💻 Módulo 4: Execução e Viabilidade
+*Os pilares operacionais e financeiros do sucesso.*
+- **Aulas 13 a 16**: Recursos Essenciais, Parcerias Estratégicas, Estrutura de Custos e Fontes de Receita.
 
 ---
 
-[:material-play: Começar Minha Jornada Empreendedora](aulas/aula-01.md){ .md-button .md-button--primary .md-button--large }
+## 💡 Dicas de Sucesso
+
+1. **Pense em Ecossistemas**: Não olhe apenas para o seu produto; veja o mercado, a concorrência e os parceiros-chave.
+2. **Validação é Tudo**: Nos Módulos 2 e 3, focaremos em testar a proposta de valor antes de grandes investimentos em execução.
+3. **O Canvas é Vivo**: Utilize o Business Model Canvas como um guia dinâmico para pivotar sempre que necessário.
+
+**Pronto para modelar seu negócio?** [:material-rocket: Ir para Aula 01](aulas/aula-01.md){ .md-button .md-button--primary }
