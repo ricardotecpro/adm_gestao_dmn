@@ -148,10 +148,10 @@ Imagine que você é dono de um **Restaurante Gourmet**.
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 12](../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 12](../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 12](../../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 12](../../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Entrando no Bloco 4! [Recursos Essenciais e Parcerias](../aulas/aula-13.md) 🧩
+**Próxima Aula**: Entrando no Bloco 4! [Recursos Essenciais e Parcerias](../../aulas/aula-13.md) 🧩
 
 ---
 

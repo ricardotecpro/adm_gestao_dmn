@@ -148,10 +148,10 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 06](../exercicios/exercicio-06.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 06](../projetos/projeto-06.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 06](../../exercicios/exercicio-06.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 06](../../projetos/projeto-06.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Vamos simplificar tudo com o [Modelagem de Negócios: O Canvas](../aulas/aula-07.md) 🗄️
+**Próxima Aula**: Vamos simplificar tudo com o [Modelagem de Negócios: O Canvas](../../aulas/aula-07.md) 🗄️
 
 ---
 

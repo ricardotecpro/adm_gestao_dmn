@@ -152,10 +152,10 @@ A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difus
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 04](../exercicios/exercicio-04.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 04](../projetos/projeto-04.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 04](../../exercicios/exercicio-04.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 04](../../projetos/projeto-04.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Fim do Bloco 1! No Bloco 2, iniciaremos a [Gestão de Negócios e Ideação](../aulas/aula-05.md)! 💻
+**Próxima Aula**: Fim do Bloco 1! No Bloco 2, iniciaremos a [Gestão de Negócios e Ideação](../../aulas/aula-05.md)! 💻
 
 ---
 

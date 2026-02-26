@@ -150,6 +150,10 @@ def generate_all_slides():
             # Isso permite usar uma sintaxe mais limpa no source. Captura variações de espaço.
             content = re.sub(r'\{\s*\.fragment\s*\}', '<!-- .element: class="fragment" -->', content)
             
+            # 1.1 Corrigir caminhos relativos: como o arquivo é copiado de docs/slides/src/ para docs/slides/,
+            # os links que eram ../../area/item.md devem virar ../area/item.md
+            content = re.sub(r'(\.\./){2}(exercicios|projetos|aulas)/', r'../\2/', content)
+            
             # 2. Remover frontmatter (YAML) se existir, mas manter os comentários de slide do Reveal.js
             if content.startswith('---'):
                 parts = content.split('---', 2)
@@ -193,8 +197,9 @@ def main():
     print("=" * 50)
     
     generate_all_slides()
+    generate_all_quizzes()
     
-    print("\n[green]✅ Conteúdo de Slides gerado com sucesso![/green]")
+    print("\n[green]✅ Conteúdo de Slides e Quizzes gerado com sucesso![/green]")
 
 
 if __name__ == '__main__':

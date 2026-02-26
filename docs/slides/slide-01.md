@@ -163,10 +163,10 @@ Sua primeira missão prática:
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 01](../exercicios/exercicio-01.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 01](../projetos/projeto-01.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 01](../../exercicios/exercicio-01.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 01](../../projetos/projeto-01.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Vamos aprender a [Identificar Oportunidades de Negócio](../aulas/aula-02.md)! 🏗️
+**Próxima Aula**: Vamos aprender a [Identificar Oportunidades de Negócio](../../aulas/aula-02.md)! 🏗️
 
 ---
 

@@ -155,10 +155,10 @@ A maturidade em canais requer transitar do modelo Multicanal para o **Omnichanne
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 10](../exercicios/exercicio-10.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 10](../projetos/projeto-10.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 10](../../exercicios/exercicio-10.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 10](../../projetos/projeto-10.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Como manter esse cliente perto de você? [Relacionamento com o Cliente](../aulas/aula-11.md) 🤝
+**Próxima Aula**: Como manter esse cliente perto de você? [Relacionamento com o Cliente](../../aulas/aula-11.md) 🤝
 
 ---
 

@@ -160,10 +160,10 @@ Imagine um **App de Academia**.
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 11](../exercicios/exercicio-11.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 11](../projetos/projeto-11.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 11](../../exercicios/exercicio-11.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 11](../../projetos/projeto-11.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: O que você faz todo dia? [Atividades-chave do Negócio](../aulas/aula-12.md) ⚙️
+**Próxima Aula**: O que você faz todo dia? [Atividades-chave do Negócio](../../aulas/aula-12.md) ⚙️
 
 ---
 

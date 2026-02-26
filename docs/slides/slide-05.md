@@ -150,10 +150,10 @@ No estágio intermediário da ideação, não dependemos da "inspiração divina
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 05](../exercicios/exercicio-05.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 05](../projetos/projeto-05.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 05](../../exercicios/exercicio-05.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 05](../../projetos/projeto-05.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Vamos aprender a formalizar essas ideias no [Plano de Negócios](../aulas/aula-06.md) 🧠
+**Próxima Aula**: Vamos aprender a formalizar essas ideias no [Plano de Negócios](../../aulas/aula-06.md) 🧠
 
 ---
 
