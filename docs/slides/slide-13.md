@@ -147,10 +147,10 @@ Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 13](../../exercicios/exercicio-13.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 13](../../projetos/projeto-13.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 13](../exercicios/exercicio-13.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 13](../projetos/projeto-13.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Quem pode te ajudar? [Parceiros-chave e Alianças Estratégicas](../../aulas/aula-14.md) 🤝
+**Próxima Aula**: Quem pode te ajudar? [Parceiros-chave e Alianças Estratégicas](../aulas/aula-14.md) 🤝
 
 ---
 

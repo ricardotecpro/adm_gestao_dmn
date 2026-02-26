@@ -2,6 +2,11 @@ site_name: Desenvolvimento de Modelos de Negócios
 site_url: https://ricardotecpro.github.io/adm_dmn
 repo_url: https://github.com/ricardotecpro/adm_dmn
 repo_name: ricardotecpro/adm_dmn
+
+exclude_docs: |
+  quizzes/src/*
+  slides/src/*
+  slides/slide-*.md
 theme:
   name: material
   language: pt-BR
@@ -11,13 +16,18 @@ theme:
   features:
     - navigation.tracking
     - navigation.tabs
+    - navigation.sections
+    - navigation.path
     - navigation.expand
     - navigation.top
     - navigation.footer
     - navigation.indexes
+    - navigation.instant
+    - navigation.prune
     - toc.follow
     - content.code.copy
     - content.code.annotate
+    - search.share
     - search.suggest
     - search.highlight
   palette:
@@ -39,6 +49,13 @@ theme:
         name: Mudar para modo claro
   icon:
     repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+  font_display: swap
+  font_style: normal
+
+copyright: 'Copyright &copy; 2026 Ricardo Tec Pro'
 
 markdown_extensions:
   - pymdownx.critic
@@ -72,11 +89,15 @@ markdown_extensions:
 
 
 plugins:
+  - social:
+      cards: false
+  - tags:
   - mkdocs-revealjs
   - search:
       lang: pt
   - mkdocs-jupyter
   - glightbox
+  - awesome-pages:
   - mkdocs_quiz
   - git-authors:
       show_contribution: true
@@ -101,9 +122,12 @@ plugins:
       match_path: .*
       date_from_meta:
         datetime_format: '%Y-%m-%d %H:%M:%S'
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
   - print-site:
       add_to_navigation: false
-      # print_page_rel_path: 'print_page.md' # Deprecated or invalid
       print_page_title: 'Versão para Impressão'
       add_print_site_banner: false
       enumerate_headings: false
@@ -124,8 +148,7 @@ extra_javascript:
   - assets/js/mermaid-init.js
   - assets/js/custom_termynal.js
   - assets/js/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
   - https://cdn.jsdelivr.net/npm/termynal/termynal.min.js
 
 extra:
@@ -145,137 +168,140 @@ extra:
     default: estavel
 
 nav:
-  - Início: index.md
-  - Plano de Ensino: plano.md
+  - Informações:
+    - Curso: index.md
+    - Sobre: sobre.md
+    - Plano: plano.md
   - Aulas:
-      - 'Aula 01 - Intro ao Empreendedorismo': aulas/aula-01.md
-      - 'Aula 02 - Identificação de Oportunidades': aulas/aula-02.md
-      - 'Aula 03 - Análise de Valor': aulas/aula-03.md
-      - 'Aula 04 - Processo de Inovação': aulas/aula-04.md
-      - 'Aula 05 - Estratégias e Ideação': aulas/aula-05.md
-      - 'Aula 06 - Plano de Negócios': aulas/aula-06.md
-      - 'Aula 07 - Modelagem Canvas': aulas/aula-07.md
-      - 'Aula 08 - Segmentação de Clientes': aulas/aula-08.md
-      - 'Aula 09 - Proposta de Valor': aulas/aula-09.md
-      - 'Aula 10 - Canais de Comunicação': aulas/aula-10.md
-      - 'Aula 11 - Relacionamento com Cliente': aulas/aula-11.md
-      - 'Aula 12 - Atividades-chave': aulas/aula-12.md
-      - 'Aula 13 - Recursos Essenciais': aulas/aula-13.md
-      - 'Aula 14 - Parcerias Estratégicas': aulas/aula-14.md
-      - 'Aula 15 - Estrutura de Custos': aulas/aula-15.md
-      - 'Aula 16 - Fontes de Receita': aulas/aula-16.md
-  - Exercícios:
-      - 'Índice': exercicios/index.md
-      - 'Aula 01':
-          - 'Exercícios': exercicios/exercicio-01.md
-          - 'Solução': exercicios/solucao-01.md
-      - 'Aula 02':
-          - 'Exercícios': exercicios/exercicio-02.md
-          - 'Solução': exercicios/solucao-02.md
-      - 'Aula 03':
-          - 'Exercícios': exercicios/exercicio-03.md
-          - 'Solução': exercicios/solucao-03.md
-      - 'Aula 04':
-          - 'Exercícios': exercicios/exercicio-04.md
-          - 'Solução': exercicios/solucao-04.md
-      - 'Aula 05':
-          - 'Exercícios': exercicios/exercicio-05.md
-          - 'Solução': exercicios/solucao-05.md
-      - 'Aula 06':
-          - 'Exercícios': exercicios/exercicio-06.md
-          - 'Solução': exercicios/solucao-06.md
-      - 'Aula 07':
-          - 'Exercícios': exercicios/exercicio-07.md
-          - 'Solução': exercicios/solucao-07.md
-      - 'Aula 08':
-          - 'Exercícios': exercicios/exercicio-08.md
-          - 'Solução': exercicios/solucao-08.md
-      - 'Aula 09':
-          - 'Exercícios': exercicios/exercicio-09.md
-          - 'Solução': exercicios/solucao-09.md
-      - 'Aula 10':
-          - 'Exercícios': exercicios/exercicio-10.md
-          - 'Solução': exercicios/solucao-10.md
-      - 'Aula 11':
-          - 'Exercícios': exercicios/exercicio-11.md
-          - 'Solução': exercicios/solucao-11.md
-      - 'Aula 12':
-          - 'Exercícios': exercicios/exercicio-12.md
-          - 'Solução': exercicios/solucao-12.md
-      - 'Aula 13':
-          - 'Exercícios': exercicios/exercicio-13.md
-          - 'Solução': exercicios/solucao-13.md
-      - 'Aula 14':
-          - 'Exercícios': exercicios/exercicio-14.md
-          - 'Solução': exercicios/solucao-14.md
-      - 'Aula 15':
-          - 'Exercícios': exercicios/exercicio-15.md
-          - 'Solução': exercicios/solucao-15.md
-      - 'Aula 16':
-          - 'Exercícios': exercicios/exercicio-16.md
-          - 'Solução': exercicios/solucao-16.md
-  - Projetos:
-      - 'Índice': projetos/index.md
-      - 'Projeto Referência': projetos/projeto-referencia.md
-      - 'Proj 01': projetos/projeto-01.md
-      - 'Proj 02': projetos/projeto-02.md
-      - 'Proj 03': projetos/projeto-03.md
-      - 'Proj 04': projetos/projeto-04.md
-      - 'Proj 05': projetos/projeto-05.md
-      - 'Proj 06': projetos/projeto-06.md
-      - 'Proj 07': projetos/projeto-07.md
-      - 'Proj 08': projetos/projeto-08.md
-      - 'Proj 09': projetos/projeto-09.md
-      - 'Proj 10': projetos/projeto-10.md
-      - 'Proj 11': projetos/projeto-11.md
-      - 'Proj 12': projetos/projeto-12.md
-      - 'Proj 13': projetos/projeto-13.md
-      - 'Proj 14': projetos/projeto-14.md
-      - 'Proj 15': projetos/projeto-15.md
-      - 'Proj 16': projetos/projeto-16.md
-  - Quizzes:
-      - 'Índice': quizzes/index.md
-      - 'Quiz 01': quizzes/quiz-01.md
-      - 'Quiz 02': quizzes/quiz-02.md
-      - 'Quiz 03': quizzes/quiz-03.md
-      - 'Quiz 04': quizzes/quiz-04.md
-      - 'Quiz 05': quizzes/quiz-05.md
-      - 'Quiz 06': quizzes/quiz-06.md
-      - 'Quiz 07': quizzes/quiz-07.md
-      - 'Quiz 08': quizzes/quiz-08.md
-      - 'Quiz 09': quizzes/quiz-09.md
-      - 'Quiz 10': quizzes/quiz-10.md
-      - 'Quiz 11': quizzes/quiz-11.md
-      - 'Quiz 12': quizzes/quiz-12.md
-      - 'Quiz 13': quizzes/quiz-13.md
-      - 'Quiz 14': quizzes/quiz-14.md
-      - 'Quiz 15': quizzes/quiz-15.md
-      - 'Quiz 16': quizzes/quiz-16.md
-  - Slides:
-      - 'Índice': slides/index.md
-      - 'Slide 01': slides/slide-01.md
-      - 'Slide 02': slides/slide-02.md
-      - 'Slide 03': slides/slide-03.md
-      - 'Slide 04': slides/slide-04.md
-      - 'Slide 05': slides/slide-05.md
-      - 'Slide 06': slides/slide-06.md
-      - 'Slide 07': slides/slide-07.md
-      - 'Slide 08': slides/slide-08.md
-      - 'Slide 09': slides/slide-09.md
-      - 'Slide 10': slides/slide-10.md
-      - 'Slide 11': slides/slide-11.md
-      - 'Slide 12': slides/slide-12.md
-      - 'Slide 13': slides/slide-13.md
-      - 'Slide 14': slides/slide-14.md
-      - 'Slide 15': slides/slide-15.md
-      - 'Slide 16': slides/slide-16.md
-  - Configuração:
-      - 'Índice': setups/index.md
-      - 'Ambiente Windows': setups/setup-01.md
-      - 'Ambiente Linux': setups/setup-02.md
-      - 'Ambiente macOS': setups/setup-03.md
-  - Sobre:
-      - 'O Curso': sobre.md
+    - aulas/index.md
+    - 'Aula 01 - Intro ao Empreendedorismo': aulas/aula-01.md
+    - 'Aula 02 - Identificação de Oportunidades': aulas/aula-02.md
+    - 'Aula 03 - Análise de Valor': aulas/aula-03.md
+    - 'Aula 04 - Processo de Inovação': aulas/aula-04.md
+    - 'Aula 05 - Estratégias e Ideação': aulas/aula-05.md
+    - 'Aula 06 - Plano de Negócios': aulas/aula-06.md
+    - 'Aula 07 - Modelagem Canvas': aulas/aula-07.md
+    - 'Aula 08 - Segmentação de Clientes': aulas/aula-08.md
+    - 'Aula 09 - Proposta de Valor': aulas/aula-09.md
+    - 'Aula 10 - Canais de Comunicação': aulas/aula-10.md
+    - 'Aula 11 - Relacionamento com Cliente': aulas/aula-11.md
+    - 'Aula 12 - Atividades-chave': aulas/aula-12.md
+    - 'Aula 13 - Recursos Essenciais': aulas/aula-13.md
+    - 'Aula 14 - Parcerias Estratégicas': aulas/aula-14.md
+    - 'Aula 15 - Estrutura de Custos': aulas/aula-15.md
+    - 'Aula 16 - Fontes de Receita': aulas/aula-16.md
+  - Materiais:
+    - Slides:
+        - slides/index.md
+        - 'Slide 01': slides/slide-01.html
+        - 'Slide 02': slides/slide-02.html
+        - 'Slide 03': slides/slide-03.html
+        - 'Slide 04': slides/slide-04.html
+        - 'Slide 05': slides/slide-05.html
+        - 'Slide 06': slides/slide-06.html
+        - 'Slide 07': slides/slide-07.html
+        - 'Slide 08': slides/slide-08.html
+        - 'Slide 09': slides/slide-09.html
+        - 'Slide 10': slides/slide-10.html
+        - 'Slide 11': slides/slide-11.html
+        - 'Slide 12': slides/slide-12.html
+        - 'Slide 13': slides/slide-13.html
+        - 'Slide 14': slides/slide-14.html
+        - 'Slide 15': slides/slide-15.html
+        - 'Slide 16': slides/slide-16.html
+    - Exercícios:
+        - exercicios/index.md
+        - 'Aula 01':
+            - 'Exercícios': exercicios/exercicio-01.md
+            - 'Solução': exercicios/solucao-01.md
+        - 'Aula 02':
+            - 'Exercícios': exercicios/exercicio-02.md
+            - 'Solução': exercicios/solucao-02.md
+        - 'Aula 03':
+            - 'Exercícios': exercicios/exercicio-03.md
+            - 'Solução': exercicios/solucao-03.md
+        - 'Aula 04':
+            - 'Exercícios': exercicios/exercicio-04.md
+            - 'Solução': exercicios/solucao-04.md
+        - 'Aula 05':
+            - 'Exercícios': exercicios/exercicio-05.md
+            - 'Solução': exercicios/solucao-05.md
+        - 'Aula 06':
+            - 'Exercícios': exercicios/exercicio-06.md
+            - 'Solução': exercicios/solucao-06.md
+        - 'Aula 07':
+            - 'Exercícios': exercicios/exercicio-07.md
+            - 'Solução': exercicios/solucao-07.md
+        - 'Aula 08':
+            - 'Exercícios': exercicios/exercicio-08.md
+            - 'Solução': exercicios/solucao-08.md
+        - 'Aula 09':
+            - 'Exercícios': exercicios/exercicio-09.md
+            - 'Solução': exercicios/solucao-09.md
+        - 'Aula 10':
+            - 'Exercícios': exercicios/exercicio-10.md
+            - 'Solução': exercicios/solucao-10.md
+        - 'Aula 11':
+            - 'Exercícios': exercicios/exercicio-11.md
+            - 'Solução': exercicios/solucao-11.md
+        - 'Aula 12':
+            - 'Exercícios': exercicios/exercicio-12.md
+            - 'Solução': exercicios/solucao-12.md
+        - 'Aula 13':
+            - 'Exercícios': exercicios/exercicio-13.md
+            - 'Solução': exercicios/solucao-13.md
+        - 'Aula 14':
+            - 'Exercícios': exercicios/exercicio-14.md
+            - 'Solução': exercicios/solucao-14.md
+        - 'Aula 15':
+            - 'Exercícios': exercicios/exercicio-15.md
+            - 'Solução': exercicios/solucao-15.md
+        - 'Aula 16':
+            - 'Exercícios': exercicios/exercicio-16.md
+            - 'Solução': exercicios/solucao-16.md
+    - Quizzes:
+        - quizzes/index.md
+        - 'Quiz 01': quizzes/quiz-01.md
+        - 'Quiz 02': quizzes/quiz-02.md
+        - 'Quiz 03': quizzes/quiz-03.md
+        - 'Quiz 04': quizzes/quiz-04.md
+        - 'Quiz 05': quizzes/quiz-05.md
+        - 'Quiz 06': quizzes/quiz-06.md
+        - 'Quiz 07': quizzes/quiz-07.md
+        - 'Quiz 08': quizzes/quiz-08.md
+        - 'Quiz 09': quizzes/quiz-09.md
+        - 'Quiz 10': quizzes/quiz-10.md
+        - 'Quiz 11': quizzes/quiz-11.md
+        - 'Quiz 12': quizzes/quiz-12.md
+        - 'Quiz 13': quizzes/quiz-13.md
+        - 'Quiz 14': quizzes/quiz-14.md
+        - 'Quiz 15': quizzes/quiz-15.md
+        - 'Quiz 16': quizzes/quiz-16.md
+    - Projetos:
+        - projetos/index.md
+        - 'Projeto Referência': projetos/projeto-referencia.md
+        - 'Proj 01': projetos/projeto-01.md
+        - 'Proj 02': projetos/projeto-02.md
+        - 'Proj 03': projetos/projeto-03.md
+        - 'Proj 04': projetos/projeto-04.md
+        - 'Proj 05': projetos/projeto-05.md
+        - 'Proj 06': projetos/projeto-06.md
+        - 'Proj 07': projetos/projeto-07.md
+        - 'Proj 08': projetos/projeto-08.md
+        - 'Proj 09': projetos/projeto-09.md
+        - 'Proj 10': projetos/projeto-10.md
+        - 'Proj 11': projetos/projeto-11.md
+        - 'Proj 12': projetos/projeto-12.md
+        - 'Proj 13': projetos/projeto-13.md
+        - 'Proj 14': projetos/projeto-14.md
+        - 'Proj 15': projetos/projeto-15.md
+        - 'Proj 16': projetos/projeto-16.md
+    - Configuração:
+        - setups/index.md
+        - 'Ambiente Windows': setups/setup-01.md
+        - 'Ambiente Linux': setups/setup-02.md
+        - 'Ambiente macOS': setups/setup-03.md
+  - Outros:
       - 'Roadmap': project_roadmap.md
       - 'Materiais Extras': materiais.md
   - Impressão: print_page.md

@@ -1,0 +1,3 @@
+ERROR   -  Config value 'exclude_docs': Expected a multiline string, but a <class 'list'> was given.
+
+Aborted with a configuration error!

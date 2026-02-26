@@ -1,0 +1,45 @@
+HERE= C:\Python\Python313\Lib\site-packages\mkdocs_revealjs
+DIRNAME= docs/revealjs
+INFO    -  [macros] - No default module `main` found
+INFO    -  [macros] - Config variables: ['extra', 'config', 'environment', 'plugin', 'git', 'social', 'version', 'macros', 'filters', 'filters_builtin']
+INFO    -  [macros] - Config macros: ['context', 'macros_info', 'now', 'fix_url']
+INFO    -  [macros] - Config filters: ['pretty', 'relative_url']
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: D:\SourceCode\REPOS\github.io\adm_gestao_dmn\site
+Copiando slides HTML...
+  -> slide-01.html
+  -> slide-02.html
+  -> slide-03.html
+  -> slide-04.html
+  -> slide-05.html
+  -> slide-06.html
+  -> slide-07.html
+  -> slide-08.html
+  -> slide-09.html
+  -> slide-10.html
+  -> slide-11.html
+  -> slide-12.html
+  -> slide-13.html
+  -> slide-14.html
+  -> slide-15.html
+  -> slide-16.html
+Copiando slides Markdown...
+  -> slide-01.md
+  -> slide-02.md
+  -> slide-03.md
+  -> slide-04.md
+  -> slide-05.md
+  -> slide-06.md
+  -> slide-07.md
+  -> slide-08.md
+  -> slide-09.md
+  -> slide-10.md
+  -> slide-11.md
+  -> slide-12.md
+  -> slide-13.md
+  -> slide-14.md
+  -> slide-15.md
+  -> slide-16.md
+OK 16 slide(s) HTML copiados
+OK 16 slide(s) Markdown copiados
+INFO    -  Documentation built in 51.25 seconds

@@ -149,10 +149,10 @@ Imagine que você vende **Camisetas Estampadas**.
 
 ## 📚 Material Complementar
 
-- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 15](../../exercicios/exercicio-15.md)**: Pratique os conceitos com questões focadas.
-- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 15](../../projetos/projeto-15.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
+- <!-- .element: class="fragment" --> **[📝 Exercícios da Aula 15](../exercicios/exercicio-15.md)**: Pratique os conceitos com questões focadas.
+- <!-- .element: class="fragment" --> **[🚀 Projeto da Aula 15](../projetos/projeto-15.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
 
-**Próxima Aula**: Como o dinheiro entra? [Fontes de Receita e Modelos de Ganho](../../aulas/aula-16.md) 🏆
+**Próxima Aula**: Como o dinheiro entra? [Fontes de Receita e Modelos de Ganho](../aulas/aula-16.md) 🏆
 
 ---
 
