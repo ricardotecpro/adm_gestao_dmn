@@ -48,7 +48,8 @@ graph LR
 
 Seu negócio tem o que precisa para rodar hoje?
 
-```termynal
+<!-- termynal -->
+```console
 $ recursos --inventario
 > Analisando infraestrutura... [OK]
 > Verificando equipe técnica... [EM FALTA]

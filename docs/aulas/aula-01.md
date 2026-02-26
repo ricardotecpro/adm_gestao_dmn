@@ -60,7 +60,8 @@ graph LR
 
 O empreendedor moderno utiliza a tecnologia para validar suas ideias rapidamente.
 
-```termynal
+<!-- termynal -->
+```console
 $ empreendedor --check-vibe
 > Verificando mentalidade atual...
   - [x] Paixão pelo problema

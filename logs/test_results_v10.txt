@@ -1,0 +1,17 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Scripts\python.exe
+cachedir: .pytest_cache
+baseurl: http://127.0.0.1:8766
+rootdir: D:\SourceCode\REPOS\github.io\adm_gestao_dmn
+configfile: pyproject.toml
+plugins: base-url-2.1.0, playwright-0.5.2
+collecting ... collected 6 items
+
+tests/test_fullscreen.py::test_shortcuts_hidden_in_fullscreen[chromium] PASSED [ 16%]
+tests/test_navigation.py::TestNavigation::test_home_page_loads[chromium] PASSED [ 33%]
+tests/test_navigation.py::TestNavigation::test_curso_menu_exists[chromium] PASSED [ 50%]
+tests/test_navigation.py::TestNavigation::test_plano_ensino_menu_exists[chromium] PASSED [ 66%]
+tests/test_navigation.py::TestNavigation::test_print_version_link_exists[chromium] PASSED [ 83%]
+tests/test_navigation.py::TestNavigation::test_navigation_to_lesson_01[chromium] PASSED [100%]
+
+============================= 6 passed in 16.25s ==============================

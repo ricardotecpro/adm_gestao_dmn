@@ -36,7 +36,8 @@ Podemos dividir os clientes por diferentes critérios:
 
 Vamos validar se seu público está bem definido:
 
-```termynal
+<!-- termynal -->
+```console
 $ publico --analisar
 > Verificando tamanho do grupo... [OK]
 > Analisando poder de compra... [MÉDIO]

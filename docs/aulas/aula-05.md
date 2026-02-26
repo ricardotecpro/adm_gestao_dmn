@@ -52,7 +52,8 @@ graph TD
 
 Como um gestor moderno analisa uma ideia?
 
-```termynal
+<!-- termynal -->
+```console
 $ gestao --analisar-ideia
 > Verificando viabilidade técnica... [OK]
 > Analisando mercado potencial... [GRANDE]

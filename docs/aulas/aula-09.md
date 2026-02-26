@@ -57,7 +57,8 @@ graph LR
 
 Como saber se sua proposta de valor é realmente forte?
 
-```termynal
+<!-- termynal -->
+```console
 $ valor --analisar-proposta
 > Verificando clareza da mensagem... [OK]
 > Analisando diferencial competitivo... [MÉDIO]

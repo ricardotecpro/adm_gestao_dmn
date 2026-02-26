@@ -1,22 +1,22 @@
-# Materiais Complementares 📚
+# Materiais
 
-Bem-vindo à seção de materiais complementares do curso de **Desenvolvimento de Modelos de Negócios**. Aqui você encontra recursos adicionais para apoiar sua jornada empreendedora.
+Bem-vindo à seção de materiais complementares do curso. Aqui você encontra recursos adicionais para apoiar seus estudos.
 
 <div class="grid cards" markdown>
 
 -   :material-presentation: [**Slides**](slides/index.md)
-    -   Acompanhe o conteúdo teórico com slides modernos e visuais.
+    -   Acesse os slides de todas as aulas para revisão.
 
 -   :material-dumbbell: [**Exercícios**](exercicios/index.md)
-    -   Pratique a análise de oportunidades e modelagem de valor.
+    -   Pratique com listas de exercícios para cada módulo.
 
 -   :material-school: [**Quizzes**](quizzes/index.md)
-    -   Valide seu aprendizado com testes rápidos a cada aula.
+    -   Teste seus conhecimentos com quizzes interativos.
 
 -   :material-rocket: [**Projetos**](projetos/index.md)
-    -   Construa um modelo de negócio completo passo a passo.
+    -   Desenvolva projetos práticos para aplicar o que aprendeu.
 
--   :material-cog: [**Ambiente**](setups/index.md)
-    -   Guias para ferramentas de design, Canvas e planejamento.
+-   :material-cog: [**Setup**](setups/index.md)
+    -   Guias de instalação e configuração do ambiente.
 
 </div>

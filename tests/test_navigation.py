@@ -14,7 +14,7 @@ class TestNavigation:
         page = page_with_base_url
         page.goto(base_url)
         
-        expect(page).to_have_title("Lógica e Algoritmos - Curso")
+        expect(page).to_have_title(re.compile(r"Desenvolvimento de Modelos de Negócios"))
 
     def _ensure_menu_visible(self, page: Page):
         """Helper to ensure menu is visible (opens drawer if needed)"""
@@ -43,8 +43,8 @@ class TestNavigation:
         
         self._ensure_menu_visible(page)
         
-        # Procura pelo item de menu "Plano de Ensino"
-        link = page.get_by_role("link", name="Plano de Ensino", exact=True).first
+        # Procura pelo item de menu "Plano" (conforme mkdocs.yml)
+        link = page.get_by_role("link", name="Plano", exact=True).first
         expect(link).to_be_visible()
 
     def test_print_version_link_exists(self, page_with_base_url: Page, base_url: str):
@@ -68,13 +68,20 @@ class TestNavigation:
         # Click Aulas
         page.get_by_role("link", name="Aulas").first.click(force=True)
         
-        # Click Módulo 1: Fundamentos
-        page.get_by_text("Módulo 1: Fundamentos").first.click()
+        # Click Módulo 1 - Fundamentos e Oportunidade
+        # Use a more robust locator targeting the label specifically
+        module_label = page.locator("label:has-text('Módulo 1 - Fundamentos e Oportunidade')").first
+        module_label.click(force=True)
+        
+        # Short wait for menu expansion animation
+        page.wait_for_timeout(500)
         
         # Click Aula 01
-        page.get_by_role("link", name="Aula 01", exact=True).first.click()
+        aula_01_link = page.get_by_role("link", name="Aula 01", exact=False).first
+        expect(aula_01_link).to_be_visible()
+        aula_01_link.click(force=True)
         
         # Verifica se chegou na página correta
         expect(page).to_have_url(re.compile(r".*/aulas/aula-01/?$"))
-        # H1 is "Aula 01 - Introdução à Lógica..."
-        expect(page.locator("h1")).to_contain_text("Introdução à Lógica")
+        # H1 is "Aula 01 - Conceitos de Empreendedorismo e Visão Empreendedora 🚀"
+        expect(page.locator("h1")).to_contain_text("Conceitos de Empreendedorismo")

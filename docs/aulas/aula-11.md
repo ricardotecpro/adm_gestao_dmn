@@ -48,7 +48,8 @@ graph LR
 
 O **CRM (Customer Relationship Management)** é o software que guarda todo o histórico do cliente para que o relacionamento seja sempre contextualizado.
 
-```termynal
+<!-- termynal -->
+```console
 $ crm --check-health
 > Analisando base de clientes...
   - [x] Taxa de Resposta: 95%

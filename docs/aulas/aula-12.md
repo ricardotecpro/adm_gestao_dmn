@@ -48,7 +48,8 @@ graph TD
 
 Seu negócio está focando no que importa?
 
-```termynal
+<!-- termynal -->
+```console
 $ core-business --audit
 > Analisando lista de tarefas...
   - [x] Desenvolvimento do Produto [CORE]

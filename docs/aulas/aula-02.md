@@ -45,7 +45,8 @@ graph TD
 
 Para identificar se sua ideia é uma oportunidade, use o comando da "realidade":
 
-```termynal
+<!-- termynal -->
+```console
 $ oportunidade --scan-market
 > Analisando demanda... [OK]
 > Verificando concorrência... [ALTA]

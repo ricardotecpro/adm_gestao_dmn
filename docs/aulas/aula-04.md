@@ -53,7 +53,8 @@ graph TD
 
 Vamos validar a fase atual do seu processo de inovação:
 
-```termynal
+<!-- termynal -->
+```console
 $ inovacao --check-stage
 > Verificando fase do projeto...
   - [x] Problema identificado

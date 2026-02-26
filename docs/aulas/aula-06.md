@@ -52,7 +52,8 @@ Antigamente, planos de negócios eram livros de 100 páginas. Hoje, eles são ma
 
 Vamos verificar se seu Plano de Negócios está pronto para ser apresentado:
 
-```termynal
+<!-- termynal -->
+```console
 $ plano-negocio --validar
 > Analisando mercado... [CHECK]
 > Verificando plano financeiro... [OK]

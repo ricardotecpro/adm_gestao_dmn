@@ -59,7 +59,8 @@ graph LR
 
 Como saber se sua proposta tem valor? Vamos rodar um "diagnóstico de valor":
 
-```termynal
+<!-- termynal -->
+```console
 $ check-value --target "Meu Negócio"
 > Analisando diferenciação... [ALTA]
 > Verificando sustentabilidade... [75%]

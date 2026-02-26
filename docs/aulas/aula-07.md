@@ -63,7 +63,8 @@ graph TD
 
 Vamos rodar uma verificação no seu Canvas:
 
-```termynal
+<!-- termynal -->
+```console
 $ canvas --check-balance
 > Verificando equilíbrio entre lados... [OK]
 > Checando Proposta de Valor vs Cliente... [CONECTADO]

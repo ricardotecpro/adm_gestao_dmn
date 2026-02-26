@@ -49,7 +49,8 @@ graph TD
 
 Como está a saúde financeira da sua operação?
 
-```termynal
+<!-- termynal -->
+```console
 $ finance --audit-costs
 > Analisando custos fixos... [ALTO]
 > Verificando custos variáveis... [CONTROLADOS]

@@ -53,7 +53,8 @@ Ser **Omnichannel** significa oferecer uma experiência integrada em todos os ca
 
 Como saber se você está usando os canais certos?
 
-```termynal
+<!-- termynal -->
+```console
 $ canais --scan-efficiency
 > Verificando Canal: Instagram... [ALTO ALCANCE]
 > Verificando Canal: E-mail... [ALTA CONVERSÃO]

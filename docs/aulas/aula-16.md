@@ -50,7 +50,8 @@ graph LR
 
 Como você define quanto cobrar?
 
-```termynal
+<!-- termynal -->
+```console
 $ precificacao --check-strategy
 > Analisando lista de preços...
   - [x] Fixas (Preço de Tabela)

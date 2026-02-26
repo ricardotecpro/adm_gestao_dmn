@@ -49,7 +49,8 @@ graph TD
 
 Seus parceiros estão alinhados com seus objetivos?
 
-```termynal
+<!-- termynal -->
+```console
 $ parceiro --analisar "Logística Express"
 > Verificando histórico de entregas... [98% OK]
 > Analisando custos vs benefícios... [ALTO CUSTO]
