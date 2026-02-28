@@ -89,12 +89,45 @@ Imagine que você está criando um **SaaS (Software como Serviço) para Advogado
 
 ---
 
+---
+
+## 🔗 Materiais da Aula
+
+<div class="grid cards" markdown>
+- :material-presentation: **Slides**
+
+    ---
+
+    Material visual com diagramas e conceitos-chave.
+
+    [:octicons-arrow-right-24: Slide 14](../slides/slide-14.html)
+
+- :material-help-circle: **Quiz**
+
+    ---
+
+    Teste seu conhecimento com 10 questões interativas.
+
+    [:octicons-arrow-right-24: Quiz 14](../quizzes/quiz-14.md)
+
+- :fontawesome-solid-pencil: **Exercícios**
+
+    ---
+
+    5 exercícios progressivos (básico → desafio).
+
+    [:octicons-arrow-right-24: Exercício 14](../exercicios/exercicio-14.md)
+
+- :material-briefcase-outline: **Projeto**
+
+    ---
+
+    Aplicação prática dos conceitos da aula.
+
+    [:octicons-arrow-right-24: Projeto 14](../projetos/projeto-14.md)
+
+</div>
 
 ---
 
-## 📚 Material Complementar
-
-*   **[📝 Exercícios da Aula 14](../exercicios/exercicio-14.md)**: Pratique os conceitos com questões focadas.
-*   **[🚀 Projeto da Aula 14](../projetos/projeto-14.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
-
-**Próxima Aula**: Quanto custa tudo isso? [Estrutura de Custos do Negócio](./aula-15.md) 💰
+[:octicons-arrow-right-24: Avançar para Aula 15](./aula-15.md){ .md-button .md-button--primary }

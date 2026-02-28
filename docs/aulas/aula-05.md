@@ -91,12 +91,45 @@ No estágio intermediário da ideação, não dependemos da "inspiração divina
 
 ---
 
+---
+
+## 🔗 Materiais da Aula
+
+<div class="grid cards" markdown>
+- :material-presentation: **Slides**
+
+    ---
+
+    Material visual com diagramas e conceitos-chave.
+
+    [:octicons-arrow-right-24: Slide 05](../slides/slide-05.html)
+
+- :material-help-circle: **Quiz**
+
+    ---
+
+    Teste seu conhecimento com 10 questões interativas.
+
+    [:octicons-arrow-right-24: Quiz 05](../quizzes/quiz-05.md)
+
+- :fontawesome-solid-pencil: **Exercícios**
+
+    ---
+
+    5 exercícios progressivos (básico → desafio).
+
+    [:octicons-arrow-right-24: Exercício 05](../exercicios/exercicio-05.md)
+
+- :material-briefcase-outline: **Projeto**
+
+    ---
+
+    Aplicação prática dos conceitos da aula.
+
+    [:octicons-arrow-right-24: Projeto 05](../projetos/projeto-05.md)
+
+</div>
 
 ---
 
-## 📚 Material Complementar
-
-*   **[📝 Exercícios da Aula 05](../exercicios/exercicio-05.md)**: Pratique os conceitos com questões focadas.
-*   **[🚀 Projeto da Aula 05](../projetos/projeto-05.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
-
-**Próxima Aula**: Vamos aprender a formalizar essas ideias no [Plano de Negócios](./aula-06.md) 🧠
+[:octicons-arrow-right-24: Avançar para Aula 06](./aula-06.md){ .md-button .md-button--primary }

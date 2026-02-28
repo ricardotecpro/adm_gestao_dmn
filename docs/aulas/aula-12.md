@@ -89,12 +89,45 @@ Imagine que você é dono de um **Restaurante Gourmet**.
 
 ---
 
+---
+
+## 🔗 Materiais da Aula
+
+<div class="grid cards" markdown>
+- :material-presentation: **Slides**
+
+    ---
+
+    Material visual com diagramas e conceitos-chave.
+
+    [:octicons-arrow-right-24: Slide 12](../slides/slide-12.html)
+
+- :material-help-circle: **Quiz**
+
+    ---
+
+    Teste seu conhecimento com 10 questões interativas.
+
+    [:octicons-arrow-right-24: Quiz 12](../quizzes/quiz-12.md)
+
+- :fontawesome-solid-pencil: **Exercícios**
+
+    ---
+
+    5 exercícios progressivos (básico → desafio).
+
+    [:octicons-arrow-right-24: Exercício 12](../exercicios/exercicio-12.md)
+
+- :material-briefcase-outline: **Projeto**
+
+    ---
+
+    Aplicação prática dos conceitos da aula.
+
+    [:octicons-arrow-right-24: Projeto 12](../projetos/projeto-12.md)
+
+</div>
 
 ---
 
-## 📚 Material Complementar
-
-*   **[📝 Exercícios da Aula 12](../exercicios/exercicio-12.md)**: Pratique os conceitos com questões focadas.
-*   **[🚀 Projeto da Aula 12](../projetos/projeto-12.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
-
-**Próxima Aula**: Entrando no Bloco 4! [Recursos Essenciais e Parcerias](./aula-13.md) 🧩
+[:octicons-arrow-right-24: Avançar para Aula 13](./aula-13.md){ .md-button .md-button--primary }

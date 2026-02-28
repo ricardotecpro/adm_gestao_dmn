@@ -90,12 +90,45 @@ Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **C
 
 ---
 
+---
+
+## 🔗 Materiais da Aula
+
+<div class="grid cards" markdown>
+- :material-presentation: **Slides**
+
+    ---
+
+    Material visual com diagramas e conceitos-chave.
+
+    [:octicons-arrow-right-24: Slide 02](../slides/slide-02.html)
+
+- :material-help-circle: **Quiz**
+
+    ---
+
+    Teste seu conhecimento com 10 questões interativas.
+
+    [:octicons-arrow-right-24: Quiz 02](../quizzes/quiz-02.md)
+
+- :fontawesome-solid-pencil: **Exercícios**
+
+    ---
+
+    5 exercícios progressivos (básico → desafio).
+
+    [:octicons-arrow-right-24: Exercício 02](../exercicios/exercicio-02.md)
+
+- :material-briefcase-outline: **Projeto**
+
+    ---
+
+    Aplicação prática dos conceitos da aula.
+
+    [:octicons-arrow-right-24: Projeto 02](../projetos/projeto-02.md)
+
+</div>
 
 ---
 
-## 📚 Material Complementar
-
-*   **[📝 Exercícios da Aula 02](../exercicios/exercicio-02.md)**: Pratique os conceitos com questões focadas.
-*   **[🚀 Projeto da Aula 02](../projetos/projeto-02.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
-
-**Próxima Aula**: Vamos mergulhar na [Análise de Valor: Inovação e Sustentabilidade](./aula-03.md)! 📡
+[:octicons-arrow-right-24: Avançar para Aula 03](./aula-03.md){ .md-button .md-button--primary }

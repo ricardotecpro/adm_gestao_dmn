@@ -93,12 +93,45 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
 
 ---
 
+---
+
+## 🔗 Materiais da Aula
+
+<div class="grid cards" markdown>
+- :material-presentation: **Slides**
+
+    ---
+
+    Material visual com diagramas e conceitos-chave.
+
+    [:octicons-arrow-right-24: Slide 06](../slides/slide-06.html)
+
+- :material-help-circle: **Quiz**
+
+    ---
+
+    Teste seu conhecimento com 10 questões interativas.
+
+    [:octicons-arrow-right-24: Quiz 06](../quizzes/quiz-06.md)
+
+- :fontawesome-solid-pencil: **Exercícios**
+
+    ---
+
+    5 exercícios progressivos (básico → desafio).
+
+    [:octicons-arrow-right-24: Exercício 06](../exercicios/exercicio-06.md)
+
+- :material-briefcase-outline: **Projeto**
+
+    ---
+
+    Aplicação prática dos conceitos da aula.
+
+    [:octicons-arrow-right-24: Projeto 06](../projetos/projeto-06.md)
+
+</div>
 
 ---
 
-## 📚 Material Complementar
-
-*   **[📝 Exercícios da Aula 06](../exercicios/exercicio-06.md)**: Pratique os conceitos com questões focadas.
-*   **[🚀 Projeto da Aula 06](../projetos/projeto-06.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
-
-**Próxima Aula**: Vamos simplificar tudo com o [Modelagem de Negócios: O Canvas](./aula-07.md) 🗄️
+[:octicons-arrow-right-24: Avançar para Aula 07](./aula-07.md){ .md-button .md-button--primary }

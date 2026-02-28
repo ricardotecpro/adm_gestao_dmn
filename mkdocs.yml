@@ -200,14 +200,18 @@ nav:
       - 'Aula 16 - Fontes de Receita': aulas/aula-16.md
   - Materiais:
     - materiais.md
-    - Roadmap: project_roadmap.md
-    - Slides: slides/index.md
-    - Exercícios: exercicios/index.md
-    - Quizzes: quizzes/index.md
-    - Projetos: projetos/index.md
+    - Slides:
+      - slides/index.md
+    - Exercícios:
+      - exercicios/index.md
+    - Quizzes:
+      - quizzes/index.md
+    - Projetos:
+      - projetos/index.md
     - Configuração:
       - setups/index.md
-      - 'Ambiente Windows': setups/setup-01.md
-      - 'Ambiente Linux': setups/setup-02.md
-      - 'Ambiente macOS': setups/setup-03.md
+      - 'Windows': setups/setup-01.md
+      - 'Linux': setups/setup-02.md
+      - 'Mac (Intel/Apple Silicon)': setups/setup-03.md
   - Impressão: print_page.md
+

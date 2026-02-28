@@ -92,12 +92,45 @@ A maturidade em canais requer transitar do modelo Multicanal para o **Omnichanne
 
 ---
 
+---
+
+## 🔗 Materiais da Aula
+
+<div class="grid cards" markdown>
+- :material-presentation: **Slides**
+
+    ---
+
+    Material visual com diagramas e conceitos-chave.
+
+    [:octicons-arrow-right-24: Slide 10](../slides/slide-10.html)
+
+- :material-help-circle: **Quiz**
+
+    ---
+
+    Teste seu conhecimento com 10 questões interativas.
+
+    [:octicons-arrow-right-24: Quiz 10](../quizzes/quiz-10.md)
+
+- :fontawesome-solid-pencil: **Exercícios**
+
+    ---
+
+    5 exercícios progressivos (básico → desafio).
+
+    [:octicons-arrow-right-24: Exercício 10](../exercicios/exercicio-10.md)
+
+- :material-briefcase-outline: **Projeto**
+
+    ---
+
+    Aplicação prática dos conceitos da aula.
+
+    [:octicons-arrow-right-24: Projeto 10](../projetos/projeto-10.md)
+
+</div>
 
 ---
 
-## 📚 Material Complementar
-
-*   **[📝 Exercícios da Aula 10](../exercicios/exercicio-10.md)**: Pratique os conceitos com questões focadas.
-*   **[🚀 Projeto da Aula 10](../projetos/projeto-10.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
-
-**Próxima Aula**: Como manter esse cliente perto de você? [Relacionamento com o Cliente](./aula-11.md) 🤝
+[:octicons-arrow-right-24: Avançar para Aula 11](./aula-11.md){ .md-button .md-button--primary }

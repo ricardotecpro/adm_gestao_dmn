@@ -85,18 +85,49 @@ Imagine que você criou um **App de Meditação**.
 
 ---
 
+---
+
+## 🔗 Materiais da Aula
+
+<div class="grid cards" markdown>
+- :material-presentation: **Slides**
+
+    ---
+
+    Material visual com diagramas e conceitos-chave.
+
+    [:octicons-arrow-right-24: Slide 16](../slides/slide-16.html)
+
+- :material-help-circle: **Quiz**
+
+    ---
+
+    Teste seu conhecimento com 10 questões interativas.
+
+    [:octicons-arrow-right-24: Quiz 16](../quizzes/quiz-16.md)
+
+- :fontawesome-solid-pencil: **Exercícios**
+
+    ---
+
+    5 exercícios progressivos (básico → desafio).
+
+    [:octicons-arrow-right-24: Exercício 16](../exercicios/exercicio-16.md)
+
+- :material-briefcase-outline: **Projeto**
+
+    ---
+
+    Aplicação prática dos conceitos da aula.
+
+    [:octicons-arrow-right-24: Projeto 16](../projetos/projeto-16.md)
+
+</div>
 
 ---
 
-## 📚 Material Complementar
+!!! success "Parabéns!"
+    Você completou as **16 aulas** do curso! Agora você tem todas as ferramentas
+    para construir modelos de negócios sólidos, lucrativos e inovadores. 🚀
 
-*   **[📝 Exercícios da Aula 16](../exercicios/exercicio-16.md)**: Pratique os conceitos com questões focadas.
-*   **[🚀 Projeto da Aula 16](../projetos/projeto-16.md)**: Aplique o conhecimento em um desafio prático de nível intermediário.
-
-!!! success "Conclusão do Módulo"
-    Parabéns! Você completou as 16 aulas do curso de **Desenvolvimento de Modelos de Negócios**. Agora você tem todas as ferramentas para tirar sua ideia do papel e construir um negócio sólido, lucrativo e inovador.
-
----
-
-**FIM DO CURSO** 🚀🚀🚀
-Desejamos muito sucesso na sua jornada empreendedora!
+[:octicons-arrow-left-24: Voltar à Trilha de Aulas](./index.md){ .md-button .md-button--primary }
