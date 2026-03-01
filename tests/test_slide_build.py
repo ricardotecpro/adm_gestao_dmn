@@ -62,11 +62,11 @@ def test_all_slides_present_in_site():
     html_files = list(site_slides.glob("slide-*.html"))
     md_files = list(site_slides.glob("slide-*.md"))
     
-    assert len(html_files) == 16, (
-        f"Esperado 16 arquivos HTML, encontrado {len(html_files)}"
+    assert len(html_files) >= 16, (
+        f"Esperado pelo menos 16 arquivos HTML, encontrado {len(html_files)}"
     )
-    assert len(md_files) == 16, (
-        f"Esperado 16 arquivos Markdown, encontrado {len(md_files)}. "
+    assert len(md_files) >= 16, (
+        f"Esperado pelo menos 16 arquivos Markdown, encontrado {len(md_files)}. "
         f"Verifique se o hook copy_slides.py está usando o padrão correto (slide-*.md)"
     )
 

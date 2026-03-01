@@ -12,6 +12,9 @@ def get_mermaid_blocks():
     for every mermaid block found in markdown files.
     """
     for md_file in DOCS_DIR.rglob("*.md"):
+        # Ignorar a pasta _legado conforme instruções
+        if "_legado" in md_file.parts:
+            continue
         content = md_file.read_text(encoding="utf-8")
         lines = content.splitlines()
         in_mermaid = False
