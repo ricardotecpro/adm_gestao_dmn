@@ -202,6 +202,8 @@ nav:
     - materiais.md
     - Slides:
       - slides/index.md
+      - 'Aula 01 - Slides': slides/slide-01.html
+      - '🧪 Teste Rendering': slides/slide-test.html
     - Exercícios:
       - exercicios/index.md
     - Quizzes:
