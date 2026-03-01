@@ -15,22 +15,29 @@ As fontes de receita representam o dinheiro que uma empresa gera a partir de cad
 
 Um modelo de negócio pode envolver dois tipos diferentes de receitas:
 
-1.  **Receitas Transacionais**: Resultantes de pagamentos únicos dos clientes (ex: venda de um livro).
-2.  **Receitas Recorrentes**: Resultantes de pagamentos constantes para entregar valor ou suporte (ex: assinaturas do Netflix, mensalidade da academia).
+1.  **Receitas Transacionais**: Pagamentos únicos (Venda). (1)
+2.  **Receitas Recorrentes**: Pagamentos constantes (Assinatura). (2)
+
+(1) Ex: Comprar um livro físico.
+(2) Ex: Mensalidade da Netflix. Aqui entra o cálculo de $ARR_{Anual} = MRR \times 12$.
 
 ---
 
 ## 3. Formas de Gerar Receita 🛠️
 
-Existem várias maneiras de fazer o dinheiro entrar:
+O mercado oferece diversos mecanismos de monetização:
 
-*   **Venda de Ativos**: Venda do direito de propriedade de um produto físico.
-*   **Taxa de Uso**: Pagamento pelo uso de um serviço específico (ex: minutos de hotel, entrega de pacotes).
-*   **Taxa de Assinatura**: Venda do acesso contínuo a um serviço (ex: Spotify).
-*   **Empréstimo/Aluguel/Leasing**: Direito temporário de uso de um ativo.
-*   **Licenciamento**: Permissão para usar propriedade intelectual protegida.
-*   **Taxa de Corretagem**: Taxas por serviços de intermediação (ex: corretoras de imóveis, cartões de crédito).
-*   **Anúncios**: Taxas por publicidade de produtos ou serviços.
+=== "Venda de Direitos"
+    *   **Venda de Ativos**: Direito de propriedade total.
+    *   **Licenciamento**: Direito de uso de PI.
+    *   **Leasing/Aluguel**: Direito temporário de posse.
+
+=== "Venda de Serviços"
+    *   **Taxa de Uso**: Pagamento pelo consumo (ex: KW/h).
+    *   **Taxa de Assinatura**: Acesso por tempo (ex: Academia).
+    *   **Taxa de Corretagem**: Intermediação (ex: Imobiliária).
+
+*   **Anúncios**: Taxas por visibilidade publicitária.
 
 ---
 
@@ -131,3 +138,6 @@ Imagine que você criou um **App de Meditação**.
     para construir modelos de negócios sólidos, lucrativos e inovadores. 🚀
 
 [:octicons-arrow-left-24: Voltar à Trilha de Aulas](./index.md){ .md-button .md-button--primary }
+
+*[Subscription]: Modelo de assinatura onde o cliente paga recorrentemente pelo acesso.
+*[Monetization]: Monetização - Processo de transformar algo em fonte de lucro.

@@ -20,18 +20,41 @@ No Business Model Canvas, o relacionamento descreve o "tom" e a intensidade da i
 
 As empresas podem escolher diferentes níveis de proximidade:
 
-*   **Assistência Pessoal**: Interação humana real (ex: call center, vendedor na loja).
-*   **Assistência Personalizada**: Um gerente exclusivo para o cliente (ex: Private Banking).
-*   **Self-Service**: A empresa fornece os meios, o cliente faz tudo sozinho (ex: Caixas eletrônicos).
-*   **Serviços Automatizados**: Self-service com inteligência (ex: recomendação da Netflix).
-*   **Comunidades**: Clientes interagem entre si para resolver problemas (ex: Fóruns de jogos).
-*   **Co-criação**: O cliente ajuda a criar o valor (ex: Reviews da Amazon, vídeos do YouTube).
+*   **Assistência Pessoal**: Interação humana (Call Center). (1)
+*   **Assistência Personalizada**: Gerente exclusivo.
+*   **Self-Service**: Cliente faz tudo sozinho. (2)
+*   **Serviços Automatizados**: Self-service inteligente.
+*   **Comunidades**: Clientes interagem entre si.
+*   **Co-criação**: O cliente ajuda a criar valor. (3)
+
+(1) Alto custo, mas alta confiança.
+(2) Baixo custo, exige interface intuitiva.
+(3) Ex: Reviews e vídeos de usuários.
+
+---
+
+## 3. Público-Alvo vs. Persona 👤
+
+Identificar o cliente exige dois níveis de detalhamento:
+
+=== "Relacionamento Manual"
+    *   **Foco**: Humanização e empatia profunda.
+    *   **Indicado para**: Produtos complexos ou de alto ticket.
+    *   **Custo**: Elevado por cliente.
+
+=== "Relacionamento Automatizado"
+    *   **Foco**: Escalabilidade e eficiência técnica.
+    *   **Indicado para**: Produtos de massa ou SaaS.
+    *   **Custo**: Baixo por cliente, depende de software.
+
+!!! info "Net Promoter Score"
+    O $NPS$ é a métrica definitiva de satisfação: $NPS = \%Promotores - \%Detratores$.
 
 ---
 
 ## 3. O Ciclo do Cliente (Mermaid) 🔄
 
-Manter um cliente é muito mais barato do que conquistar um novo.
+Manter um cliente é muito mais barato do que conquistar um novo:
 
 ```mermaid
 graph LR
@@ -139,3 +162,7 @@ Imagine um **App de Academia**.
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 12](./aula-12.md){ .md-button .md-button--primary }
+
+*[Churn]: Taxa de cancelamento ou abandono de um serviço por parte do cliente.
+*[NPS]: Net Promoter Score - Métrica de lealdade e satisfação do cliente.
+*[CRM]: Gestão de Relacionamento com o Cliente (Customer Relationship Management).

@@ -9,11 +9,18 @@
 
 O valor não aparece por mágica; ele é **construído** através de etapas lógicas que transformam uma percepção em um resultado concreto.
 
-### As 4 Etapas do Processo:
-1.  **Criação**: Identificação da oportunidade e desenvolvimento da ideia.
-2.  **Configuração**: Estruturação dos recursos (pessoas, tecnologia, dinheiro).
-3.  **Entrega**: Como o valor chega até o cliente (canais, marketing).
-4.  **Captura**: Como o negócio recebe o retorno (financeiro ou social).
+=== "Abordagem Linear"
+    1.  **Criação**: Identificação da oportunidade.
+    2.  **Configuração**: Organização dos recursos. (1)
+    3.  **Entrega**: Chegada ao cliente.
+    4.  **Captura**: Retorno para o negócio.
+
+=== "Abordagem Circular"
+    *   Foco no aprendizado contínuo.
+    *   Pivoteamento rápido baseado em feedbacks.
+    *   Foco no $ROI \approx \frac{Ganho - Investimento}{Investimento}$.
+
+(1) Pessoas, Dinheiro e Tecnologia.
 
 ---
 
@@ -21,19 +28,22 @@ O valor não aparece por mágica; ele é **construído** através de etapas lóg
 
 A inovação pode acontecer de diferentes formas e em diferentes níveis de intensidade:
 
-*   **Inovação Incremental**: Pequenas melhorias em algo que já existe (ex: nova versão de um celular).
-*   **Inovação Radical**: Cria um novo mercado ou desbanca um existente (ex: a transição das câmeras de filme para digitais).
-*   **Inovação de Processo**: Mudar o "como" as coisas são feitas para ganhar eficiência.
-*   **Inovação de Modelo de Negócio**: Mudar a forma como se ganha dinheiro (ex: streaming vs venda de CDs).
+*   **Inovação Incremental**: Pequenas melhorias. (1)
+*   **Inovação Radical**: Cria um novo mercado. (2)
+*   **Inovação de Processo**: Mudar o "como".
+*   **Inovação de Modelo de Negócio**: Mudar como se ganha dinheiro.
+
+(1) Ex: Novo iPhone todo ano.
+(2) Ex: Surgimento do primeiro Smartphone.
 
 ---
 
 ## 3. Ambiente Inovador 🚀
 
 Para que a inovação floresça, o ambiente deve permitir:
-*   **Segurança Psicológica**: Liberdade para errar e aprender.
-*   **Colaboração**: Troca de ideias entre diferentes áreas.
-*   **Flexibilidade**: Capacidade de mudar a rota rapidamente.
+*   **Segurança Psicológica**: Liberdade para errar.
+*   **Colaboração**: Troca entre diferentes áreas.
+*   **Flexibilidade**: Capacidade de mudar a rota.
 
 ---
 
@@ -68,15 +78,15 @@ $ inovacao --check-stage
 
 ## 6. Aprofundamento: Curva de Adoção de Inovação e TRL 📉
 
-A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difusão da Inovação** (Innovators, Early Adopters, Early Majority...) é crucial para saber como comunicar o lançamento. Além disso, a escala TRL (Technology Readiness Level) auxilia a mensurar a maturidade de uma tecnologia, indo de uma pesquisa básica (TRL 1) até um sistema provado em ambiente real (TRL 9).
+A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difusão da Inovação** (Innovators, Early Adopters, Early Majority...) é crucial para saber como comunicar o lançamento. Além disso, a escala TRL auxilia a mensurar a maturidade de uma tecnologia, indo de uma pesquisa básica (TRL 1) até um sistema provado em ambiente real (TRL 9).
 
 ---
 
 ## 7. Mini-Projeto: Planejando a Inovação 🚀
 
-1.  Identifique uma empresa que você conhece que tenha passado por uma **Inovação Incremental** recentemente.
+1.  Identifique uma empresa que você conhece que tenha passado por uma **Inovação Incremental**.
 2.  Agora, descreva um exemplo de **Inovação de Modelo de Negócio**.
-3.  Desenhe um pequeno cronograma de 3 passos para validar uma ideia inovadora em uma semana.
+3.  Desenhe um pequeno cronograma de 3 passos para validar uma ideia em uma semana.
 
 ---
 
@@ -135,3 +145,7 @@ A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difus
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 05](./aula-05.md){ .md-button .md-button--primary }
+
+*[TRL]: Nível de Maturidade Tecnológica (Technology Readiness Level)
+*[ROI]: Retorno sobre Investimento
+*[Early Adopters]: Primeiros adeptos de uma nova tecnologia ou produto.

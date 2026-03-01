@@ -10,22 +10,31 @@
 Os canais são os pontos de contato entre a empresa e o cliente. Eles servem como os "braços" do negócio para entregar valor e capturar feedback.
 
 ### Funções dos Canais:
-1.  **Descoberta**: Como o cliente fica sabendo que existimos?
-2.  **Avaliação**: Como ajudamos o cliente a escolher nossa proposta?
-3.  **Compra**: Por onde ele paga e fecha o pedido?
-4.  **Entrega**: Como o produto/serviço chega até ele?
-5.  **Pós-venda**: Como oferecemos suporte após a compra?
+As 5 fases essenciais de um canal são:
+1.  **Descoberta**: Como ficamos conhecidos? (1)
+2.  **Avaliação**: Como ajudamos na escolha?
+3.  **Compra**: Onde ocorre o pagamento? (2)
+4.  **Entrega**: Como o valor chega ao cliente?
+5.  **Pós-venda**: Qual o suporte oferecido?
+
+(1) Marketing e publicidade consciente.
+(2) Aqui calculamos a eficiência: $Eficiência \approx \frac{Vendas}{Custo\_do\_Canal}$.
 
 ---
 
 ## 2. Tipos de Canais 📦
 
-Os canais podem ser divididos entre diretos e indiretos:
+A escolha entre direto e indireto impacta a margem e o alcance:
 
-| Tipo | Exemplos | Prós | Contras |
-| :--- | :--- | :--- | :--- |
-| **Direto** | Site oficial, Loja Própria, Venda Direta. | Margem maior, controle total. | Custo de aquisição alto. |
-| **Indireto** | Marketplace (Amazon, App Store), Atacado. | Grande alcance, confiança. | Margem menor, zero controle. |
+=== "Canal Direto"
+    *   **Vantagens**: Controle total da experiência e margem maior (sem intermediários).
+    *   **Desafios**: Exige investimento em infraestrutura e marketing próprio.
+    *   **Ex**: Site oficial, Loja de Fábrica.
+
+=== "Canal Indireto"
+    *   **Vantagens**: Grande alcance rápido e confiança imediata do mercado parceiro.
+    *   **Desafios**: Dependência de terceiros e margens reduzidas por comissões.
+    *   **Ex**: Marketplaces (Amazon), Distribuidores.
 
 ---
 
@@ -134,3 +143,6 @@ A maturidade em canais requer transitar do modelo Multicanal para o **Omnichanne
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 11](./aula-11.md){ .md-button .md-button--primary }
+
+*[Marketplace]: Plataforma de comércio eletrônico que conecta diversos vendedores a diversos compradores.
+*[Omnichannel]: Estratégia de vendas multicanal que oferece ao cliente uma experiência de compra integrada.

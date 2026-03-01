@@ -15,16 +15,29 @@ Os recursos essenciais são os ativos mais importantes requeridos para fazer um 
 
 Todo negócio precisa de uma combinação desses quatro tipos de recursos:
 
-1.  **Físicos**: Ativos tangíveis, como instalações de fabricação, edifícios, veículos, sistemas de ponto de venda e redes de distribuição.
-2.  **Intelectuais**: Ativos intangíveis, como marcas, conhecimento proprietário, patentes, direitos autorais e bancos de dados de clientes.
-3.  **Humanos**: As pessoas são cruciais em todos os modelos de negócio, mas são particularmente importantes em indústrias criativas e de conhecimento intenso (ex: consultorias).
-4.  **Financeiros**: Recursos financeiros e/ou garantias financeiras, como dinheiro, linhas de crédito ou opções de ações.
+1.  **Físicos**: Ativos tangíveis (Edifícios, veículos). (1)
+2.  **Intelectuais**: Ativos intangíveis (Marcas, patentes). (2)
+3.  **Humanos**: Pessoas e talentos qualificados.
+4.  **Financeiros**: Dinheiro e linhas de crédito.
+
+(1) Essencial para indústrias e varejo físico.
+(2) Essencial para consultorias e empresas de tecnologia. Use a lógica da depreciação: $D \approx \frac{Custo - Valor\_Residual}{Vida\_Útil}$.
 
 ---
 
 ## 3. Posse vs. Acesso ⚖️
 
-Um recurso essencial não precisa necessariamente ser de propriedade da empresa; ele pode ser alugado ou obtido por meio de parceiros.
+A estratégia de infraestrutura impacta o custo fixo:
+
+=== "Ativos Tangíveis (Físicos)"
+    *   **Ex**: Máquinas, Prédios, Estoque.
+    *   **Impacto**: Alto custo de manutenção e depreciação.
+    *   **Uso**: Operações pesadas.
+
+=== "Ativos Intangíveis (Intelectuais)"
+    *   **Ex**: Softwares, Receitas Secretas, Dados.
+    *   **Impacto**: Difícil de copiar, valoriza a marca.
+    *   **Uso**: Diferenciação de mercado.
 
 *   **Próprio**: Maior controle, custo fixo inicial alto.
 *   **Alugado/Terceirizado**: Menor controle, maior flexibilidade e custos variáveis.
@@ -130,3 +143,7 @@ Imagine que você está abrindo uma **Fábrica de Chocolate Artesanal**.
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 14](./aula-14.md){ .md-button .md-button--primary }
+
+*[Intellectual Property]: Propriedade Intelectual - Proteção legal sobre criações da mente.
+*[Resource Allocation]: Alocação de Recursos - Distribuição estratégica de ativos para atingir metas.
+*[OPEX]: Despesas Operacionais - Custos diários para manter o negócio funcionando.

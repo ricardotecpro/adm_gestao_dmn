@@ -9,8 +9,15 @@
 
 Ter uma ideia brilhante não garante um negócio de sucesso. A diferença entre elas é fundamental:
 
-*   **Ideia**: Uma concepção abstrata, algo que "seria legal fazer".
-*   **Oportunidade**: É uma ideia que encontra um **mercado**, resolve uma **dor real** e possui **viabilidade econômica**.
+=== "Conceito de Ideia"
+    *   **Definição**: Uma concepção abstrata, algo que "seria legal fazer".
+    *   **Foco**: Na criatividade pura e na imaginação do autor.
+    *   **Risco**: Baixo (enquanto estiver no papel).
+
+=== "Conceito de Oportunidade"
+    *   **Definição**: Uma ideia que encontra um **mercado**, resolve uma **dor real**.
+    *   **Foco**: Na viabilidade econômica e na demanda do cliente.
+    *   **Risco**: Calculado e testado através de ferramentas de validação.
 
 !!! info "Conceito"
     Uma **Oportunidade de Negócio** é uma ideia que se mostra viável para ser implementada, gerando valor tanto para o empreendedor quanto para o cliente.
@@ -21,11 +28,14 @@ Ter uma ideia brilhante não garante um negócio de sucesso. A diferença entre 
 
 As melhores oportunidades surgem da observação atenta do ambiente:
 
-1.  **Problemas não resolvidos**: Reclamações de clientes sobre produtos existentes.
-2.  **Mudanças Sociais**: Novos hábitos de consumo (ex: aumento do home office).
-3.  **Avanços Tecnológicos**: Surgimento de novas ferramentas que permitem fazer algo de forma mais barata ou rápida.
-4.  **Mudanças Legais**: Novas leis que geram necessidade de adaptação das empresas.
-5.  **Lacunas de Mercado**: Regiões ou públicos que não são atendidos por grandes marcas.
+1.  **Problemas não resolvidos**: Reclamações de clientes sobre produtos existentes. (1)
+2.  **Mudanças Sociais**: Novos hábitos de consumo (ex: aumento do home office). (2)
+3.  **Avanços Tecnológicos**: Surgimento de novas ferramentas.
+4.  **Mudanças Legais**: Novas leis que geram necessidade de adaptação.
+5.  **Lacunas de Mercado**: Públicos não atendidos.
+
+(1) "A dor do cliente é o lucro do empreendedor."
+(2) Aqui entra a probabilidade de sucesso: $S \approx \frac{D + N}{C}$ onde D é Desejo, N é Necessidade e C é Custo.
 
 ---
 
@@ -132,3 +142,6 @@ Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **C
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 03](./aula-03.md){ .md-button .md-button--primary }
+
+*[CSD]: Matriz de Certezas, Suposições e Dúvidas
+*[Oceano Azul]: Estratégia de busca por mercados inexplorados e sem concorrência direta.

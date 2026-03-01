@@ -15,15 +15,18 @@ O **Business Model Canvas** é um mapa visual que resume o modelo de negócio em
 
 Para modelar seu negócio, você deve preencher:
 
-1.  **Segmento de Clientes**: Quem estamos atendendo?
-2.  **Proposta de Valor**: Que problema resolvemos?
-3.  **Canais**: Como chegamos ao cliente?
-4.  **Relacionamento**: Como interagimos com cada segmento?
-5.  **Fontes de Receita**: Como ganhamos dinheiro?
-6.  **Recursos Principais**: O que é essencial para o negócio?
-7.  **Atividades Principais**: O que fazemos no dia a dia?
-8.  **Parcerias Principais**: Quem nos ajuda?
-9.  **Estrutura de Custos**: O que gera gasto?
+1.  **Segmento de Clientes**: Quem atendemos? (1)
+2.  **Proposta de Valor**: Que dor resolvemos? (2)
+3.  **Canais**: Como entregamos o valor?
+4.  **Relacionamento**: Como retemos o cliente?
+5.  **Fontes de Receita**: Como monetizamos?
+6.  **Recursos Principais**: Ativos vitais.
+7.  **Atividades Principais**: Ações indispensáveis.
+8.  **Parcerias**: Quem nos complementa?
+9.  **Estrutura de Custos**: Gastos fixos e variáveis.
+
+(1) Foco total no nicho.
+(2) Aqui reside a Equação de Valor: $Valor = Benefícios - (Custo + Esforço)$.
 
 ---
 
@@ -52,8 +55,17 @@ graph TD
 
 ## 4. Canvas vs. Plano de Negócios 📊
 
-*   **Canvas**: Ágil, visual, focado em testes de hipóteses e mudanças rápidas.
-*   **Plano de Negócios**: Detalhado, linear, focado em execução e captação de recursos tradicionais.
+A escolha da ferramenta depende da maturidade da ideia:
+
+=== "Lado Direito (Valor)"
+    *   **Foco**: O que entregamos para o mundo.
+    *   **Meta**: Criar desejo e resolver dores.
+    *   **Drivers**: Marketing e Vendas.
+
+=== "Lado Esquerdo (Eficiência)"
+    *   **Foco**: Como fazemos a mágica acontecer.
+    *   **Meta**: Reduzir desperdícios e otimizar processos.
+    *   **Drivers**: Logística e Operações.
 
 > **Dica**: Use o Canvas para encontrar o modelo certo e o Plano de Negócios para detalhar como você vai executá-lo.
 
@@ -140,3 +152,6 @@ Imagine que você está criando o **Uber das Bicicletas**.
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 08](./aula-08.md){ .md-button .md-button--primary }
+
+*[BMC]: Business Model Canvas (Quadro de Modelo de Negócios).
+*[Freemium]: Modelo de negócio onde o produto básico é gratuito e recursos avançados são pagos.

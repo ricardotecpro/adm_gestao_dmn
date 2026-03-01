@@ -11,9 +11,13 @@ A gestão é o conjunto de decisões e ações que garantem a sobrevivência e o
 
 ### Estratégias Competitivas (Michael Porter):
 Para se destacar, uma empresa deve escolher um caminho:
-1.  **Liderança em Custo**: Ser o mais barato do mercado (ex: marcas próprias de supermercado).
-2.  **Diferenciação**: Oferecer algo único pelo qual o cliente aceite pagar mais (ex: Apple).
-3.  **Foco (Nicho)**: Atender perfeitamente um grupo específico de pessoas.
+1.  **Liderança em Custo**: Ser o mais barato do mercado. (1)
+2.  **Diferenciação**: Oferecer algo único pelo qual o cliente aceite pagar mais. (2)
+3.  **Foco (Nicho)**: Atender perfeitamente um grupo específico de pessoas. (3)
+
+(1) Ex: Marcas próprias de supermercado.
+(2) Ex: Apple e Tesla.
+(3) Ex: Loja especializada em sapatos para maratonistas.
 
 ---
 
@@ -30,9 +34,18 @@ As ideias não surgem do nada. Elas vêm de:
 
 Existem ferramentas para "forçar" o cérebro a ser criativo:
 
-1.  **Brainstorming**: Tempestade de ideias. O foco é a quantidade, sem julgamentos iniciais.
-2.  **Grupos de Discussão (Focus Groups)**: Conversar com potenciais usuários para validar percepções.
-3.  **Questionários**: Coletar dados quantitativos sobre dores e necessidades.
+=== "Divergência (Criar)"
+    *   **Brainstorming**: Foco na quantidade, sem julgamentos.
+    *   **SCAMPER**: Técnica de substituição e combinação.
+    *   **Mapa Mental**: Conectar ideias de forma radial.
+
+=== "Convergência (Filtrar)"
+    *   **Ranking**: Pontuar ideias por viabilidade.
+    *   **Matriz de Prioridade**: Esforço vs. Impacto.
+    *   **Votação**: Escolha democrática da melhor solução.
+
+!!! info "Matemática da Ideação"
+    O sucesso da ideação segue a lógica: $S \approx \sum(Ideias) \times Filtro_{crítico}$.
 
 ---
 
@@ -133,3 +146,6 @@ No estágio intermediário da ideação, não dependemos da "inspiração divina
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 06](./aula-06.md){ .md-button .md-button--primary }
+
+*[Brainstorming]: Técnica de geração de ideias em grupo sem julgamentos prévios.
+*[SCAMPER]: Acrônimo para Substituir, Combinar, Adaptar, Modificar, Propor, Eliminar e Reorganizar.

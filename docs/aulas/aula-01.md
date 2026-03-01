@@ -17,15 +17,35 @@ Ter visão empreendedora é conseguir enxergar "além do óbvio". É a habilidad
 
 ---
 
-## 2. Características do Empreendedor 👤
+## 2. Empreendedor vs. Empresário 📑
+
+Muitas vezes esses termos são usados como sinônimos, mas possuem focos distintos:
+
+=== "Empreendedor"
+    *   **Foco**: Inovação e Criação.
+    *   **Postura**: Busca mudanças e oportunidades.
+    *   **Risco**: Assume riscos para validar novas ideias.
+
+=== "Empresário"
+    *   **Foco**: Manutenção e Gestão.
+    *   **Postura**: Busca eficiência e estabilidade.
+    *   **Risco**: Minimiza riscos para manter a operação saudável.
+
+---
+
+## 3. Características do Empreendedor 👤
 
 Nem todo mundo nasce empreendedor, mas as competências podem ser desenvolvidas. Pesquisas indicam que empreendedores de sucesso compartilham certas características:
 
-1.  **Iniciativa**: Não esperar pelos outros; agir para que as coisas aconteçam.
-2.  **Persistência**: Ver o erro como aprendizado, não como fim.
-3.  **Correr Riscos Calculados**: Estudar as chances antes de apostar alto.
+1.  **Iniciativa**: Não esperar pelos outros; agir para que as coisas aconteçam. (1)
+2.  **Persistência**: Ver o erro como aprendizado, não como fim. (2)
+3.  **Correr Riscos Calculados**: Estudar as chances antes de apostar alto. (3)
 4.  **Liderança e Persuasão**: Capacidade de engajar pessoas em seu propósito.
 5.  **Criatividade**: Buscar formas diferentes de resolver problemas antigos.
+
+(1) Proatividade é a base de tudo.
+(2) Resiliência é o que separa o sucesso do fracasso.
+(3) Aqui entra a matemática do risco: $Risco = Probabilidade \times Impacto$.
 
 ---
 
@@ -142,3 +162,6 @@ Sua primeira missão prática:
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 02](./aula-02.md){ .md-button .md-button--primary }
+
+*[MVP]: Produto Mínimo Viável (Minimum Viable Product)
+*[SaaS]: Software como Serviço (Software as a Service)

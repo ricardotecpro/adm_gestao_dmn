@@ -9,6 +9,16 @@
 
 Para o empreendedor, **valor** não é o preço que se cobra, mas o benefício que o cliente percebe. 
 
+=== "Visão do Cliente"
+    *   **Percepção**: "Resolve meu problema?"
+    *   **Benefício**: "Quanto ganho ao usar isso?"
+    *   **Esforço**: "É difícil de adotar?"
+
+=== "Visão do Negócio"
+    *   **Entrega**: Como embalamos a solução.
+    *   **Custo**: Quanto custa produzir o valor.
+    *   **Sustentabilidade**: O valor se mantém no longo prazo?
+
 !!! info "Conceito"
     **Proposta de Valor** é o conjunto de vantagens que uma empresa oferece aos seus clientes para satisfazer suas necessidades ou resolver seus problemas.
 
@@ -24,8 +34,11 @@ Para o empreendedor, **valor** não é o preço que se cobra, mas o benefício q
 
 Muitas pessoas confundem os dois termos, mas eles são os dois lados da mesma moeda:
 
-*   **Criatividade**: É o ato de pensar coisas novas. É a matéria-prima (ideias).
-*   **Inovação**: É o ato de **fazer** coisas novas que gerem valor. É a criatividade aplicada com resultado.
+*   **Criatividade**: Pensar coisas novas. Matéria-prima bruta (ideias). (1)
+*   **Inovação**: Fazer coisas novas que gerem valor. Criatividade aplicada. (2)
+
+(1) Ideias são sementes, não colheita.
+(2) Inovação é o motor do LTV e CAC.
 
 !!! warning "Atenção"
     Não existe inovação sem execução. Uma ideia criativa que fica no papel nunca se torna uma inovação.
@@ -36,9 +49,11 @@ Muitas pessoas confundem os dois termos, mas eles são os dois lados da mesma mo
 
 Os negócios modernos não podem ignorar o impacto que causam. O valor de uma empresa hoje também é medido por:
 
-*   **Sustentabilidade**: Uso consciente de recursos para não comprometer as gerações futuras.
-*   **Diversidade Cultural**: Incluir diferentes visões de mundo na criação do produto, tornando-o mais universal e inclusivo.
-*   **Inclusão Social**: Como o seu negócio ajuda a diminuir as desigualdades?
+*   **Sustentabilidade**: Uso consciente de recursos.
+*   **Diversidade Cultural**: Incluir visões de mundo na criação do produto. (1)
+*   **Inclusão Social**: Como o negócio ajuda a diminuir desigualdades.
+
+(1) Equipes diversas inovam $20\%$ mais rápido que equipes homogêneas.
 
 ---
 
@@ -135,3 +150,6 @@ A percepção de valor não é estática. Empreendedores avançados calculam o C
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 04](./aula-04.md){ .md-button .md-button--primary }
+
+*[CAC]: Custo de Aquisição de Clientes
+*[LTV]: Valor do Tempo de Vida do Cliente (Lifetime Value)

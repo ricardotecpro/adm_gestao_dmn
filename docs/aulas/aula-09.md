@@ -9,8 +9,15 @@
 
 Muitos confundem produto com proposta de valor. O produto é o objeto; a proposta de valor é a **solução** que ele entrega.
 
-*   **Produto**: Uma furadeira.
-*   **Proposta de Valor**: Um furo na parede para pendurar um quadro de memórias.
+=== "Exemplo de Produto"
+    *   **O Que É**: Uma furadeira elétrica de 500W.
+    *   **Foco**: Nos componentes e potência técnica.
+    *   **Valor**: Intrínseco ao objeto.
+
+=== "Exemplo de Proposta de Valor"
+    *   **O Que É**: Um furo na parede para pendurar um quadro.
+    *   **Foco**: Na necessidade final e no benefício do cliente.
+    *   **Valor**: Percebido pelo resultado alcançado.
 
 !!! info "Conceito"
     A **Proposta de Valor** é o motivo pelo qual os clientes escolhem uma empresa em vez de outra. Ela resolve um problema do cliente ou satisfaz uma necessidade específica.
@@ -21,12 +28,16 @@ Muitos confundem produto com proposta de valor. O produto é o objeto; a propost
 
 Existem diversas formas de agregar valor a um segmento de cliente:
 
-1.  **Novidade**: Atender necessidades que os clientes nem sabiam que tinham (ex: o primeiro iPhone).
-2.  **Performance**: Melhorar o desempenho de algo (ex: um computador mais rápido).
-3.  **Personalização**: Adaptar produtos às necessidades específicas (ex: tênis customizados).
-4.  **Design**: Valor pela estética e usabilidade (ex: móveis de design assinado).
-5.  **Preço**: Oferecer valor similar por um preço menor (ex: companhias aéreas low-cost).
-6.  **Redução de Risco**: Garantias estendidas ou seguros.
+1.  **Novidade**: Atender necessidades ocultas. (1)
+2.  **Performance**: Melhorar o desempenho.
+3.  **Personalização**: Adaptar às necessidades. (2)
+4.  **Design**: Valor estético e usabilidade.
+5.  **Preço**: Similar por valor menor.
+6.  **Redução de Risco**: Garantias e seguros. (3)
+
+(1) Ex: Primeiro iPhone ou Uber.
+(2) Ex: Tênis customizados com seu nome.
+(3) Aqui entra a evolução do valor: $Evolução = \frac{\Delta Valor}{\Delta Esforço}$.
 
 ---
 
@@ -146,3 +157,6 @@ Para alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** 
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 10](./aula-10.md){ .md-button .md-button--primary }
+
+*[Product-Market Fit]: Grau em que um produto satisfaz uma forte demanda de mercado.
+*[VPC]: Value Proposition Canvas (Quadro de Proposta de Valor).

@@ -172,7 +172,7 @@ extra:
     default: estavel
 
 nav:
-  - Informações:
+  - Principal:
     - Curso: index.md
     - Sobre: sobre.md
     - Plano: plano.md
@@ -215,5 +215,11 @@ nav:
       - 'Windows': setups/setup-01.md
       - 'Linux': setups/setup-02.md
       - 'Mac (Intel/Apple Silicon)': setups/setup-03.md
-  - Impressão: print_page.md
+  - Impresso: print_page.md
+  - Legado:
+    - Início: _legado/README.md
+    - Tópicos:
+      - Índice: _legado/topicos/indice.md
+      - '09 - Markdown': _legado/topicos/09_markdown.md
+      - '10 - Plugins': _legado/topicos/10_plugins.md
 

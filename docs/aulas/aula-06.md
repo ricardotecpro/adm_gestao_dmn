@@ -19,11 +19,14 @@ O **Plano de Negócios** é o "mapa" do seu empreendimento. É um documento que 
 ## 2. Estrutura Básica de um Plano Profissional 📋
 
 Um PN completo geralmente contém:
-*   **Sumário Executivo**: Resumo dos pontos principais (feito por último!).
-*   **Análise de Mercado**: Estudo dos clientes, concorrentes e fornecedores.
-*   **Plano de Marketing**: Como o produto será vendido e divulgado.
-*   **Plano Operacional**: Como o negócio vai funcionar no dia a dia.
-*   **Plano Financeiro**: Projeção de custos, receitas e ponto de equilíbrio.
+*   **Sumário Executivo**: Resumo dos pontos principais. (1)
+*   **Análise de Mercado**: Estudo de clientes e concorrentes. (2)
+*   **Plano de Marketing**: Divulgação e vendas.
+*   **Plano Operacional**: O dia a dia do negócio.
+*   **Plano Financeiro**: Custos e Ponto de Equilíbrio.
+
+(1) Deve ser a última parte a ser escrita.
+(2) Use a matriz SWOT para esta análise.
 
 ---
 
@@ -42,9 +45,20 @@ graph TD
 
 ## 4. O PN no Mundo Moderno 🚀
 
-Antigamente, planos de negócios eram livros de 100 páginas. Hoje, eles são mais ágeis e focados.
-*   **PN Tradicional**: Detalhado, focado em estabilidade e financiamento bancário.
-*   **PN Ágil (Lean)**: Focado em testes rápidos e aprendizado constante.
+Antigamente, planos de negócios eram livros de 100 páginas. Hoje, eles são mais ágeis:
+
+=== "Plano Tradicional"
+    *   **Foco**: Detalhamento extremo e previsibilidade.
+    *   **Uso**: Financiamentos bancários e grandes licitações.
+    *   **Tempo**: Meses para ser elaborado.
+
+=== "Plano Ágil (Lean)"
+    *   **Foco**: Velocidade e validação de hipóteses.
+    *   **Uso**: Startups e novos experimentos de mercado.
+    *   **Tempo**: Dias ou semanas, focado no aprendizado.
+
+!!! info "Fórmula do Sucesso"
+    O Ponto de Equilíbrio é calculado como: $PE = \frac{Custos Fixos}{Preço Venda - Custos Variáveis}$.
 
 ---
 
@@ -135,3 +149,6 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 07](./aula-07.md){ .md-button .md-button--primary }
+
+*[SWOT]: Forças, Fraquezas, Oportunidades e Ameaças (Strengths, Weaknesses, Opportunities, Threats).
+*[Sumário Executivo]: Visão geral concisa que destaca os pontos principais do plano de negócios.

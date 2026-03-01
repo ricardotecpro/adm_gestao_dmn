@@ -18,17 +18,29 @@ Tentar vender para "todo mundo" é o erro número 1 de novos empreendedores. Se 
 
 Podemos dividir os clientes por diferentes critérios:
 
-*   **Geográfica**: Onde eles moram ou trabalham (ex: bairro, cidade, clima).
-*   **Demográfica**: Idade, gênero, renda, profissão, nível escolar.
-*   **Psicográfica**: Estilo de vida, valores, personalidade, interesses.
-*   **Comportamental**: Como eles usam o produto, frequência de compra, lealdade à marca.
+*   **Geográfica**: Onde eles moram. (1)
+*   **Demográfica**: Idade, gênero, renda. (2)
+*   **Psicográfica**: Estilo de vida e valores.
+*   **Comportamental**: Hábitos de compra.
+
+(1) Essencial para negócios locais.
+(2) Use a fórmula de tamanho de mercado: $TAM = N \times P$ (Onde N é o número de pessoas e P o gasto médio).
 
 ---
 
 ## 3. Público-Alvo vs. Persona 👤
 
-*   **Público-Alvo**: Uma definição ampla (ex: Mulheres, 25-40 anos, moradoras de SP, classe B).
-*   **Persona**: Um personagem fictício que representa seu cliente ideal (ex: "Clara, 32 anos, arquiteta, gosta de café gourmet e busca praticidade no dia a dia").
+Identificar o cliente exige dois níveis de detalhamento:
+
+=== "Público-Alvo (Nível 1)"
+    *   **Visão**: Macro (grupo grande).
+    *   **Dados**: Demográficos e Geográficos.
+    *   **Ex**: Mulheres de 20 a 30 anos, interesadas em moda.
+
+=== "Persona (Nível 2)"
+    *   **Visão**: Micro (indivíduo fictício).
+    *   **Dados**: Psicográficos e Comportamentais.
+    *   **Ex**: Mariana, arquiteta, busca roupas sustentáveis para o trabalho.
 
 ---
 
@@ -134,3 +146,6 @@ Escolha um negócio (ex: Loja de Jogos Digitais).
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 09](./aula-09.md){ .md-button .md-button--primary }
+
+*[Persona]: Representação fictícia do cliente ideal fundamentada em dados reais.
+*[JTBD]: Job To Be Done (Trabalho a ser feito) - Teoria sobre a motivação da compra.

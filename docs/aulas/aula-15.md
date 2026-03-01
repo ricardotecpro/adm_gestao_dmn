@@ -13,7 +13,17 @@ A estrutura de custos descreve todos os custos incorridos para operar um modelo 
 
 ## 2. Tipos de Estruturas de Custo 📂
 
-Existem dois extremos na forma como os negócios lidam com custos:
+A decisão estratégica sobre custos define o DNA da empresa:
+
+=== "Foco no Custo (Low Cost)"
+    *   **Lógica**: Eficiência extrema e preço baixo.
+    *   **Ex**: Companhias aéreas sem luxo.
+    *   **Meta**: Volume massivo.
+
+=== "Foco no Valor (Premium)"
+    *   **Lógica**: Experiência única e exclusividade.
+    *   **Ex**: Marcas de luxo e resorts.
+    *   **Meta**: Alta margem por cliente.
 
 1.  **Direcionado pelo Custo (Cost-driven)**: Focado em minimizar custos onde quer que seja possível (ex: companhias aéreas low-cost como a RyanAir).
 2.  **Direcionado pelo Valor (Value-driven)**: Focado na criação de valor e personalização, com menos preocupação com o custo (ex: hotéis de luxo, marcas de grife).
@@ -24,10 +34,13 @@ Existem dois extremos na forma como os negócios lidam com custos:
 
 Para gerir seu financeiro, você deve entender estes quatro conceitos:
 
-*   **Custos Fixos**: Permanecem os mesmos, independentemente do volume de produção (ex: aluguel, salários administrativos).
-*   **Custos Variáveis**: Mudam proporcionalmente ao volume de bens ou serviços produzidos (ex: matéria-prima, comissões de venda).
-*   **Economias de Escala**: Benefícios de custo que o negócio desfruta à medida que sua produção se expande (custo por unidade cai).
-*   **Economias de Escopo**: Benefícios de custo que o negócio desfruta devido a uma maior variedade de operações (ex: usar a mesma logística para vários tipos de produtos).
+*   **Custos Fixos**: Independem da produção (Aluguel). (1)
+*   **Custos Variáveis**: Proporcionais à produção (Insumos). (2)
+*   **Economias de Escala**: Custo unitário cai com volume.
+*   **Economias de Escopo**: Custo cai com variedade.
+
+(1) Risco maior em períodos de crise.
+(2) Aqui calculamos a Margem: $Margem = Preço - Custos\_Variáveis$.
 
 ---
 
@@ -132,3 +145,7 @@ Imagine que você vende **Camisetas Estampadas**.
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 16](./aula-16.md){ .md-button .md-button--primary }
+
+*[Custos Fixos]: Gastos que não variam com o volume de produção (ex: aluguel).
+*[Economias de Escala]: Vantagem de custo obtida com o aumento da produção unitária.
+*[Burn Rate]: Taxa com que uma nova empresa consome o seu capital antes de gerar lucro.

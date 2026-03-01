@@ -18,17 +18,31 @@ As atividades-chave são as ações essenciais que uma empresa deve executar par
 
 Geralmente, as atividades se encaixam em três grandes grupos:
 
-1.  **Produção**: Atividades ligadas ao design, fabricação e entrega de um produto em larga escala (ex: fábricas de automóveis).
-2.  **Resolução de Problemas**: Atividades que buscam soluções únicas para problemas de clientes individuais (ex: consultorias, hospitais).
-3.  **Plataforma/Rede**: Atividades ligadas à gestão e promoção de uma plataforma ou rede (ex: Visa, eBay, Microsoft, Uber).
+1.  **Produção**: Design e fabricação em larga escala. (1)
+2.  **Resolução de Problemas**: Soluções únicas para dores individuais. (2)
+3.  **Plataforma/Rede**: Gestão e promoção de ecossistemas.
+
+(1) Ex: Linhas de montagem automotiva.
+(2) Ex: Hospitais e Consultorias.
 
 ---
 
 ## 3. Atividade vs. Tarefa ⚖️
 
-Nem tudo o que você faz no dia a dia é uma Atividade-chave.
-*   **Tarefa**: Responder e-mails, limpar o escritório.
-*   **Atividade-chave**: Desenvolvimento de Software (para uma empresa de tecnologia), Gestão da Cadeia de Suprimentos (para um e-commerce).
+Nem todo o trabalho agrega valor estratégico ao modelo de negócio:
+
+=== "Atividade Operacional"
+    *   **Foco**: Manutenção da rotina e execução local.
+    *   **Impacto**: Médio (garante o funcionamento).
+    *   **Ex**: Emissão de notas, limpeza, reuniões de status.
+
+=== "Atividade Estratégica"
+    *   **Foco**: Diferencial competitivo e entrega de valor.
+    *   **Impacto**: Alto (se parar, o negócio morre).
+    *   **Ex**: P&D, Gestão da Marca, Inovação de Processo.
+
+!!! info "Cálculo de Capacidade"
+    $Capacidade = \frac{Tempo\_Total\_Disponível}{Tempo\_por\_Tarefa} \times Eficiência$.
 
 ---
 
@@ -131,3 +145,6 @@ Imagine que você é dono de um **Restaurante Gourmet**.
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 13](./aula-13.md){ .md-button .md-button--primary }
+
+*[Core Business]: Atividade principal e central de uma empresa.
+*[TOC]: Teoria das Restrições (Theory of Constraints) - Metodologia de gestão focada em gargalos.

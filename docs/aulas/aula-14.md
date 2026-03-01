@@ -15,16 +15,30 @@ Parceiros-chave são a rede de fornecedores e colaboradores que ajudam a otimiza
 
 Existem quatro tipos diferentes de parcerias:
 
-1.  **Alianças Estratégicas**: Entre empresas não concorrentes (ex: uma marca de café e uma livraria).
-2.  **Competição (Coopetição)**: Parcerias estratégicas entre concorrentes para desenvolver o mercado (ex: montadoras que dividem pesquisa de motores).
-3.  **Joint Ventures**: Duas empresas criam um novo negócio juntas (ex: Sony Ericson no passado).
-4.  **Relação Comprador-Fornecedor**: Parcerias para garantir insumos confiáveis (ex: montadoras e seus fornecedores de pneus).
+1.  **Alianças Estratégicas**: Não concorrentes colaborando. (1)
+2.  **Competição (Coopetição)**: Concorrentes colaborando. (2)
+3.  **Joint Ventures**: Novo negócio criado por dois parceiros.
+4.  **Relação Comprador-Fornecedor**: Garantia de suprimentos.
+
+(1) Ex: Cafeteria dentro de uma Livraria.
+(2) Ex: Marcas de carros que dividem o custo de criar um novo motor. Aqui entra a conta da Sinergia: $S > 1 + 1$.
 
 ---
 
 ## 3. Por que fazer parcerias? ❓
 
-Nenhuma empresa é uma ilha. Os motivos principais são:
+As alianças devem ser estratégicas e não apenas operacionais:
+
+=== "Otimização e Escala"
+    *   **Foco**: Reduzir desperdícios unitários.
+    *   **Meta**: Aproveitar a infraestrutura de terceiros.
+    *   **Drivers**: Preço e Agilidade.
+
+=== "Redução de Risco"
+    *   **Foco**: Segurança em ambientes incertos.
+    *   **Meta**: Não quebrar sozinho em novos mercados.
+    *   **Drivers**: Estabilidade e Compartilhamento.
+
 *   **Otimização e Economia de Escala**: Reduzir custos por meio de infraestrutura compartilhada.
 *   **Redução de Risco e Incerteza**: Dividir o risco de entrar em um novo mercado tecnológico.
 *   **Aquisição de Recursos ou Atividades**: Onde a empresa foca no seu "core" e deixa o resto com especialistas.
@@ -131,3 +145,6 @@ Imagine que você está criando um **SaaS (Software como Serviço) para Advogado
 ---
 
 [:octicons-arrow-right-24: Avançar para Aula 15](./aula-15.md){ .md-button .md-button--primary }
+
+*[Outsourcing]: Terceirização de processos de negócio para parceiros externos.
+*[Joint Venture]: Modelo de negócio onde duas ou mais empresas isoladas se unem para criar uma nova entidade.
