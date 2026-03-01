@@ -167,9 +167,6 @@ extra:
       link: https://www.youtube.com/@ricardotecpro
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/ricardotecpro
-  version:
-    provider: mike
-    default: estavel
 
 nav:
   - Principal:

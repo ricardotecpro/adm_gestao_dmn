@@ -48,7 +48,7 @@ serve = {cmd="task docs", help="Inicia servidor de desenvolvimento (alias para d
 build = {cmd="mkdocs build", help="Build do site"}
 slides = {cmd="python scripts/generate_slides_quizzes.py", help="Gera slides HTML"}
 quizzes = {cmd="python scripts/convert_quizzes.py", help="Gera quizzes interativos"}
-deploy = {cmd="mike deploy estavel --push --allow-empty", help="Deploy produção com Mike"}
+deploy = {cmd="mkdocs gh-deploy --force", help="Deploy produção via gh-pages"}
 test = {cmd="pytest tests/ -v", help="Executa todos os testes"}
 check = {cmd="python scripts/check_content.py", help="Verifica integridade do conteúdo"}
 clean = {cmd="invoke clean", help="Limpa arquivos gerados"}
