@@ -3,91 +3,91 @@
 --8<-- "assets/quiz.html"
 
 <div class="quiz-container">
-  <div class="quiz-question">1. O que melhor define a matriz principal do tema 'Proposta de Valor'?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Apenas o acúmulo financeiro no curto prazo.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">O foco centrado em resolver fricções reais de forma sustentável e escalável.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A cópia integral de modelos de negócios gringos e gigantes.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Trabalhar isoladamente sem precisar interagir com clientes ou inovações.</div>
+  <div class="quiz-question">1. O que é o "Value Proposition Canvas" (Canvas da Proposta de Valor)?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">É um mapa de todos os concorrentes da empresa.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Uma ferramenta para assegurar que existe um encaixe entre o produto e o mercado/cliente.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Um gráfico de barras que mostra os lucros mensais.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Uma lista de desejos dos funcionários da empresa.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">2. Na fase avançada deste tema, o principal erro estratégico a evitar é:</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Dialogar ativamente e pesquisar profundamente seu usuário foco.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Usar métricas tangíveis em planilhas para guiar o negócio.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Iterar de forma ágil adaptando seu modelo.</div>
+  <div class="quiz-question">2. Qual o significado de "Gains" (Ganhos) no perfil do cliente?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O salário mensal que o cliente recebe.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Os benefícios e resultados positivos que os clientes esperam ou seriam surpreendidos ao receber.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Os brindes que a empresa dá aos clientes fiéis.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O lucro que a empresa tem ao vender para aquele cliente.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">3. Marque a alternativa que descreve a melhor adaptação tecnológica em Proposta de Valor:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Acreditar que a tecnologia de ponta substitui todo modelo de negócios.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.</div>
+  <div class="quiz-question">3. O que são os "Pains" (Dores) do cliente?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Problemas de saúde física que o cliente apresenta.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Riscos, obstáculos e resultados negativos que os clientes experimentam ou temem antes, durante ou após realizar um "trabalho".</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">As críticas que o cliente faz nas redes sociais.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O preço alto de todos os produtos do mercado.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">4. Relacionado às métricas de acompanhamento em 'Proposta de Valor', o que devemos olhar agressivamente?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O número absoluto de curtidas estáticas nas mídias base.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">As horas inativas passivas não registradas na folha-ponto da equipe logada.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A velocidade da fofoca corporativa em relação as corporações focadas gigantes.</div>
+  <div class="quiz-question">4. No lado da Proposta de Valor, o que define um "Analgésico" (Pain Reliever)?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Um remédio real vendido em farmácias.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Como os seus produtos e serviços aliviam dores específicas dos clientes.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Uma forma de distrair o cliente para que ele não veja os defeitos do produto.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Reduzir o preço do produto pela metade.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">5. Em 'Proposta de Valor', o termo 'Escalabilidade' se refere a:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Subir as escadas corporativas fidedignas engessadas corporativas inativas.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Diminuir atratividade no fluxo perene na busca inativa atipica global.</div>
+  <div class="quiz-question">5. O que define um "Criador de Ganho" (Gain Creator)?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Um funcionário que bate todas as metas de venda.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Como seus produtos e serviços criam benefícios e resultados positivos para o cliente.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Um sistema de cashback que devolve dinheiro.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Um robô que fabrica produtos mais rápido.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">6. Sobre a perenidade contínua do negócio em 'Proposta de Valor', o ideal atestado no mercado atual aponta para:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.</div>
+  <div class="quiz-question">6. O que é o "Encaixe" (Fit) no Canvas da Proposta de Valor?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Quando o produto cabe dentro da embalagem de entrega.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Quando os clientes ficam entusiasmados com a sua Proposta de Valor por ela atender a seus trabalhos, dores e ganhos.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Quando o preço do produto é igual ao do concorrente.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Quando o logotipo da empresa combina com as cores do site.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Proposta de Valor' num planejamento rígido tradicional?</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.</div>
+  <div class="quiz-question">7. Qual a diferença fundamental entre Produto e Proposta de Valor?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">No existe diferença, são sinônimos.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Produto é o item físico ou serviço; Proposta de Valor é o benefício real e a solução que o cliente percebe e recebe.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Produto é caro, Proposta de Valor é barata.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Proposta de Valor é apenas o slogan de marketing do produto.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Proposta de Valor'?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.</div>
+  <div class="quiz-question">8. Porque devemos priorizar resolver dores de "alta intensidade"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Porque elas são mais fáceis de resolver com tecnologia simples.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Porque os clientes estão mais dispostos a pagar e a mudar de comportamento para resolver problemas graves.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Porque cansa menos a equipe de desenvolvimento.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Porque geram menos reclamações no suporte técnico.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.</div>
+  <div class="quiz-question">9. Como validar uma proposta de valor sem ter o produto final pronto?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Não é possível; você deve construir tudo primeiro e testar depois.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Através de entrevistas, landing pages, protótipos de baixa fidelidade e pré-vendas.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Perguntando apenas para amigos e familiares se eles gostaram da ideia.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Esperando um concorrente lançar primeiro para ver se funciona.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Proposta de Valor' atrelado na era ágil?</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.</div>
+  <div class="quiz-question">10. O que significa uma Proposta de Valor "Única" (UVP)?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ter um nome de marca que ninguém mais tem.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">O benefício claro e distinto que faz o cliente escolher você em vez da concorrência.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ser o único vendedor daquele produto em uma cidade pequena.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Vender o produto em uma embalagem de cor única.</div>
   <div class="quiz-feedback"></div>
 </div>

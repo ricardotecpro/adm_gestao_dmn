@@ -3,91 +3,91 @@
 --8<-- "assets/quiz.html"
 
 <div class="quiz-container">
-  <div class="quiz-question">1. O que melhor define a matriz principal do tema 'Fontes de Receita'?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Apenas o acúmulo financeiro no curto prazo.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">O foco centrado em resolver fricções reais de forma sustentável e escalável.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A cópia integral de modelos de negócios gringos e gigantes.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Trabalhar isoladamente sem precisar interagir com clientes ou inovações.</div>
+  <div class="quiz-question">1. O que representa as "Fontes de Receita" no Business Model Canvas?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O valor que a empresa paga em impostos.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">O dinheiro que uma empresa gera a partir de cada Segmento de Clientes.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A lista de investimentos que o dono da empresa possui.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O custo de fabricação de cada produto vendido.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">2. Na fase avançada deste tema, o principal erro estratégico a evitar é:</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Dialogar ativamente e pesquisar profundamente seu usuário foco.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Usar métricas tangíveis em planilhas para guiar o negócio.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Iterar de forma ágil adaptando seu modelo.</div>
+  <div class="quiz-question">2. Quais são os dois tipos principais de Fontes de Receita?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Dinheiro e Cartão de Crédito.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Transacionais (pagamentos únicos) e Recorrentes (pagamentos contínuos por valor ou suporte).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Nacionais e Internacionais.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Físicas e Digitais.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">3. Marque a alternativa que descreve a melhor adaptação tecnológica em Fontes de Receita:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Acreditar que a tecnologia de ponta substitui todo modelo de negócios.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.</div>
+  <div class="quiz-question">3. O que define a "Venda de Ativos" como fonte de receita?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Vender os móveis velhos do escritório.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">A venda dos direitos de propriedade de um produto físico (ex: vender um livro, um carro, um computador).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Alugar um apartamento para um turista.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Cobrar uma taxa para o cliente entrar na loja.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">4. Relacionado às métricas de acompanhamento em 'Fontes de Receita', o que devemos olhar agressivamente?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O número absoluto de curtidas estáticas nas mídias base.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">As horas inativas passivas não registradas na folha-ponto da equipe logada.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A velocidade da fofoca corporativa em relação as corporações focadas gigantes.</div>
+  <div class="quiz-question">4. O que é a "Taxa de Uso"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O imposto que o governo cobra sobre serviços.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Receita gerada pelo uso de um serviço específico (ex: minutos de telefone, noites em hotel, entregas).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O valor pago para ter o direito de usar a marca da empresa.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Uma multa paga por usar o produto de forma errada.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">5. Em 'Fontes de Receita', o termo 'Escalabilidade' se refere a:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Subir as escadas corporativas fidedignas engessadas corporativas inativas.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Diminuir atratividade no fluxo perene na busca inativa atipica global.</div>
+  <div class="quiz-question">5. Como funciona a "Taxa de Assinatura" (Subscription)?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O cliente paga uma única vez e usa o produto para sempre.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Venda de acesso contínuo a um serviço (ex: Netflix, academias, softwares SaaS).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O cliente assina um papel prometendo que vai comprar o produto depois.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">É uma taxa cobrada apenas para receber jornais em casa.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">6. Sobre a perenidade contínua do negócio em 'Fontes de Receita', o ideal atestado no mercado atual aponta para:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.</div>
+  <div class="quiz-question">6. O que é a receita de "Empréstimo/Aluguel/Arrendamento"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Pedir dinheiro emprestado ao banco para abrir a empresa.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Conceder a alguém o direito exclusivo de usar um ativo por um período fixo em troca de uma taxa.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Vender o produto em parcelas sem juros.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Cobrar para consertar produtos que os clientes quebraram.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Fontes de Receita' num planejamento rígido tradicional?</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.</div>
+  <div class="quiz-question">7. O que caracteriza o "Licenciamento"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Dar permissão para um motorista dirigir o caminhão da empresa.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Dar permissão aos clientes para usar propriedade intelectual protegida em troca de taxas (ex: patentes, software, mídia).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Vender a empresa inteira para um grupo estrangeiro.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Pagar o alvará de funcionamento da prefeitura.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Fontes de Receita'?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.</div>
+  <div class="quiz-question">8. O que são "Taxas de Corretagem" (Brokerage Fees)?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Comissões pagas para corretores de imóveis apenas.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Receitas derivadas de serviços de intermediação realizados entre duas ou mais partes (ex: cartões de crédito, corretores).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Multas cobradas por atraso no pagamento.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O lucro que sobra depois de pagar todos os vendedores.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.</div>
+  <div class="quiz-question">9. Como funciona a "Publicidade" (Advertising) como fonte de receita?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Pagar para colocar um anúncio no Google.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Taxas cobradas para anunciar um produto, serviço ou marca em um canal específico (ex: redes sociais, TVs, revistas).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Dar brindes grátis para os clientes nos sinais de trânsito.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Contratar um designer para fazer o logotipo da empresa.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Fontes de Receita' atrelado na era ágil?</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.</div>
+  <div class="quiz-question">10. O que significa "Precificação Dinâmica"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Mudar o preço do produto apenas uma vez por ano.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Preços que mudam com base nas condições de mercado, demanda ou perfil do cliente em tempo real (ex: passagens aéreas, Uber).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ter um vendedor muito enérgico e dinâmico na loja.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Dar desconto apenas para quem paga em dinheiro vivo.</div>
   <div class="quiz-feedback"></div>
 </div>

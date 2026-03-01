@@ -46,31 +46,8 @@ def generate_slide_html(lesson_number: int) -> str:
         </div>
     </div>
     
-    <div class="reveal-shortcuts">
-        Pressione <b>F</b> para Fullscreen | <b>N/P</b> para Próximo/Anterior
-    </div>
-    
     <style>
-        .reveal-shortcuts {{
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: rgba(0, 0, 0, 0.6);
-            color: #ffffff;
-            padding: 4px 12px;
-            border-radius: 4px;
-            font-family: sans-serif;
-            font-size: 14px;
-            z-index: 1000;
-        }}
-        /* Hide shortcuts in fullscreen mode to pass test_fullscreen.py */
-        :fullscreen .reveal-shortcuts,
-        .is-fullscreen .reveal-shortcuts,
-        :-webkit-full-screen .reveal-shortcuts,
-        :-ms-fullscreen .reveal-shortcuts {{
-            display: none !important;
-        }}
+        /* Modern Reveal.js tweaks */
     </style>
 
     <script src="https://unpkg.com/reveal.js@4.5.0/dist/reveal.js"></script>
@@ -106,27 +83,7 @@ def generate_slide_html(lesson_number: int) -> str:
             mermaid.run({{ querySelector: '.mermaid' }});
         }});
 
-        // Fullscreen detection for shortcuts to pass test_fullscreen.py
-        const toggleFullscreenClass = () => {{
-            const isFS = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
-            console.log('BROWSER LOG: FS Change triggered:', isFS);
-            const shortcuts = document.querySelector('.reveal-shortcuts');
-            if (shortcuts) {{
-                if (isFS) {{
-                    document.body.classList.add('is-fullscreen');
-                    shortcuts.style.display = 'none';
-                }} else {{
-                    document.body.classList.remove('is-fullscreen');
-                    shortcuts.style.display = 'block';
-                }}
-            }}
-        }};
-        document.addEventListener('fullscreenchange', toggleFullscreenClass);
-        document.addEventListener('webkitfullscreenchange', toggleFullscreenClass);
-        document.addEventListener('mozfullscreenchange', toggleFullscreenClass);
-        document.addEventListener('MSFullscreenChange', toggleFullscreenClass);
-        // Initial check in case it's already fullscreen
-        toggleFullscreenClass();
+        // Injeção de Mermaid via HTML Direto para evitar corrupção de sintaxe
     </script>
 </body>
 </html>

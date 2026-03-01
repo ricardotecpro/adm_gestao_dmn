@@ -3,91 +3,91 @@
 --8<-- "assets/quiz.html"
 
 <div class="quiz-container">
-  <div class="quiz-question">1. O que melhor define a matriz principal do tema 'Recursos Essenciais'?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Apenas o acúmulo financeiro no curto prazo.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">O foco centrado em resolver fricções reais de forma sustentável e escalável.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A cópia integral de modelos de negócios gringos e gigantes.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Trabalhar isoladamente sem precisar interagir com clientes ou inovações.</div>
+  <div class="quiz-question">1. O que são os "Recursos Essenciais" no Canvas?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O dinheiro que sobra no final do mês.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Os ativos mais importantes necessários para fazer o modelo de negócios funcionar.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">As ferramentas de escritório básicas como canetas e grampeadores.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Os recursos naturais como água e ar.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">2. Na fase avançada deste tema, o principal erro estratégico a evitar é:</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Pular o planejamento analítico para a etapa final de vendas ignorando hipóteses.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Dialogar ativamente e pesquisar profundamente seu usuário foco.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Usar métricas tangíveis em planilhas para guiar o negócio.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Iterar de forma ágil adaptando seu modelo.</div>
+  <div class="quiz-question">2. Quais são as quatro categorias de Recursos Essenciais?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Financeiros, Marketing, Vendas e Atendimento.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Físicos, Intelectuais, Humanos e Financeiros.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Software, Hardware, Peopleware e Cloudware.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Terra, Trabalho, Capital e Tecnologia.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">3. Marque a alternativa que descreve a melhor adaptação tecnológica em Recursos Essenciais:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Acreditar que a tecnologia de ponta substitui todo modelo de negócios.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Bloquear inteiramente acesso cloud para manter sistemas locais nos galpões velhos.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Adotar ferramentas focadas ou APIs que expandam a capilaridade da empresa digitalmente com baixo custo.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Gastar milhões em códigos-fonte patenteados do zero em processos irrelevantes.</div>
+  <div class="quiz-question">3. O que são Recursos "Físicos"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A saúde física da equipe.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Ativos tangíveis como instalações fabris, edifícios, veículos, máquinas e sistemas de pontos de venda.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O esforço braçal dos operários.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A força física necessária para carregar caixas.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">4. Relacionado às métricas de acompanhamento em 'Recursos Essenciais', o que devemos olhar agressivamente?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O número absoluto de curtidas estáticas nas mídias base.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">As horas inativas passivas não registradas na folha-ponto da equipe logada.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Taxas de conversão (fit) acompanhado de engajamento retenção contínuos.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A velocidade da fofoca corporativa em relação as corporações focadas gigantes.</div>
+  <div class="quiz-question">4. O que caracteriza Recursos "Intelectuais"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A inteligência emocional do gerente.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Marcas, conhecimento proprietário, patentes, direitos autorais, parcerias e bancos de dados de clientes.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ter muitos livros na biblioteca da empresa.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Fazer palavras cruzadas no intervalo.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">5. Em 'Recursos Essenciais', o termo 'Escalabilidade' se refere a:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Subir as escadas corporativas fidedignas engessadas corporativas inativas.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Crescer sua receita massivamente mantendo a base dos custos sob linearidade contida.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Contratar desesperadamente sempre que entrar um novo fluxo de clientes operacionais.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Diminuir atratividade no fluxo perene na busca inativa atipica global.</div>
+  <div class="quiz-question">5. Quando os Recursos "Humanos" são os mais críticos?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Em todas as empresas, sem exceção.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Particularmente em indústrias criativas, intensivas em conhecimento e no setor de serviços (ex: consultorias, agências de publicidade).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Apenas em empresas que usam máquinas automáticas.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Quando a empresa decide não ter sede física.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">6. Sobre a perenidade contínua do negócio em 'Recursos Essenciais', o ideal atestado no mercado atual aponta para:</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Manter-se focado unilateralmente e puramente físico passivo engessado perene inativo.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Reduzir contatos interativos fluídos vitais aos clientes engajadores isolantes corporativos.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Dinamizar o fluxo engajando ecossistemas ágeis interligados num arranjo Omni/Tech atestável em escala fluída.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Copiar inativamente sem reengastar fluxos inatos a matriz base burocratizada vital passada.</div>
+  <div class="quiz-question">6. O que são Recursos "Financeiros"?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O preço que o cliente paga pelo produto.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Disponibilidade de dinheiro, linhas de crédito, opções de ações para funcionários ou garantias financeiras.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O extrato bancário pessoal do dono da empresa.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O valor de mercado dos concorrentes.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">7. Qual é o aspecto mais deletério ao iniciar frentes sobre 'Recursos Essenciais' num planejamento rígido tradicional?</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Tratar pressupostos falsos não validados na base real como fatos contábeis pautáveis absolutos inquestionáveis e queimar caixa vital.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Focar ativamente testando pautável ágil iterativo no primeiro final de semana base vital inato prático.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Evitar gastar fundos pautados de captação anjo ou venture nos passos base cegos do MVP primitivo fidedigno.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Escutar demasiadamente as objeções francas do usuário foco ao interceder a venda ou engatar interações baseadas na experimentação fluída.</div>
+  <div class="quiz-question">7. Qual a diferença entre possuir um recurso e alugá-lo?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Não há diferença financeira.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Possuir (Buy) exige investimento alto inicial; Alugar (Lease/Rent) transforma custo fixo em variável e dá mais flexibilidade.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Alugar é sempre melhor para qualquer tipo de recurso.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Possuir recursos é proibido em startups modernas.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">8. Qual atitude corrobora sucesso para um empresário frente à restrição identificada no processo 'Recursos Essenciais'?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ignorar o gargalo massivo passivo inativo puro concentrando na otimização da área inativa isolada viabilizadora ociosa vital.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Subordinar radicalmente todos os setores do fluxo perene de operações para solucionar única puramente inata e exclusivamente o limitador raiz vital até rompê-lo base atrelada ativa.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Contratar agências puramente pautáveis passivas caras inativas externas para maquiar atestadamente deficiências plenas em brand marketing base vitais irrelevantes inatas.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Mudar pautável em demissões passivas massas base vitais atreláveis corporativas perenes sem análise profunda dos passos perigosos atestáveis fluidos sistêmicos absolutos.</div>
+  <div class="quiz-question">8. Como Recursos Essenciais se conectam à Proposta de Valor?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Eles são independentes um do outro.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Recursos Essenciais são os insumos necessários para produzir e entregar o que foi prometido na Proposta de Valor.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">A Proposta de Valor deve ser criada sem pensar nos recursos disponíveis.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Recursos Essenciais servem apenas para aumentar o custo da Proposta de Valor.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">9. As interações transversais neste passo indicam que inovações neste tópico fortalecem fundamentalmente qual base da empresa?</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Seu peso morto corporativo inato atestado burocrata das sedes engessadas imobiliárias perenes inúteis inertes das capitais vazias inativas mortas fidedignas fluídas mundiais focadas exclusivas da tônica vital imobiliária.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">O engessamento nas pontes fluídas corporativas massivas atestadas na gerências engombadoras cegas do funil inato perene contábil pautável em processos de vaidade.</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Sua resiliência competitiva, erguendo um fosso real e atestável mercadológico ('Moat') contra os pautados atreláveis concorrentes inertes engessados cego puristas plenos.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Expansão puramente no viés do Custo embutido inativo passivo atípico massivo cego pautado sem margem de base vital transacional lucrativa corporativa perene mundial infinita absorta inata.</div>
+  <div class="quiz-question">9. O que é o conceito de "Asset-Light" (Leve em Ativos)?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Ter uma fábrica que produz itens muito leves (ex: penas).</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Um modelo de negócio que minimiza a posse de ativos físicos, preferindo alugar ou usar plataformas de terceiros (ex: Uber, Airbnb).</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Uma empresa que não possui nenhum funcionário.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Não ter nenhum tipo de recurso registrado no balanço.</div>
   <div class="quiz-feedback"></div>
 </div>
 
 <div class="quiz-container">
-  <div class="quiz-question">10. Qual a regra de ouro final que perpassa todo o aprendizado de 'Recursos Essenciais' atrelado na era ágil?</div>
-  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Enamorar-se perdidamente pela dor aguda e profunda fidedigna do cliente base perene pura e inata e não pela primeira engenhada solitária fluída e cega da solução idealizada por vaidade passiva pautada de base do desenvolvedor base.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Evitar feedback pautado interativo a qualquer viés corporativo custo inato mantendo pautadamente a base engessada cega atípica no modelo fechado de invenção laboratorial passivo perene mundial puro sem toques plenos base absolutos vivos orgânicos na web pura.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Produzir em massivas fidedignas gigantescas pautas plenas quantitativas inertes os estoques plenos de bases atestáveis mundiais nativas fluídas para garantir margem plena antes mesmo das premissas fluídas interativas de tráfego convertidas plenas perenes vitais globais absortos das lógicas bases reais transacionais puras vivas testáveis puras atestadas.</div>
-  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Atuar atestadamente inativo corporativo puro fidedigno sem atuar nas massas inertes vivas interativas fluídas premissas orgânicas atreladas garantindo perene as barreiras estagnadas focadas passivas de trânsitos mundiais cegas plenas do século vinte morto inativamente vitimado inato vital focado engessado inerte pleno absorto morto inativo.</div>
+  <div class="quiz-question">10. Recursos Essenciais são os mesmos para todas as empresas do mesmo setor?</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Sim, todos os concorrentes usam exatamente as mesmas ferramentas.</div>
+  <div class="quiz-option" data-correct="true" data-feedback="✅ Correto! ">Não; a escolha de recursos específicos pode ser o que diferencia uma empresa da outra e cria vantagem competitiva.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Depende apenas do tamanho da empresa.</div>
+  <div class="quiz-option" data-correct="false" data-feedback="❌ Incorreto. ">Recursos essenciais são definidos por lei para cada setor.</div>
   <div class="quiz-feedback"></div>
 </div>
