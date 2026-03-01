@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide de Teste V2 - CORES</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/theme/black.css">
+    <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="../assets/css/reveal-custom.css">
+    <style>
+        .reveal .slides section .mermaid {
+            display: flex;
+            justify-content: center;
+            visibility: visible !important;
+            margin: 20px auto;
+        }
+
+        .admonition {
+            margin: 1em 0;
+            padding: 0.5em 1em;
+            border-left: 5px solid #ccc;
+            background-color: rgba(255, 255, 255, 0.05);
+            text-align: left;
+            font-size: 0.8em;
+        }
+
+        .admonition.info {
+            border-left-color: #00b0ff;
+        }
+
+        .admonition.success {
+            border-left-color: #00c853;
+        }
+
+        .admonition.danger {
+            border-left-color: #ff5252;
+        }
+
+        .admonition-title {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown="slide-test-v2.md" data-separator="^\s*---\s*$" data-separator-vertical="^\s*--\s*$"
+                data-charset="utf-8">
+            </section>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/reveal.js@4.5.0/dist/reveal.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+    <script src="https://unpkg.com/reveal.js@4.5.0/plugin/math/math.js"></script>
+    <script src="https://unpkg.com/mermaid@11.12.3/dist/mermaid.min.js"></script>
+    <script>
+        const RevealCustomAdmonitions = {
+            id: 'RevealCustomAdmonitions',
+            init: (deck) => {
+                const process = () => {
+                    document.querySelectorAll('.slides section').forEach(section => {
+                        let html = section.innerHTML;
+                        if (html.includes('!!!')) {
+                            const admonitionRegex = /!!!\s+(\w+)(?:\s+"([^"]+)")?\s*\n([\s\S]*?)(?=\n\n|!!!|$)/g;
+                            html = html.replace(admonitionRegex, (match, type, title, content) => {
+                                const titleHtml = title ? `<p class="admonition-title">${title}</p>` : '';
+                                return `<div class="admonition ${type}">${titleHtml}<div class="admonition-content">${content.trim()}</div></div>`;
+                            });
+                            section.innerHTML = html;
+                        }
+                    });
+                };
+                deck.on('ready', process);
+                deck.on('sliderevealed', process);
+            }
+        };
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            showSlideNumber: 'all',
+            controls: true,
+            progress: true,
+            transition: 'slide',
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3, RevealCustomAdmonitions],
+            mathjax3: {
+                mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+                tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+            }
+        }).then(() => {
+            mermaid.initialize({ startOnLoad: false, theme: 'dark', securityLevel: 'loose' });
+            // Delayed run to catch injected HTML
+            setTimeout(() => { mermaid.run({ querySelector: '.mermaid' }); }, 1000);
+        });
+    </script>
+</body>
+
+</html>
