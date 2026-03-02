@@ -57,12 +57,12 @@ Nem todo mundo nasce empreendedor, mas as competências podem ser desenvolvidas.
 Existem diversas formas de empreender. Conhecer seu perfil ajuda a focar nas estratégias corretas:
 
 | Perfil | Características | Foco Principal |
-| :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> |
-| **Por Oportunidade** | Enxerga uma lacuna no mercado. | Lucratividade e Crescimento |
-| **Por Necessidade** | Empreende por falta de alternativa. | Sobrevivência e Renda Fixa |
-| **Intraempreendedor** | Inova dentro da empresa onde trabalha. | Eficiência e Novos Processos |
-| **Social** | Busca resolver problemas da comunidade. | Impacto Social e Sustentabilidade |
-| **Serial** | Cria e vende empresas repetidamente. | Inovação e Escalabilidade |
+| :--- | :--- | :--- |
+| **Por Oportunidade** | Enxerga uma lacuna no mercado. | Lucratividade e Crescimento | <!-- .element: class="fragment" -->
+| **Por Necessidade** | Empreende por falta de alternativa. | Sobrevivência e Renda Fixa | <!-- .element: class="fragment" -->
+| **Intraempreendedor** | Inova dentro da empresa onde trabalha. | Eficiência e Novos Processos | <!-- .element: class="fragment" -->
+| **Social** | Busca resolver problemas da comunidade. | Impacto Social e Sustentabilidade | <!-- .element: class="fragment" -->
+| **Serial** | Cria e vende empresas repetidamente. | Inovação e Escalabilidade | <!-- .element: class="fragment" -->
 
 ---
 

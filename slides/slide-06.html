@@ -3,49 +3,57 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 06 - Gestão e Modelos de Negócios</title>
+    <title>SLIDE-06 - Gestão e Modelos de Negócios</title>
     
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/reset.css">
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/reveal.css">
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/theme/black.css">
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/plugin/highlight/monokai.css">
     <link rel="stylesheet" href="../assets/css/reveal-custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/termynal/termynal.css">
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
             <section data-markdown="slide-06.md"
-                     data-separator="^\n---\n$"
-                     data-separator-vertical="^\n--\n$">
+                     data-separator="^\s*---\s*$"
+                     data-separator-vertical="^\s*--\s*$">
             </section>
         </div>
     </div>
     
-    <div class="reveal-shortcuts">
-        Pressione <b>F</b> para Fullscreen | <b>N/P</b> para Próximo/Anterior
-    </div>
-    
     <style>
-        .reveal-shortcuts {
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: rgba(0, 0, 0, 0.6);
-            color: #ffffff;
-            padding: 4px 12px;
-            border-radius: 4px;
-            font-family: sans-serif;
-            font-size: 14px;
-            z-index: 1000;
+        /* Modern Reveal.js tweaks */
+        .reveal .slides section { padding: 20px; text-align: left; }
+        .reveal .slides h1, .reveal .slides h2, .reveal .slides h3 { text-align: center; }
+        
+        /* Admonitions Simulation */
+        .admonition {
+            margin: 1em 0;
+            padding: 0.6em 1em;
+            border-left: 0.4em solid #448aff;
+            background-color: rgba(68, 138, 255, 0.1);
+            font-size: 0.8em;
+            color: #ccc;
         }
-        /* Hide shortcuts in fullscreen mode to pass test_fullscreen.py */
-        :fullscreen .reveal-shortcuts,
-        .is-fullscreen .reveal-shortcuts,
-        :-webkit-full-screen .reveal-shortcuts,
-        :-ms-fullscreen .reveal-shortcuts {
-            display: none !important;
+        .admonition-title {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            color: #fff;
         }
+        .admonition.info { border-left-color: #00b0ff; background-color: rgba(0, 176, 255, 0.1); }
+        .admonition.warning { border-left-color: #ff9100; background-color: rgba(255, 145, 0, 0.1); }
+        .admonition.success { border-left-color: #00e676; background-color: rgba(0, 230, 118, 0.1); }
+        
+        /* Grid Cards Simulation */
+        .grid-cards-pro { display: flex; gap: 10px; flex-wrap: wrap; }
+        .card { 
+            flex: 1; min-width: 200px; padding: 15px; 
+            border: 1px solid #444; border-radius: 8px; background: #222; 
+        }
+        
+        /* Image responsiveness */
+        .reveal img { max-height: 400px; width: auto; background: transparent !important; }
     </style>
 
     <script src="https://unpkg.com/reveal.js@4.5.0/dist/reveal.js"></script>
@@ -54,6 +62,7 @@
     <script src="https://unpkg.com/reveal.js@4.5.0/plugin/notes/notes.js"></script>
     <script src="https://unpkg.com/reveal.js@4.5.0/plugin/math/math.js"></script>
     <script src="https://unpkg.com/mermaid@11.12.3/dist/mermaid.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/termynal/termynal.js"></script>
     <script>
         Reveal.initialize({
             hash: true,
@@ -62,6 +71,7 @@
             controls: true,
             progress: true,
             transition: 'slide',
+            center: false,
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3 ],
             mathjax3: {
                 mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
@@ -70,38 +80,43 @@
                 }
             }
         }).then(() => {
-            document.querySelectorAll('pre code.language-mermaid').forEach(code => {
-                const pre = code.parentElement;
-                const div = document.createElement('div');
-                div.className = 'mermaid';
-                div.textContent = code.textContent;
-                pre.replaceWith(div);
-            });
-            mermaid.initialize({ startOnLoad: false, theme: 'dark' });
-            mermaid.run({ querySelector: '.mermaid' });
+            initializePlugins();
         });
 
-        // Fullscreen detection for shortcuts to pass test_fullscreen.py
-        const toggleFullscreenClass = () => {
-            const isFS = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
-            console.log('BROWSER LOG: FS Change triggered:', isFS);
-            const shortcuts = document.querySelector('.reveal-shortcuts');
-            if (shortcuts) {
-                if (isFS) {
-                    document.body.classList.add('is-fullscreen');
-                    shortcuts.style.display = 'none';
-                } else {
-                    document.body.classList.remove('is-fullscreen');
-                    shortcuts.style.display = 'block';
-                }
+        Reveal.on('slidechanged', event => { initializePlugins(); });
+        Reveal.on('ready', event => { initializePlugins(); });
+
+        function initializePlugins() {
+            // Mermaid
+            if (window.mermaid) {
+                document.querySelectorAll('.mermaid, pre code.language-mermaid').forEach(el => {
+                    if (el.getAttribute('data-processed')) return;
+                    
+                    const code = el.tagName === 'CODE' ? el.textContent : el.innerText;
+                    const div = document.createElement('div');
+                    div.className = 'mermaid';
+                    div.textContent = code;
+                    
+                    const target = el.closest('pre') || el;
+                    target.replaceWith(div);
+                });
+                mermaid.initialize({ startOnLoad: false, theme: 'dark' });
+                mermaid.run({ querySelector: '.mermaid' });
             }
-        };
-        document.addEventListener('fullscreenchange', toggleFullscreenClass);
-        document.addEventListener('webkitfullscreenchange', toggleFullscreenClass);
-        document.addEventListener('mozfullscreenchange', toggleFullscreenClass);
-        document.addEventListener('MSFullscreenChange', toggleFullscreenClass);
-        // Initial check in case it's already fullscreen
-        toggleFullscreenClass();
+            // MathJax
+            if (window.MathJax) {
+                MathJax.typesetPromise();
+            }
+            // Termynal
+            if (window.Termynal) {
+                document.querySelectorAll('[data-termynal]').forEach(el => {
+                    if (!el.getAttribute('data-termynal-initialized')) {
+                        new Termynal(el);
+                        el.setAttribute('data-termynal-initialized', 'true');
+                    }
+                });
+            }
+        }
     </script>
 </body>
 </html>

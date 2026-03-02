@@ -10,26 +10,4 @@
     font-size: 14px !important;
 }
 
-/* Shortcut hints container */
-.reveal-shortcuts {
-    position: fixed;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #ccc;
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-family: sans-serif;
-    font-size: 12px;
-    z-index: 1000;
-    pointer-events: none;
-    /* Let clicks pass through */
-}
-
-/* Hide shortcuts in print mode */
-@media print {
-    .reveal-shortcuts {
-        display: none;
-    }
-}
+/* Shortcut hints container removed - previously had .reveal-shortcuts */

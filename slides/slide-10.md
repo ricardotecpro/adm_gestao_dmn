@@ -40,7 +40,7 @@ Os canais são os pontos de contato entre a empresa e o cliente. Eles servem com
 Os canais podem ser divididos entre diretos e indiretos:
 
 | Tipo | Exemplos | Prós | Contras |
-| :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> | :--- <!-- .element: class="fragment" --> |
+| :--- |
 | **Direto** | Site oficial, Loja Própria, Venda Direta. | Margem maior, controle total. | Custo de aquisição alto. |
 | **Indireto** | Marketplace (Amazon, App Store), Atacado. | Grande alcance, confiança. | Margem menor, zero controle. |
 
