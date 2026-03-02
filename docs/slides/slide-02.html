@@ -64,6 +64,7 @@
             controls: true,
             progress: true,
             transition: 'slide',
+            center: false,
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3 ],
             mathjax3: {
                 mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
@@ -76,18 +77,20 @@
             initializePlugins();
         });
 
-        Reveal.on('slidelinechanged', event => { initializePlugins(); });
         Reveal.on('slidechanged', event => { initializePlugins(); });
 
         function initializePlugins() {
             // Mermaid
             if (window.mermaid) {
-                document.querySelectorAll('pre code.language-mermaid, .mermaid').forEach(el => {
+                document.querySelectorAll('.mermaid, pre code.language-mermaid').forEach(el => {
                     if (el.getAttribute('data-processed')) return;
+                    
+                    // Se for um bloco de código, extraímos o texto
+                    const code = el.tagName === 'CODE' ? el.textContent : el.innerText;
                     const div = document.createElement('div');
                     div.className = 'mermaid';
-                    div.textContent = el.textContent;
-                    el.replaceWith(div);
+                    div.textContent = code;
+                    el.closest('pre')?.replaceWith(div) || el.replaceWith(div);
                 });
                 mermaid.initialize({ startOnLoad: false, theme: 'dark' });
                 mermaid.run({ querySelector: '.mermaid' });
