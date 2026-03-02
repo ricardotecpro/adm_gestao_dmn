@@ -200,6 +200,7 @@ nav:
     - Slides:
       - slides/index.md
       - 'Aula 01 - Slides': slides/slide-01.html
+      - '🏆 Padrão Ouro Pro': slides/slide-pro.html
       - '🧪 Teste Rendering': slides/slide-test.html
     - Exercícios:
       - exercicios/index.md
@@ -213,10 +214,5 @@ nav:
       - 'Linux': setups/setup-02.md
       - 'Mac (Intel/Apple Silicon)': setups/setup-03.md
   - Impresso: print_page.md
-  - Legado:
-    - Início: _legado/README.md
-    - Tópicos:
-      - Índice: _legado/topicos/indice.md
-      - '09 - Markdown': _legado/topicos/09_markdown.md
-      - '10 - Plugins': _legado/topicos/10_plugins.md
+  - Impresso: print_page.md
 

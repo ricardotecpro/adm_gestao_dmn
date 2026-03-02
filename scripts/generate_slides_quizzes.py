@@ -21,14 +21,14 @@ def load_config():
 CONFIG = load_config()
 SITE_NAME = CONFIG.get("site_name", "Curso")
 
-def generate_slide_html(lesson_number: int) -> str:
+def generate_slide_html(slide_id: str) -> str:
     """Gera HTML para um slide específico"""
     return f'''<!doctype html>
 <html lang="pt-BR">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula {lesson_number:02d} - {SITE_NAME}</title>
+    <title>{slide_id.upper()} - {SITE_NAME}</title>
     
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/reset.css">
     <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.5.0/dist/reveal.css">
@@ -39,7 +39,7 @@ def generate_slide_html(lesson_number: int) -> str:
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-markdown="slide-{lesson_number:02d}.md"
+            <section data-markdown="{slide_id}.md"
                      data-separator="^\\n---\\n$"
                      data-separator-vertical="^\\n--\\n$">
             </section>
@@ -48,6 +48,31 @@ def generate_slide_html(lesson_number: int) -> str:
     
     <style>
         /* Modern Reveal.js tweaks */
+        .reveal .slides section {{ padding: 20px; text-align: left; }}
+        .reveal .slides h1, .reveal .slides h2, .reveal .slides h3 {{ text-align: center; }}
+        
+        /* Admonitions Simulation */
+        .admonition {{
+            margin: 1em 0;
+            padding: 0.6em 1em;
+            border-left: 0.4em solid #448aff;
+            background-color: rgba(68, 138, 255, 0.1);
+            font-size: 0.8em;
+        }}
+        .admonition-title {{
+            font-weight: bold;
+            margin-bottom: 0.5em;
+        }}
+        .admonition.info {{ border-left-color: #00b0ff; background-color: rgba(0, 176, 255, 0.1); }}
+        .admonition.warning {{ border-left-color: #ff9100; background-color: rgba(255, 145, 0, 0.1); }}
+        .admonition.success {{ border-left-color: #00e676; background-color: rgba(0, 230, 118, 0.1); }}
+        
+        /* Grid Cards Simulation */
+        .grid-cards-pro {{ display: flex; gap: 10px; flex-wrap: wrap; }}
+        .card {{ 
+            flex: 1; min-width: 200px; padding: 15px; 
+            border: 1px solid #444; border-radius: 8px; background: #222; 
+        }}
     </style>
 
     <script src="https://unpkg.com/reveal.js@4.5.0/dist/reveal.js"></script>
@@ -64,26 +89,51 @@ def generate_slide_html(lesson_number: int) -> str:
             controls: true,
             progress: true,
             transition: 'slide',
+            center: false,
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3 ],
             mathjax3: {{
                 mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
                 tex: {{
-                    inlineMath: [ [ '$', '$' ], [ '\\\\(', '\\\\)' ] ]
+                    inlineMath: [ [ '$', '$' ], [ '\\(', '\\)' ] ]
                 }}
             }}
         }}).then(() => {{
-            document.querySelectorAll('pre code.language-mermaid').forEach(code => {{
-                const pre = code.parentElement;
-                const div = document.createElement('div');
-                div.className = 'mermaid';
-                div.textContent = code.textContent;
-                pre.replaceWith(div);
-            }});
-            mermaid.initialize({{ startOnLoad: false, theme: 'dark' }});
-            mermaid.run({{ querySelector: '.mermaid' }});
+            // Inicialização Pós-Load
+            initializePlugins();
         }});
 
-        // Injeção de Mermaid via HTML Direto para evitar corrupção de sintaxe
+        Reveal.on('slidechanged', event => {{ initializePlugins(); }});
+
+        function initializePlugins() {{
+            // Mermaid
+            if (window.mermaid) {{
+                document.querySelectorAll('.mermaid, pre code.language-mermaid').forEach(el => {{
+                    if (el.getAttribute('data-processed')) return;
+                    
+                    // Se for um bloco de código, extraímos o texto
+                    const code = el.tagName === 'CODE' ? el.textContent : el.innerText;
+                    const div = document.createElement('div');
+                    div.className = 'mermaid';
+                    div.textContent = code;
+                    el.closest('pre')?.replaceWith(div) || el.replaceWith(div);
+                }});
+                mermaid.initialize({{ startOnLoad: false, theme: 'dark' }});
+                mermaid.run({{ querySelector: '.mermaid' }});
+            }}
+            // MathJax
+            if (window.MathJax) {{
+                MathJax.typesetPromise();
+            }}
+            // Termynal
+            if (window.Termynal) {{
+                document.querySelectorAll('[data-termynal]').forEach(el => {{
+                    if (!el.getAttribute('data-termynal-initialized')) {{
+                        new Termynal(el);
+                        el.setAttribute('data-termynal-initialized', 'true');
+                    }}
+                }});
+            }}
+        }}
     </script>
 </body>
 </html>
@@ -151,37 +201,35 @@ def generate_all_slides():
     
     print("\n[bold cyan]PROCESSO: Gerando Slides HTML...[/bold cyan]")
     
-    for i in track(range(1, 17), description="Processando slides..."):
-        src_md_name = f"slide-{i:02d}.md"
-        src_md_path = slides_src_dir / src_md_name
-        dst_md_path = slides_dst_dir / src_md_name
-        html_path = slides_dst_dir / f"slide-{i:02d}.html"
+    # Processa todos os arquivos slide-*.md na pasta src
+    for src_md_path in track(list(slides_src_dir.glob('slide-*.md')), description="Processando slides..."):
+        name_stem = src_md_path.stem # ex: slide-01
+        dst_md_path = slides_dst_dir / f"{name_stem}.md"
+        html_path = slides_dst_dir / f"{name_stem}.html"
         
-        if src_md_path.exists():
-            content = src_md_path.read_text(encoding='utf-8')
-            
-            # 1. Corrigir fragmentos: transformar { .fragment } em <!-- .element: class="fragment" -->
-            # Isso permite usar uma sintaxe mais limpa no source. Captura variações de espaço.
-            content = re.sub(r'\{\s*\.fragment\s*\}', '<!-- .element: class="fragment" -->', content)
-            
-            # 1.1 Corrigir caminhos relativos: como o arquivo é copiado de docs/slides/src/ para docs/slides/,
-            # os links que eram ../../area/item.md devem virar ../area/item.md
-            content = re.sub(r'(\.\./){2}(exercicios|projetos|aulas)/', r'../\2/', content)
-            
-            # 2. Remover frontmatter (YAML) se existir, mas manter os comentários de slide do Reveal.js
-            if content.startswith('---'):
-                parts = content.split('---', 2)
-                if len(parts) >= 3:
-                    # Se houver YAML no topo (comum em arquivos Markdown), removemos para não quebrar o Reveal.js
-                    # Mas atenção: o split('---', 2) pode remover o primeiro slide se o arquivo começa com --- separador de slide
-                    # No Reveal.js, slides costumam ser separados por ---. Se o arquivo começa com ---, ele pode ser YAML ou o primeiro slide.
-                    # Vamos assumir que se começa com --- e termina com --- logo depois, é YAML.
-                    header = parts[1]
-                    if 'title:' in header or 'author:' in header:
-                        content = parts[2].lstrip()
-            
-            dst_md_path.write_text(content, encoding='utf-8')
-            html_path.write_text(generate_slide_html(i), encoding='utf-8')
+        content = src_md_path.read_text(encoding='utf-8')
+        
+        # 1. Corrigir fragmentos: transformar { .fragment } em <!-- .element: class="fragment" -->
+        content = re.sub(r'\{\s*\.fragment\s*\}', '<!-- .element: class="fragment" -->', content)
+        
+        # 1.1 Corrigir tabelas: remover fragmentos da linha de separação (| :--- |) que quebram o parser
+        content = re.sub(r'\|\s*:---.*<!--.*-->\s*\|', '| :--- |', content)
+        
+        # 1.1 Corrigir caminhos relativos: como o arquivo é copiado de docs/slides/src/ para docs/slides/,
+        # os links que eram ../../area/item.md devem virar ../area/item.md
+        content = re.sub(r'(\.\./){2}(exercicios|projetos|aulas)/', r'../\2/', content)
+        
+        # 2. Remover frontmatter (YAML) se existir, mas manter os comentários de slide do Reveal.js
+        if content.startswith('---'):
+            parts = content.split('---', 2)
+            if len(parts) >= 3:
+                # Se houver YAML no topo (comum em arquivos Markdown), removemos para não quebrar o Reveal.js
+                header = parts[1]
+                if 'title:' in header or 'author:' in header:
+                    content = parts[2].lstrip()
+        
+        dst_md_path.write_text(content, encoding='utf-8')
+        html_path.write_text(generate_slide_html(name_stem), encoding='utf-8')
 
 
 def generate_all_quizzes():
