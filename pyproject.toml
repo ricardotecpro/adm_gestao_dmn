@@ -28,7 +28,7 @@ dependencies = [
     "mkdocs-jupyter (>=0.25.1,<0.26.0)",
     "mkdocs-rss-plugin (>=1.17.9,<2.0.0)",
     "mkdocs-revealjs (>=0.0.6,<0.0.7)",
-
+    "PyYAML (>=6.0.1,<7.0.0)",
 ]
 
 [dependency-groups]
@@ -51,6 +51,7 @@ quizzes = {cmd="python scripts/convert_quizzes.py", help="Gera quizzes interativ
 deploy = {cmd="mkdocs gh-deploy --force", help="Deploy produção via gh-pages"}
 test = {cmd="pytest tests/ -v", help="Executa todos os testes"}
 check = {cmd="python scripts/check_content.py", help="Verifica integridade do conteúdo"}
+audit = {cmd="python scripts/unified_audit.py .", help="Relatório de auditoria unificado"}
 clean = {cmd="invoke clean", help="Limpa arquivos gerados"}
 
 [tool.poetry]
