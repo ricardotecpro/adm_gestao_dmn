@@ -51,6 +51,7 @@ jobs:
           poetry run task slides
           poetry run task quizzes
           # Gera Relatório de Auditoria Unificado
+          ls -R scripts/
           python scripts/unified_audit.py .
           # Build do site (dispara hooks de cópia)
           poetry run mkdocs build
