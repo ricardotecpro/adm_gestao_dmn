@@ -15,7 +15,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
-mkdocs = ">=1.6.1"
+mkdocs = ">=1.6.1,<2.0"
 mkdocs-material = {version = ">=9.6.21", extras = ["imaging"]}
 mkdocs-glightbox = ">=0.5.1"
 mkdocs-quiz = ">=0.0.41"
