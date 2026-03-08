@@ -1,0 +1,60 @@
+# course.yml — Configuração específica do curso
+# Este é o ÚNICO arquivo que você edita para personalizar o curso.
+# Todos os outros arquivos de config são gerados/sincronizados automaticamente.
+
+course:
+  name: "Gestão e Modelos de Negócios"
+  description: "Curso completo de Gestão e Modelos de Negócios para Análise e Desenvolvimento de Sistemas"
+  code: "adm_gestao_dmn"
+  repo_name: "adm_gestao_dmn"
+  category: "adm"
+  owner: "ricardotecpro"
+
+theme:
+  primary_color: "teal"
+  accent_color: "amber"
+  logo: "logo_gestao.svg"
+  favicon: "logo_gestao.svg"
+
+features:
+  quizzes: true
+  slides: true
+  jupyter: true
+  mermaid: true
+  mathjax: true
+  termynal: true
+
+extra_plugins: []
+
+disabled_plugins: []
+
+extra_css: []
+
+extra_js: []
+
+structure:
+  modules:
+    - block: "Bloco 1 — Fundamentos de Gestão"
+      lessons:
+        - "Aula 01 — Introdução à Gestão"
+        - "Aula 02 — Planejamento Estratégico"
+        - "Aula 03 — Processos de Negócio"
+        - "Aula 04 — Modelagem de Processos"
+    - block: "Bloco 2 — Modelos de Negócios"
+      lessons:
+        - "Aula 05 — Business Model Canvas"
+        - "Aula 06 — Lean Canvas"
+        - "Aula 07 — Proposta de Valor"
+        - "Aula 08 — Análise de Mercado"
+    - block: "Bloco 3 — Gestão de Projetos"
+      lessons:
+        - "Aula 09 — Metodologias Ágeis"
+        - "Aula 10 — Scrum e Kanban"
+        - "Aula 11 — Estimativas e Métricas"
+        - "Aula 12 — Qualidade e Riscos"
+    - block: "Bloco 4 — Tópicos Avançados"
+      lessons:
+        - "Aula 13 — Governança de TI"
+        - "Aula 14 — Inovação e Empreendedorismo"
+        - "Aula 15 — Transformação Digital"
+        - "Aula 16 — Projeto Final"

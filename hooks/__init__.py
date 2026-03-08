@@ -1,3 +1,1 @@
-"""
-Hooks package for MkDocs customizations
-"""
+# Hooks package

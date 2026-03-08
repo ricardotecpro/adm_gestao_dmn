@@ -39,7 +39,7 @@ def copy_slides(config, **kwargs):
     
     # Copiar Markdown
     print("[cyan]Copiando slides Markdown...[/cyan]")
-    for slide in slides_source.glob('slide-*.md'):  # CORRIGIDO: era *-slides.md
+    for slide in slides_source.glob('slide-*.md'):
         dest_file = slides_dest / slide.name
         shutil.copy(slide.resolve(), dest_file.resolve())
         print(f"  [blue]-> {slide.name}[/blue]")
