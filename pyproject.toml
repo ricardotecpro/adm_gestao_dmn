@@ -11,6 +11,7 @@ version = "0.1.0"
 description = "Curso completo de Gestão e Modelos de Negócios para Análise e Desenvolvimento de Sistemas"
 authors = ["ricardotecpro"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
@@ -46,12 +47,12 @@ ruff = "*"
 docs = "mkdocs serve"
 serve = "mkdocs serve --dev-addr 0.0.0.0:8000"
 build = "mkdocs build"
-slides = "python scripts/generate_slides.py"
-quizzes = "python scripts/generate_quizzes.py"
+slides = {cmd="python scripts/generate_slides_quizzes.py", help="Gera slides HTML"}
+quizzes = {cmd="python scripts/convert_quizzes.py", help="Gera quizzes interativos"}
 deploy = "mkdocs gh-deploy --force"
 test = "pytest tests/ -v --timeout=30"
 check = "python scripts/check_content.py"
-audit = "python scripts/audit_report.py"
+audit = {cmd="python scripts/unified_audit.py .", help="Relatório de auditoria unificado"}
 clean = "python -c \"import shutil; [shutil.rmtree(d, True) for d in ['site', '.cache']]\""
 
 [tool.pytest.ini_options]
