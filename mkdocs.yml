@@ -12,6 +12,12 @@ site_description: "Curso completo de Gestão e Modelos de Negócios para Anális
 repo_name: "ricardotecpro/adm_gestao_dmn"
 repo_url: "https://github.com/ricardotecpro/adm_gestao_dmn"
 
+exclude_docs: |
+  quizzes/src/*
+  slides/src/*
+  slides/slide-*.md
+  **/.src/*
+
 theme:
   name: material
   custom_dir: overrides
@@ -98,60 +104,56 @@ markdown_extensions:
 plugins:
   - search:
       lang: pt
-  - social
+  - social:
+      cards: false
   - tags
   - awesome-pages
-  - revealjs:
-      theme: white
-      transition: slide
-      slide_number: true
-      controls: true
-      progress: true
-  - mkdocs-jupyter:
-      include_source: true
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      width: 100%
-      height: auto
-      zoomable: true
-      draggable: true
-  - quiz
-  - git-authors
+  - mkdocs-revealjs
+  - mkdocs-jupyter
+  - glightbox
+  - mkdocs_quiz
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      count_empty_lines: false
+      fallback_to_empty: false
+      sort_authors_by: contribution
+      authorship_threshold_percent: 10
+      exclude:
+        - index.md
   - git-revision-date-localized:
-      type: timeago
       enable_creation_date: true
-      locale: pt
+      type: datetime
   - macros
-  - mkdocs-video:
-      is_video: true
-      video_type: mp4
-      video_autoplay: false
-      css_style:
-        width: "100%"
+  - mkdocs-video
   - termynal:
+      title: shell
+      buttons: macos
       prompt_literal_start:
         - "$"
-        - ">>>"
   - rss:
-      match_path: "aulas/.*"
+      match_path: .*
       date_from_meta:
-        as_creation: date.created
-        as_update: date.updated
+        datetime_format: '%Y-%m-%d %H:%M:%S'
   - minify:
       minify_html: true
+      minify_js: true
+      minify_css: true
   - print-site:
-      add_to_navigation: true
+      add_to_navigation: false
       print_page_title: "Versão para Impressão"
+      add_print_site_banner: false
+      enumerate_headings: false
+      enumerate_figures: false
 
 hooks:
   - hooks/copy_slides.py
 
 extra_css:
-  - assets/css/extra.css
-  - assets/css/home.css
   - assets/css/quiz.css
+  - assets/css/home.css
+  - assets/css/extra.css
+  - https://cdn.jsdelivr.net/npm/termynal/termynal.css
   - assets/css/reveal-custom.css
 
 extra_javascript:
@@ -161,6 +163,7 @@ extra_javascript:
   - https://unpkg.com/mermaid@11.12.3/dist/mermaid.min.js
   - assets/js/mermaid-init.js
   - assets/js/custom_termynal.js
+  - https://cdn.jsdelivr.net/npm/termynal/termynal.min.js
 
 extra:
   social:
