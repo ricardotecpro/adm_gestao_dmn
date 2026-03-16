@@ -13,32 +13,32 @@ Bem-vindo à sua jornada no mundo do empreendedorismo moderno. Este curso foi pr
 -   :material-book-open-page-variant: **Trilha de Aulas**
     ---
     16 lições modernas englobando estratégia, modelagem, canais e viabilidade.
-    [:octicons-arrow-right-24: Iniciar Jornada](aulas/index.md)
+    [:material-arrow-right-bold: Iniciar Jornada](aulas/index.md)
 
 -   :material-presentation: **Slides Interativos**
     ---
     Material visual otimizado com transições e suporte Reveal.js.
-    [:octicons-arrow-right-24: Ver Slides](slides/index.md)
+    [:material-arrow-right-bold: Ver Slides](slides/index.md)
 
 -   :material-school: **Quizzes e Prática**
     ---
     Avalie seu progresso com 160 questões técnicas exclusivas.
-    [:octicons-arrow-right-24: Testar Conhecimento](quizzes/index.md)
+    [:material-arrow-right-bold: Testar Conhecimento](quizzes/index.md)
 
 -   :material-rocket: **Modelagem e Projetos**
     ---
     Aplique conceitos de Canvas e VPC em casos reais e simulações.
-    [:octicons-arrow-right-24: Ver Projetos](projetos/index.md)
+    [:material-arrow-right-bold: Ver Projetos](projetos/index.md)
 
 -   :material-dumbbell: **Exercícios Progressivos**
     ---
     Das questões conceituais ao desafio prático de modelagem de negócios.
-    [:octicons-arrow-right-24: Praticar Agora](exercicios/index.md)
+    [:material-arrow-right-bold: Praticar Agora](exercicios/index.md)
 
 -   :material-cog: **Setup e Ferramentas**
     ---
     Configurações essenciais para o uso de ferramentas visuais e digitais.
-    [:octicons-arrow-right-24: Configurar](setups/index.md)
+    [:material-arrow-right-bold: Configurar](setups/index.md)
 
 </div>
 

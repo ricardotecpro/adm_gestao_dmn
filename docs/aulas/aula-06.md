@@ -118,7 +118,7 @@ Imagine que você quer abrir uma **Cafeteria Sustentável**.
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 06](../slides/slide-06.md)
+    [:octicons-arrow-right-24: Slide 06](../slides/slide-06.html)
 
 - :material-help-circle: **Quiz**
 

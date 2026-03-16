@@ -111,7 +111,7 @@ Para avançarmos, é vital não apenas identificar oportunidades, mas mapear **C
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 02](../slides/slide-02.md)
+    [:octicons-arrow-right-24: Slide 02](../slides/slide-02.html)
 
 - :material-help-circle: **Quiz**
 

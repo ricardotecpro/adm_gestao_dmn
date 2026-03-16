@@ -114,7 +114,7 @@ Imagine que você vende **Camisetas Estampadas**.
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 15](../slides/slide-15.md)
+    [:octicons-arrow-right-24: Slide 15](../slides/slide-15.html)
 
 - :material-help-circle: **Quiz**
 

@@ -153,6 +153,11 @@ extra:
     link: https://www.youtube.com/@ricardotecpro
   - icon: fontawesome/brands/x-twitter
     link: https://twitter.com/ricardotecpro
+validation:
+  nav:
+    omitted_files: ignore
+  links:
+    unrecognized_links: warn
 nav:
 - Principal:
   - Curso: index.md
@@ -177,7 +182,7 @@ nav:
   - Aula 15: aulas/aula-15.md
   - Aula 16: aulas/aula-16.md
 - Materiais:
-  - materiais.md: materiais.md
+  - Materiais: materiais.md
   - Slides: slides/index.md
   - Exercícios: exercicios/index.md
   - Quizzes: quizzes/index.md

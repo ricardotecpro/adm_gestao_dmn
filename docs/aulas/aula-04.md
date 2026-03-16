@@ -114,7 +114,7 @@ A inovação não atinge a todos simultaneamente. Compreender a **Curva de Difus
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 04](../slides/slide-04.md)
+    [:octicons-arrow-right-24: Slide 04](../slides/slide-04.html)
 
 - :material-help-circle: **Quiz**
 

@@ -131,7 +131,7 @@ Imagine um **App de Academia**.
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 11](../slides/slide-11.md)
+    [:octicons-arrow-right-24: Slide 11](../slides/slide-11.html)
 
 - :material-help-circle: **Quiz**
 

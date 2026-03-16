@@ -114,7 +114,7 @@ Imagine que você é dono de um **Restaurante Gourmet**.
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 12](../slides/slide-12.md)
+    [:octicons-arrow-right-24: Slide 12](../slides/slide-12.html)
 
 - :material-help-circle: **Quiz**
 
