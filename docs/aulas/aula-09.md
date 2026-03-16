@@ -126,7 +126,7 @@ Para alinhar perfeitamente o produto ao mercado, o **Value Proposition Canvas** 
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 09](../slides/slide-09.html)
+    [:octicons-arrow-right-24: Slide 09](../slides/slide-09.md)
 
 - :material-help-circle: **Quiz**
 

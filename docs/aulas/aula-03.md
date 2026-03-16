@@ -119,7 +119,7 @@ A percepção de valor não é estática. Empreendedores avançados calculam o C
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 03](../slides/slide-03.html)
+    [:octicons-arrow-right-24: Slide 03](../slides/slide-03.md)
 
 - :material-help-circle: **Quiz**
 

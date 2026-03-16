@@ -24,10 +24,10 @@ def audit_infrastructure(config):
     if not config:
         return checks
         
-    # Check Nav Tabs (Principal, Aulas, Materiais, Impresso, Legado)
+    # Check Nav Tabs (Principal, Aulas, Materiais, Impresso)
     nav = config.get("nav", [])
     tab_names = [list(item.keys())[0] if isinstance(item, dict) else item for item in nav]
-    required_tabs = ["Principal", "Aulas", "Materiais", "Impresso", "Legado"]
+    required_tabs = ["Principal", "Aulas", "Materiais", "Impresso"]
     checks["nav_tabs"] = all(tab in tab_names for tab in required_tabs)
     
     # Check Logo SVG

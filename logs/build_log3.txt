@@ -1,0 +1,3 @@
+
+INFO    -  Documentation built in 45.66 seconds
+

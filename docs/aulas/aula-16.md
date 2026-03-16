@@ -103,7 +103,7 @@ Imagine que você criou um **App de Meditação**.
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 16](../slides/slide-16.html)
+    [:octicons-arrow-right-24: Slide 16](../slides/slide-16.md)
 
 - :material-help-circle: **Quiz**
 

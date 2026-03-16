@@ -1,173 +1,186 @@
-
-# =============================================================
-# Gestão e Modelos de Negócios
-# Gerado automaticamente — NÃO EDITE MANUALMENTE
-# Edite course.yml e execute: python sync_repos.py --generate .
-# =============================================================
-
-site_name: "Gestão e Modelos de Negócios"
-site_url: "https://ricardotecpro.github.io/adm_gestao_dmn/"
-site_author: "ricardotecpro"
-site_description: "Curso completo de Gestão e Modelos de Negócios para Análise e Desenvolvimento de Sistemas"
-repo_name: "ricardotecpro/adm_gestao_dmn"
-repo_url: "https://github.com/ricardotecpro/adm_gestao_dmn"
-
-exclude_docs: |
-  quizzes/src/*
-  slides/src/*
-  slides/slide-*.md
-  **/.src/*
-
+site_name: Gestão e Modelos de Negócios
+site_url: https://ricardotecpro.github.io/adm_gestao_dmn/
+repo_url: https://github.com/ricardotecpro/adm_gestao_dmn
+repo_name: ricardotecpro/adm_gestao_dmn
+site_description: Curso focado em performance, C/C++ e baixo nível para desenvolvedores.
 theme:
   name: material
-  custom_dir: overrides
   language: pt-BR
-  logo: assets/images/logo_gestao.svg
-  favicon: assets/images/logo_gestao.svg
-  palette:
-    - scheme: default
-      primary: "teal"
-      accent: "amber"
-      toggle:
-        icon: material/weather-night
-        name: Modo Escuro
-    - scheme: slate
-      primary: "teal"
-      accent: "amber"
-      toggle:
-        icon: material/weather-sunny
-        name: Modo Claro
+  favicon: assets/images/logo.svg
+  logo: assets/images/logo.svg
+  custom_dir: overrides
   features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - navigation.indexes
-    - navigation.top
-    - navigation.footer
-    - toc.follow
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-    - content.code.select
-    - content.tooltips
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.sections
+  - navigation.path
+  - navigation.expand
+  - navigation.top
+  - navigation.footer
+  - navigation.indexes
+  - navigation.instant
+  - navigation.prune
+  - toc.follow
+  - content.code.copy
+  - content.code.annotate
+  - search.share
+  - search.suggest
+  - search.highlight
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/weather-sunny
+      name: Mudar para modo escuro
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/weather-night
+      name: Mudar para modo claro
   icon:
     repo: fontawesome/brands/github
-
+  font:
+    text: Roboto
+    code: Roboto Mono
+  font_display: swap
+  font_style: normal
+  static_templates:
+  - 404.html
+copyright: Copyright &copy; 2026 Ricardo Tec Pro
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.details
-  - pymdownx.mark
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.tilde
-  - pymdownx.smartsymbols
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.arithmatex:
-      generic: true
-  - admonition
-  - footnotes
-  - attr_list
-  - md_in_html
-  - tables
-  - def_list
-  - toc:
-      permalink: true
-      toc_depth: 3
-
+- pymdownx.critic
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: null
+- pymdownx.details
+- pymdownx.keys
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.emoji
+- footnotes
+- admonition
+- attr_list
+- md_in_html
+- tables
+- pymdownx.snippets:
+    base_path: docs
+- pymdownx.arithmatex:
+    generic: true
+- pymdownx.tasklist:
+    custom_checkbox: true
 plugins:
-  - search:
-      lang: pt
-  - social:
-      cards: false
-  - tags
-  - awesome-pages
-  - mkdocs-revealjs
-  - mkdocs-jupyter
-  - glightbox
-  - mkdocs_quiz
-  - git-authors:
-      show_contribution: true
-      show_line_count: true
-      count_empty_lines: false
-      fallback_to_empty: false
-      sort_authors_by: contribution
-      authorship_threshold_percent: 10
-      exclude:
-        - index.md
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: datetime
-  - macros
-  - mkdocs-video
-  - termynal:
-      title: shell
-      buttons: macos
-      prompt_literal_start:
-        - "$"
-  - rss:
-      match_path: .*
-      date_from_meta:
-        datetime_format: '%Y-%m-%d %H:%M:%S'
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-  - print-site:
-      add_to_navigation: false
-      print_page_title: "Versão para Impressão"
-      add_print_site_banner: false
-      enumerate_headings: false
-      enumerate_figures: false
+- social:
+    cards: false
+- tags: null
+- mkdocs-revealjs
+- search:
+    lang: pt
+- mkdocs-jupyter
+- glightbox
+- awesome-pages
+- git-authors:
+    show_contribution: true
+    show_line_count: true
+    count_empty_lines: false
+    fallback_to_empty: false
+    sort_authors_by: contribution
+    authorship_threshold_percent: 10
+    exclude:
+    - index.md
+- git-revision-date-localized:
+    enable_creation_date: true
+    type: datetime
+- macros
+- mkdocs-video
+- termynal:
+    title: shell
+    buttons: macos
+    prompt_literal_start:
+    - $
+- rss:
+    match_path: .*
+    date_from_meta:
+      datetime_format: '%Y-%m-%d %H:%M:%S'
+- minify:
+    minify_html: true
+    minify_js: true
+    minify_css: true
+- print-site:
+    add_to_navigation: false
+    print_page_title: Versão para Impressão
+    add_print_site_banner: false
+    enumerate_headings: false
+    enumerate_figures: false
+exclude_docs: '**/src/*
 
+  **/.src/*
+
+  '
 hooks:
-  - hooks/copy_slides.py
-
+- hooks/copy_slides.py
 extra_css:
-  - assets/css/quiz.css
-  - assets/css/home.css
-  - assets/css/extra.css
-  - https://cdn.jsdelivr.net/npm/termynal/termynal.css
-  - assets/css/reveal-custom.css
-
+- assets/css/quiz.css
+- assets/css/home.css
+- assets/css/extra.css
 extra_javascript:
-  - assets/js/quiz.js
-  - assets/js/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  - https://unpkg.com/mermaid@11.12.3/dist/mermaid.min.js
-  - assets/js/mermaid-init.js
-  - assets/js/custom_termynal.js
-  - https://cdn.jsdelivr.net/npm/termynal/termynal.min.js
-
+- assets/js/quiz.js
+- https://unpkg.com/mermaid@11.12.3/dist/mermaid.min.js
+- assets/js/mermaid-init.js
+- assets/js/custom_termynal.js
+- assets/js/mathjax.js
+- https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: "https://github.com/ricardotecpro"
-    - icon: fontawesome/brands/linkedin
-      link: "https://linkedin.com/in/ricardotecpro"
+  - icon: fontawesome/brands/github
+    link: https://github.com/ricardotecpro
+  - icon: fontawesome/brands/linkedin
+    link: https://linkedin.com/in/ricardotecpro
+  - icon: fontawesome/solid/globe
+    link: https://ricardotecpro.github.io/
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/@ricardotecpro
+  - icon: fontawesome/brands/x-twitter
+    link: https://twitter.com/ricardotecpro
+nav:
+- Principal:
+  - Curso: index.md
+  - Sobre: sobre.md
+  - Plano: plano.md
+- Aulas:
+  - aulas/index.md
+  - Aula 01: aulas/aula-01.md
+  - Aula 02: aulas/aula-02.md
+  - Aula 03: aulas/aula-03.md
+  - Aula 04: aulas/aula-04.md
+  - Aula 05: aulas/aula-05.md
+  - Aula 06: aulas/aula-06.md
+  - Aula 07: aulas/aula-07.md
+  - Aula 08: aulas/aula-08.md
+  - Aula 09: aulas/aula-09.md
+  - Aula 10: aulas/aula-10.md
+  - Aula 11: aulas/aula-11.md
+  - Aula 12: aulas/aula-12.md
+  - Aula 13: aulas/aula-13.md
+  - Aula 14: aulas/aula-14.md
+  - Aula 15: aulas/aula-15.md
+  - Aula 16: aulas/aula-16.md
+- Materiais:
+  - materiais.md: materiais.md
+  - Slides: slides/index.md
+  - Exercícios: exercicios/index.md
+  - Quizzes: quizzes/index.md
+  - Projetos: projetos/index.md
+  - Configuração: setups/index.md
+- Impresso: print_page.md

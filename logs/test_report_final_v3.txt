@@ -1,0 +1,291 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Scripts\python.exe
+cachedir: .pytest_cache
+baseurl: http://127.0.0.1:8766
+rootdir: D:\SourceCode\REPOS\github.io\adm_gestao_dmn
+configfile: pyproject.toml
+plugins: base-url-2.1.0, playwright-0.5.2
+collecting ... collected 135 items
+
+tests/test_assets.py::test_assets_exist PASSED                           [  0%]
+tests/test_course_structure.py::test_content_structure_exists PASSED     [  1%]
+tests/test_course_structure.py::test_lessons_exist PASSED                [  2%]
+tests/test_course_structure.py::test_slides_exist PASSED                 [  2%]
+tests/test_course_structure.py::test_quizzes_exist PASSED                [  3%]
+tests/test_course_structure.py::test_exercises_exist PASSED              [  4%]
+tests/test_course_structure.py::test_projects_exist PASSED               [  5%]
+tests/test_course_structure.py::test_setups_exist PASSED                 [  5%]
+tests/test_course_structure.py::test_indexes_exist PASSED                [  6%]
+tests/test_fullscreen.py::test_shortcuts_hidden_in_fullscreen[chromium] FAILED [  7%]
+tests/test_layout.py::test_homepage_structure[chromium] PASSED           [  8%]
+tests/test_layout.py::test_lesson_01_page[chromium] PASSED               [  8%]
+tests/test_layout.py::test_quiz_functionality[chromium] PASSED           [  9%]
+tests/test_layout.py::test_slides_structure[chromium] PASSED             [ 10%]
+tests/test_layout.py::test_lesson_16_page[chromium] PASSED               [ 11%]
+tests/test_layout.py::test_mermaid_diagram[chromium] PASSED              [ 11%]
+tests/test_layout.py::test_assets_load[chromium] PASSED                  [ 12%]
+tests/test_navigation.py::TestNavigation::test_home_page_loads[chromium] PASSED [ 13%]
+tests/test_navigation.py::TestNavigation::test_curso_menu_exists[chromium] PASSED [ 14%]
+tests/test_navigation.py::TestNavigation::test_plano_ensino_menu_exists[chromium] PASSED [ 14%]
+tests/test_navigation.py::TestNavigation::test_print_version_link_exists[chromium] PASSED [ 15%]
+tests/test_navigation.py::TestNavigation::test_navigation_to_lesson_01[chromium] FAILED [ 16%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_index_loads[chromium] PASSED [ 17%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-1] PASSED [ 17%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_has_interactive_elements[chromium] PASSED [ 18%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_questions_visible[chromium] PASSED [ 19%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_can_select_answer[chromium] PASSED [ 20%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_has_multiple_questions[chromium] PASSED [ 20%]
+tests/test_slides.py::TestSlides::test_slides_index_loads[chromium] PASSED [ 21%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-1] PASSED [ 22%]
+tests/test_slides.py::TestSlides::test_revealjs_present_on_slide_01[chromium] PASSED [ 22%]
+tests/test_slides.py::TestSlides::test_slide_navigation_exists[chromium] PASSED [ 23%]
+tests/test_slides.py::TestSlides::test_slide_content_visible[chromium] PASSED [ 24%]
+tests/test_slides.py::TestSlides::test_slide_markdown_loads_without_404[chromium] PASSED [ 25%]
+tests/test_termynal_copy.py::test_termynal_copy_button[chromium] PASSED  [ 25%]
+tests/test_layout.py::test_build_output_exists PASSED                    [ 26%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path0-48-block0] PASSED [ 27%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path1-34-block1] PASSED [ 28%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path2-47-block2] PASSED [ 28%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path3-42-block3] PASSED [ 29%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path4-41-block4] PASSED [ 30%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path5-32-block5] PASSED [ 31%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path6-34-block6] PASSED [ 31%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path7-55-block7] PASSED [ 32%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path8-37-block8] PASSED [ 33%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path9-36-block9] PASSED [ 34%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path10-36-block10] PASSED [ 34%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path11-37-block11] PASSED [ 35%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path12-36-block12] PASSED [ 36%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path13-36-block13] PASSED [ 37%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path14-36-block14] PASSED [ 37%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path15-39-block15] PASSED [ 38%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path16-31-block16] PASSED [ 39%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path17-12-block17] PASSED [ 40%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path18-12-block18] PASSED [ 40%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path19-12-block19] PASSED [ 41%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path20-77-block20] PASSED [ 42%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path21-57-block21] PASSED [ 42%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path22-76-block22] PASSED [ 43%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path23-67-block23] PASSED [ 44%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path24-66-block24] PASSED [ 45%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path25-51-block25] PASSED [ 45%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path26-57-block26] PASSED [ 46%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path27-93-block27] PASSED [ 47%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path28-64-block28] PASSED [ 48%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path29-63-block29] PASSED [ 48%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path30-63-block30] PASSED [ 49%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path31-62-block31] PASSED [ 50%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path32-61-block32] PASSED [ 51%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path33-57-block33] PASSED [ 51%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path34-61-block34] PASSED [ 52%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path35-64-block35] PASSED [ 53%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path36-18-block36] PASSED [ 54%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path37-67-block37] PASSED [ 54%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path38-69-block38] PASSED [ 55%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path39-35-block39] PASSED [ 56%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path40-77-block40] PASSED [ 57%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path41-57-block41] PASSED [ 57%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path42-76-block42] PASSED [ 58%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path43-67-block43] PASSED [ 59%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path44-66-block44] PASSED [ 60%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path45-51-block45] PASSED [ 60%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path46-57-block46] PASSED [ 61%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path47-93-block47] PASSED [ 62%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path48-64-block48] PASSED [ 62%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path49-63-block49] PASSED [ 63%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path50-63-block50] PASSED [ 64%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path51-62-block51] PASSED [ 65%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path52-61-block52] PASSED [ 65%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path53-57-block53] PASSED [ 66%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path54-61-block54] PASSED [ 67%]
+tests/test_mermaid_syntax.py::test_mermaid_syntax_safety[file_path55-64-block55] PASSED [ 68%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-2] PASSED [ 68%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-2] PASSED [ 69%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-3] PASSED [ 70%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-3] PASSED [ 71%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-4] PASSED [ 71%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-4] PASSED [ 72%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-5] PASSED [ 73%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-5] PASSED [ 74%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-6] PASSED [ 74%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-6] PASSED [ 75%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-7] PASSED [ 76%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-7] PASSED [ 77%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-8] PASSED [ 77%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-8] PASSED [ 78%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-9] PASSED [ 79%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-9] PASSED [ 80%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-10] PASSED [ 80%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-10] PASSED [ 81%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-11] PASSED [ 82%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-11] PASSED [ 82%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-12] PASSED [ 83%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-12] PASSED [ 84%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-13] PASSED [ 85%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-13] PASSED [ 85%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-14] PASSED [ 86%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-14] PASSED [ 87%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-15] PASSED [ 88%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-15] PASSED [ 88%]
+tests/test_quizzes.py::TestQuizzes::test_quiz_page_loads[chromium-16] PASSED [ 89%]
+tests/test_slides.py::TestSlides::test_slide_page_loads[chromium-16] PASSED [ 90%]
+tests/test_site_structure.py::test_site_exists PASSED                    [ 91%]
+tests/test_site_structure.py::test_site_slides_exists PASSED             [ 91%]
+tests/test_site_structure.py::test_debug_cwd PASSED                      [ 92%]
+tests/test_slide_build.py::test_slide_markdown_copied_to_site PASSED     [ 93%]
+tests/test_slide_build.py::test_slide_html_copied_to_site PASSED         [ 94%]
+tests/test_slide_build.py::test_slide_markdown_content_valid_in_site PASSED [ 94%]
+tests/test_slide_build.py::test_all_slides_present_in_site PASSED        [ 95%]
+tests/test_slide_build.py::test_slide_index_exists_in_site PASSED        [ 96%]
+tests/test_slide_generation.py::test_slide_markdown_files_exist PASSED   [ 97%]
+tests/test_slide_generation.py::test_slide_html_files_exist PASSED       [ 97%]
+tests/test_slide_generation.py::test_slide_html_references_correct_markdown PASSED [ 98%]
+tests/test_slide_generation.py::test_slide_markdown_has_content PASSED   [ 99%]
+tests/test_slide_generation.py::test_slide_html_has_revealjs_structure PASSED [100%]
+
+================================== FAILURES ===================================
+________________ test_shortcuts_hidden_in_fullscreen[chromium] ________________
+
+page = <Page url='http://127.0.0.1:8766/slides/slide-01.html'>
+
+    def test_shortcuts_hidden_in_fullscreen(page: Page):
+        """
+        Test that the .reveal-shortcuts element is hidden when the presentation
+        enters fullscreen mode.
+    
+        Note: Fullscreen API in headless mode can be tricky.
+        We rely on checking if the CSS pseudo-class matches or if specific styling is applied.
+        However, forcing pseudo-classes in Playwright is hard.
+        Instead, we check if the element has the class or if we can simulate the state.
+    
+        Actually, triggering 'F' in Reveal.js triggers the API.
+        Browsers usually require user gesture. page.keyboard.press helps.
+        """
+        # Load a slide
+        page.on("console", lambda msg: print(f"BROWSER LOG: {msg.text}"))
+        page.goto("/slides/slide-01.html")
+    
+    
+        # 1. Verify shortcuts are initially visible
+        shortcuts = page.locator(".reveal-shortcuts")
+        print(f"\nCreated locator. Count: {shortcuts.count()}")
+    
+        # Debug info
+        if shortcuts.count() > 0:
+            box = shortcuts.bounding_box()
+            print(f"Bounding box: {box}")
+            viz = shortcuts.is_visible()
+            print(f"Is visible: {viz}")
+            if not viz:
+                # Check style
+                display = shortcuts.evaluate("el => getComputedStyle(el).display")
+                print(f"Computed display: {display}")
+                opacity = shortcuts.evaluate("el => getComputedStyle(el).opacity")
+                print(f"Computed opacity: {opacity}")
+    
+        expect(shortcuts).to_be_visible()
+        print("Step 1: Initially visible - PASSED")
+    
+        # 2. Simulate Fullscreen Event
+        page.evaluate("""
+            Object.defineProperty(document, 'fullscreenElement', {
+              get: () => document.documentElement,
+              configurable: true
+            });
+            document.dispatchEvent(new Event('fullscreenchange'));
+        """)
+    
+        # 3. Verify shortcuts are hidden
+        # Wait for JS to run
+        page.wait_for_timeout(500)
+    
+        # Debug info
+        viz = shortcuts.is_visible()
+        print(f"Step 3 Is visible: {viz}")
+        if viz:
+            display = shortcuts.evaluate("el => el.style.display")
+            print(f"Step 3 Inline display: {display}")
+    
+>       expect(shortcuts).not_to_be_visible()
+E       AssertionError: Locator expected not to be visible
+E       Actual value: visible 
+E       Call log:
+E         - Expect "to_be_visible" with timeout 5000ms
+E         - waiting for locator(".reveal-shortcuts")
+E           9 � locator resolved to <div class="reveal-shortcuts">�</div>
+E             - unexpected value "visible"
+
+tests\test_fullscreen.py:62: AssertionError
+---------------------------- Captured stdout call -----------------------------
+
+Created locator. Count: 1
+Bounding box: {'x': 478.140625, 'y': 686, 'width': 323.71875, 'height': 24}
+Is visible: True
+Step 1: Initially visible - PASSED
+Step 3 Is visible: True
+Step 3 Inline display: 
+____________ TestNavigation.test_navigation_to_lesson_01[chromium] ____________
+
+self = <test_navigation.TestNavigation object at 0x0000026487020A70>
+page_with_base_url = <Page url='http://127.0.0.1:8766/aulas/'>
+base_url = 'http://127.0.0.1:8766'
+
+    def test_navigation_to_lesson_01(self, page_with_base_url: Page, base_url: str):
+        """Verifica se � poss�vel navegar para Aula 01"""
+        page = page_with_base_url
+        page.goto(base_url)
+    
+        self._ensure_menu_visible(page)
+    
+        # Navigate Aulas -> M�dulo 1: Fundamentos -> Aula 01
+        # Click Aulas
+        page.get_by_role("link", name="Aulas").first.click(force=True)
+    
+        # Click M�dulo 1 - Fundamentos e Oportunidade
+        page.get_by_text("M�dulo 1 - Fundamentos e Oportunidade").first.click(force=True)
+    
+        # Click Aula 01
+>       page.get_by_role("link", name="Aula 01", exact=True).first.click()
+
+tests\test_navigation.py:75: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Lib\site-packages\playwright\sync_api\_generated.py:15631: in click
+    self._sync(
+C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Lib\site-packages\playwright\_impl\_locator.py:162: in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Lib\site-packages\playwright\_impl\_frame.py:566: in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Lib\site-packages\playwright\_impl\_connection.py:69: in send
+    return await self._connection.wrap_api_call(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <playwright._impl._connection.Connection object at 0x0000026486F5B380>
+cb = <function Channel.send.<locals>.<lambda> at 0x00000264877F8CC0>
+is_internal = False, title = None
+
+    async def wrap_api_call(
+        self, cb: Callable[[], Any], is_internal: bool = False, title: str = None
+    ) -> Any:
+        if self._api_zone.get():
+            return await cb()
+        task = asyncio.current_task(self._loop)
+        st: List[inspect.FrameInfo] = getattr(
+            task, "__pw_stack__", None
+        ) or inspect.stack(0)
+    
+        parsed_st = _extract_stack_trace_information_from_stack(st, is_internal, title)
+        self._api_zone.set(parsed_st)
+        try:
+            return await cb()
+        except Exception as error:
+>           raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+E           playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.
+E           Call log:
+E             - waiting for get_by_role("link", name="Aula 01", exact=True).first
+
+C:\Users\rlp\AppData\Local\pypoetry\Cache\virtualenvs\adm-gestao-dmn-3KhNbOwh-py3.13\Lib\site-packages\playwright\_impl\_connection.py:559: TimeoutError
+=========================== short test summary info ===========================
+FAILED tests/test_fullscreen.py::test_shortcuts_hidden_in_fullscreen[chromium]
+FAILED tests/test_navigation.py::TestNavigation::test_navigation_to_lesson_01[chromium]
+================== 2 failed, 133 passed in 273.68s (0:04:33) ==================

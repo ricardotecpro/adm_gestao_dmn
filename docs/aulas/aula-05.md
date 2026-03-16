@@ -115,7 +115,7 @@ No estágio intermediário da ideação, não dependemos da "inspiração divina
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 05](../slides/slide-05.html)
+    [:octicons-arrow-right-24: Slide 05](../slides/slide-05.md)
 
 - :material-help-circle: **Quiz**
 

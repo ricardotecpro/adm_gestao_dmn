@@ -121,7 +121,7 @@ Imagine que você está criando o **Uber das Bicicletas**.
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 07](../slides/slide-07.html)
+    [:octicons-arrow-right-24: Slide 07](../slides/slide-07.md)
 
 - :material-help-circle: **Quiz**
 

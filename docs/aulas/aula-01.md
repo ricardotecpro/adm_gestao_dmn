@@ -131,7 +131,7 @@ Sua primeira missão prática:
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 01](../slides/slide-01.html)
+    [:octicons-arrow-right-24: Slide 01](../slides/slide-01.md)
 
 - :material-help-circle: **Quiz**
 

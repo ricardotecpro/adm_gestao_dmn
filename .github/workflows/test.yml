@@ -23,10 +23,7 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
       
       - name: Install Dependencies
-        run: |
-          poetry config virtualenvs.create true
-          poetry config virtualenvs.in-project true
-          poetry install --no-interaction --no-root --sync
+        run: poetry install
       
       - name: Run Tests
         run: poetry run task test

@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-9.0.1, pluggy-1.6.0 -- C:\Python\Python313\python.exe
+cachedir: .pytest_cache
+baseurl: http://127.0.0.1:8766
+rootdir: D:\SourceCode\REPOS\github.io\adm_gestao_dmn
+configfile: pyproject.toml
+plugins: anyio-4.11.0, base-url-2.1.0, cov-7.0.0, mock-3.15.1, playwright-0.7.2
+collecting ... collected 3 items
+
+tests/test_navigation.py::TestNavigation::test_home_page_loads[chromium] PASSED [ 33%]
+tests/test_navigation.py::TestNavigation::test_navigation_menus_exist[chromium] PASSED [ 66%]
+tests/test_navigation.py::TestNavigation::test_navigation_to_first_lesson[chromium] SKIPPED [100%]
+
+======================== 2 passed, 1 skipped in 8.28s =========================

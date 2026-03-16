@@ -115,7 +115,7 @@ Escolha um negócio (ex: Loja de Jogos Digitais).
 
     Material visual com diagramas e conceitos-chave.
 
-    [:octicons-arrow-right-24: Slide 08](../slides/slide-08.html)
+    [:octicons-arrow-right-24: Slide 08](../slides/slide-08.md)
 
 - :material-help-circle: **Quiz**
 

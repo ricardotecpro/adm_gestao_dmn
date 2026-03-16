@@ -1,0 +1,178 @@
+{
+    "aula-01.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 6,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-02.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-03.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 6,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-04.md": {
+        "admonitions": 2,
+        "tabs": 2,
+        "annotations": 6,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 3
+    },
+    "aula-05.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 6,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-06.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-07.md": {
+        "admonitions": 1,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-08.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-09.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 6,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-10.md": {
+        "admonitions": 2,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-11.md": {
+        "admonitions": 3,
+        "tabs": 2,
+        "annotations": 6,
+        "math": 2,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 3
+    },
+    "aula-12.md": {
+        "admonitions": 4,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-13.md": {
+        "admonitions": 2,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 3
+    },
+    "aula-14.md": {
+        "admonitions": 2,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 1,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    },
+    "aula-15.md": {
+        "admonitions": 2,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 3,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 3
+    },
+    "aula-16.md": {
+        "admonitions": 2,
+        "tabs": 2,
+        "annotations": 4,
+        "math": 2,
+        "mermaid": 1,
+        "termynal": 1,
+        "grids": 1,
+        "buttons": 1,
+        "tooltips": 2
+    }
+}
